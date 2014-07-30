@@ -1,0 +1,2454 @@
+OMPIJ_HOME=/group1/gc83/share/local/ompi
+CLASSPATH=.:/group1/gc83/share/local/ompi/lib/mpi.jar
+LD_LIBRARY_PATH=.:/group1/gc83/share/local/ompi/lib:/opt/FJSVfxlang/GM-1.2.1-07/lib64:/usr/local/FJSVfxlang/lib:/opt/FJSVXosSclib/lib64
+Java Grande Forum MPJ Benchmark Suite - Version 1.0 - Section 1
+Executing on 8 processes
+
+Section1:Alltoall:Double                	517527.78	 (bytes/s)	 Array Size = 4
+Section1:Alltoall:Double                	517527.78	 (bytes/s)	 Array Size = 4Section1:Alltoall:Double                	517527.78	 (bytes/s)	 Array Size = 4Section1:Alltoall:Double                	517527.78	 (bytes/s)	 Array Size = 4Section1:Alltoall:Double                	517527.78	 (bytes/s)	 Array Size = 4Section1:Alltoall:Double                	517527.78	 (bytes/s)	 Array Size = 4Section1:Alltoall:Double                	517527.78	 (bytes/s)	 Array Size = 4Section1:Alltoall:Double                	517527.78	 (bytes/s)	 Array Size = 4
+
+
+
+
+
+
+Section1:Alltoall:Double                	884767.6	 (bytes/s)	 Array Size = 7Section1:Alltoall:Double                	884767.6	 (bytes/s)	 Array Size = 7Section1:Alltoall:Double                	884767.6	 (bytes/s)	 Array Size = 7Section1:Alltoall:Double                	884767.6	 (bytes/s)	 Array Size = 7Section1:Alltoall:Double                	884767.6	 (bytes/s)	 Array Size = 7Section1:Alltoall:Double                	884767.6	 (bytes/s)	 Array Size = 7Section1:Alltoall:Double                	884767.6	 (bytes/s)	 Array Size = 7Section1:Alltoall:Double                	884767.6	 (bytes/s)	 Array Size = 7
+
+
+
+
+
+
+
+Section1:Alltoall:Double                	1583767.6	 (bytes/s)	 Array Size = 13Section1:Alltoall:Double                	1583767.6	 (bytes/s)	 Array Size = 13
+Section1:Alltoall:Double                	1583767.6	 (bytes/s)	 Array Size = 13Section1:Alltoall:Double                	1583767.6	 (bytes/s)	 Array Size = 13
+Section1:Alltoall:Double                	1583767.6	 (bytes/s)	 Array Size = 13
+Section1:Alltoall:Double                	1583767.6	 (bytes/s)	 Array Size = 13
+Section1:Alltoall:Double                	1583767.6	 (bytes/s)	 Array Size = 13
+Section1:Alltoall:Double                	1583767.6	 (bytes/s)	 Array Size = 13
+
+
+Section1:Alltoall:Double                	2726974.0	 (bytes/s)	 Array Size = 25Section1:Alltoall:Double                	2726974.0	 (bytes/s)	 Array Size = 25Section1:Alltoall:Double                	2726974.0	 (bytes/s)	 Array Size = 25Section1:Alltoall:Double                	2726974.0	 (bytes/s)	 Array Size = 25Section1:Alltoall:Double                	2726974.0	 (bytes/s)	 Array Size = 25Section1:Alltoall:Double                	2726974.0	 (bytes/s)	 Array Size = 25Section1:Alltoall:Double                	2726974.0	 (bytes/s)	 Array Size = 25
+
+
+
+
+
+
+Section1:Alltoall:Double                	2726974.0	 (bytes/s)	 Array Size = 25
+Section1:Alltoall:Double                	5126988.5	 (bytes/s)	 Array Size = 48Section1:Alltoall:Double                	5126988.5	 (bytes/s)	 Array Size = 48Section1:Alltoall:Double                	5126988.5	 (bytes/s)	 Array Size = 48Section1:Alltoall:Double                	5126988.5	 (bytes/s)	 Array Size = 48
+
+
+Section1:Alltoall:Double                	5126988.5	 (bytes/s)	 Array Size = 48Section1:Alltoall:Double                	5126988.5	 (bytes/s)	 Array Size = 48
+
+Section1:Alltoall:Double                	5126988.5	 (bytes/s)	 Array Size = 48
+Section1:Alltoall:Double                	5126988.5	 (bytes/s)	 Array Size = 48
+
+Section1:Alltoall:Double                	8923624.0	 (bytes/s)	 Array Size = 89Section1:Alltoall:Double                	8923624.0	 (bytes/s)	 Array Size = 89Section1:Alltoall:Double                	8923624.0	 (bytes/s)	 Array Size = 89Section1:Alltoall:Double                	8923624.0	 (bytes/s)	 Array Size = 89
+
+Section1:Alltoall:Double                	8923624.0	 (bytes/s)	 Array Size = 89
+
+Section1:Alltoall:Double                	8923624.0	 (bytes/s)	 Array Size = 89
+Section1:Alltoall:Double                	8923624.0	 (bytes/s)	 Array Size = 89Section1:Alltoall:Double                	8923624.0	 (bytes/s)	 Array Size = 89
+
+
+Section1:Alltoall:Double                	1.5394324E7	 (bytes/s)	 Array Size = 166Section1:Alltoall:Double                	1.5394324E7	 (bytes/s)	 Array Size = 166Section1:Alltoall:Double                	1.5394324E7	 (bytes/s)	 Array Size = 166Section1:Alltoall:Double                	1.5394324E7	 (bytes/s)	 Array Size = 166Section1:Alltoall:Double                	1.5394324E7	 (bytes/s)	 Array Size = 166Section1:Alltoall:Double                	1.5394324E7	 (bytes/s)	 Array Size = 166Section1:Alltoall:Double                	1.5394324E7	 (bytes/s)	 Array Size = 166
+
+
+
+
+
+
+Section1:Alltoall:Double                	1.5394324E7	 (bytes/s)	 Array Size = 166
+Section1:Alltoall:Double                	2.3168394E7	 (bytes/s)	 Array Size = 309Section1:Alltoall:Double                	2.3168394E7	 (bytes/s)	 Array Size = 309Section1:Alltoall:Double                	2.3168394E7	 (bytes/s)	 Array Size = 309Section1:Alltoall:Double                	2.3168394E7	 (bytes/s)	 Array Size = 309
+
+Section1:Alltoall:Double                	2.3168394E7	 (bytes/s)	 Array Size = 309
+Section1:Alltoall:Double                	2.3168394E7	 (bytes/s)	 Array Size = 309
+
+Section1:Alltoall:Double                	2.3168394E7	 (bytes/s)	 Array Size = 309Section1:Alltoall:Double                	2.3168394E7	 (bytes/s)	 Array Size = 309
+
+
+Section1:Alltoall:Double                	3.7863968E7	 (bytes/s)	 Array Size = 577Section1:Alltoall:Double                	3.7863968E7	 (bytes/s)	 Array Size = 577Section1:Alltoall:Double                	3.7863968E7	 (bytes/s)	 Array Size = 577
+
+Section1:Alltoall:Double                	3.7863968E7	 (bytes/s)	 Array Size = 577
+Section1:Alltoall:Double                	3.7863968E7	 (bytes/s)	 Array Size = 577Section1:Alltoall:Double                	3.7863968E7	 (bytes/s)	 Array Size = 577
+Section1:Alltoall:Double                	3.7863968E7	 (bytes/s)	 Array Size = 577
+
+Section1:Alltoall:Double                	3.7863968E7	 (bytes/s)	 Array Size = 577
+
+Section1:Alltoall:Double                	4.8424948E7	 (bytes/s)	 Array Size = 1074Section1:Alltoall:Double                	4.8424948E7	 (bytes/s)	 Array Size = 1074Section1:Alltoall:Double                	4.8424948E7	 (bytes/s)	 Array Size = 1074
+
+Section1:Alltoall:Double                	4.8424948E7	 (bytes/s)	 Array Size = 1074Section1:Alltoall:Double                	4.8424948E7	 (bytes/s)	 Array Size = 1074
+Section1:Alltoall:Double                	4.8424948E7	 (bytes/s)	 Array Size = 1074
+Section1:Alltoall:Double                	4.8424948E7	 (bytes/s)	 Array Size = 1074
+Section1:Alltoall:Double                	4.8424948E7	 (bytes/s)	 Array Size = 1074
+
+
+Section1:Alltoall:Double                	6.0507576E7	 (bytes/s)	 Array Size = 1999Section1:Alltoall:Double                	6.0507576E7	 (bytes/s)	 Array Size = 1999Section1:Alltoall:Double                	6.0507576E7	 (bytes/s)	 Array Size = 1999Section1:Alltoall:Double                	6.0507576E7	 (bytes/s)	 Array Size = 1999Section1:Alltoall:Double                	6.0507576E7	 (bytes/s)	 Array Size = 1999Section1:Alltoall:Double                	6.0507576E7	 (bytes/s)	 Array Size = 1999Section1:Alltoall:Double                	6.0507576E7	 (bytes/s)	 Array Size = 1999
+Section1:Alltoall:Double                	6.0507576E7	 (bytes/s)	 Array Size = 1999
+
+
+
+
+
+
+Section1:Alltoall:Double                	6.60818E7	 (bytes/s)	 Array Size = 3723Section1:Alltoall:Double                	6.60818E7	 (bytes/s)	 Array Size = 3723
+Section1:Alltoall:Double                	6.60818E7	 (bytes/s)	 Array Size = 3723
+Section1:Alltoall:Double                	6.60818E7	 (bytes/s)	 Array Size = 3723Section1:Alltoall:Double                	6.60818E7	 (bytes/s)	 Array Size = 3723
+Section1:Alltoall:Double                	6.60818E7	 (bytes/s)	 Array Size = 3723
+Section1:Alltoall:Double                	6.60818E7	 (bytes/s)	 Array Size = 3723
+Section1:Alltoall:Double                	6.60818E7	 (bytes/s)	 Array Size = 3723
+
+
+Section1:Alltoall:Double                	5.199222E7	 (bytes/s)	 Array Size = 6931Section1:Alltoall:Double                	5.199222E7	 (bytes/s)	 Array Size = 6931Section1:Alltoall:Double                	5.199222E7	 (bytes/s)	 Array Size = 6931Section1:Alltoall:Double                	5.199222E7	 (bytes/s)	 Array Size = 6931Section1:Alltoall:Double                	5.199222E7	 (bytes/s)	 Array Size = 6931Section1:Alltoall:Double                	5.199222E7	 (bytes/s)	 Array Size = 6931
+Section1:Alltoall:Double                	5.199222E7	 (bytes/s)	 Array Size = 6931
+Section1:Alltoall:Double                	5.199222E7	 (bytes/s)	 Array Size = 6931
+
+
+
+
+
+Section1:Alltoall:Double                	4.6233516E7	 (bytes/s)	 Array Size = 12903Section1:Alltoall:Double                	4.6233516E7	 (bytes/s)	 Array Size = 12903Section1:Alltoall:Double                	4.6233516E7	 (bytes/s)	 Array Size = 12903Section1:Alltoall:Double                	4.6233516E7	 (bytes/s)	 Array Size = 12903
+
+
+Section1:Alltoall:Double                	4.6233516E7	 (bytes/s)	 Array Size = 12903
+Section1:Alltoall:Double                	4.6233516E7	 (bytes/s)	 Array Size = 12903Section1:Alltoall:Double                	4.6233516E7	 (bytes/s)	 Array Size = 12903
+
+Section1:Alltoall:Double                	4.6233516E7	 (bytes/s)	 Array Size = 12903
+
+Section1:Alltoall:Double                	3.845022E7	 (bytes/s)	 Array Size = 24022Section1:Alltoall:Double                	3.845022E7	 (bytes/s)	 Array Size = 24022Section1:Alltoall:Double                	3.845022E7	 (bytes/s)	 Array Size = 24022Section1:Alltoall:Double                	3.845022E7	 (bytes/s)	 Array Size = 24022
+
+Section1:Alltoall:Double                	3.845022E7	 (bytes/s)	 Array Size = 24022
+Section1:Alltoall:Double                	3.845022E7	 (bytes/s)	 Array Size = 24022
+Section1:Alltoall:Double                	3.845022E7	 (bytes/s)	 Array Size = 24022
+Section1:Alltoall:Double                	3.845022E7	 (bytes/s)	 Array Size = 24022
+
+
+Section1:Alltoall:Double                	3.3311004E7	 (bytes/s)	 Array Size = 44721Section1:Alltoall:Double                	3.3311004E7	 (bytes/s)	 Array Size = 44721Section1:Alltoall:Double                	3.3311004E7	 (bytes/s)	 Array Size = 44721Section1:Alltoall:Double                	3.3311004E7	 (bytes/s)	 Array Size = 44721
+
+Section1:Alltoall:Double                	3.3311004E7	 (bytes/s)	 Array Size = 44721
+Section1:Alltoall:Double                	3.3311004E7	 (bytes/s)	 Array Size = 44721
+Section1:Alltoall:Double                	3.3311004E7	 (bytes/s)	 Array Size = 44721
+Section1:Alltoall:Double                	3.3311004E7	 (bytes/s)	 Array Size = 44721
+
+
+Section1:Alltoall:Double                	3.8380696E7	 (bytes/s)	 Array Size = 83255Section1:Alltoall:Double                	3.8380696E7	 (bytes/s)	 Array Size = 83255Section1:Alltoall:Double                	3.8380696E7	 (bytes/s)	 Array Size = 83255
+Section1:Alltoall:Double                	3.8380696E7	 (bytes/s)	 Array Size = 83255
+
+Section1:Alltoall:Double                	3.8380696E7	 (bytes/s)	 Array Size = 83255Section1:Alltoall:Double                	3.8380696E7	 (bytes/s)	 Array Size = 83255
+Section1:Alltoall:Double                	3.8380696E7	 (bytes/s)	 Array Size = 83255
+
+Section1:Alltoall:Double                	3.8380696E7	 (bytes/s)	 Array Size = 83255
+
+Section1:Alltoall:Double                	4.3794368E7	 (bytes/s)	 Array Size = 154991Section1:Alltoall:Double                	4.3794368E7	 (bytes/s)	 Array Size = 154991Section1:Alltoall:Double                	4.3794368E7	 (bytes/s)	 Array Size = 154991
+Section1:Alltoall:Double                	4.3794368E7	 (bytes/s)	 Array Size = 154991
+Section1:Alltoall:Double                	4.3794368E7	 (bytes/s)	 Array Size = 154991
+
+Section1:Alltoall:Double                	4.3794368E7	 (bytes/s)	 Array Size = 154991
+Section1:Alltoall:Double                	4.3794368E7	 (bytes/s)	 Array Size = 154991
+Section1:Alltoall:Double                	4.3794368E7	 (bytes/s)	 Array Size = 154991
+
+Section1:Alltoall:Double                	4.4300764E7	 (bytes/s)	 Array Size = 288539Section1:Alltoall:Double                	4.4300764E7	 (bytes/s)	 Array Size = 288539Section1:Alltoall:Double                	4.4300764E7	 (bytes/s)	 Array Size = 288539
+
+Section1:Alltoall:Double                	4.4300764E7	 (bytes/s)	 Array Size = 288539
+Section1:Alltoall:Double                	4.4300764E7	 (bytes/s)	 Array Size = 288539
+Section1:Alltoall:Double                	4.4300764E7	 (bytes/s)	 Array Size = 288539Section1:Alltoall:Double                	4.4300764E7	 (bytes/s)	 Array Size = 288539
+Section1:Alltoall:Double                	4.4300764E7	 (bytes/s)	 Array Size = 288539
+
+
+Section1:Alltoall:Double                	3660368.0	 (bytes/s)	 Array Size = 537159Section1:Alltoall:Double                	3660368.0	 (bytes/s)	 Array Size = 537159Section1:Alltoall:Double                	3660368.0	 (bytes/s)	 Array Size = 537159Section1:Alltoall:Double                	3660368.0	 (bytes/s)	 Array Size = 537159Section1:Alltoall:Double                	3660368.0	 (bytes/s)	 Array Size = 537159
+Section1:Alltoall:Double                	3660368.0	 (bytes/s)	 Array Size = 537159
+Section1:Alltoall:Double                	3660368.0	 (bytes/s)	 Array Size = 537159
+
+
+
+
+Section1:Alltoall:Double                	3660368.0	 (bytes/s)	 Array Size = 537159
+time 0.168 size 1time 0.168 size 1time 0.168 size 1time 0.168 size 1time 0.168 size 1time 0.168 size 1
+time 0.168 size 1
+
+
+
+
+
+time 0.168 size 1
+time 0.033 size 2time 0.033 size 2time 0.033 size 2time 0.033 size 2time 0.033 size 2time 0.033 size 2time 0.033 size 2
+time 0.033 size 2
+
+
+
+
+
+
+time 0.066 size 4time 0.066 size 4time 0.066 size 4time 0.066 size 4time 0.066 size 4time 0.066 size 4
+
+
+
+
+
+time 0.066 size 4
+time 0.066 size 4
+time 0.131 size 8time 0.131 size 8time 0.131 size 8time 0.131 size 8time 0.131 size 8time 0.131 size 8time 0.131 size 8
+time 0.131 size 8
+
+
+
+
+
+
+time 0.263 size 16time 0.263 size 16time 0.263 size 16time 0.263 size 16
+time 0.263 size 16
+time 0.263 size 16
+time 0.263 size 16
+time 0.263 size 16
+
+
+
+time 0.581 size 32time 0.581 size 32time 0.581 size 32time 0.581 size 32
+time 0.581 size 32
+time 0.581 size 32
+time 0.581 size 32
+
+
+
+time 0.581 size 32
+time 1.18 size 64time 1.18 size 64time 1.18 size 64
+time 1.18 size 64
+time 1.18 size 64time 1.18 size 64
+time 1.18 size 64
+time 1.18 size 64
+
+
+
+time 2.3 size 128time 2.3 size 128
+time 2.3 size 128
+time 2.3 size 128
+time 2.3 size 128
+time 2.3 size 128
+time 2.3 size 128
+time 2.3 size 128
+
+time 2.386 size 256time 2.386 size 256
+time 2.386 size 256
+time 2.386 size 256
+time 2.386 size 256
+time 2.386 size 256
+time 2.386 size 256time 2.386 size 256
+
+
+time 2.621 size 512time 2.621 size 512time 2.621 size 512
+time 2.621 size 512time 2.621 size 512
+time 2.621 size 512
+time 2.621 size 512
+time 2.621 size 512
+
+
+
+time 3.695 size 1024time 3.695 size 1024time 3.695 size 1024
+time 3.695 size 1024
+time 3.695 size 1024
+time 3.695 size 1024
+time 3.695 size 1024
+time 3.695 size 1024
+
+
+time 10.12 size 2048time 10.12 size 2048time 10.12 size 2048
+time 10.12 size 2048
+time 10.12 size 2048
+time 10.12 size 2048
+time 10.12 size 2048
+time 10.12 size 2048
+
+
+Section1:Alltoall:Object                	811.89294	 (objects/s)	 Array Size = 4Section1:Alltoall:Object                	811.89294	 (objects/s)	 Array Size = 4Section1:Alltoall:Object                	811.89294	 (objects/s)	 Array Size = 4Section1:Alltoall:Object                	811.89294	 (objects/s)	 Array Size = 4Section1:Alltoall:Object                	811.89294	 (objects/s)	 Array Size = 4Section1:Alltoall:Object                	811.89294	 (objects/s)	 Array Size = 4Section1:Alltoall:Object                	811.89294	 (objects/s)	 Array Size = 4
+
+
+
+
+
+
+Section1:Alltoall:Object                	811.89294	 (objects/s)	 Array Size = 4
+time 0.002 size 1time 0.002 size 1time 0.002 size 1time 0.002 size 1time 0.002 size 1time 0.002 size 1
+
+
+
+
+
+time 0.002 size 1
+time 0.002 size 1
+time 0.005 size 2time 0.005 size 2time 0.005 size 2time 0.005 size 2time 0.005 size 2time 0.005 size 2time 0.005 size 2time 0.005 size 2
+
+
+
+
+
+
+
+time 0.011 size 4time 0.011 size 4time 0.011 size 4time 0.011 size 4time 0.011 size 4time 0.011 size 4
+time 0.011 size 4
+time 0.011 size 4
+
+
+
+
+
+time 0.021 size 8time 0.021 size 8time 0.021 size 8time 0.021 size 8time 0.021 size 8time 0.021 size 8
+
+
+
+
+
+time 0.021 size 8
+time 0.021 size 8
+time 0.042 size 16time 0.042 size 16time 0.042 size 16time 0.042 size 16time 0.042 size 16time 0.042 size 16
+
+
+
+
+
+time 0.042 size 16
+time 0.042 size 16
+time 0.084 size 32time 0.084 size 32time 0.084 size 32time 0.084 size 32time 0.084 size 32time 0.084 size 32
+
+
+
+
+
+time 0.084 size 32
+time 0.084 size 32
+time 0.167 size 64time 0.167 size 64time 0.167 size 64time 0.167 size 64time 0.167 size 64
+time 0.167 size 64
+time 0.167 size 64
+time 0.167 size 64
+
+
+
+
+time 0.335 size 128time 0.335 size 128time 0.335 size 128time 0.335 size 128time 0.335 size 128time 0.335 size 128
+time 0.335 size 128
+
+
+
+
+
+time 0.335 size 128
+time 0.67 size 256time 0.67 size 256time 0.67 size 256time 0.67 size 256time 0.67 size 256
+time 0.67 size 256
+time 0.67 size 256
+time 0.67 size 256
+
+
+
+
+time 4.157 size 512time 4.157 size 512time 4.157 size 512time 4.157 size 512
+time 4.157 size 512
+time 4.157 size 512
+
+
+
+time 4.157 size 512
+time 4.157 size 512
+time 2.673 size 1024time 2.673 size 1024time 2.673 size 1024time 2.673 size 1024time 2.673 size 1024
+time 2.673 size 1024
+time 2.673 size 1024
+time 2.673 size 1024
+
+
+
+
+time 7.009 size 2048time 7.009 size 2048time 7.009 size 2048
+time 7.009 size 2048
+time 7.009 size 2048
+time 7.009 size 2048
+time 7.009 size 2048
+time 7.009 size 2048
+
+
+time 11.409 size 4096time 11.409 size 4096time 11.409 size 4096time 11.409 size 4096
+time 11.409 size 4096
+time 11.409 size 4096
+
+
+
+time 11.409 size 4096
+time 11.409 size 4096
+Section1:Alltoall:Object                	2526.39	 (objects/s)	 Array Size = 7Section1:Alltoall:Object                	2526.39	 (objects/s)	 Array Size = 7Section1:Alltoall:Object                	2526.39	 (objects/s)	 Array Size = 7Section1:Alltoall:Object                	2526.39	 (objects/s)	 Array Size = 7Section1:Alltoall:Object                	2526.39	 (objects/s)	 Array Size = 7Section1:Alltoall:Object                	2526.39	 (objects/s)	 Array Size = 7
+
+Section1:Alltoall:Object                	2526.39	 (objects/s)	 Array Size = 7
+
+
+
+Section1:Alltoall:Object                	2526.39	 (objects/s)	 Array Size = 7
+
+time 0.005 size 1time 0.005 size 1time 0.005 size 1time 0.005 size 1time 0.005 size 1time 0.005 size 1
+time 0.005 size 1
+time 0.005 size 1
+
+
+
+
+
+time 0.008 size 2time 0.008 size 2time 0.008 size 2time 0.008 size 2time 0.008 size 2time 0.008 size 2
+
+
+
+
+time 0.008 size 2
+time 0.008 size 2
+
+time 0.015 size 4time 0.015 size 4time 0.015 size 4time 0.015 size 4time 0.015 size 4time 0.015 size 4time 0.015 size 4
+time 0.015 size 4
+
+
+
+
+
+
+time 0.03 size 8time 0.03 size 8time 0.03 size 8time 0.03 size 8time 0.03 size 8time 0.03 size 8time 0.03 size 8time 0.03 size 8
+
+
+
+
+
+
+
+time 0.061 size 16time 0.061 size 16time 0.061 size 16time 0.061 size 16time 0.061 size 16time 0.061 size 16
+
+
+
+
+
+time 0.061 size 16
+time 0.061 size 16
+time 0.122 size 32time 0.122 size 32time 0.122 size 32time 0.122 size 32time 0.122 size 32
+time 0.122 size 32
+time 0.122 size 32
+time 0.122 size 32
+
+
+
+
+time 0.243 size 64time 0.243 size 64time 0.243 size 64time 0.243 size 64time 0.243 size 64
+time 0.243 size 64
+
+
+
+
+time 0.243 size 64
+time 0.243 size 64
+time 0.487 size 128time 0.487 size 128time 0.487 size 128time 0.487 size 128time 0.487 size 128time 0.487 size 128
+
+
+
+
+
+time 0.487 size 128
+time 0.487 size 128
+time 0.971 size 256time 0.971 size 256time 0.971 size 256time 0.971 size 256time 0.971 size 256time 0.971 size 256
+time 0.971 size 256
+
+
+
+
+
+time 0.971 size 256
+time 6.479 size 512time 6.479 size 512time 6.479 size 512time 6.479 size 512
+time 6.479 size 512
+time 6.479 size 512
+time 6.479 size 512
+
+
+
+time 6.479 size 512
+time 3.122 size 1024
+time 3.122 size 1024time 3.122 size 1024time 3.122 size 1024time 3.122 size 1024time 3.122 size 1024
+
+time 3.122 size 1024time 3.122 size 1024
+
+
+
+
+time 5.68 size 2048time 5.68 size 2048time 5.68 size 2048time 5.68 size 2048time 5.681 size 2048
+time 5.68 size 2048
+time 5.68 size 2048
+time 5.68 size 2048
+
+
+
+
+time 12.853 size 4096time 12.853 size 4096time 12.853 size 4096time 12.853 size 4096time 12.853 size 4096
+time 12.853 size 4096
+
+
+
+
+time 12.853 size 4096
+time 12.853 size 4096
+Section1:Alltoall:Object                	4161.3003	 (objects/s)	 Array Size = 13Section1:Alltoall:Object                	4161.3003	 (objects/s)	 Array Size = 13Section1:Alltoall:Object                	4161.3003	 (objects/s)	 Array Size = 13Section1:Alltoall:Object                	4161.3003	 (objects/s)	 Array Size = 13Section1:Alltoall:Object                	4161.3003	 (objects/s)	 Array Size = 13Section1:Alltoall:Object                	4161.3003	 (objects/s)	 Array Size = 13Section1:Alltoall:Object                	4161.3003	 (objects/s)	 Array Size = 13
+
+
+Section1:Alltoall:Object                	4161.3003	 (objects/s)	 Array Size = 13
+
+
+
+
+time 0.003 size 1
+time 0.003 size 1
+time 0.003 size 1
+time 0.003 size 1
+time 0.003 size 1
+time 0.003 size 1
+time 0.003 size 1
+time 0.003 size 1
+time 0.006 size 2time 0.006 size 2time 0.006 size 2time 0.006 size 2time 0.006 size 2time 0.006 size 2
+
+time 0.006 size 2
+time 0.006 size 2
+
+
+
+
+time 0.013 size 4time 0.013 size 4time 0.013 size 4time 0.013 size 4time 0.013 size 4time 0.013 size 4time 0.013 size 4
+
+
+
+
+
+time 0.013 size 4
+
+time 0.024 size 8time 0.024 size 8time 0.024 size 8time 0.024 size 8time 0.024 size 8time 0.024 size 8
+
+
+
+
+
+time 0.024 size 8
+time 0.024 size 8
+time 0.049 size 16time 0.049 size 16time 0.049 size 16time 0.049 size 16time 0.049 size 16time 0.049 size 16
+time 0.049 size 16
+time 0.049 size 16
+
+
+
+
+
+time 0.098 size 32time 0.098 size 32time 0.098 size 32time 0.098 size 32time 0.098 size 32
+time 0.098 size 32
+time 0.098 size 32
+time 0.098 size 32
+
+
+
+
+time 0.196 size 64time 0.196 size 64time 0.196 size 64time 0.196 size 64time 0.196 size 64
+time 0.196 size 64
+time 0.196 size 64
+time 0.196 size 64
+
+
+
+
+time 0.391 size 128time 0.391 size 128time 0.391 size 128time 0.391 size 128time 0.391 size 128
+time 0.391 size 128
+time 0.391 size 128
+time 0.391 size 128
+
+
+
+
+time 0.782 size 256time 0.782 size 256time 0.782 size 256time 0.782 size 256time 0.782 size 256time 0.782 size 256
+
+
+
+
+
+time 0.782 size 256
+time 0.782 size 256
+time 1.566 size 512time 1.566 size 512time 1.566 size 512time 1.566 size 512time 1.566 size 512time 1.566 size 512
+time 1.566 size 512
+
+
+
+
+
+time 1.566 size 512
+time 3.681 size 1024time 3.681 size 1024time 3.681 size 1024time 3.681 size 1024time 3.681 size 1024time 3.681 size 1024
+time 3.681 size 1024
+
+
+
+
+
+time 3.681 size 1024
+time 7.45 size 2048time 7.45 size 2048time 7.45 size 2048time 7.45 size 2048time 7.45 size 2048time 7.45 size 2048
+time 7.45 size 2048
+
+
+
+
+
+time 7.45 size 2048
+time 16.927 size 4096time 16.927 size 4096time 16.927 size 4096
+time 16.927 size 4096
+time 16.927 size 4096
+time 16.927 size 4096
+time 16.927 size 4096
+time 16.927 size 4096
+
+
+Section1:Alltoall:Object                	6069.947	 (objects/s)	 Array Size = 25Section1:Alltoall:Object                	6069.947	 (objects/s)	 Array Size = 25Section1:Alltoall:Object                	6069.947	 (objects/s)	 Array Size = 25Section1:Alltoall:Object                	6069.947	 (objects/s)	 Array Size = 25Section1:Alltoall:Object                	6069.947	 (objects/s)	 Array Size = 25Section1:Alltoall:Object                	6069.947	 (objects/s)	 Array Size = 25Section1:Alltoall:Object                	6069.947	 (objects/s)	 Array Size = 25
+Section1:Alltoall:Object                	6069.947	 (objects/s)	 Array Size = 25
+
+
+
+
+
+
+time 0.006 size 1time 0.006 size 1time 0.006 size 1time 0.006 size 1time 0.006 size 1time 0.006 size 1time 0.006 size 1
+
+
+
+
+
+
+time 0.006 size 1
+time 0.008 size 2time 0.008 size 2time 0.008 size 2time 0.008 size 2time 0.008 size 2time 0.008 size 2time 0.008 size 2
+
+
+
+
+
+
+time 0.008 size 2
+time 0.015 size 4time 0.015 size 4time 0.015 size 4time 0.015 size 4time 0.015 size 4time 0.015 size 4
+
+
+
+
+
+time 0.015 size 4
+time 0.015 size 4
+time 0.03 size 8time 0.03 size 8time 0.03 size 8time 0.03 size 8time 0.03 size 8time 0.03 size 8
+
+
+
+
+
+time 0.03 size 8
+time 0.03 size 8
+time 0.06 size 16time 0.06 size 16time 0.06 size 16time 0.06 size 16time 0.06 size 16
+time 0.06 size 16
+time 0.06 size 16
+time 0.06 size 16
+
+
+
+
+time 0.141 size 32time 0.141 size 32time 0.141 size 32time 0.141 size 32time 0.141 size 32time 0.141 size 32
+
+
+
+
+time 0.141 size 32
+
+time 0.141 size 32
+time 0.234 size 64time 0.234 size 64time 0.234 size 64time 0.234 size 64time 0.234 size 64time 0.234 size 64
+time 0.234 size 64
+time 0.234 size 64
+
+
+
+
+
+time 0.467 size 128time 0.467 size 128time 0.467 size 128time 0.467 size 128time 0.467 size 128time 0.467 size 128
+time 0.467 size 128
+time 0.467 size 128
+
+
+
+
+
+time 0.935 size 256time 0.935 size 256time 0.935 size 256time 0.935 size 256time 0.935 size 256
+time 0.935 size 256
+time 0.935 size 256
+time 0.935 size 256
+
+
+
+
+time 1.872 size 512time 1.872 size 512time 1.872 size 512time 1.872 size 512time 1.872 size 512
+time 1.872 size 512
+time 1.872 size 512
+time 1.872 size 512
+
+
+
+
+time 6.846 size 1024time 6.846 size 1024time 6.846 size 1024time 6.846 size 1024
+time 6.846 size 1024
+time 6.846 size 1024
+time 6.846 size 1024
+time 6.846 size 1024
+
+
+
+time 7.473 size 2048time 7.473 size 2048time 7.473 size 2048time 7.473 size 2048time 7.473 size 2048time 7.473 size 2048
+time 7.473 size 2048
+
+
+
+
+
+time 7.473 size 2048
+time 16.319 size 4096time 16.319 size 4096time 16.319 size 4096time 16.319 size 4096time 16.319 size 4096time 16.319 size 4096time 16.319 size 4096
+
+
+
+
+
+
+time 16.319 size 4096
+Section1:Alltoall:Object                	12089.282	 (objects/s)	 Array Size = 48Section1:Alltoall:Object                	12089.282	 (objects/s)	 Array Size = 48Section1:Alltoall:Object                	12089.282	 (objects/s)	 Array Size = 48Section1:Alltoall:Object                	12089.282	 (objects/s)	 Array Size = 48Section1:Alltoall:Object                	12089.282	 (objects/s)	 Array Size = 48Section1:Alltoall:Object                	12089.282	 (objects/s)	 Array Size = 48Section1:Alltoall:Object                	12089.282	 (objects/s)	 Array Size = 48
+
+
+
+
+
+
+Section1:Alltoall:Object                	12090.025	 (objects/s)	 Array Size = 48
+time 0.007 size 1time 0.007 size 1time 0.007 size 1time 0.007 size 1time 0.007 size 1time 0.007 size 1time 0.007 size 1
+time 0.007 size 1
+
+
+
+
+
+
+time 0.012 size 2time 0.012 size 2time 0.012 size 2time 0.012 size 2time 0.012 size 2time 0.012 size 2
+
+
+
+
+time 0.012 size 2
+time 0.012 size 2
+
+time 0.025 size 4time 0.025 size 4time 0.025 size 4time 0.025 size 4time 0.025 size 4time 0.025 size 4time 0.025 size 4
+
+
+
+
+
+
+time 0.025 size 4
+time 0.049 size 8time 0.049 size 8time 0.049 size 8time 0.049 size 8time 0.049 size 8
+time 0.049 size 8
+time 0.049 size 8
+time 0.049 size 8
+
+
+
+
+time 0.098 size 16time 0.098 size 16time 0.098 size 16time 0.098 size 16time 0.098 size 16time 0.098 size 16
+
+
+
+
+
+time 0.098 size 16
+time 0.098 size 16
+time 0.195 size 32time 0.195 size 32time 0.195 size 32time 0.195 size 32time 0.195 size 32time 0.195 size 32
+time 0.195 size 32
+
+
+
+
+
+time 0.195 size 32
+time 0.39 size 64time 0.39 size 64time 0.39 size 64time 0.39 size 64time 0.39 size 64time 0.39 size 64
+time 0.39 size 64
+
+
+
+
+
+time 0.39 size 64
+time 0.776 size 128time 0.776 size 128time 0.776 size 128time 0.776 size 128time 0.776 size 128time 0.776 size 128
+time 0.776 size 128
+
+
+
+
+
+time 0.776 size 128
+time 1.551 size 256time 1.551 size 256time 1.551 size 256time 1.551 size 256time 1.551 size 256time 1.551 size 256
+time 1.551 size 256
+
+
+
+
+
+time 1.551 size 256
+time 3.106 size 512time 3.106 size 512time 3.106 size 512time 3.106 size 512time 3.106 size 512time 3.106 size 512
+time 3.106 size 512
+
+
+
+
+
+time 3.106 size 512
+time 10.092 size 1024time 10.092 size 1024time 10.092 size 1024time 10.092 size 1024
+time 10.092 size 1024
+time 10.092 size 1024
+time 10.092 size 1024
+
+
+
+time 10.092 size 1024
+Section1:Alltoall:Object                	9043.962	 (objects/s)	 Array Size = 89Section1:Alltoall:Object                	9043.962	 (objects/s)	 Array Size = 89Section1:Alltoall:Object                	9043.962	 (objects/s)	 Array Size = 89Section1:Alltoall:Object                	9043.962	 (objects/s)	 Array Size = 89Section1:Alltoall:Object                	9043.962	 (objects/s)	 Array Size = 89Section1:Alltoall:Object                	9043.962	 (objects/s)	 Array Size = 89Section1:Alltoall:Object                	9043.962	 (objects/s)	 Array Size = 89Section1:Alltoall:Object                	9043.962	 (objects/s)	 Array Size = 89
+
+
+
+
+
+
+
+time 0.008 size 1time 0.008 size 1time 0.008 size 1time 0.008 size 1time 0.008 size 1time 0.008 size 1time 0.008 size 1
+time 0.008 size 1
+
+
+
+
+
+
+time 0.013 size 2time 0.013 size 2time 0.013 size 2time 0.013 size 2time 0.013 size 2
+time 0.013 size 2
+time 0.013 size 2
+time 0.013 size 2
+
+
+
+
+time 0.026 size 4time 0.026 size 4time 0.026 size 4time 0.026 size 4time 0.026 size 4time 0.026 size 4
+time 0.026 size 4
+time 0.026 size 4
+
+
+
+
+
+time 0.053 size 8time 0.053 size 8time 0.053 size 8time 0.053 size 8time 0.053 size 8
+
+
+
+time 0.053 size 8
+time 0.053 size 8
+time 0.053 size 8
+
+time 0.106 size 16time 0.106 size 16time 0.106 size 16time 0.106 size 16time 0.106 size 16time 0.106 size 16
+time 0.106 size 16
+time 0.106 size 16
+
+
+
+
+
+time 0.211 size 32time 0.211 size 32time 0.211 size 32time 0.211 size 32time 0.211 size 32time 0.211 size 32
+time 0.211 size 32
+
+
+
+
+
+time 0.211 size 32
+time 0.422 size 64time 0.422 size 64time 0.422 size 64time 0.422 size 64time 0.422 size 64
+time 0.422 size 64
+time 0.422 size 64
+time 0.422 size 64
+
+
+
+
+time 0.844 size 128time 0.844 size 128time 0.844 size 128time 0.844 size 128time 0.844 size 128time 0.844 size 128
+time 0.844 size 128
+
+
+
+
+
+time 0.844 size 128
+time 1.688 size 256time 1.688 size 256time 1.688 size 256time 1.688 size 256time 1.688 size 256
+time 1.688 size 256
+time 1.688 size 256
+time 1.688 size 256
+
+
+
+
+time 3.376 size 512time 3.376 size 512time 3.376 size 512time 3.376 size 512time 3.376 size 512
+time 3.376 size 512
+time 3.376 size 512
+time 3.376 size 512
+
+
+
+
+time 6.753 size 1024time 6.753 size 1024time 6.753 size 1024time 6.753 size 1024time 6.753 size 1024
+time 6.753 size 1024
+time 6.753 size 1024
+time 6.753 size 1024
+
+
+
+
+time 18.49 size 2048time 18.49 size 2048time 18.49 size 2048
+time 18.49 size 2048
+time 18.49 size 2048
+time 18.49 size 2048
+time 18.49 size 2048
+time 18.49 size 2048
+
+
+Section1:Alltoall:Object                	18414.473	 (objects/s)	 Array Size = 166Section1:Alltoall:Object                	18414.473	 (objects/s)	 Array Size = 166Section1:Alltoall:Object                	18414.473	 (objects/s)	 Array Size = 166Section1:Alltoall:Object                	18414.473	 (objects/s)	 Array Size = 166Section1:Alltoall:Object                	18414.473	 (objects/s)	 Array Size = 166Section1:Alltoall:Object                	18414.473	 (objects/s)	 Array Size = 166Section1:Alltoall:Object                	18414.473	 (objects/s)	 Array Size = 166
+
+
+
+
+
+
+Section1:Alltoall:Object                	18414.473	 (objects/s)	 Array Size = 166
+time 0.013 size 1time 0.013 size 1time 0.013 size 1time 0.013 size 1time 0.013 size 1time 0.013 size 1time 0.013 size 1
+
+
+
+
+
+
+time 0.013 size 1
+time 0.024 size 2time 0.024 size 2time 0.024 size 2time 0.024 size 2time 0.024 size 2time 0.024 size 2time 0.024 size 2
+time 0.024 size 2
+
+
+
+
+
+
+time 0.049 size 4time 0.049 size 4time 0.049 size 4time 0.049 size 4time 0.049 size 4
+time 0.049 size 4
+time 0.049 size 4
+time 0.049 size 4
+
+
+
+
+time 0.098 size 8time 0.098 size 8time 0.098 size 8time 0.098 size 8
+time 0.098 size 8
+time 0.098 size 8
+time 0.098 size 8
+time 0.098 size 8
+
+
+
+time 0.196 size 16time 0.196 size 16time 0.196 size 16time 0.196 size 16time 0.196 size 16
+time 0.196 size 16
+time 0.196 size 16
+
+
+
+
+time 0.196 size 16
+time 0.393 size 32time 0.393 size 32time 0.393 size 32time 0.393 size 32time 0.393 size 32
+time 0.393 size 32
+time 0.393 size 32
+time 0.393 size 32
+
+
+
+
+time 0.784 size 64time 0.784 size 64time 0.784 size 64time 0.784 size 64time 0.784 size 64
+time 0.784 size 64
+time 0.784 size 64
+
+
+
+
+time 0.784 size 64
+time 1.568 size 128time 1.568 size 128time 1.568 size 128time 1.568 size 128time 1.568 size 128
+time 1.568 size 128
+time 1.568 size 128
+
+
+
+
+time 1.568 size 128
+time 3.136 size 256time 3.136 size 256time 3.136 size 256time 3.136 size 256
+time 3.136 size 256
+time 3.136 size 256
+time 3.136 size 256
+time 3.136 size 256
+
+
+
+time 6.274 size 512time 6.274 size 512time 6.274 size 512time 6.274 size 512
+time 6.274 size 512
+time 6.274 size 512
+time 6.274 size 512
+time 6.274 size 512
+
+
+
+time 13.29 size 1024time 13.29 size 1024time 13.29 size 1024time 13.29 size 1024time 13.29 size 1024
+time 13.29 size 1024
+
+
+
+
+time 13.29 size 1024
+time 13.29 size 1024
+Section1:Alltoall:Object                	23835.48	 (objects/s)	 Array Size = 309Section1:Alltoall:Object                	23835.48	 (objects/s)	 Array Size = 309Section1:Alltoall:Object                	23835.48	 (objects/s)	 Array Size = 309Section1:Alltoall:Object                	23835.48	 (objects/s)	 Array Size = 309Section1:Alltoall:Object                	23835.48	 (objects/s)	 Array Size = 309Section1:Alltoall:Object                	23835.48	 (objects/s)	 Array Size = 309Section1:Alltoall:Object                	23835.48	 (objects/s)	 Array Size = 309
+
+
+
+Section1:Alltoall:Object                	23835.48	 (objects/s)	 Array Size = 309
+
+
+
+time 0.029 size 1time 0.029 size 1time 0.029 size 1time 0.029 size 1time 0.029 size 1
+
+
+
+
+time 0.029 size 1
+time 0.029 size 1
+time 0.029 size 1
+time 0.051 size 2time 0.051 size 2time 0.051 size 2time 0.051 size 2time 0.051 size 2
+time 0.051 size 2
+time 0.051 size 2
+time 0.051 size 2
+
+
+
+
+time 0.102 size 4time 0.102 size 4time 0.102 size 4time 0.102 size 4time 0.102 size 4
+time 0.102 size 4
+time 0.102 size 4
+
+
+
+
+time 0.102 size 4
+time 0.203 size 8time 0.203 size 8time 0.203 size 8time 0.203 size 8
+time 0.203 size 8
+time 0.203 size 8
+time 0.203 size 8
+
+
+
+time 0.203 size 8
+time 0.408 size 16time 0.408 size 16time 0.408 size 16time 0.408 size 16
+time 0.408 size 16
+time 0.408 size 16
+time 0.408 size 16
+time 0.408 size 16
+
+
+
+time 0.816 size 32time 0.816 size 32time 0.816 size 32time 0.816 size 32time 0.816 size 32
+time 0.816 size 32
+time 0.816 size 32
+time 0.816 size 32
+
+
+
+
+time 1.631 size 64time 1.631 size 64time 1.631 size 64time 1.631 size 64
+time 1.631 size 64
+time 1.631 size 64
+time 1.631 size 64
+time 1.631 size 64
+
+
+
+time 3.26 size 128time 3.26 size 128time 3.26 size 128time 3.26 size 128
+time 3.26 size 128
+time 3.26 size 128
+time 3.26 size 128
+time 3.26 size 128
+
+
+
+time 6.52 size 256time 6.52 size 256time 6.52 size 256time 6.52 size 256time 6.52 size 256
+time 6.52 size 256
+time 6.52 size 256
+
+
+
+
+time 6.52 size 256
+time 14.923 size 512time 14.923 size 512time 14.923 size 512time 14.923 size 512
+time 14.923 size 512
+time 14.923 size 512
+time 14.923 size 512
+
+
+
+time 14.923 size 512
+Section1:Alltoall:Object                	19805.846	 (objects/s)	 Array Size = 577Section1:Alltoall:Object                	19805.846	 (objects/s)	 Array Size = 577Section1:Alltoall:Object                	19805.846	 (objects/s)	 Array Size = 577Section1:Alltoall:Object                	19805.846	 (objects/s)	 Array Size = 577Section1:Alltoall:Object                	19805.846	 (objects/s)	 Array Size = 577Section1:Alltoall:Object                	19805.846	 (objects/s)	 Array Size = 577Section1:Alltoall:Object                	19805.846	 (objects/s)	 Array Size = 577
+Section1:Alltoall:Object                	19805.846	 (objects/s)	 Array Size = 577
+
+
+
+
+
+
+time 0.039 size 1time 0.039 size 1time 0.039 size 1time 0.039 size 1
+time 0.039 size 1
+time 0.039 size 1
+time 0.039 size 1
+time 0.039 size 1
+
+
+
+time 0.069 size 2time 0.069 size 2time 0.069 size 2time 0.069 size 2time 0.069 size 2
+time 0.069 size 2
+time 0.069 size 2
+
+
+
+
+time 0.069 size 2
+time 0.138 size 4time 0.138 size 4time 0.138 size 4time 0.138 size 4time 0.138 size 4
+time 0.138 size 4
+time 0.138 size 4
+
+
+
+
+time 0.138 size 4
+time 0.276 size 8time 0.276 size 8time 0.276 size 8time 0.276 size 8time 0.276 size 8
+time 0.276 size 8
+time 0.276 size 8
+time 0.276 size 8
+
+
+
+
+time 0.552 size 16time 0.552 size 16time 0.552 size 16time 0.552 size 16
+time 0.552 size 16
+time 0.552 size 16
+time 0.552 size 16
+time 0.552 size 16
+
+
+
+time 1.106 size 32time 1.106 size 32time 1.106 size 32time 1.106 size 32
+time 1.106 size 32
+time 1.106 size 32
+time 1.106 size 32
+time 1.106 size 32
+
+
+
+time 2.21 size 64time 2.21 size 64time 2.21 size 64time 2.21 size 64time 2.21 size 64
+time 2.21 size 64
+
+
+
+
+time 2.21 size 64
+time 2.211 size 64
+time 4.42 size 128time 4.42 size 128time 4.42 size 128time 4.42 size 128time 4.42 size 128
+time 4.42 size 128
+time 4.42 size 128
+time 4.42 size 128
+
+
+
+
+time 8.839 size 256time 8.839 size 256time 8.839 size 256time 8.839 size 256
+time 8.839 size 256
+time 8.839 size 256
+time 8.839 size 256
+time 8.839 size 256
+
+
+
+time 20.143 size 512time 20.143 size 512time 20.143 size 512time 20.143 size 512
+time 20.143 size 512
+time 20.143 size 512
+
+
+
+time 20.143 size 512
+time 20.143 size 512
+Section1:Alltoall:Object                	27310.057	 (objects/s)	 Array Size = 1074Section1:Alltoall:Object                	27310.057	 (objects/s)	 Array Size = 1074Section1:Alltoall:Object                	27310.057	 (objects/s)	 Array Size = 1074Section1:Alltoall:Object                	27310.057	 (objects/s)	 Array Size = 1074Section1:Alltoall:Object                	27310.057	 (objects/s)	 Array Size = 1074
+
+
+Section1:Alltoall:Object                	27310.057	 (objects/s)	 Array Size = 1074
+Section1:Alltoall:Object                	27310.057	 (objects/s)	 Array Size = 1074
+Section1:Alltoall:Object                	27310.057	 (objects/s)	 Array Size = 1074
+
+
+time 0.071 size 1time 0.071 size 1time 0.071 size 1time 0.071 size 1time 0.071 size 1
+time 0.071 size 1
+time 0.071 size 1
+
+
+
+
+time 0.071 size 1
+time 0.123 size 2time 0.123 size 2time 0.123 size 2time 0.123 size 2
+time 0.123 size 2
+time 0.123 size 2
+time 0.123 size 2
+time 0.123 size 2
+
+
+
+time 0.245 size 4time 0.245 size 4time 0.245 size 4time 0.245 size 4
+time 0.245 size 4
+time 0.245 size 4
+time 0.245 size 4
+time 0.245 size 4
+
+
+
+time 0.49 size 8time 0.49 size 8time 0.49 size 8time 0.49 size 8time 0.49 size 8
+time 0.49 size 8
+time 0.49 size 8
+time 0.49 size 8
+
+
+
+
+time 0.98 size 16time 0.98 size 16time 0.98 size 16
+time 0.98 size 16
+time 0.98 size 16
+time 0.98 size 16
+time 0.98 size 16
+time 0.98 size 16
+
+
+time 1.957 size 32time 1.957 size 32time 1.957 size 32time 1.957 size 32
+time 1.957 size 32
+time 1.957 size 32
+time 1.957 size 32
+time 1.957 size 32
+
+
+
+time 3.916 size 64time 3.916 size 64time 3.916 size 64time 3.916 size 64
+time 3.916 size 64
+time 3.916 size 64
+time 3.916 size 64
+time 3.916 size 64
+
+
+
+time 7.831 size 128time 7.831 size 128time 7.831 size 128time 7.831 size 128time 7.831 size 128
+time 7.831 size 128
+time 7.831 size 128
+time 7.831 size 128
+
+
+
+
+time 15.687 size 256time 15.687 size 256time 15.687 size 256time 15.687 size 256
+time 15.687 size 256
+time 15.687 size 256
+time 15.687 size 256
+time 15.687 size 256
+
+
+
+Section1:Alltoall:Object                	32630.492	 (objects/s)	 Array Size = 1999Section1:Alltoall:Object                	32630.492	 (objects/s)	 Array Size = 1999Section1:Alltoall:Object                	32630.492	 (objects/s)	 Array Size = 1999Section1:Alltoall:Object                	32630.492	 (objects/s)	 Array Size = 1999Section1:Alltoall:Object                	32630.492	 (objects/s)	 Array Size = 1999Section1:Alltoall:Object                	32630.492	 (objects/s)	 Array Size = 1999Section1:Alltoall:Object                	32630.492	 (objects/s)	 Array Size = 1999
+
+
+
+
+
+Section1:Alltoall:Object                	32630.492	 (objects/s)	 Array Size = 1999
+
+time 0.129 size 1time 0.129 size 1
+time 0.129 size 1
+time 0.129 size 1
+time 0.129 size 1
+time 0.129 size 1
+time 0.129 size 1time 0.129 size 1
+
+
+time 0.224 size 2time 0.224 size 2time 0.224 size 2time 0.224 size 2time 0.224 size 2time 0.224 size 2time 0.224 size 2time 0.224 size 2
+
+
+
+
+
+
+
+time 0.462 size 4time 0.462 size 4
+time 0.462 size 4
+time 0.462 size 4time 0.462 size 4
+time 0.462 size 4
+
+
+time 0.462 size 4time 0.462 size 4
+
+time 1.151 size 8time 1.151 size 8
+time 1.151 size 8
+time 1.151 size 8
+time 1.151 size 8
+time 1.151 size 8
+time 1.151 size 8
+
+time 1.151 size 8
+time 2.339 size 16time 2.339 size 16time 2.339 size 16
+time 2.339 size 16
+time 2.339 size 16
+time 2.339 size 16
+
+
+time 2.339 size 16
+time 2.339 size 16
+time 4.685 size 32time 4.685 size 32
+time 4.685 size 32
+time 4.685 size 32
+time 4.685 size 32
+time 4.685 size 32
+
+time 4.685 size 32
+time 4.685 size 32
+time 9.349 size 64time 9.349 size 64
+time 9.349 size 64
+time 9.349 size 64
+time 9.349 size 64
+time 9.349 size 64
+time 9.349 size 64
+
+time 9.349 size 64
+time 21.698 size 128time 21.698 size 128time 21.698 size 128
+time 21.698 size 128
+time 21.698 size 128
+
+
+time 21.698 size 128
+time 21.698 size 128time 21.698 size 128
+
+Section1:Alltoall:Object                	21964.602	 (objects/s)	 Array Size = 3723Section1:Alltoall:Object                	21964.602	 (objects/s)	 Array Size = 3723Section1:Alltoall:Object                	21964.602	 (objects/s)	 Array Size = 3723Section1:Alltoall:Object                	21964.602	 (objects/s)	 Array Size = 3723Section1:Alltoall:Object                	21964.602	 (objects/s)	 Array Size = 3723Section1:Alltoall:Object                	21964.602	 (objects/s)	 Array Size = 3723
+
+
+
+
+
+Section1:Alltoall:Object                	21964.602	 (objects/s)	 Array Size = 3723Section1:Alltoall:Object                	21964.602	 (objects/s)	 Array Size = 3723
+
+time 0.238 size 1time 0.238 size 1time 0.238 size 1time 0.238 size 1
+time 0.238 size 1
+time 0.238 size 1
+time 0.238 size 1
+
+
+
+time 0.238 size 1
+time 0.411 size 2time 0.411 size 2time 0.411 size 2
+time 0.411 size 2
+time 0.411 size 2
+time 0.411 size 2
+time 0.411 size 2
+time 0.411 size 2
+
+
+time 0.822 size 4time 0.822 size 4time 0.822 size 4
+time 0.822 size 4
+time 0.822 size 4
+time 0.822 size 4
+time 0.822 size 4
+time 0.822 size 4
+
+
+time 1.644 size 8time 1.644 size 8time 1.644 size 8
+time 1.644 size 8
+time 1.644 size 8
+time 1.644 size 8
+time 1.644 size 8
+time 1.644 size 8
+
+
+time 3.29 size 16time 3.29 size 16time 3.29 size 16time 3.29 size 16
+time 3.29 size 16
+time 3.29 size 16
+time 3.29 size 16
+time 3.29 size 16
+
+
+
+time 6.586 size 32time 6.586 size 32time 6.586 size 32
+time 6.586 size 32
+time 6.586 size 32
+time 6.586 size 32
+time 6.586 size 32
+time 6.586 size 32
+
+
+time 13.154 size 64time 13.154 size 64time 13.154 size 64time 13.154 size 64
+time 13.154 size 64
+time 13.154 size 64
+time 13.154 size 64
+
+
+
+time 13.154 size 64
+Section1:Alltoall:Object                	33724.93	 (objects/s)	 Array Size = 6931Section1:Alltoall:Object                	33724.93	 (objects/s)	 Array Size = 6931Section1:Alltoall:Object                	33724.93	 (objects/s)	 Array Size = 6931Section1:Alltoall:Object                	33724.93	 (objects/s)	 Array Size = 6931Section1:Alltoall:Object                	33724.93	 (objects/s)	 Array Size = 6931
+
+
+
+
+Section1:Alltoall:Object                	33724.93	 (objects/s)	 Array Size = 6931
+Section1:Alltoall:Object                	33724.93	 (objects/s)	 Array Size = 6931
+Section1:Alltoall:Object                	33724.93	 (objects/s)	 Array Size = 6931
+time 0.442 size 1time 0.442 size 1time 0.442 size 1time 0.442 size 1
+
+
+
+time 0.442 size 1
+time 0.442 size 1
+time 0.442 size 1
+time 0.442 size 1
+time 0.766 size 2time 0.766 size 2time 0.766 size 2
+time 0.766 size 2
+time 0.766 size 2
+time 0.766 size 2
+time 0.766 size 2
+time 0.766 size 2
+
+
+time 1.533 size 4time 1.533 size 4time 1.533 size 4
+time 1.533 size 4
+time 1.533 size 4
+time 1.533 size 4
+time 1.533 size 4
+time 1.533 size 4
+
+
+time 3.064 size 8time 3.064 size 8time 3.064 size 8
+time 3.064 size 8
+time 3.064 size 8
+time 3.064 size 8
+time 3.064 size 8
+time 3.064 size 8
+
+
+time 6.133 size 16time 6.133 size 16time 6.133 size 16time 6.133 size 16
+time 6.133 size 16
+time 6.133 size 16
+time 6.133 size 16
+time 6.133 size 16
+
+
+
+time 16.447 size 32time 16.447 size 32time 16.447 size 32
+time 16.447 size 32
+time 16.447 size 32
+time 16.447 size 32
+time 16.447 size 32
+
+
+time 16.447 size 32
+Section1:Alltoall:Object                	25104.639	 (objects/s)	 Array Size = 12903Section1:Alltoall:Object                	25104.639	 (objects/s)	 Array Size = 12903Section1:Alltoall:Object                	25104.639	 (objects/s)	 Array Size = 12903Section1:Alltoall:Object                	25104.639	 (objects/s)	 Array Size = 12903Section1:Alltoall:Object                	25104.639	 (objects/s)	 Array Size = 12903Section1:Alltoall:Object                	25104.639	 (objects/s)	 Array Size = 12903
+Section1:Alltoall:Object                	25104.639	 (objects/s)	 Array Size = 12903
+Section1:Alltoall:Object                	25104.639	 (objects/s)	 Array Size = 12903
+
+
+
+
+
+time 0.827 size 1time 0.827 size 1time 0.827 size 1
+time 0.827 size 1
+time 0.827 size 1
+time 0.827 size 1
+time 0.827 size 1
+time 0.827 size 1
+
+
+time 1.443 size 2time 1.443 size 2
+time 1.443 size 2
+time 1.443 size 2
+time 1.443 size 2
+time 1.443 size 2
+time 1.443 size 2
+time 1.443 size 2
+
+time 2.882 size 4time 2.882 size 4time 2.882 size 4time 2.882 size 4
+time 2.882 size 4
+time 2.882 size 4
+time 2.882 size 4
+
+
+
+time 2.882 size 4
+time 5.758 size 8time 5.758 size 8time 5.758 size 8time 5.758 size 8
+time 5.758 size 8
+time 5.758 size 8
+
+
+
+time 5.758 size 8
+time 5.758 size 8
+time 11.533 size 16time 11.533 size 16time 11.533 size 16time 11.533 size 16
+
+
+
+time 11.533 size 16
+time 11.533 size 16
+time 11.533 size 16
+time 11.533 size 16
+Section1:Alltoall:Object                	33329.17	 (objects/s)	 Array Size = 24022Section1:Alltoall:Object                	33329.17	 (objects/s)	 Array Size = 24022Section1:Alltoall:Object                	33329.17	 (objects/s)	 Array Size = 24022Section1:Alltoall:Object                	33329.17	 (objects/s)	 Array Size = 24022Section1:Alltoall:Object                	33329.17	 (objects/s)	 Array Size = 24022Section1:Alltoall:Object                	33329.17	 (objects/s)	 Array Size = 24022Section1:Alltoall:Object                	33329.17	 (objects/s)	 Array Size = 24022
+
+
+
+
+
+
+Section1:Alltoall:Object                	33329.17	 (objects/s)	 Array Size = 24022
+time 1.549 size 1time 1.549 size 1time 1.549 size 1time 1.549 size 1time 1.549 size 1
+
+
+
+
+time 1.549 size 1
+time 1.549 size 1
+time 1.549 size 1
+time 2.713 size 2time 2.713 size 2time 2.713 size 2time 2.713 size 2
+time 2.713 size 2
+time 2.713 size 2
+time 2.713 size 2
+
+
+
+time 2.713 size 2
+time 5.416 size 4time 5.416 size 4time 5.416 size 4time 5.416 size 4time 5.416 size 4
+
+
+
+
+time 5.416 size 4
+time 5.416 size 4
+time 5.416 size 4
+time 10.869 size 8time 10.869 size 8time 10.869 size 8time 10.869 size 8
+
+
+
+time 10.869 size 8
+time 10.869 size 8
+time 10.869 size 8
+time 10.869 size 8
+Section1:Alltoall:Object                	32916.367	 (objects/s)	 Array Size = 44721Section1:Alltoall:Object                	32916.367	 (objects/s)	 Array Size = 44721Section1:Alltoall:Object                	32916.367	 (objects/s)	 Array Size = 44721Section1:Alltoall:Object                	32916.367	 (objects/s)	 Array Size = 44721Section1:Alltoall:Object                	32916.367	 (objects/s)	 Array Size = 44721Section1:Alltoall:Object                	32916.367	 (objects/s)	 Array Size = 44721
+Section1:Alltoall:Object                	32916.367	 (objects/s)	 Array Size = 44721
+
+
+
+
+
+Section1:Alltoall:Object                	32916.367	 (objects/s)	 Array Size = 44721
+time 2.933 size 1time 2.933 size 1time 2.933 size 1time 2.933 size 1
+
+
+
+time 2.933 size 1
+time 2.933 size 1
+time 2.933 size 1
+time 2.933 size 1
+time 5.578 size 2time 5.578 size 2time 5.578 size 2time 5.578 size 2time 5.578 size 2
+time 5.578 size 2
+time 5.578 size 2
+time 5.578 size 2
+
+
+
+
+time 14.793 size 4time 14.793 size 4
+time 14.793 size 4
+time 14.793 size 4
+time 14.793 size 4
+time 14.793 size 4
+
+time 14.793 size 4
+time 14.793 size 4
+Section1:Alltoall:Object                	22511.998	 (objects/s)	 Array Size = 83255
+Section1:Alltoall:Object                	22511.998	 (objects/s)	 Array Size = 83255Section1:Alltoall:Object                	22511.998	 (objects/s)	 Array Size = 83255Section1:Alltoall:Object                	22511.998	 (objects/s)	 Array Size = 83255Section1:Alltoall:Object                	22511.998	 (objects/s)	 Array Size = 83255Section1:Alltoall:Object                	22511.998	 (objects/s)	 Array Size = 83255Section1:Alltoall:Object                	22511.998	 (objects/s)	 Array Size = 83255Section1:Alltoall:Object                	22511.998	 (objects/s)	 Array Size = 83255
+
+
+
+
+
+
+time 5.687 size 1time 5.687 size 1time 5.687 size 1time 5.687 size 1time 5.687 size 1
+
+
+
+
+time 5.687 size 1
+time 5.687 size 1
+time 5.687 size 1
+time 9.887 size 2time 9.887 size 2time 9.887 size 2time 9.887 size 2
+
+
+
+time 9.887 size 2
+time 9.887 size 2
+time 9.887 size 2
+time 9.887 size 2
+time 19.851 size 4time 19.851 size 4time 19.851 size 4time 19.851 size 4time 19.851 size 4
+
+
+
+
+time 19.851 size 4
+time 19.851 size 4
+time 19.851 size 4
+Section1:Alltoall:Object                	31230.87	 (objects/s)	 Array Size = 154991
+Section1:Alltoall:Object                	31230.87	 (objects/s)	 Array Size = 154991Section1:Alltoall:Object                	31230.87	 (objects/s)	 Array Size = 154991Section1:Alltoall:Object                	31230.87	 (objects/s)	 Array Size = 154991Section1:Alltoall:Object                	31230.87	 (objects/s)	 Array Size = 154991Section1:Alltoall:Object                	31230.87	 (objects/s)	 Array Size = 154991Section1:Alltoall:Object                	31230.87	 (objects/s)	 Array Size = 154991
+
+
+
+
+
+Section1:Alltoall:Object                	31230.87	 (objects/s)	 Array Size = 154991
+time 10.749 size 1time 10.749 size 1time 10.749 size 1time 10.749 size 1
+
+
+
+time 10.749 size 1
+time 10.749 size 1
+time 10.749 size 1
+time 10.749 size 1
+Section1:Alltoall:Object                	26843.334	 (objects/s)	 Array Size = 288539
+Section1:Alltoall:Object                	26843.334	 (objects/s)	 Array Size = 288539Section1:Alltoall:Object                	26843.334	 (objects/s)	 Array Size = 288539Section1:Alltoall:Object                	26843.334	 (objects/s)	 Array Size = 288539Section1:Alltoall:Object                	26843.334	 (objects/s)	 Array Size = 288539Section1:Alltoall:Object                	26843.334	 (objects/s)	 Array Size = 288539Section1:Alltoall:Object                	26843.334	 (objects/s)	 Array Size = 288539
+
+
+
+
+Section1:Alltoall:Object                	26843.334	 (objects/s)	 Array Size = 288539
+
+time 30.856 size 1time 30.856 size 1time 30.856 size 1
+time 30.856 size 1
+
+
+time 30.856 size 1
+time 30.856 size 1
+time 30.856 size 1
+time 30.856 size 1
+Section1:Alltoall:Object                	17408.576	 (objects/s)	 Array Size = 537159
+Section1:Alltoall:Object                	17408.576	 (objects/s)	 Array Size = 537159Section1:Alltoall:Object                	17408.576	 (objects/s)	 Array Size = 537159Section1:Alltoall:Object                	17408.576	 (objects/s)	 Array Size = 537159Section1:Alltoall:Object                	17408.576	 (objects/s)	 Array Size = 537159Section1:Alltoall:Object                	17408.576	 (objects/s)	 Array Size = 537159Section1:Alltoall:Object                	17408.576	 (objects/s)	 Array Size = 537159Section1:Alltoall:Object                	17408.576	 (objects/s)	 Array Size = 537159
+
+
+
+
+
+
+Section1:Barrier                        	71051.36	 (barriers/s)
+Section1:Barrier                        	71051.36	 (barriers/s)Section1:Barrier                        	71051.36	 (barriers/s)Section1:Barrier                        	71051.36	 (barriers/s)Section1:Barrier                        	71051.36	 (barriers/s)Section1:Barrier                        	71051.36	 (barriers/s)
+
+
+
+
+Section1:Barrier                        	71051.36	 (barriers/s)
+Section1:Barrier                        	71051.36	 (barriers/s)
+Section1:Bcast:Double                   	1207515.1	 (bytes/s)	 Array Size = 4Section1:Bcast:Double                   	1207515.1	 (bytes/s)	 Array Size = 4
+Section1:Bcast:Double                   	1207515.1	 (bytes/s)	 Array Size = 4Section1:Bcast:Double                   	1207515.1	 (bytes/s)	 Array Size = 4Section1:Bcast:Double                   	1207515.1	 (bytes/s)	 Array Size = 4Section1:Bcast:Double                   	1207515.1	 (bytes/s)	 Array Size = 4Section1:Bcast:Double                   	1207515.1	 (bytes/s)	 Array Size = 4Section1:Bcast:Double                   	1207515.1	 (bytes/s)	 Array Size = 4
+
+
+
+
+
+
+Section1:Bcast:Double                   	2069947.0	 (bytes/s)	 Array Size = 7
+Section1:Bcast:Double                   	2069947.0	 (bytes/s)	 Array Size = 7Section1:Bcast:Double                   	2069947.0	 (bytes/s)	 Array Size = 7Section1:Bcast:Double                   	2069947.0	 (bytes/s)	 Array Size = 7Section1:Bcast:Double                   	2069947.0	 (bytes/s)	 Array Size = 7Section1:Bcast:Double                   	2069947.0	 (bytes/s)	 Array Size = 7Section1:Bcast:Double                   	2069947.0	 (bytes/s)	 Array Size = 7
+
+
+
+
+
+Section1:Bcast:Double                   	2069947.0	 (bytes/s)	 Array Size = 7
+Section1:Bcast:Double                   	3457318.8	 (bytes/s)	 Array Size = 12Section1:Bcast:Double                   	3457318.8	 (bytes/s)	 Array Size = 12
+
+Section1:Bcast:Double                   	3457318.8	 (bytes/s)	 Array Size = 12Section1:Bcast:Double                   	3457318.8	 (bytes/s)	 Array Size = 12Section1:Bcast:Double                   	3457318.8	 (bytes/s)	 Array Size = 12Section1:Bcast:Double                   	3457318.8	 (bytes/s)	 Array Size = 12Section1:Bcast:Double                   	3457318.8	 (bytes/s)	 Array Size = 12Section1:Bcast:Double                   	3457318.8	 (bytes/s)	 Array Size = 12
+
+
+
+
+
+Section1:Bcast:Double                   	6001661.5	 (bytes/s)	 Array Size = 21Section1:Bcast:Double                   	6001661.5	 (bytes/s)	 Array Size = 21
+
+Section1:Bcast:Double                   	6001661.5	 (bytes/s)	 Array Size = 21Section1:Bcast:Double                   	6001661.5	 (bytes/s)	 Array Size = 21Section1:Bcast:Double                   	6001661.5	 (bytes/s)	 Array Size = 21Section1:Bcast:Double                   	6001661.5	 (bytes/s)	 Array Size = 21Section1:Bcast:Double                   	6001661.5	 (bytes/s)	 Array Size = 21Section1:Bcast:Double                   	6001661.5	 (bytes/s)	 Array Size = 21
+
+
+
+
+
+Section1:Bcast:Double                   	1.0380552E7	 (bytes/s)	 Array Size = 37Section1:Bcast:Double                   	1.0380552E7	 (bytes/s)	 Array Size = 37
+
+Section1:Bcast:Double                   	1.0380552E7	 (bytes/s)	 Array Size = 37Section1:Bcast:Double                   	1.0380552E7	 (bytes/s)	 Array Size = 37Section1:Bcast:Double                   	1.0380552E7	 (bytes/s)	 Array Size = 37Section1:Bcast:Double                   	1.0380552E7	 (bytes/s)	 Array Size = 37Section1:Bcast:Double                   	1.0380552E7	 (bytes/s)	 Array Size = 37
+
+
+Section1:Bcast:Double                   	1.0380552E7	 (bytes/s)	 Array Size = 37
+
+
+Section1:Bcast:Double                   	1.8214506E7	 (bytes/s)	 Array Size = 66Section1:Bcast:Double                   	1.8214506E7	 (bytes/s)	 Array Size = 66
+
+Section1:Bcast:Double                   	1.8214506E7	 (bytes/s)	 Array Size = 66Section1:Bcast:Double                   	1.8214506E7	 (bytes/s)	 Array Size = 66Section1:Bcast:Double                   	1.8214506E7	 (bytes/s)	 Array Size = 66Section1:Bcast:Double                   	1.8214506E7	 (bytes/s)	 Array Size = 66Section1:Bcast:Double                   	1.8214506E7	 (bytes/s)	 Array Size = 66Section1:Bcast:Double                   	1.8214506E7	 (bytes/s)	 Array Size = 66
+
+
+
+
+
+Section1:Bcast:Double                   	3.0167366E7	 (bytes/s)	 Array Size = 116
+Section1:Bcast:Double                   	3.0167366E7	 (bytes/s)	 Array Size = 116Section1:Bcast:Double                   	3.0167366E7	 (bytes/s)	 Array Size = 116Section1:Bcast:Double                   	3.0167366E7	 (bytes/s)	 Array Size = 116Section1:Bcast:Double                   	3.0167366E7	 (bytes/s)	 Array Size = 116Section1:Bcast:Double                   	3.0167366E7	 (bytes/s)	 Array Size = 116Section1:Bcast:Double                   	3.0167366E7	 (bytes/s)	 Array Size = 116
+
+
+
+
+Section1:Bcast:Double                   	3.0167366E7	 (bytes/s)	 Array Size = 116
+
+Section1:Bcast:Double                   	4.9600588E7	 (bytes/s)	 Array Size = 203Section1:Bcast:Double                   	4.9600588E7	 (bytes/s)	 Array Size = 203
+
+Section1:Bcast:Double                   	4.9600588E7	 (bytes/s)	 Array Size = 203Section1:Bcast:Double                   	4.9600588E7	 (bytes/s)	 Array Size = 203Section1:Bcast:Double                   	4.9600588E7	 (bytes/s)	 Array Size = 203Section1:Bcast:Double                   	4.9600588E7	 (bytes/s)	 Array Size = 203Section1:Bcast:Double                   	4.9600588E7	 (bytes/s)	 Array Size = 203Section1:Bcast:Double                   	4.9600588E7	 (bytes/s)	 Array Size = 203
+
+
+
+
+
+Section1:Bcast:Double                   	8.0477616E7	 (bytes/s)	 Array Size = 357
+Section1:Bcast:Double                   	8.0477616E7	 (bytes/s)	 Array Size = 357Section1:Bcast:Double                   	8.0477616E7	 (bytes/s)	 Array Size = 357Section1:Bcast:Double                   	8.0477616E7	 (bytes/s)	 Array Size = 357Section1:Bcast:Double                   	8.0477616E7	 (bytes/s)	 Array Size = 357Section1:Bcast:Double                   	8.0477616E7	 (bytes/s)	 Array Size = 357Section1:Bcast:Double                   	8.0477616E7	 (bytes/s)	 Array Size = 357Section1:Bcast:Double                   	8.0477616E7	 (bytes/s)	 Array Size = 357
+
+
+
+
+
+
+Section1:Bcast:Double                   	9.6915488E7	 (bytes/s)	 Array Size = 626Section1:Bcast:Double                   	9.6915488E7	 (bytes/s)	 Array Size = 626
+
+Section1:Bcast:Double                   	9.6915488E7	 (bytes/s)	 Array Size = 626Section1:Bcast:Double                   	9.6915488E7	 (bytes/s)	 Array Size = 626Section1:Bcast:Double                   	9.6915488E7	 (bytes/s)	 Array Size = 626Section1:Bcast:Double                   	9.6915488E7	 (bytes/s)	 Array Size = 626Section1:Bcast:Double                   	9.6915488E7	 (bytes/s)	 Array Size = 626Section1:Bcast:Double                   	9.6915488E7	 (bytes/s)	 Array Size = 626
+
+
+
+
+
+Section1:Bcast:Double                   	1.43737392E8	 (bytes/s)	 Array Size = 1098Section1:Bcast:Double                   	1.43737392E8	 (bytes/s)	 Array Size = 1098
+
+Section1:Bcast:Double                   	1.43737392E8	 (bytes/s)	 Array Size = 1098Section1:Bcast:Double                   	1.43737392E8	 (bytes/s)	 Array Size = 1098Section1:Bcast:Double                   	1.43737392E8	 (bytes/s)	 Array Size = 1098Section1:Bcast:Double                   	1.43737392E8	 (bytes/s)	 Array Size = 1098Section1:Bcast:Double                   	1.43737392E8	 (bytes/s)	 Array Size = 1098Section1:Bcast:Double                   	1.43737392E8	 (bytes/s)	 Array Size = 1098
+
+
+
+
+
+Section1:Bcast:Double                   	2.03975088E8	 (bytes/s)	 Array Size = 1926Section1:Bcast:Double                   	2.03975088E8	 (bytes/s)	 Array Size = 1926
+
+Section1:Bcast:Double                   	2.03975088E8	 (bytes/s)	 Array Size = 1926Section1:Bcast:Double                   	2.03975088E8	 (bytes/s)	 Array Size = 1926Section1:Bcast:Double                   	2.03975088E8	 (bytes/s)	 Array Size = 1926Section1:Bcast:Double                   	2.03975088E8	 (bytes/s)	 Array Size = 1926Section1:Bcast:Double                   	2.03975088E8	 (bytes/s)	 Array Size = 1926
+
+
+
+
+Section1:Bcast:Double                   	2.03975088E8	 (bytes/s)	 Array Size = 1926
+Section1:Bcast:Double                   	2.50179536E8	 (bytes/s)	 Array Size = 3377Section1:Bcast:Double                   	2.50179536E8	 (bytes/s)	 Array Size = 3377
+
+Section1:Bcast:Double                   	2.50179536E8	 (bytes/s)	 Array Size = 3377Section1:Bcast:Double                   	2.50179536E8	 (bytes/s)	 Array Size = 3377Section1:Bcast:Double                   	2.50179536E8	 (bytes/s)	 Array Size = 3377Section1:Bcast:Double                   	2.50179536E8	 (bytes/s)	 Array Size = 3377Section1:Bcast:Double                   	2.50179536E8	 (bytes/s)	 Array Size = 3377
+Section1:Bcast:Double                   	2.50179536E8	 (bytes/s)	 Array Size = 3377
+
+
+
+
+Section1:Bcast:Double                   	3.27527872E8	 (bytes/s)	 Array Size = 5921Section1:Bcast:Double                   	3.27527872E8	 (bytes/s)	 Array Size = 5921
+
+Section1:Bcast:Double                   	3.27527872E8	 (bytes/s)	 Array Size = 5921Section1:Bcast:Double                   	3.27527872E8	 (bytes/s)	 Array Size = 5921Section1:Bcast:Double                   	3.27527872E8	 (bytes/s)	 Array Size = 5921Section1:Bcast:Double                   	3.27527872E8	 (bytes/s)	 Array Size = 5921Section1:Bcast:Double                   	3.27527872E8	 (bytes/s)	 Array Size = 5921Section1:Bcast:Double                   	3.27527872E8	 (bytes/s)	 Array Size = 5921
+
+
+
+
+
+Section1:Bcast:Double                   	2.49756032E8	 (bytes/s)	 Array Size = 10383Section1:Bcast:Double                   	2.49756032E8	 (bytes/s)	 Array Size = 10383
+
+Section1:Bcast:Double                   	2.49756032E8	 (bytes/s)	 Array Size = 10383Section1:Bcast:Double                   	2.49756032E8	 (bytes/s)	 Array Size = 10383Section1:Bcast:Double                   	2.49756032E8	 (bytes/s)	 Array Size = 10383Section1:Bcast:Double                   	2.49756032E8	 (bytes/s)	 Array Size = 10383Section1:Bcast:Double                   	2.49756032E8	 (bytes/s)	 Array Size = 10383Section1:Bcast:Double                   	2.49756032E8	 (bytes/s)	 Array Size = 10383
+
+
+
+
+
+Section1:Bcast:Double                   	3.04280256E8	 (bytes/s)	 Array Size = 18205Section1:Bcast:Double                   	3.04280256E8	 (bytes/s)	 Array Size = 18205
+
+Section1:Bcast:Double                   	3.04280256E8	 (bytes/s)	 Array Size = 18205Section1:Bcast:Double                   	3.04280256E8	 (bytes/s)	 Array Size = 18205Section1:Bcast:Double                   	3.04280256E8	 (bytes/s)	 Array Size = 18205Section1:Bcast:Double                   	3.04280256E8	 (bytes/s)	 Array Size = 18205Section1:Bcast:Double                   	3.04280256E8	 (bytes/s)	 Array Size = 18205
+
+
+
+
+Section1:Bcast:Double                   	3.04280256E8	 (bytes/s)	 Array Size = 18205
+Section1:Bcast:Double                   	3.51090816E8	 (bytes/s)	 Array Size = 31921Section1:Bcast:Double                   	3.51090816E8	 (bytes/s)	 Array Size = 31921
+
+Section1:Bcast:Double                   	3.51090816E8	 (bytes/s)	 Array Size = 31921Section1:Bcast:Double                   	3.51090816E8	 (bytes/s)	 Array Size = 31921Section1:Bcast:Double                   	3.51090816E8	 (bytes/s)	 Array Size = 31921Section1:Bcast:Double                   	3.51090816E8	 (bytes/s)	 Array Size = 31921Section1:Bcast:Double                   	3.51090816E8	 (bytes/s)	 Array Size = 31921
+Section1:Bcast:Double                   	3.51090816E8	 (bytes/s)	 Array Size = 31921
+
+
+
+
+Section1:Bcast:Double                   	3.7223968E8	 (bytes/s)	 Array Size = 55970Section1:Bcast:Double                   	3.7223968E8	 (bytes/s)	 Array Size = 55970
+
+Section1:Bcast:Double                   	3.7223968E8	 (bytes/s)	 Array Size = 55970Section1:Bcast:Double                   	3.7223968E8	 (bytes/s)	 Array Size = 55970Section1:Bcast:Double                   	3.7223968E8	 (bytes/s)	 Array Size = 55970Section1:Bcast:Double                   	3.7223968E8	 (bytes/s)	 Array Size = 55970Section1:Bcast:Double                   	3.7223968E8	 (bytes/s)	 Array Size = 55970Section1:Bcast:Double                   	3.7223968E8	 (bytes/s)	 Array Size = 55970
+
+
+
+
+
+Section1:Bcast:Double                   	3.83489728E8	 (bytes/s)	 Array Size = 98137Section1:Bcast:Double                   	3.83489728E8	 (bytes/s)	 Array Size = 98137
+
+Section1:Bcast:Double                   	3.83489728E8	 (bytes/s)	 Array Size = 98137Section1:Bcast:Double                   	3.83489728E8	 (bytes/s)	 Array Size = 98137Section1:Bcast:Double                   	3.83489728E8	 (bytes/s)	 Array Size = 98137Section1:Bcast:Double                   	3.83489728E8	 (bytes/s)	 Array Size = 98137Section1:Bcast:Double                   	3.83489728E8	 (bytes/s)	 Array Size = 98137Section1:Bcast:Double                   	3.83489728E8	 (bytes/s)	 Array Size = 98137
+
+
+
+
+
+Section1:Bcast:Double                   	3.60861152E8	 (bytes/s)	 Array Size = 172072Section1:Bcast:Double                   	3.60861152E8	 (bytes/s)	 Array Size = 172072
+
+Section1:Bcast:Double                   	3.60861152E8	 (bytes/s)	 Array Size = 172072Section1:Bcast:Double                   	3.60861152E8	 (bytes/s)	 Array Size = 172072Section1:Bcast:Double                   	3.60861152E8	 (bytes/s)	 Array Size = 172072Section1:Bcast:Double                   	3.60861152E8	 (bytes/s)	 Array Size = 172072Section1:Bcast:Double                   	3.60861152E8	 (bytes/s)	 Array Size = 172072Section1:Bcast:Double                   	3.60861152E8	 (bytes/s)	 Array Size = 172072
+
+
+
+
+
+Section1:Bcast:Double                   	3.18709472E8	 (bytes/s)	 Array Size = 301708Section1:Bcast:Double                   	3.18709472E8	 (bytes/s)	 Array Size = 301708
+
+Section1:Bcast:Double                   	3.18709472E8	 (bytes/s)	 Array Size = 301708Section1:Bcast:Double                   	3.18709472E8	 (bytes/s)	 Array Size = 301708Section1:Bcast:Double                   	3.18709472E8	 (bytes/s)	 Array Size = 301708
+
+
+Section1:Bcast:Double                   	3.18709472E8	 (bytes/s)	 Array Size = 301708Section1:Bcast:Double                   	3.18709472E8	 (bytes/s)	 Array Size = 301708
+
+Section1:Bcast:Double                   	3.18709472E8	 (bytes/s)	 Array Size = 301708
+Section1:Bcast:Double                   	2.69790816E8	 (bytes/s)	 Array Size = 529010Section1:Bcast:Double                   	2.69790816E8	 (bytes/s)	 Array Size = 529010
+
+Section1:Bcast:Double                   	2.69790816E8	 (bytes/s)	 Array Size = 529010
+Section1:Bcast:Double                   	2.69790816E8	 (bytes/s)	 Array Size = 529010Section1:Bcast:Double                   	2.69790816E8	 (bytes/s)	 Array Size = 529010Section1:Bcast:Double                   	2.69790816E8	 (bytes/s)	 Array Size = 529010
+
+
+Section1:Bcast:Double                   	2.69790816E8	 (bytes/s)	 Array Size = 529010
+Section1:Bcast:Double                   	2.69790816E8	 (bytes/s)	 Array Size = 529010
+Section1:Bcast:Double                   	2.40749856E8	 (bytes/s)	 Array Size = 927557Section1:Bcast:Double                   	2.40749856E8	 (bytes/s)	 Array Size = 927557
+
+Section1:Bcast:Double                   	2.40749856E8	 (bytes/s)	 Array Size = 927557Section1:Bcast:Double                   	2.40749856E8	 (bytes/s)	 Array Size = 927557
+Section1:Bcast:Double                   	2.40749856E8	 (bytes/s)	 Array Size = 927557
+Section1:Bcast:Double                   	2.40749856E8	 (bytes/s)	 Array Size = 927557
+
+Section1:Bcast:Double                   	2.40749856E8	 (bytes/s)	 Array Size = 927557
+Section1:Bcast:Double                   	2.40749856E8	 (bytes/s)	 Array Size = 927557
+Section1:Bcast:Double                   	2.40872672E8	 (bytes/s)	 Array Size = 1626361Section1:Bcast:Double                   	2.40872672E8	 (bytes/s)	 Array Size = 1626361
+
+Section1:Bcast:Double                   	2.40872672E8	 (bytes/s)	 Array Size = 1626361Section1:Bcast:Double                   	2.40872672E8	 (bytes/s)	 Array Size = 1626361
+Section1:Bcast:Double                   	2.40872672E8	 (bytes/s)	 Array Size = 1626361
+Section1:Bcast:Double                   	2.40872672E8	 (bytes/s)	 Array Size = 1626361
+Section1:Bcast:Double                   	2.40872672E8	 (bytes/s)	 Array Size = 1626361
+
+Section1:Bcast:Double                   	2.40872672E8	 (bytes/s)	 Array Size = 1626361
+Section1:Bcast:Double                   	2.4144792E8	 (bytes/s)	 Array Size = 2851632Section1:Bcast:Double                   	2.4144792E8	 (bytes/s)	 Array Size = 2851632
+
+Section1:Bcast:Double                   	2.4144792E8	 (bytes/s)	 Array Size = 2851632
+Section1:Bcast:Double                   	2.4144792E8	 (bytes/s)	 Array Size = 2851632
+Section1:Bcast:Double                   	2.4144792E8	 (bytes/s)	 Array Size = 2851632
+Section1:Bcast:Double                   	2.4144792E8	 (bytes/s)	 Array Size = 2851632
+Section1:Bcast:Double                   	2.4144792E8	 (bytes/s)	 Array Size = 2851632
+Section1:Bcast:Double                   	2.4144792E8	 (bytes/s)	 Array Size = 2851632
+Section1:Bcast:Object                   	11766.945	 (objects/s)	 Array Size = 4Section1:Bcast:Object                   	11766.945	 (objects/s)	 Array Size = 4
+
+Section1:Bcast:Object                   	11766.945	 (objects/s)	 Array Size = 4
+Section1:Bcast:Object                   	11766.945	 (objects/s)	 Array Size = 4
+Section1:Bcast:Object                   	11766.945	 (objects/s)	 Array Size = 4
+Section1:Bcast:Object                   	11766.945	 (objects/s)	 Array Size = 4
+Section1:Bcast:Object                   	11766.945	 (objects/s)	 Array Size = 4
+Section1:Bcast:Object                   	11766.945	 (objects/s)	 Array Size = 4
+Section1:Bcast:Object                   	19732.967	 (objects/s)	 Array Size = 7Section1:Bcast:Object                   	19732.967	 (objects/s)	 Array Size = 7
+
+Section1:Bcast:Object                   	19732.967	 (objects/s)	 Array Size = 7
+Section1:Bcast:Object                   	19732.967	 (objects/s)	 Array Size = 7
+Section1:Bcast:Object                   	19732.967	 (objects/s)	 Array Size = 7Section1:Bcast:Object                   	19732.967	 (objects/s)	 Array Size = 7Section1:Bcast:Object                   	19732.967	 (objects/s)	 Array Size = 7
+
+
+Section1:Bcast:Object                   	19732.967	 (objects/s)	 Array Size = 7
+Section1:Bcast:Object                   	30871.947	 (objects/s)	 Array Size = 12Section1:Bcast:Object                   	30871.947	 (objects/s)	 Array Size = 12Section1:Bcast:Object                   	30871.947	 (objects/s)	 Array Size = 12Section1:Bcast:Object                   	30871.947	 (objects/s)	 Array Size = 12
+Section1:Bcast:Object                   	30871.947	 (objects/s)	 Array Size = 12
+
+
+
+Section1:Bcast:Object                   	30871.947	 (objects/s)	 Array Size = 12
+Section1:Bcast:Object                   	30871.947	 (objects/s)	 Array Size = 12Section1:Bcast:Object                   	30871.947	 (objects/s)	 Array Size = 12
+
+Section1:Bcast:Object                   	46964.78	 (objects/s)	 Array Size = 21Section1:Bcast:Object                   	46964.78	 (objects/s)	 Array Size = 21
+
+Section1:Bcast:Object                   	46964.78	 (objects/s)	 Array Size = 21
+Section1:Bcast:Object                   	46964.78	 (objects/s)	 Array Size = 21
+Section1:Bcast:Object                   	46964.78	 (objects/s)	 Array Size = 21
+Section1:Bcast:Object                   	46964.78	 (objects/s)	 Array Size = 21
+Section1:Bcast:Object                   	46964.78	 (objects/s)	 Array Size = 21
+Section1:Bcast:Object                   	46964.78	 (objects/s)	 Array Size = 21
+Section1:Bcast:Object                   	67442.625	 (objects/s)	 Array Size = 37Section1:Bcast:Object                   	67442.625	 (objects/s)	 Array Size = 37Section1:Bcast:Object                   	67442.625	 (objects/s)	 Array Size = 37
+
+
+Section1:Bcast:Object                   	67442.625	 (objects/s)	 Array Size = 37
+Section1:Bcast:Object                   	67442.625	 (objects/s)	 Array Size = 37
+Section1:Bcast:Object                   	67442.625	 (objects/s)	 Array Size = 37
+Section1:Bcast:Object                   	67442.625	 (objects/s)	 Array Size = 37
+Section1:Bcast:Object                   	67442.625	 (objects/s)	 Array Size = 37
+Section1:Bcast:Object                   	91306.59	 (objects/s)	 Array Size = 66Section1:Bcast:Object                   	91306.59	 (objects/s)	 Array Size = 66Section1:Bcast:Object                   	91306.59	 (objects/s)	 Array Size = 66Section1:Bcast:Object                   	91306.59	 (objects/s)	 Array Size = 66
+Section1:Bcast:Object                   	91306.59	 (objects/s)	 Array Size = 66
+Section1:Bcast:Object                   	91306.59	 (objects/s)	 Array Size = 66
+
+
+
+Section1:Bcast:Object                   	91306.59	 (objects/s)	 Array Size = 66
+Section1:Bcast:Object                   	91306.59	 (objects/s)	 Array Size = 66
+Section1:Bcast:Object                   	22645.473	 (objects/s)	 Array Size = 116Section1:Bcast:Object                   	22645.473	 (objects/s)	 Array Size = 116Section1:Bcast:Object                   	22645.473	 (objects/s)	 Array Size = 116Section1:Bcast:Object                   	22645.473	 (objects/s)	 Array Size = 116
+Section1:Bcast:Object                   	22645.473	 (objects/s)	 Array Size = 116
+Section1:Bcast:Object                   	22645.473	 (objects/s)	 Array Size = 116
+
+
+
+Section1:Bcast:Object                   	22645.473	 (objects/s)	 Array Size = 116
+Section1:Bcast:Object                   	22645.473	 (objects/s)	 Array Size = 116
+Section1:Bcast:Object                   	130963.62	 (objects/s)	 Array Size = 203Section1:Bcast:Object                   	130963.62	 (objects/s)	 Array Size = 203Section1:Bcast:Object                   	130963.62	 (objects/s)	 Array Size = 203Section1:Bcast:Object                   	130963.62	 (objects/s)	 Array Size = 203
+Section1:Bcast:Object                   	130963.62	 (objects/s)	 Array Size = 203
+
+
+
+Section1:Bcast:Object                   	130963.62	 (objects/s)	 Array Size = 203
+Section1:Bcast:Object                   	130963.62	 (objects/s)	 Array Size = 203
+Section1:Bcast:Object                   	130963.62	 (objects/s)	 Array Size = 203
+Section1:Bcast:Object                   	130188.03	 (objects/s)	 Array Size = 357Section1:Bcast:Object                   	130188.03	 (objects/s)	 Array Size = 357Section1:Bcast:Object                   	130188.03	 (objects/s)	 Array Size = 357
+Section1:Bcast:Object                   	130188.03	 (objects/s)	 Array Size = 357
+Section1:Bcast:Object                   	130188.03	 (objects/s)	 Array Size = 357
+Section1:Bcast:Object                   	130188.03	 (objects/s)	 Array Size = 357
+
+
+Section1:Bcast:Object                   	130188.03	 (objects/s)	 Array Size = 357
+Section1:Bcast:Object                   	130188.03	 (objects/s)	 Array Size = 357
+Section1:Bcast:Object                   	148608.78	 (objects/s)	 Array Size = 626Section1:Bcast:Object                   	148608.78	 (objects/s)	 Array Size = 626Section1:Bcast:Object                   	148608.78	 (objects/s)	 Array Size = 626
+Section1:Bcast:Object                   	148608.78	 (objects/s)	 Array Size = 626
+Section1:Bcast:Object                   	148608.78	 (objects/s)	 Array Size = 626
+Section1:Bcast:Object                   	148608.78	 (objects/s)	 Array Size = 626
+
+
+Section1:Bcast:Object                   	148608.78	 (objects/s)	 Array Size = 626
+Section1:Bcast:Object                   	148608.78	 (objects/s)	 Array Size = 626
+Section1:Bcast:Object                   	141508.02	 (objects/s)	 Array Size = 1098Section1:Bcast:Object                   	141508.02	 (objects/s)	 Array Size = 1098Section1:Bcast:Object                   	141508.02	 (objects/s)	 Array Size = 1098Section1:Bcast:Object                   	141508.02	 (objects/s)	 Array Size = 1098
+Section1:Bcast:Object                   	141508.02	 (objects/s)	 Array Size = 1098
+Section1:Bcast:Object                   	141508.02	 (objects/s)	 Array Size = 1098
+
+
+
+Section1:Bcast:Object                   	141508.02	 (objects/s)	 Array Size = 1098
+Section1:Bcast:Object                   	141508.02	 (objects/s)	 Array Size = 1098
+Section1:Bcast:Object                   	158144.81	 (objects/s)	 Array Size = 1926Section1:Bcast:Object                   	158144.81	 (objects/s)	 Array Size = 1926Section1:Bcast:Object                   	158144.81	 (objects/s)	 Array Size = 1926
+Section1:Bcast:Object                   	158144.81	 (objects/s)	 Array Size = 1926
+Section1:Bcast:Object                   	158144.81	 (objects/s)	 Array Size = 1926
+Section1:Bcast:Object                   	158144.81	 (objects/s)	 Array Size = 1926
+
+
+Section1:Bcast:Object                   	158144.81	 (objects/s)	 Array Size = 1926
+Section1:Bcast:Object                   	158144.81	 (objects/s)	 Array Size = 1926
+Section1:Bcast:Object                   	158031.62	 (objects/s)	 Array Size = 3377Section1:Bcast:Object                   	158031.62	 (objects/s)	 Array Size = 3377Section1:Bcast:Object                   	158031.62	 (objects/s)	 Array Size = 3377
+Section1:Bcast:Object                   	158031.62	 (objects/s)	 Array Size = 3377
+Section1:Bcast:Object                   	158031.62	 (objects/s)	 Array Size = 3377
+Section1:Bcast:Object                   	158031.62	 (objects/s)	 Array Size = 3377
+Section1:Bcast:Object                   	158031.62	 (objects/s)	 Array Size = 3377
+
+
+Section1:Bcast:Object                   	158031.62	 (objects/s)	 Array Size = 3377
+Section1:Bcast:Object                   	143539.39	 (objects/s)	 Array Size = 5921Section1:Bcast:Object                   	143539.39	 (objects/s)	 Array Size = 5921Section1:Bcast:Object                   	143539.39	 (objects/s)	 Array Size = 5921
+Section1:Bcast:Object                   	143539.39	 (objects/s)	 Array Size = 5921
+Section1:Bcast:Object                   	143539.39	 (objects/s)	 Array Size = 5921
+Section1:Bcast:Object                   	143539.39	 (objects/s)	 Array Size = 5921
+
+
+Section1:Bcast:Object                   	143539.39	 (objects/s)	 Array Size = 5921
+Section1:Bcast:Object                   	143539.39	 (objects/s)	 Array Size = 5921
+Section1:Bcast:Object                   	75358.586	 (objects/s)	 Array Size = 10383Section1:Bcast:Object                   	75358.586	 (objects/s)	 Array Size = 10383Section1:Bcast:Object                   	75358.586	 (objects/s)	 Array Size = 10383Section1:Bcast:Object                   	75358.586	 (objects/s)	 Array Size = 10383
+Section1:Bcast:Object                   	75358.586	 (objects/s)	 Array Size = 10383
+Section1:Bcast:Object                   	75358.586	 (objects/s)	 Array Size = 10383
+
+
+
+Section1:Bcast:Object                   	75358.586	 (objects/s)	 Array Size = 10383
+Section1:Bcast:Object                   	75358.586	 (objects/s)	 Array Size = 10383
+Section1:Bcast:Object                   	145676.42	 (objects/s)	 Array Size = 18205Section1:Bcast:Object                   	145676.42	 (objects/s)	 Array Size = 18205Section1:Bcast:Object                   	145676.42	 (objects/s)	 Array Size = 18205Section1:Bcast:Object                   	145676.42	 (objects/s)	 Array Size = 18205
+Section1:Bcast:Object                   	145676.42	 (objects/s)	 Array Size = 18205
+Section1:Bcast:Object                   	145676.42	 (objects/s)	 Array Size = 18205
+
+
+
+Section1:Bcast:Object                   	145676.42	 (objects/s)	 Array Size = 18205
+Section1:Bcast:Object                   	145676.42	 (objects/s)	 Array Size = 18205
+Section1:Bcast:Object                   	149043.84	 (objects/s)	 Array Size = 31921Section1:Bcast:Object                   	149043.84	 (objects/s)	 Array Size = 31921Section1:Bcast:Object                   	149043.84	 (objects/s)	 Array Size = 31921
+Section1:Bcast:Object                   	149043.84	 (objects/s)	 Array Size = 31921
+Section1:Bcast:Object                   	149043.84	 (objects/s)	 Array Size = 31921
+
+
+Section1:Bcast:Object                   	149043.84	 (objects/s)	 Array Size = 31921
+Section1:Bcast:Object                   	149043.84	 (objects/s)	 Array Size = 31921
+Section1:Bcast:Object                   	149043.84	 (objects/s)	 Array Size = 31921
+Section1:Bcast:Object                   	141988.27	 (objects/s)	 Array Size = 55970Section1:Bcast:Object                   	141988.27	 (objects/s)	 Array Size = 55970
+Section1:Bcast:Object                   	141988.27	 (objects/s)	 Array Size = 55970
+Section1:Bcast:Object                   	141988.27	 (objects/s)	 Array Size = 55970
+Section1:Bcast:Object                   	141988.27	 (objects/s)	 Array Size = 55970
+Section1:Bcast:Object                   	141988.27	 (objects/s)	 Array Size = 55970
+Section1:Bcast:Object                   	141988.27	 (objects/s)	 Array Size = 55970
+
+Section1:Bcast:Object                   	141988.27	 (objects/s)	 Array Size = 55970
+Section1:Bcast:Object                   	134480.3	 (objects/s)	 Array Size = 98137Section1:Bcast:Object                   	134480.3	 (objects/s)	 Array Size = 98137Section1:Bcast:Object                   	134480.3	 (objects/s)	 Array Size = 98137
+Section1:Bcast:Object                   	134480.3	 (objects/s)	 Array Size = 98137
+Section1:Bcast:Object                   	134480.3	 (objects/s)	 Array Size = 98137
+Section1:Bcast:Object                   	134480.3	 (objects/s)	 Array Size = 98137
+
+
+Section1:Bcast:Object                   	134480.3	 (objects/s)	 Array Size = 98137
+Section1:Bcast:Object                   	134480.3	 (objects/s)	 Array Size = 98137
+Section1:Bcast:Object                   	126337.74	 (objects/s)	 Array Size = 172072Section1:Bcast:Object                   	126337.74	 (objects/s)	 Array Size = 172072Section1:Bcast:Object                   	126337.74	 (objects/s)	 Array Size = 172072
+Section1:Bcast:Object                   	126337.74	 (objects/s)	 Array Size = 172072
+Section1:Bcast:Object                   	126337.74	 (objects/s)	 Array Size = 172072
+Section1:Bcast:Object                   	126337.74	 (objects/s)	 Array Size = 172072
+
+
+Section1:Bcast:Object                   	126337.74	 (objects/s)	 Array Size = 172072
+Section1:Bcast:Object                   	126337.74	 (objects/s)	 Array Size = 172072
+Section1:Bcast:Object                   	122340.92	 (objects/s)	 Array Size = 301708Section1:Bcast:Object                   	122340.92	 (objects/s)	 Array Size = 301708
+Section1:Bcast:Object                   	122340.92	 (objects/s)	 Array Size = 301708
+Section1:Bcast:Object                   	122340.92	 (objects/s)	 Array Size = 301708
+Section1:Bcast:Object                   	122340.92	 (objects/s)	 Array Size = 301708
+Section1:Bcast:Object                   	122340.92	 (objects/s)	 Array Size = 301708
+Section1:Bcast:Object                   	122340.92	 (objects/s)	 Array Size = 301708
+
+Section1:Bcast:Object                   	122340.92	 (objects/s)	 Array Size = 301708
+Section1:Bcast:Object                   	114578.734	 (objects/s)	 Array Size = 529010Section1:Bcast:Object                   	114578.734	 (objects/s)	 Array Size = 529010Section1:Bcast:Object                   	114578.734	 (objects/s)	 Array Size = 529010
+Section1:Bcast:Object                   	114578.734	 (objects/s)	 Array Size = 529010
+Section1:Bcast:Object                   	114578.734	 (objects/s)	 Array Size = 529010
+Section1:Bcast:Object                   	114578.734	 (objects/s)	 Array Size = 529010
+Section1:Bcast:Object                   	114578.734	 (objects/s)	 Array Size = 529010
+
+
+Section1:Bcast:Object                   	114578.734	 (objects/s)	 Array Size = 529010
+Section1:Bcast:Object                   	90999.414	 (objects/s)	 Array Size = 927557Section1:Bcast:Object                   	90999.414	 (objects/s)	 Array Size = 927557Section1:Bcast:Object                   	90999.414	 (objects/s)	 Array Size = 927557
+Section1:Bcast:Object                   	90999.414	 (objects/s)	 Array Size = 927557
+Section1:Bcast:Object                   	90999.414	 (objects/s)	 Array Size = 927557
+Section1:Bcast:Object                   	90999.414	 (objects/s)	 Array Size = 927557
+Section1:Bcast:Object                   	90999.414	 (objects/s)	 Array Size = 927557
+
+
+Section1:Bcast:Object                   	90999.414	 (objects/s)	 Array Size = 927557
+Section1:Bcast:Object                   	70068.55	 (objects/s)	 Array Size = 1626361Section1:Bcast:Object                   	70068.55	 (objects/s)	 Array Size = 1626361
+Section1:Bcast:Object                   	70068.55	 (objects/s)	 Array Size = 1626361
+Section1:Bcast:Object                   	70068.55	 (objects/s)	 Array Size = 1626361
+Section1:Bcast:Object                   	70068.55	 (objects/s)	 Array Size = 1626361
+Section1:Bcast:Object                   	70068.55	 (objects/s)	 Array Size = 1626361
+Section1:Bcast:Object                   	70068.55	 (objects/s)	 Array Size = 1626361
+
+Section1:Bcast:Object                   	70068.55	 (objects/s)	 Array Size = 1626361
+Section1:Bcast:Object                   	50766.98	 (objects/s)	 Array Size = 2851632Section1:Bcast:Object                   	50766.98	 (objects/s)	 Array Size = 2851632
+Section1:Bcast:Object                   	50766.98	 (objects/s)	 Array Size = 2851632
+Section1:Bcast:Object                   	50766.98	 (objects/s)	 Array Size = 2851632
+Section1:Bcast:Object                   	50766.98	 (objects/s)	 Array Size = 2851632
+Section1:Bcast:Object                   	50766.98	 (objects/s)	 Array Size = 2851632
+
+Section1:Bcast:Object                   	50766.98	 (objects/s)	 Array Size = 2851632
+Section1:Bcast:Object                   	50766.98	 (objects/s)	 Array Size = 2851632
+Section1:Gather:Double                  	625922.1	 (bytes/s)	 Array Size = 4Section1:Gather:Double                  	625922.1	 (bytes/s)	 Array Size = 4Section1:Gather:Double                  	625922.1	 (bytes/s)	 Array Size = 4
+Section1:Gather:Double                  	625922.1	 (bytes/s)	 Array Size = 4
+Section1:Gather:Double                  	625922.1	 (bytes/s)	 Array Size = 4
+Section1:Gather:Double                  	625922.1	 (bytes/s)	 Array Size = 4
+
+
+Section1:Gather:Double                  	625922.1	 (bytes/s)	 Array Size = 4
+Section1:Gather:Double                  	625922.1	 (bytes/s)	 Array Size = 4
+Section1:Gather:Double                  	1093894.5	 (bytes/s)	 Array Size = 7Section1:Gather:Double                  	1093894.5	 (bytes/s)	 Array Size = 7Section1:Gather:Double                  	1093894.5	 (bytes/s)	 Array Size = 7Section1:Gather:Double                  	1093894.5	 (bytes/s)	 Array Size = 7
+Section1:Gather:Double                  	1093894.5	 (bytes/s)	 Array Size = 7
+Section1:Gather:Double                  	1093894.5	 (bytes/s)	 Array Size = 7
+
+
+
+Section1:Gather:Double                  	1093894.5	 (bytes/s)	 Array Size = 7
+Section1:Gather:Double                  	1093894.5	 (bytes/s)	 Array Size = 7
+Section1:Gather:Double                  	1823742.6	 (bytes/s)	 Array Size = 12Section1:Gather:Double                  	1823742.6	 (bytes/s)	 Array Size = 12Section1:Gather:Double                  	1823742.6	 (bytes/s)	 Array Size = 12Section1:Gather:Double                  	1823742.6	 (bytes/s)	 Array Size = 12Section1:Gather:Double                  	1823742.6	 (bytes/s)	 Array Size = 12
+Section1:Gather:Double                  	1823742.6	 (bytes/s)	 Array Size = 12
+
+
+
+
+Section1:Gather:Double                  	1823742.6	 (bytes/s)	 Array Size = 12
+Section1:Gather:Double                  	1823742.6	 (bytes/s)	 Array Size = 12
+Section1:Gather:Double                  	3163807.0	 (bytes/s)	 Array Size = 21Section1:Gather:Double                  	3163807.0	 (bytes/s)	 Array Size = 21Section1:Gather:Double                  	3163807.0	 (bytes/s)	 Array Size = 21Section1:Gather:Double                  	3163807.0	 (bytes/s)	 Array Size = 21
+Section1:Gather:Double                  	3163807.0	 (bytes/s)	 Array Size = 21
+Section1:Gather:Double                  	3163807.0	 (bytes/s)	 Array Size = 21
+
+
+
+Section1:Gather:Double                  	3163807.0	 (bytes/s)	 Array Size = 21
+Section1:Gather:Double                  	3163807.0	 (bytes/s)	 Array Size = 21
+Section1:Gather:Double                  	5395635.0	 (bytes/s)	 Array Size = 37Section1:Gather:Double                  	5395635.0	 (bytes/s)	 Array Size = 37Section1:Gather:Double                  	5395635.0	 (bytes/s)	 Array Size = 37
+Section1:Gather:Double                  	5395635.0	 (bytes/s)	 Array Size = 37
+Section1:Gather:Double                  	5395635.0	 (bytes/s)	 Array Size = 37
+Section1:Gather:Double                  	5395635.0	 (bytes/s)	 Array Size = 37
+Section1:Gather:Double                  	5395635.0	 (bytes/s)	 Array Size = 37
+
+
+Section1:Gather:Double                  	5395635.0	 (bytes/s)	 Array Size = 37
+Section1:Gather:Double                  	9396608.0	 (bytes/s)	 Array Size = 66Section1:Gather:Double                  	9396608.0	 (bytes/s)	 Array Size = 66Section1:Gather:Double                  	9396608.0	 (bytes/s)	 Array Size = 66Section1:Gather:Double                  	9396608.0	 (bytes/s)	 Array Size = 66Section1:Gather:Double                  	9396608.0	 (bytes/s)	 Array Size = 66
+Section1:Gather:Double                  	9396608.0	 (bytes/s)	 Array Size = 66
+
+
+
+
+Section1:Gather:Double                  	9396608.0	 (bytes/s)	 Array Size = 66
+Section1:Gather:Double                  	9396608.0	 (bytes/s)	 Array Size = 66
+Section1:Gather:Double                  	1.534921E7	 (bytes/s)	 Array Size = 116Section1:Gather:Double                  	1.534921E7	 (bytes/s)	 Array Size = 116Section1:Gather:Double                  	1.534921E7	 (bytes/s)	 Array Size = 116Section1:Gather:Double                  	1.534921E7	 (bytes/s)	 Array Size = 116Section1:Gather:Double                  	1.534921E7	 (bytes/s)	 Array Size = 116
+
+
+
+
+Section1:Gather:Double                  	1.534921E7	 (bytes/s)	 Array Size = 116
+Section1:Gather:Double                  	1.534921E7	 (bytes/s)	 Array Size = 116
+Section1:Gather:Double                  	1.534921E7	 (bytes/s)	 Array Size = 116
+Section1:Gather:Double                  	2.5474022E7	 (bytes/s)	 Array Size = 203Section1:Gather:Double                  	2.5474022E7	 (bytes/s)	 Array Size = 203Section1:Gather:Double                  	2.5474022E7	 (bytes/s)	 Array Size = 203
+Section1:Gather:Double                  	2.5474022E7	 (bytes/s)	 Array Size = 203
+Section1:Gather:Double                  	2.5474022E7	 (bytes/s)	 Array Size = 203
+Section1:Gather:Double                  	2.5474022E7	 (bytes/s)	 Array Size = 203
+Section1:Gather:Double                  	2.5474022E7	 (bytes/s)	 Array Size = 203
+
+
+Section1:Gather:Double                  	2.5474022E7	 (bytes/s)	 Array Size = 203
+Section1:Gather:Double                  	4.138658E7	 (bytes/s)	 Array Size = 357Section1:Gather:Double                  	4.138658E7	 (bytes/s)	 Array Size = 357Section1:Gather:Double                  	4.138658E7	 (bytes/s)	 Array Size = 357Section1:Gather:Double                  	4.138658E7	 (bytes/s)	 Array Size = 357Section1:Gather:Double                  	4.138658E7	 (bytes/s)	 Array Size = 357
+Section1:Gather:Double                  	4.138658E7	 (bytes/s)	 Array Size = 357
+
+
+
+
+Section1:Gather:Double                  	4.138658E7	 (bytes/s)	 Array Size = 357
+Section1:Gather:Double                  	4.138658E7	 (bytes/s)	 Array Size = 357
+Section1:Gather:Double                  	5.9962416E7	 (bytes/s)	 Array Size = 626Section1:Gather:Double                  	5.9962416E7	 (bytes/s)	 Array Size = 626Section1:Gather:Double                  	5.9962416E7	 (bytes/s)	 Array Size = 626Section1:Gather:Double                  	5.9962416E7	 (bytes/s)	 Array Size = 626
+Section1:Gather:Double                  	5.9962416E7	 (bytes/s)	 Array Size = 626
+Section1:Gather:Double                  	5.9962416E7	 (bytes/s)	 Array Size = 626
+
+
+
+Section1:Gather:Double                  	5.9962416E7	 (bytes/s)	 Array Size = 626
+Section1:Gather:Double                  	5.9962416E7	 (bytes/s)	 Array Size = 626
+Section1:Gather:Double                  	8.1160048E7	 (bytes/s)	 Array Size = 1098Section1:Gather:Double                  	8.1160048E7	 (bytes/s)	 Array Size = 1098Section1:Gather:Double                  	8.1160048E7	 (bytes/s)	 Array Size = 1098
+Section1:Gather:Double                  	8.1160048E7	 (bytes/s)	 Array Size = 1098
+Section1:Gather:Double                  	8.1160048E7	 (bytes/s)	 Array Size = 1098
+Section1:Gather:Double                  	8.1160048E7	 (bytes/s)	 Array Size = 1098
+Section1:Gather:Double                  	8.1160048E7	 (bytes/s)	 Array Size = 1098
+
+
+Section1:Gather:Double                  	8.1160048E7	 (bytes/s)	 Array Size = 1098
+Section1:Gather:Double                  	1.05802464E8	 (bytes/s)	 Array Size = 1926Section1:Gather:Double                  	1.05802464E8	 (bytes/s)	 Array Size = 1926Section1:Gather:Double                  	1.05802464E8	 (bytes/s)	 Array Size = 1926Section1:Gather:Double                  	1.05802464E8	 (bytes/s)	 Array Size = 1926Section1:Gather:Double                  	1.05802464E8	 (bytes/s)	 Array Size = 1926
+Section1:Gather:Double                  	1.05802464E8	 (bytes/s)	 Array Size = 1926
+
+
+
+
+Section1:Gather:Double                  	1.05802464E8	 (bytes/s)	 Array Size = 1926
+Section1:Gather:Double                  	1.05802464E8	 (bytes/s)	 Array Size = 1926
+Section1:Gather:Double                  	1.2331248E8	 (bytes/s)	 Array Size = 3377Section1:Gather:Double                  	1.2331248E8	 (bytes/s)	 Array Size = 3377Section1:Gather:Double                  	1.2331248E8	 (bytes/s)	 Array Size = 3377Section1:Gather:Double                  	1.2331248E8	 (bytes/s)	 Array Size = 3377Section1:Gather:Double                  	1.2331248E8	 (bytes/s)	 Array Size = 3377
+Section1:Gather:Double                  	1.2331248E8	 (bytes/s)	 Array Size = 3377
+
+
+
+
+Section1:Gather:Double                  	1.2331248E8	 (bytes/s)	 Array Size = 3377
+Section1:Gather:Double                  	1.2331248E8	 (bytes/s)	 Array Size = 3377
+Section1:Gather:Double                  	1.32798992E8	 (bytes/s)	 Array Size = 5921Section1:Gather:Double                  	1.32798992E8	 (bytes/s)	 Array Size = 5921Section1:Gather:Double                  	1.32798992E8	 (bytes/s)	 Array Size = 5921Section1:Gather:Double                  	1.32798992E8	 (bytes/s)	 Array Size = 5921
+Section1:Gather:Double                  	1.32798992E8	 (bytes/s)	 Array Size = 5921
+Section1:Gather:Double                  	1.32798992E8	 (bytes/s)	 Array Size = 5921
+
+
+
+Section1:Gather:Double                  	1.32798992E8	 (bytes/s)	 Array Size = 5921
+Section1:Gather:Double                  	1.32798992E8	 (bytes/s)	 Array Size = 5921
+Section1:Gather:Double                  	1.41298928E8	 (bytes/s)	 Array Size = 10383Section1:Gather:Double                  	1.41298928E8	 (bytes/s)	 Array Size = 10383Section1:Gather:Double                  	1.41298928E8	 (bytes/s)	 Array Size = 10383Section1:Gather:Double                  	1.41298928E8	 (bytes/s)	 Array Size = 10383
+Section1:Gather:Double                  	1.41298928E8	 (bytes/s)	 Array Size = 10383
+Section1:Gather:Double                  	1.41298928E8	 (bytes/s)	 Array Size = 10383
+
+
+
+Section1:Gather:Double                  	1.41298928E8	 (bytes/s)	 Array Size = 10383
+Section1:Gather:Double                  	1.41298928E8	 (bytes/s)	 Array Size = 10383
+Section1:Gather:Double                  	1.32505872E8	 (bytes/s)	 Array Size = 18205Section1:Gather:Double                  	1.32505872E8	 (bytes/s)	 Array Size = 18205Section1:Gather:Double                  	1.32505872E8	 (bytes/s)	 Array Size = 18205
+Section1:Gather:Double                  	1.32505872E8	 (bytes/s)	 Array Size = 18205
+Section1:Gather:Double                  	1.32505872E8	 (bytes/s)	 Array Size = 18205
+Section1:Gather:Double                  	1.32505872E8	 (bytes/s)	 Array Size = 18205
+
+
+Section1:Gather:Double                  	1.32505872E8	 (bytes/s)	 Array Size = 18205
+Section1:Gather:Double                  	1.32505872E8	 (bytes/s)	 Array Size = 18205
+Section1:Gather:Double                  	1.23144256E8	 (bytes/s)	 Array Size = 31921Section1:Gather:Double                  	1.23137008E8	 (bytes/s)	 Array Size = 31921Section1:Gather:Double                  	1.23137008E8	 (bytes/s)	 Array Size = 31921Section1:Gather:Double                  	1.23137008E8	 (bytes/s)	 Array Size = 31921
+Section1:Gather:Double                  	1.23137008E8	 (bytes/s)	 Array Size = 31921
+Section1:Gather:Double                  	1.23137008E8	 (bytes/s)	 Array Size = 31921
+
+
+
+Section1:Gather:Double                  	1.23137008E8	 (bytes/s)	 Array Size = 31921
+Section1:Gather:Double                  	1.23137008E8	 (bytes/s)	 Array Size = 31921
+Section1:Gather:Double                  	9.9324392E7	 (bytes/s)	 Array Size = 55970Section1:Gather:Double                  	9.9324392E7	 (bytes/s)	 Array Size = 55970Section1:Gather:Double                  	9.9324392E7	 (bytes/s)	 Array Size = 55970Section1:Gather:Double                  	9.9324392E7	 (bytes/s)	 Array Size = 55970
+Section1:Gather:Double                  	9.9324392E7	 (bytes/s)	 Array Size = 55970
+Section1:Gather:Double                  	9.9324392E7	 (bytes/s)	 Array Size = 55970
+
+
+
+Section1:Gather:Double                  	9.9324392E7	 (bytes/s)	 Array Size = 55970
+Section1:Gather:Double                  	9.9324392E7	 (bytes/s)	 Array Size = 55970
+Section1:Gather:Double                  	9.283888E7	 (bytes/s)	 Array Size = 98137Section1:Gather:Double                  	9.283888E7	 (bytes/s)	 Array Size = 98137Section1:Gather:Double                  	9.283888E7	 (bytes/s)	 Array Size = 98137Section1:Gather:Double                  	9.283888E7	 (bytes/s)	 Array Size = 98137
+Section1:Gather:Double                  	9.283888E7	 (bytes/s)	 Array Size = 98137
+Section1:Gather:Double                  	9.283888E7	 (bytes/s)	 Array Size = 98137
+
+
+
+Section1:Gather:Double                  	9.283888E7	 (bytes/s)	 Array Size = 98137
+Section1:Gather:Double                  	9.283888E7	 (bytes/s)	 Array Size = 98137
+Section1:Gather:Double                  	7.0852664E7	 (bytes/s)	 Array Size = 172072Section1:Gather:Double                  	7.0852664E7	 (bytes/s)	 Array Size = 172072Section1:Gather:Double                  	7.0852664E7	 (bytes/s)	 Array Size = 172072Section1:Gather:Double                  	7.0852664E7	 (bytes/s)	 Array Size = 172072
+Section1:Gather:Double                  	7.0852664E7	 (bytes/s)	 Array Size = 172072
+Section1:Gather:Double                  	7.0852664E7	 (bytes/s)	 Array Size = 172072
+
+
+
+Section1:Gather:Double                  	7.0852664E7	 (bytes/s)	 Array Size = 172072
+Section1:Gather:Double                  	7.0852664E7	 (bytes/s)	 Array Size = 172072
+Section1:Gather:Double                  	1.04560112E8	 (bytes/s)	 Array Size = 301708Section1:Gather:Double                  	1.04560112E8	 (bytes/s)	 Array Size = 301708Section1:Gather:Double                  	1.04560112E8	 (bytes/s)	 Array Size = 301708
+Section1:Gather:Double                  	1.04560112E8	 (bytes/s)	 Array Size = 301708
+Section1:Gather:Double                  	1.04560112E8	 (bytes/s)	 Array Size = 301708
+Section1:Gather:Double                  	1.04560112E8	 (bytes/s)	 Array Size = 301708
+Section1:Gather:Double                  	1.04560112E8	 (bytes/s)	 Array Size = 301708
+Section1:Gather:Double                  	1.04560112E8	 (bytes/s)	 Array Size = 301708
+
+
+Section1:Gather:Double                  	4.7347804E7	 (bytes/s)	 Array Size = 529010Section1:Gather:Double                  	4.7347804E7	 (bytes/s)	 Array Size = 529010Section1:Gather:Double                  	4.7347804E7	 (bytes/s)	 Array Size = 529010Section1:Gather:Double                  	4.7347804E7	 (bytes/s)	 Array Size = 529010Section1:Gather:Double                  	4.7347804E7	 (bytes/s)	 Array Size = 529010
+
+
+
+
+Section1:Gather:Double                  	4.7347804E7	 (bytes/s)	 Array Size = 529010
+Section1:Gather:Double                  	4.7347804E7	 (bytes/s)	 Array Size = 529010
+Section1:Gather:Double                  	4.7347804E7	 (bytes/s)	 Array Size = 529010
+Section1:Gather:Double                  	4.6637452E7	 (bytes/s)	 Array Size = 927557Section1:Gather:Double                  	4.6637452E7	 (bytes/s)	 Array Size = 927557Section1:Gather:Double                  	4.6637452E7	 (bytes/s)	 Array Size = 927557Section1:Gather:Double                  	4.6637452E7	 (bytes/s)	 Array Size = 927557
+Section1:Gather:Double                  	4.6637452E7	 (bytes/s)	 Array Size = 927557
+Section1:Gather:Double                  	4.6637452E7	 (bytes/s)	 Array Size = 927557
+
+
+
+Section1:Gather:Double                  	4.6637452E7	 (bytes/s)	 Array Size = 927557
+Section1:Gather:Double                  	4.6637452E7	 (bytes/s)	 Array Size = 927557
+Section1:Gather:Double                  	4.7631668E7	 (bytes/s)	 Array Size = 1626361Section1:Gather:Double                  	4.7631668E7	 (bytes/s)	 Array Size = 1626361Section1:Gather:Double                  	4.7631668E7	 (bytes/s)	 Array Size = 1626361Section1:Gather:Double                  	4.7631668E7	 (bytes/s)	 Array Size = 1626361
+Section1:Gather:Double                  	4.7631668E7	 (bytes/s)	 Array Size = 1626361
+Section1:Gather:Double                  	4.7631668E7	 (bytes/s)	 Array Size = 1626361
+
+
+
+Section1:Gather:Double                  	4.7631668E7	 (bytes/s)	 Array Size = 1626361
+Section1:Gather:Double                  	4.7631668E7	 (bytes/s)	 Array Size = 1626361
+Section1:Gather:Double                  	4.8294376E7	 (bytes/s)	 Array Size = 2851632Section1:Gather:Double                  	4.8294376E7	 (bytes/s)	 Array Size = 2851632Section1:Gather:Double                  	4.8294376E7	 (bytes/s)	 Array Size = 2851632Section1:Gather:Double                  	4.8294376E7	 (bytes/s)	 Array Size = 2851632
+Section1:Gather:Double                  	4.8294376E7	 (bytes/s)	 Array Size = 2851632
+Section1:Gather:Double                  	4.8294376E7	 (bytes/s)	 Array Size = 2851632
+
+
+
+Section1:Gather:Double                  	4.8294376E7	 (bytes/s)	 Array Size = 2851632
+Section1:Gather:Double                  	4.8294376E7	 (bytes/s)	 Array Size = 2851632
+Section1:Gather:Object                  	7404.7793	 (objects/s)	 Array Size = 4Section1:Gather:Object                  	7404.7793	 (objects/s)	 Array Size = 4
+Section1:Gather:Object                  	7404.7793	 (objects/s)	 Array Size = 4
+Section1:Gather:Object                  	7404.7793	 (objects/s)	 Array Size = 4
+Section1:Gather:Object                  	7404.7793	 (objects/s)	 Array Size = 4
+Section1:Gather:Object                  	7404.7793	 (objects/s)	 Array Size = 4
+
+Section1:Gather:Object                  	7404.7793	 (objects/s)	 Array Size = 4
+Section1:Gather:Object                  	7404.7793	 (objects/s)	 Array Size = 4
+Section1:Gather:Object                  	13905.79	 (objects/s)	 Array Size = 7Section1:Gather:Object                  	13905.79	 (objects/s)	 Array Size = 7
+Section1:Gather:Object                  	13905.79	 (objects/s)	 Array Size = 7
+Section1:Gather:Object                  	13905.79	 (objects/s)	 Array Size = 7
+Section1:Gather:Object                  	13905.79	 (objects/s)	 Array Size = 7
+Section1:Gather:Object                  	13905.79	 (objects/s)	 Array Size = 7
+
+Section1:Gather:Object                  	13905.79	 (objects/s)	 Array Size = 7
+Section1:Gather:Object                  	13905.79	 (objects/s)	 Array Size = 7
+Section1:Gather:Object                  	22514.516	 (objects/s)	 Array Size = 12Section1:Gather:Object                  	22514.516	 (objects/s)	 Array Size = 12
+Section1:Gather:Object                  	22514.516	 (objects/s)	 Array Size = 12
+Section1:Gather:Object                  	22514.516	 (objects/s)	 Array Size = 12
+Section1:Gather:Object                  	22514.516	 (objects/s)	 Array Size = 12
+Section1:Gather:Object                  	22514.516	 (objects/s)	 Array Size = 12
+
+Section1:Gather:Object                  	22514.516	 (objects/s)	 Array Size = 12
+Section1:Gather:Object                  	22514.516	 (objects/s)	 Array Size = 12
+Section1:Gather:Object                  	29814.904	 (objects/s)	 Array Size = 21Section1:Gather:Object                  	29814.904	 (objects/s)	 Array Size = 21
+Section1:Gather:Object                  	29814.904	 (objects/s)	 Array Size = 21
+Section1:Gather:Object                  	29814.904	 (objects/s)	 Array Size = 21
+Section1:Gather:Object                  	29814.904	 (objects/s)	 Array Size = 21
+Section1:Gather:Object                  	29814.904	 (objects/s)	 Array Size = 21
+Section1:Gather:Object                  	29814.904	 (objects/s)	 Array Size = 21
+
+Section1:Gather:Object                  	29814.904	 (objects/s)	 Array Size = 21
+Section1:Gather:Object                  	58599.13	 (objects/s)	 Array Size = 37Section1:Gather:Object                  	58599.13	 (objects/s)	 Array Size = 37
+Section1:Gather:Object                  	58599.13	 (objects/s)	 Array Size = 37
+Section1:Gather:Object                  	58599.13	 (objects/s)	 Array Size = 37
+Section1:Gather:Object                  	58599.13	 (objects/s)	 Array Size = 37
+Section1:Gather:Object                  	58599.13	 (objects/s)	 Array Size = 37
+
+Section1:Gather:Object                  	58599.13	 (objects/s)	 Array Size = 37
+Section1:Gather:Object                  	58599.13	 (objects/s)	 Array Size = 37
+Section1:Gather:Object                  	87324.88	 (objects/s)	 Array Size = 66Section1:Gather:Object                  	87324.88	 (objects/s)	 Array Size = 66
+Section1:Gather:Object                  	87324.88	 (objects/s)	 Array Size = 66
+Section1:Gather:Object                  	87324.88	 (objects/s)	 Array Size = 66
+Section1:Gather:Object                  	87324.88	 (objects/s)	 Array Size = 66
+Section1:Gather:Object                  	87324.88	 (objects/s)	 Array Size = 66
+
+Section1:Gather:Object                  	87324.88	 (objects/s)	 Array Size = 66
+Section1:Gather:Object                  	87324.88	 (objects/s)	 Array Size = 66
+Section1:Gather:Object                  	102427.59	 (objects/s)	 Array Size = 116Section1:Gather:Object                  	102427.59	 (objects/s)	 Array Size = 116
+Section1:Gather:Object                  	102427.59	 (objects/s)	 Array Size = 116
+Section1:Gather:Object                  	102427.59	 (objects/s)	 Array Size = 116
+Section1:Gather:Object                  	102427.59	 (objects/s)	 Array Size = 116
+Section1:Gather:Object                  	102427.59	 (objects/s)	 Array Size = 116
+
+Section1:Gather:Object                  	102427.59	 (objects/s)	 Array Size = 116
+Section1:Gather:Object                  	102427.59	 (objects/s)	 Array Size = 116
+Section1:Gather:Object                  	148493.27	 (objects/s)	 Array Size = 203Section1:Gather:Object                  	148493.27	 (objects/s)	 Array Size = 203
+Section1:Gather:Object                  	148493.27	 (objects/s)	 Array Size = 203
+Section1:Gather:Object                  	148493.27	 (objects/s)	 Array Size = 203
+Section1:Gather:Object                  	148493.27	 (objects/s)	 Array Size = 203
+Section1:Gather:Object                  	148493.27	 (objects/s)	 Array Size = 203
+
+Section1:Gather:Object                  	148493.27	 (objects/s)	 Array Size = 203
+Section1:Gather:Object                  	148493.27	 (objects/s)	 Array Size = 203
+Section1:Gather:Object                  	160521.66	 (objects/s)	 Array Size = 357Section1:Gather:Object                  	160521.66	 (objects/s)	 Array Size = 357
+Section1:Gather:Object                  	160521.66	 (objects/s)	 Array Size = 357
+Section1:Gather:Object                  	160521.66	 (objects/s)	 Array Size = 357
+Section1:Gather:Object                  	160521.66	 (objects/s)	 Array Size = 357
+Section1:Gather:Object                  	160521.66	 (objects/s)	 Array Size = 357
+
+Section1:Gather:Object                  	160521.66	 (objects/s)	 Array Size = 357
+Section1:Gather:Object                  	160521.66	 (objects/s)	 Array Size = 357
+Section1:Gather:Object                  	173672.17	 (objects/s)	 Array Size = 626Section1:Gather:Object                  	173672.17	 (objects/s)	 Array Size = 626
+Section1:Gather:Object                  	173672.17	 (objects/s)	 Array Size = 626
+Section1:Gather:Object                  	173672.17	 (objects/s)	 Array Size = 626
+Section1:Gather:Object                  	173672.17	 (objects/s)	 Array Size = 626
+Section1:Gather:Object                  	173672.17	 (objects/s)	 Array Size = 626
+
+Section1:Gather:Object                  	173672.17	 (objects/s)	 Array Size = 626
+Section1:Gather:Object                  	173672.17	 (objects/s)	 Array Size = 626
+Section1:Gather:Object                  	157837.02	 (objects/s)	 Array Size = 1098Section1:Gather:Object                  	157837.02	 (objects/s)	 Array Size = 1098
+Section1:Gather:Object                  	157837.02	 (objects/s)	 Array Size = 1098
+Section1:Gather:Object                  	157837.02	 (objects/s)	 Array Size = 1098
+Section1:Gather:Object                  	157837.02	 (objects/s)	 Array Size = 1098
+Section1:Gather:Object                  	157837.02	 (objects/s)	 Array Size = 1098
+
+Section1:Gather:Object                  	157837.02	 (objects/s)	 Array Size = 1098
+Section1:Gather:Object                  	157837.02	 (objects/s)	 Array Size = 1098
+Section1:Gather:Object                  	211884.83	 (objects/s)	 Array Size = 1926Section1:Gather:Object                  	211884.83	 (objects/s)	 Array Size = 1926
+Section1:Gather:Object                  	211884.83	 (objects/s)	 Array Size = 1926
+Section1:Gather:Object                  	211884.83	 (objects/s)	 Array Size = 1926
+Section1:Gather:Object                  	211884.83	 (objects/s)	 Array Size = 1926
+Section1:Gather:Object                  	211884.83	 (objects/s)	 Array Size = 1926
+Section1:Gather:Object                  	211884.83	 (objects/s)	 Array Size = 1926
+
+Section1:Gather:Object                  	211884.83	 (objects/s)	 Array Size = 1926
+Section1:Gather:Object                  	210100.73	 (objects/s)	 Array Size = 3377Section1:Gather:Object                  	210100.73	 (objects/s)	 Array Size = 3377
+Section1:Gather:Object                  	210100.73	 (objects/s)	 Array Size = 3377
+Section1:Gather:Object                  	210100.73	 (objects/s)	 Array Size = 3377
+Section1:Gather:Object                  	210100.73	 (objects/s)	 Array Size = 3377
+Section1:Gather:Object                  	210100.73	 (objects/s)	 Array Size = 3377
+
+Section1:Gather:Object                  	210100.73	 (objects/s)	 Array Size = 3377
+Section1:Gather:Object                  	210100.73	 (objects/s)	 Array Size = 3377
+Section1:Gather:Object                  	193870.44	 (objects/s)	 Array Size = 5921Section1:Gather:Object                  	193870.44	 (objects/s)	 Array Size = 5921
+Section1:Gather:Object                  	193870.44	 (objects/s)	 Array Size = 5921
+Section1:Gather:Object                  	193870.44	 (objects/s)	 Array Size = 5921
+Section1:Gather:Object                  	193870.44	 (objects/s)	 Array Size = 5921
+Section1:Gather:Object                  	193870.44	 (objects/s)	 Array Size = 5921
+
+Section1:Gather:Object                  	193870.44	 (objects/s)	 Array Size = 5921
+Section1:Gather:Object                  	193870.44	 (objects/s)	 Array Size = 5921
+Section1:Gather:Object                  	212067.02	 (objects/s)	 Array Size = 10383Section1:Gather:Object                  	212067.02	 (objects/s)	 Array Size = 10383
+Section1:Gather:Object                  	212067.02	 (objects/s)	 Array Size = 10383
+Section1:Gather:Object                  	212067.02	 (objects/s)	 Array Size = 10383
+Section1:Gather:Object                  	212067.02	 (objects/s)	 Array Size = 10383
+Section1:Gather:Object                  	212067.02	 (objects/s)	 Array Size = 10383
+Section1:Gather:Object                  	212067.02	 (objects/s)	 Array Size = 10383
+
+Section1:Gather:Object                  	212067.02	 (objects/s)	 Array Size = 10383
+Section1:Gather:Object                  	213626.7	 (objects/s)	 Array Size = 18205Section1:Gather:Object                  	213626.7	 (objects/s)	 Array Size = 18205
+Section1:Gather:Object                  	213626.7	 (objects/s)	 Array Size = 18205
+Section1:Gather:Object                  	213626.7	 (objects/s)	 Array Size = 18205
+Section1:Gather:Object                  	213626.7	 (objects/s)	 Array Size = 18205
+Section1:Gather:Object                  	213626.7	 (objects/s)	 Array Size = 18205
+
+Section1:Gather:Object                  	213626.7	 (objects/s)	 Array Size = 18205
+Section1:Gather:Object                  	213626.7	 (objects/s)	 Array Size = 18205
+Section1:Gather:Object                  	193836.9	 (objects/s)	 Array Size = 31921Section1:Gather:Object                  	193836.9	 (objects/s)	 Array Size = 31921
+Section1:Gather:Object                  	193836.9	 (objects/s)	 Array Size = 31921
+Section1:Gather:Object                  	193836.9	 (objects/s)	 Array Size = 31921
+Section1:Gather:Object                  	193836.9	 (objects/s)	 Array Size = 31921
+Section1:Gather:Object                  	193836.9	 (objects/s)	 Array Size = 31921
+Section1:Gather:Object                  	193836.9	 (objects/s)	 Array Size = 31921
+
+Section1:Gather:Object                  	193836.9	 (objects/s)	 Array Size = 31921
+Section1:Gather:Object                  	204386.62	 (objects/s)	 Array Size = 55970Section1:Gather:Object                  	204386.62	 (objects/s)	 Array Size = 55970
+Section1:Gather:Object                  	204386.62	 (objects/s)	 Array Size = 55970
+Section1:Gather:Object                  	204386.62	 (objects/s)	 Array Size = 55970
+Section1:Gather:Object                  	204386.62	 (objects/s)	 Array Size = 55970
+Section1:Gather:Object                  	204386.62	 (objects/s)	 Array Size = 55970
+
+Section1:Gather:Object                  	204386.62	 (objects/s)	 Array Size = 55970
+Section1:Gather:Object                  	204386.62	 (objects/s)	 Array Size = 55970
+Section1:Gather:Object                  	196507.36	 (objects/s)	 Array Size = 98137Section1:Gather:Object                  	196507.36	 (objects/s)	 Array Size = 98137
+Section1:Gather:Object                  	196507.36	 (objects/s)	 Array Size = 98137
+Section1:Gather:Object                  	196507.36	 (objects/s)	 Array Size = 98137
+Section1:Gather:Object                  	196507.36	 (objects/s)	 Array Size = 98137
+Section1:Gather:Object                  	196507.36	 (objects/s)	 Array Size = 98137
+
+Section1:Gather:Object                  	196507.36	 (objects/s)	 Array Size = 98137
+Section1:Gather:Object                  	196507.36	 (objects/s)	 Array Size = 98137
+Section1:Gather:Object                  	186300.72	 (objects/s)	 Array Size = 172072Section1:Gather:Object                  	186300.72	 (objects/s)	 Array Size = 172072
+Section1:Gather:Object                  	186300.72	 (objects/s)	 Array Size = 172072
+Section1:Gather:Object                  	186300.72	 (objects/s)	 Array Size = 172072
+Section1:Gather:Object                  	186300.72	 (objects/s)	 Array Size = 172072
+Section1:Gather:Object                  	186300.72	 (objects/s)	 Array Size = 172072
+
+Section1:Gather:Object                  	186300.72	 (objects/s)	 Array Size = 172072
+Section1:Gather:Object                  	186300.72	 (objects/s)	 Array Size = 172072
+Section1:Gather:Object                  	182645.78	 (objects/s)	 Array Size = 301708Section1:Gather:Object                  	182645.78	 (objects/s)	 Array Size = 301708
+Section1:Gather:Object                  	182645.78	 (objects/s)	 Array Size = 301708
+Section1:Gather:Object                  	182645.78	 (objects/s)	 Array Size = 301708
+Section1:Gather:Object                  	182645.78	 (objects/s)	 Array Size = 301708
+Section1:Gather:Object                  	182645.78	 (objects/s)	 Array Size = 301708
+Section1:Gather:Object                  	182645.78	 (objects/s)	 Array Size = 301708
+
+Section1:Gather:Object                  	182645.78	 (objects/s)	 Array Size = 301708
+Section1:Gather:Object                  	172470.45	 (objects/s)	 Array Size = 529010Section1:Gather:Object                  	172470.45	 (objects/s)	 Array Size = 529010
+Section1:Gather:Object                  	172470.45	 (objects/s)	 Array Size = 529010
+Section1:Gather:Object                  	172470.45	 (objects/s)	 Array Size = 529010
+Section1:Gather:Object                  	172470.45	 (objects/s)	 Array Size = 529010
+Section1:Gather:Object                  	172470.45	 (objects/s)	 Array Size = 529010
+
+Section1:Gather:Object                  	172470.45	 (objects/s)	 Array Size = 529010
+Section1:Gather:Object                  	172470.45	 (objects/s)	 Array Size = 529010
+Section1:Gather:Object                  	175093.34	 (objects/s)	 Array Size = 927557Section1:Gather:Object                  	175093.34	 (objects/s)	 Array Size = 927557Section1:Gather:Object                  	175093.34	 (objects/s)	 Array Size = 927557
+Section1:Gather:Object                  	175093.34	 (objects/s)	 Array Size = 927557
+Section1:Gather:Object                  	175093.34	 (objects/s)	 Array Size = 927557
+Section1:Gather:Object                  	175093.34	 (objects/s)	 Array Size = 927557
+
+
+Section1:Gather:Object                  	175093.34	 (objects/s)	 Array Size = 927557
+Section1:Gather:Object                  	175093.34	 (objects/s)	 Array Size = 927557
+Section1:Gather:Object                  	91348.07	 (objects/s)	 Array Size = 1626361Section1:Gather:Object                  	91348.07	 (objects/s)	 Array Size = 1626361
+Section1:Gather:Object                  	91348.07	 (objects/s)	 Array Size = 1626361
+Section1:Gather:Object                  	91348.07	 (objects/s)	 Array Size = 1626361
+Section1:Gather:Object                  	91348.07	 (objects/s)	 Array Size = 1626361
+Section1:Gather:Object                  	91348.07	 (objects/s)	 Array Size = 1626361
+
+Section1:Gather:Object                  	91348.07	 (objects/s)	 Array Size = 1626361
+Section1:Gather:Object                  	91348.07	 (objects/s)	 Array Size = 1626361
+Section1:Gather:Object                  	127744.12	 (objects/s)	 Array Size = 2851632Section1:Gather:Object                  	127744.12	 (objects/s)	 Array Size = 2851632
+Section1:Gather:Object                  	127744.12	 (objects/s)	 Array Size = 2851632
+Section1:Gather:Object                  	127744.12	 (objects/s)	 Array Size = 2851632
+Section1:Gather:Object                  	127744.12	 (objects/s)	 Array Size = 2851632
+Section1:Gather:Object                  	127744.12	 (objects/s)	 Array Size = 2851632
+Section1:Gather:Object                  	127744.12	 (objects/s)	 Array Size = 2851632
+
+Section1:Gather:Object                  	127744.12	 (objects/s)	 Array Size = 2851632

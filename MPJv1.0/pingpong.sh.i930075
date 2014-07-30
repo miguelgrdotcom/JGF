@@ -1,0 +1,117 @@
+Job Information
+
+ JOB ID                    : 930075
+ JOB NAME                  : pingpong.sh
+ JOB TYPE                  : BATCH
+ JOB MODEL                 : NM
+ RETRY NUM                 : 0
+ SUB JOB NUM               : -
+ USER                      : c83001
+ GROUP                     : gc83
+ RESOURCE UNIT             : oakleaf-fx
+ RESOURCE GROUP            : debug
+ APRIORITY                 : 127
+ PRIORITY                  : 63
+ SHELL                     : /bin/bash
+ COMMENT                   : 
+ LAST STATE                : RNO
+ STATE                     : EXT
+ PRM DATE                  : 2013/10/20 18:49:33
+ EXIT CODE                 : 0
+ SIGNAL NO                 : 0
+ PJM CODE                  : 0
+ REASON                    : -
+ MAIL SEND FLAG            : ----
+ MAIL ADDRESS              : c83001@oakleaf-fx-6
+ STEP DEPENDENCY EXP       : -
+ STEP EXITING WAIT MODE    : -
+ FILE MASK                 : 0022
+ STANDARD OUT FILE         : /group1/gc83/c83001/JGF/MPJv1.0/log/pingpong_1x2
+ STANDARD ERR FILE         : /group1/gc83/c83001/JGF/MPJv1.0/log/pingpong_1x2
+ INFORMATION FILE          : /group1/gc83/c83001/JGF/MPJv1.0/pingpong.sh.i930075
+ PJSUB DIRECTORY           : /group1/gc83/c83001/JGF/MPJv1.0
+ FILE SYSTEM NAME          : 
+ APPLICATION NAME          : :submitted on oakleaf-fx-6
+ ACCEPT DATE               : 2013/10/20 18:25:31
+ QUEUED DATE               : 2013/10/20 18:25:31
+ EXIT DATE                 : 2013/10/20 18:49:34
+ LAST HOLD USER            : 
+ HOLD NUM                  : 0
+ HOLD TIME                 : 00:00:00 (0)
+ JOB START DATE            : 2013/10/20 18:25:39
+ JOB END DATE              : 2013/10/20 18:49:32
+ JOB DELETE DATE (REQUIRE) : -
+ JOB DELETE DATE           : -
+ STAGE IN START DATE       : -
+ STAGE IN END DATE         : -
+ STAGE IN SIZE             : 0.0 MB (0)
+ STAGE OUT START DATE      : -
+ STAGE OUT END DATE        : -
+ STAGE OUT SIZE            : 0.0 MB (0)
+ NODE NUM (REQUIRE)        : 1
+ CPU NUM (REQUIRE)         : 16
+ ELAPSE TIME (LIMIT)       : 00:30:00 (1800) <DEFAULT>
+ MEMORY SIZE (LIMIT)       : 28672.0 MiB (30064771072) <DEFAULT>
+ DISK SIZE (LIMIT)         : 240000.0 MB (240000000000) <DEFAULT>
+ CPU TIME (LIMIT)          : unlimited <DEFAULT>
+ PROC CPU LIMIT            : unlimited <DEFAULT>
+ PROC COREFILE LIMIT       : 0.0 MB (0) <DEFAULT>
+ PROC CREATE PROC LIMIT    : 512 <DEFAULT>
+ PROC DATA LIMIT           : unlimited <DEFAULT>
+ PROC LOCKED MEMORY LIMIT  : unlimited <DEFAULT>
+ PROC MESSAGE QUEUE LIMIT  : unlimited <DEFAULT>
+ PROC OPEN FILES LIMIT     : 1048576 <DEFAULT>
+ PROC PENDING SIGNAL LIMIT : unlimited <DEFAULT>
+ PROC PERMFILE LIMIT       : unlimited <DEFAULT>
+ PROC STACK LIMIT          : unlimited <DEFAULT>
+ PROC VIRTUAL MEMORY LIMIT : unlimited <DEFAULT>
+ NODE NUM (ALLOC)          : 1:1x1x1
+ MEMORY SIZE (ALLOC)       : 28672.0 MiB (30064771072)
+ CPU NUM (ALLOC)           : 16
+ ELAPSE TIME (USE)         : 00:23:54 (1434)
+ NODE NUM (UNUSED)         : 0
+ NODE NUM (USE)            : 1
+ NODE ID (USE)             : 0x03070048 
+ TOFU COORDINATE (USE)     : (0,4,8) 
+ MAX MEMORY SIZE (USE)     : 6595.9 MiB (6916235264)
+ CPU NUM (USE)             : 16
+ USER CPU TIME (USE)       : 3039200 ms
+ SYSTEM CPU TIME (USE)     : 25260 ms
+ CPU TIME (TOTAL)          : 3064460 ms
+ DISK SIZE (USE)           : -
+ I/O SIZE                  : 6.9 MB (6872379)
+ FILE I/O SIZE             : 6.7 MB (6683034)
+ EXEC INST NUM             : 0
+ EXEC SIMD NUM             : 0
+ PRO START DATE            : 2013/10/20 18:25:38
+ PRO END DATE              : 2013/10/20 18:25:38
+ PRO EXIT CODE             : 0
+ EPI START DATE            : 2013/10/20 18:49:33
+ EPI END DATE              : 2013/10/20 18:49:33
+ EPI EXIT CODE             : 0
+ HOST NAME                 : oakleaf-fx-6
+ NODE ID (RANK)            : 0x03070048(0) 0x03070048(1) 
+
+--------------------------------------------------------------------------------
+Node Information
+
+ NODE ID                   : 0x03070048
+ TOFU COORDINATE           : (0,4,8)
+ NODE AVAILABLE            : available
+ ARCHI INFORMATION         : FX
+ MEMORY SIZE (LIMIT)       : 28672.0 MiB (30064771072) <DEFAULT>
+ CPU TIME (LIMIT)          : unlimited <DEFAULT>
+ DISK SIZE (LIMIT)         : 240000.0 MB (240000000000) <DEFAULT>
+ MEMORY SIZE (ALLOC)       : 28672.0 MiB (30064771072)
+ CPU NUM (ALLOC)           : 16
+ MAX MEMORY SIZE (USE)     : 6595.9 MiB (6916235264)
+ CPU NUM (USE)             : 16
+ USER CPU TIME (USE)       : 3039200 ms
+ SYSTEM CPU TIME (USE)     : 25260 ms
+ CPU TIME (TOTAL)          : 3064460 ms
+ DISK SIZE (USE)           : -
+ I/O SIZE                  : 6.9 MB (6872379)
+ FILE I/O SIZE             : 6.7 MB (6683034)
+ EXEC INST NUM             : 0
+ EXEC SIMD NUM             : 0
+

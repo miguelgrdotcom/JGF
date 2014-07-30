@@ -1,0 +1,12 @@
+OMPIJ_HOME=/group1/gc83/share/local/ompi
+CLASSPATH=.:/group1/gc83/share/local/ompi/lib/mpi.jar
+LD_LIBRARY_PATH=.:/group1/gc83/share/local/ompi/lib:/opt/FJSVfxlang/GM-1.2.1-07/lib64:/usr/local/FJSVfxlang/lib:/opt/FJSVXosSclib/lib64
+Java Grande Forum MPJ Benchmark Suite - Version 1.0 - Section 2 - Size C
+Executing on 16 processes
+
+Section2:Series:Kernel:SizeC	147.676 (s) 	 13543.155	 (coefficients/s)
+Section2:LUFact:Kernel:SizeC	2.785 (s) 	 1917.8934	 (Mflops/s)
+Section2:Crypt:Kernel:SizeC	0.995 (s) 	 100502.516	 (Kbyte/s)
+Validation failed
+ytotal = 749.5245870753762  1.0231815394945443E-12  2
+Section2:SparseMatmult:Kernel:SizeC	25.261 (s) 	 7.917343	 (Iterations/s)

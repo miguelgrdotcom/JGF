@@ -1,0 +1,9 @@
+Java Grande Forum Benchmark Suite - Version 2.0 - Section 2 - Size C
+
+Section2:Crypt:Kernel:SizeC	11.002 (s) 	 9089.257	 (Kbyte/s)
+Section2:Series:Kernel:SizeC	1907.141 (s) 	 1048.6896	 (coefficients/s)
+Section2:LUFact:Kernel:SizeC	11.976 (s) 	 446.0031	 (Mflops/s)
+Section2:HeapSort:Kernel:SizeC	58.991 (s) 	 423793.47	 (items/s)
+Section2:FFT:Kernel:SizeC	195.308 (s) 	 85901.33	 (Samples/s)
+Section2:SOR:Kernel:SizeC	6.132 (s) 	 16.307894	 (Iterations/s)
+Section2:SparseMatmult:Kernel:SizeC	147.813 (s) 	 1.353061	 (Iterations/s)

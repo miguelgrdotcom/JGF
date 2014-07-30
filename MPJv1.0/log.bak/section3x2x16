@@ -1,0 +1,77 @@
+OMPIJ_HOME=/group1/gc83/share/local/ompi
+CLASSPATH=.:/group1/gc83/share/local/ompi/lib/mpi.jar
+LD_LIBRARY_PATH=.:/group1/gc83/share/local/ompi/lib:/opt/FJSVfxlang/GM-1.2.1-07/lib64:/usr/local/FJSVfxlang/lib:/opt/FJSVXosSclib/lib64
+Java Grande Forum MPJ Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 32 processes
+
+Validation failed
+Validation failedValidation failedValidation failedValidation failedValidation failedValidation failedValidation failedValidation failedValidation failedValidation failedValidation failedValidation failedValidation failedValidation failedValidation failed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1
+
+
+Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1
+
+Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1
+Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1
+Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1
+Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1
+
+Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1
+Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1
+Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1
+
+
+Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1
+Validation failedValidation failedValidation failedValidation failed
+Validation failed
+Validation failed
+Validation failed
+Validation failed
+Validation failed
+Validation failed
+Validation failed
+Validation failed
+Validation failed
+Validation failedValidation failed
+Validation failed
+
+
+
+
+Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1
+
+Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1
+Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1
+
+
+Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1
+Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1
+Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1
+Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1
+Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1
+Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1
+
+
+
+Kinetic Energy = 7397.392307839357  5.4569682106375694E-12  1
+Section3:MolDyn:Run:SizeB	2.845 (s) 	 9.064056E7	 (Interactions/s)
+Section3:MolDyn:Total:SizeB	4.465 (s) 	 0.22396417	 (Solutions/s)
+Section3:MonteCarlo:Run:SizeB	50.565 (s) 	 1186.5916	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	59.311 (s) 	 0.016860278	 (Solutions/s)
+Section3:RayTracer:Init:SizeB	0.034 (s) 	 1882.3529	 (Objects/s)
+Section3:RayTracer:Run:SizeB	1.619 (s) 	 154416.31	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	2.133 (s) 	 0.46882325	 (Solutions/s)

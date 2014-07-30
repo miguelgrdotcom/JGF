@@ -1,0 +1,10 @@
+The no of threads has not been specified, defaulting to 1
+
+Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 2 - Size C
+Executing on 1 thread
+
+Section2:Series:Kernel:SizeC    1170.961 (s)     1707.9979       (coefficients/s)
+Section2:LUFact:Kernel:SizeC    6.928 (s)        770.97766       (Mflops/s)
+Section2:Crypt:Kernel:SizeC     3.843 (s)        26021.338       (Kbyte/s)
+Section2:SOR:Kernel:SizeC       2.466 (s)        40.551502       (Iterations/s)
+Section2:SparseMatmult:Kernel:SizeC     5.636 (s)        35.48616        (Iterations/s)

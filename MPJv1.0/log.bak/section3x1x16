@@ -1,0 +1,13 @@
+OMPIJ_HOME=/group1/gc83/share/local/ompi
+CLASSPATH=.:/group1/gc83/share/local/ompi/lib/mpi.jar
+LD_LIBRARY_PATH=.:/group1/gc83/share/local/ompi/lib:/opt/FJSVfxlang/GM-1.2.1-07/lib64:/usr/local/FJSVfxlang/lib:/opt/FJSVXosSclib/lib64
+Java Grande Forum MPJ Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 16 processes
+
+Section3:MolDyn:Run:SizeB	4.114 (s) 	 5.039728E7	 (Interactions/s)
+Section3:MolDyn:Total:SizeB	6.167 (s) 	 0.1621534	 (Solutions/s)
+Section3:MonteCarlo:Run:SizeB	40.71 (s) 	 1473.8394	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	46.796 (s) 	 0.021369347	 (Solutions/s)
+Section3:RayTracer:Init:SizeB	0.024 (s) 	 2666.6667	 (Objects/s)
+Section3:RayTracer:Run:SizeB	3.15 (s) 	 79365.08	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	3.673 (s) 	 0.272257	 (Solutions/s)

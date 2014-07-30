@@ -1,0 +1,13 @@
+Java Grande Forum Benchmark Suite - Version 2.0 - Section 3 - Size B
+
+Section3:Euler:Init:SizeB	0.826 (s) 	 45211.863	 (Gridpoints/s)
+Section3:Euler:Run:SizeB	13.21 (s) 	 7.5700226	 (Timesteps/s)
+Section3:Euler:Total:SizeB	14.073 (s) 	 0.07105806	 (Solutions/s)
+Section3:MolDyn:Run:SizeB	43.918 (s) 	 613688.1	 (Interactions/s)
+Section3:MolDyn:Total:SizeB	44.137 (s) 	 0.022656728	 (Solutions/s)
+Section3:MonteCarlo:Run:SizeB	39.273 (s) 	 1527.7672	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	41.287 (s) 	 0.0242207	 (Solutions/s)
+Section3:RayTracer:Init:SizeB	0.098 (s) 	 653.0612	 (Objects/s)
+Section3:RayTracer:Run:SizeB	40.693 (s) 	 6143.563	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	40.979 (s) 	 0.024402743	 (Solutions/s)
+Section3:AlphaBetaSearch:Run:SizeB	30.169 (s) 	 1144146.6	 (positions/s)
