@@ -27,13 +27,16 @@ import sor.*;
 import fft.*;
 import sparsematmult.*;
 import jgfutil.*; 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class JGFAllSizeA{
-
+    
   public static void main(String argv[]){
    
     int size = 0; 
 
+    
     JGFInstrumentor.printHeader(2,size);
 
     JGFSeriesBench se = new JGFSeriesBench(); 

@@ -10,3 +10,18 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/JGFSequentialSection1/nbproject/private/
+/JGFSequentialSection2/nbproject/private/
+/JGFSequentialSection3/nbproject/private/
+/JGFParallelSection1/nbproject/private/
+/JGFParallelSection2/nbproject/private/
+/JGFParallelSection3/nbproject/private/
+/JGFParallelSection1/build/
+/JGFMPISection1/nbproject/private/
+/JGFMPISection2/nbproject/private/
+/JGFMPISection3/nbproject/private/
+/JGFMPISection3/build/
+/JGFSequentialSection1/build/
+/JGFSequentialSection1/dist/
+/JGFParallelSection2/build/
+/JGFSequentialSection2/build/

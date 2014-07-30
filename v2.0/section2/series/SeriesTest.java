@@ -38,9 +38,12 @@
 
 package series; 
 import jgfutil.*; 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 class SeriesTest 
 {
+  public static final Logger logger = LoggerFactory.getLogger(SeriesTest.class);
 
 // Declare class data.
 
@@ -76,6 +79,7 @@ void buildTestData()
 
 void Do()
 {
+
     double omega;       // Fundamental frequency.
 
     // Start the stopwatch.
@@ -98,11 +102,22 @@ void Do()
 
     for (int i = 1; i < array_rows; i++)
     {
+
+            HUKernel(i, omega);                       
+    }
+
+
+    // Stop the stopwatch.
+
+    JGFInstrumentor.stopTimer("Section2:Series:Kernel"); 
+}
+
+    private void HUKernel(int i, double omega) {
         // Calculate A[i] terms. Note, once again, that we
         // can ignore the 2/period term outside the integral
         // since the period is 2 and the term cancels itself
         // out.
-
+        logger.info("{}",i);
         TestArray[0][i] = TrapezoidIntegrate((double)0.0,
                           (double)2.0,
                           1000,
@@ -117,12 +132,6 @@ void Do()
                           omega * (double)i,
                           2);                       // 2 = sine term.
     }
-
-
-    // Stop the stopwatch.
-
-    JGFInstrumentor.stopTimer("Section2:Series:Kernel"); 
-}
 
 /*
 * TrapezoidIntegrate

@@ -97,13 +97,13 @@ public class AppDemo extends Universal {
     */
   private int runMode;
 
-  private Vector tasks;
-  private Vector results;
+  private java.util.Vector tasks;
+  private java.util.Vector results;
 
   /**
     * temporary vector for MPI
     */
-  private Vector [] p_results = new Vector[1];
+  private java.util.Vector [] p_results = new java.util.Vector[1];
 
   public AppDemo(  
   String dataDirname, String dataFilename, int nTimeStepsMC, 
@@ -166,10 +166,10 @@ public class AppDemo extends Universal {
     int ilow,ihigh;
 
     if(JGFMonteCarloBench.rank==0) { 
-      results = new Vector(nRunsMC);
+      results = new java.util.Vector(nRunsMC);
     } 
     p_nRunsMC = (nRunsMC + JGFMonteCarloBench.nprocess -1) / JGFMonteCarloBench.nprocess;
-    p_results[0] = new Vector(p_nRunsMC);
+    p_results[0] = new java.util.Vector(p_nRunsMC);
 
     ilow = JGFMonteCarloBench.rank*p_nRunsMC;
     ihigh = (JGFMonteCarloBench.rank+1)*p_nRunsMC;
@@ -224,7 +224,7 @@ public class AppDemo extends Universal {
     *        produce.
     */
   private void initTasks(int nRunsMC) {
-    tasks = new Vector(nRunsMC);
+    tasks = new java.util.Vector(nRunsMC);
     for( int i=0; i < nRunsMC; i++ ) {
       String header="MC run "+String.valueOf(i);
       ToTask task = new ToTask(header, (long)i*11);
@@ -354,7 +354,7 @@ public class AppDemo extends Universal {
     *
     * @return Value of instance variable <code>tasks</code>.
     */
-  public Vector get_tasks() {
+  public java.util.Vector get_tasks() {
     return(this.tasks);
   }
   /**
@@ -362,7 +362,7 @@ public class AppDemo extends Universal {
     *
     * @param tasks the value to set for the instance variable <code>tasks</code>.
     */
-  public void set_tasks(Vector tasks) {
+  public void set_tasks(java.util.Vector tasks) {
     this.tasks = tasks;
   }
   /**
@@ -370,7 +370,7 @@ public class AppDemo extends Universal {
     *
     * @return Value of instance variable <code>results</code>.
     */
-  public Vector get_results() {
+  public java.util.Vector get_results() {
     return(this.results);
   }
   /**
@@ -378,7 +378,7 @@ public class AppDemo extends Universal {
     *
     * @param results the value to set for the instance variable <code>results</code>.
     */
-  public void set_results(Vector results) {
+  public void set_results(java.util.Vector results) {
     this.results = results;
   }
   //------------------------------------------------------------------------
