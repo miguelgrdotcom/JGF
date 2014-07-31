@@ -39,6 +39,8 @@
 package series; 
 import jgfutil.*; 
 import mpi.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 class SeriesTest 
 {
@@ -52,6 +54,7 @@ int ref_p_array_rows;
 int rem_p_array_rows; 
 double [] [] p_TestArray = null;  // Array of arrays on each process.
 double [] [] TestArray = null;  // Array of arrays.
+public static final Logger logger = LoggerFactory.getLogger(SeriesTest.class);
 
 
 /*

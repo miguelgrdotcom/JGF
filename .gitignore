@@ -4,7 +4,7 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
+#*.jar
 *.war
 *.ear
 
@@ -25,3 +25,11 @@ hs_err_pid*
 /JGFSequentialSection1/dist/
 /JGFParallelSection2/build/
 /JGFSequentialSection2/build/
+/JGFSequentialSection2/dist/
+/JGFSequentialSection3/build/
+/JGFSequentialSection3/dist/
+/JGFMPISection1/build/
+/JGFMPISection2/build/
+/JGFMPISection2/dist/
+/JGFParallelSection2/dist/
+/JGFMPISection1/dist/

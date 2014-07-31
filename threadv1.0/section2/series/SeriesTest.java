@@ -38,6 +38,8 @@
 
 package series; 
 import jgfutil.*; 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class SeriesTest 
 {
@@ -45,8 +47,8 @@ public class SeriesTest
 // Declare class data.
 
 static int array_rows; 
-public static double [] [] TestArray;  // Array of arrays.
-   
+public static double [] [] TestArray;  // Array of arrays
+public static final Logger logger = LoggerFactory.getLogger(SeriesTest.class);
 
    
 
@@ -166,7 +168,7 @@ class SeriesRunner implements Runnable {
         // can ignore the 2/period term outside the integral
         // since the period is 2 and the term cancels itself
         // out.
-
+        SeriesTest.logger.info("{}",i);
         SeriesTest.TestArray[0][i] = TrapezoidIntegrate((double)0.0,
                           (double)2.0,
                           1000,
