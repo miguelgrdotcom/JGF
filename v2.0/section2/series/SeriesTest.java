@@ -112,7 +112,7 @@ void Do()
     JGFInstrumentor.stopTimer("Section2:Series:Kernel"); 
 }
 
-    private void HUKernel(int i, double omega) {
+    public void HUKernel(int i, double omega) {
         // Calculate A[i] terms. Note, once again, that we
         // can ignore the 2/period term outside the integral
         // since the period is 2 and the term cancels itself
