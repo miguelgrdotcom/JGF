@@ -21,8 +21,10 @@
 
 package montecarlo; 
 
+import jgf.sequential.util.JGFSection3;
+import jgf.sequential.util.JGFInstrumentor;
 import java.io.*;
-import jgfutil.*; 
+import jgf.sequential.util.*; 
 
 public class JGFMonteCarloBench extends CallAppDemo implements JGFSection3 {
 

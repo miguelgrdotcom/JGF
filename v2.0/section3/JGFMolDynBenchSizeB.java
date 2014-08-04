@@ -19,8 +19,9 @@
 **************************************************************************/
 
 
+import jgf.sequential.util.JGFInstrumentor;
 import moldyn.*;
-import jgfutil.*;
+import jgf.sequential.util.*; 
 
 public class JGFMolDynBenchSizeB{ 
 

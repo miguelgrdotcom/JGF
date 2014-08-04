@@ -20,7 +20,9 @@
 
 
 package search; 
-import jgfutil.*; 
+import jgf.sequential.util.JGFSection3;
+import jgf.sequential.util.JGFInstrumentor;
+import jgf.sequential.util.*; 
 
 public class JGFSearchBench extends SearchGame implements JGFSection3{
 

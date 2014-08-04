@@ -33,3 +33,16 @@ hs_err_pid*
 /JGFMPISection2/dist/
 /JGFParallelSection2/dist/
 /JGFMPISection1/dist/
+/JGFTest/nbproject/private/
+/JGFTest/build/
+/JGFTest/dist/
+/JGFParallelSection1/dist/
+/JGFSequentialUtil/nbproject/private/
+/JGFSequentialUtil/dist/
+/JGFSequentialUtil/build/
+/JGFParallelUtil/nbproject/private/
+/JGFParallelUtil/build/
+/JGFParallelUtil/dist/
+/JGFMPIUtil/nbproject/private/
+/JGFMPIUtil/dist/
+/JGFMPIUtil/build/

@@ -19,8 +19,10 @@
 **************************************************************************/
 
 
+import jgf.sequential.util.JGFInstrumentor;
+import jgf.sequential.util.JGFSection1;
 import java.io.*;
-import jgfutil.*;
+import jgf.sequential.util.*; 
 import java.util.Vector;
 
 public class JGFSerialBench implements JGFSection1 {

@@ -20,7 +20,9 @@
 
 
 
-import jgfutil.*; 
+import jgf.sequential.util.JGFInstrumentor;
+import jgf.sequential.util.JGFSection1;
+import jgf.sequential.util.*; 
 
 public class JGFArithBench implements JGFSection1{
 

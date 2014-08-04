@@ -19,9 +19,10 @@
 **************************************************************************/
 
 
+import jgf.sequential.util.JGFInstrumentor;
 import montecarlo.*;
 
-import jgfutil.*;
+import jgf.sequential.util.*; 
 
 public class JGFMonteCarloBenchSizeA{ 
 

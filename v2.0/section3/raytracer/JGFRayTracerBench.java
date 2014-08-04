@@ -21,7 +21,9 @@
 
 package raytracer; 
 
-import jgfutil.*; 
+import jgf.sequential.util.JGFSection3;
+import jgf.sequential.util.JGFInstrumentor;
+import jgf.sequential.util.*; 
 
 public class JGFRayTracerBench extends RayTracer implements JGFSection3 {
 

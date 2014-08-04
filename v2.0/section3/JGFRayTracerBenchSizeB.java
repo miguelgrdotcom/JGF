@@ -19,8 +19,9 @@
 **************************************************************************/
 
 
+import jgf.sequential.util.JGFInstrumentor;
 import raytracer.*;
-import jgfutil.*;
+import jgf.sequential.util.*; 
 
 public class JGFRayTracerBenchSizeB{ 
 

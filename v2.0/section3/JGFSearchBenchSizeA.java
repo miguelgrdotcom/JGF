@@ -19,8 +19,9 @@
 **************************************************************************/
 
 
+import jgf.sequential.util.JGFInstrumentor;
 import search.*; 
-import jgfutil.*; 
+import jgf.sequential.util.*; 
 
 public class JGFSearchBenchSizeA { 
 

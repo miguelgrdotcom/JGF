@@ -46,7 +46,8 @@
 // same rights and restrictions.
 
 package search; 
-import jgfutil.*; 
+import jgf.sequential.util.JGFInstrumentor;
+import jgf.sequential.util.*; 
 
 public class SearchGame extends TransGame {
 

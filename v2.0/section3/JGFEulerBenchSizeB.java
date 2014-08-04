@@ -19,8 +19,9 @@
 **************************************************************************/
 
 
+import jgf.sequential.util.JGFInstrumentor;
 import euler.*;
-import jgfutil.*;
+import jgf.sequential.util.*; 
 
 public class JGFEulerBenchSizeB{ 
 

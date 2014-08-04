@@ -19,13 +19,14 @@
 **************************************************************************/
 
 
+import jgf.sequential.util.JGFInstrumentor;
 import euler.*;
 import moldyn.*;
 import montecarlo.*;
 import raytracer.*;
 import search.*;
 
-import jgfutil.*;
+import jgf.sequential.util.*; 
 
 public class JGFAllSizeB{
 

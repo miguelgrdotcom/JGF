@@ -21,8 +21,10 @@
 
 package euler; 
 
+import jgf.sequential.util.JGFSection3;
+import jgf.sequential.util.JGFInstrumentor;
 import java.io.*;
-import jgfutil.*; 
+import jgf.sequential.util.*; 
 
 public class JGFEulerBench extends Tunnel implements JGFSection3 {
 

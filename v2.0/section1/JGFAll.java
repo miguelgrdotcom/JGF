@@ -20,7 +20,8 @@
 **************************************************************************/
 
 
-import jgfutil.*; 
+import jgf.sequential.util.JGFInstrumentor;
+import jgf.sequential.util.*; 
 
 public class JGFAll {
 
