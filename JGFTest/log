@@ -1,0 +1,46 @@
+MPJ Express (0.43) is started in the multicore configuration
+19:43:32.219 [3] INFO  jgf.mpi.series.SeriesTest - mpi 1@1:2
+19:43:32.220 [0] INFO  jgf.sequential.series.SeriesTest - sequential 1
+19:43:32.219 [2] INFO  jgf.mpi.series.SeriesTest - mpi 1@2:3
+19:43:32.227 [0] INFO  jgf.sequential.series.SeriesTest - sequential 2
+19:43:32.227 [3] INFO  jgf.mpi.series.SeriesTest - mpi 2@1:4
+19:43:32.227 [2] INFO  jgf.mpi.series.SeriesTest - mpi 2@2:6
+19:43:32.228 [0] INFO  jgf.sequential.series.SeriesTest - sequential 3
+19:43:32.228 [3] INFO  jgf.mpi.series.SeriesTest - mpi 3@1:6
+19:43:32.228 [2] INFO  jgf.mpi.series.SeriesTest - mpi 3@2:9
+19:43:32.219 [1] INFO  jgf.mpi.series.SeriesTest - mpi 1@3:4
+19:43:32.228 [0] INFO  jgf.sequential.series.SeriesTest - sequential 4
+19:43:32.229 [0] INFO  jgf.sequential.series.SeriesTest - sequential 5
+19:43:32.230 [0] INFO  jgf.sequential.series.SeriesTest - sequential 6
+19:43:32.231 [0] INFO  jgf.sequential.series.SeriesTest - sequential 7
+19:43:32.232 [0] INFO  jgf.sequential.series.SeriesTest - sequential 8
+19:43:32.232 [0] INFO  jgf.sequential.series.SeriesTest - sequential 9
+Section2:Series:Kernel:SizeA	0.021 (s) 	 904.7619	 (coefficients/s)
+19:43:32.293 [0] INFO  jgf.mpi.series.SeriesTest - mpi 2@0:2
+19:43:32.294 [0] INFO  jgf.mpi.series.SeriesTest - mpi 3@0:3
+Section2:Series:Kernel:SizeA	0.056 (s) 	 339.2857	 (coefficients/s)
+19:43:32.426 [3] WARN  jgf.parallel.series.SeriesTest - 3@1
+19:43:32.426 [0] WARN  jgf.parallel.series.SeriesTest - 9
+19:43:32.426 [0] WARN  jgf.parallel.series.SeriesTest - 2@0
+19:43:32.427 [0] WARN  jgf.parallel.series.SeriesTest - diff = 4
+19:43:32.427 [0] WARN  jgf.parallel.series.SeriesTest - diff: (1)
+(5)
+(7)
+(8)
+19:43:32.427 [2] WARN  jgf.parallel.series.SeriesTest - 3@2
+19:43:32.428 [1] WARN  jgf.parallel.series.SeriesTest - 1@3
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at runtime.starter.MulticoreStarter$1.run(MulticoreStarter.java:281)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.AssertionError: 
+Expected: is <0>
+     got: <4>
+	at org.junit.Assert.assertThat(Assert.java:780)
+	at org.junit.Assert.assertThat(Assert.java:738)
+	at jgftest.JGFTest.testSeries(JGFTest.java:88)
+	at jgftest.JGFTest.main(JGFTest.java:117)
+	... 6 more
