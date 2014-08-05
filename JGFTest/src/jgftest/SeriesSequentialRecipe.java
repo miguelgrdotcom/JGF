@@ -6,7 +6,7 @@ import hu.list.tuple.HUTuple1;
 import hu.tracer.HUTracer;
 import hu.tracer.HUTraceRecipe;
 import hu.tracer.HUTracerView;
-import jgf.parallel.series.SeriesTest;
+import jgf.sequential.series.SeriesTest;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
@@ -29,7 +29,7 @@ public class SeriesSequentialRecipe extends HUTraceRecipe<HUTuple1<Integer>> {
     
     @Before("call (void jgf.sequential.series.SeriesTest.HUKernel(int, double)) && args(i, d)")
     public void beforeHUKernel(int i, double d) {
-        logger.info("{}",i);
+        logger.info("sequential {}",i);
         add(new HUTuple1<Integer>(i));
     }
 

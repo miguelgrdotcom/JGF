@@ -33,10 +33,10 @@ public class HUTuple1<T0 extends Comparable<T0>> implements
     @Override
     public boolean equals(Object o)
     {
-        if (this == o)
-        {
-            return true;
-        }
+//        if (this == o)
+//        {
+//            return true;
+//        }
         if (!(o instanceof HUTuple1))
         {
             return false;

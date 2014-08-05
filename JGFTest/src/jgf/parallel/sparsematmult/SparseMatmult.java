@@ -93,11 +93,15 @@ class SparseRunner implements Runnable {
 
          for (int reps=0; reps<NUM_ITERATIONS; reps++) {
            for (int i=lowsum[id]; i<highsum[id]; i++) {
-             SparseMatmult.yt[ row[i] ] += x[ col[i] ] * val[i];
+                HUKernel(i);
            }
          }
 
    }
+
+    public void HUKernel(int i) {
+        SparseMatmult.yt[ row[i] ] += x[ col[i] ] * val[i];
+    }
 
 
 }

@@ -41,7 +41,7 @@ import jgf.sequential.util.JGFInstrumentor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-class SeriesTest 
+public class SeriesTest 
 {
 // Declare class data.
 

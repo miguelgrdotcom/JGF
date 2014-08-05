@@ -38,10 +38,7 @@
 
 package jgf.mpi.series; 
 import jgf.mpi.util.JGFInstrumentor;
-import jgf.mpi.util.*; 
 import mpi.*;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 class SeriesTest 
 {

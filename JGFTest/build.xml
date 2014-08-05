@@ -11,7 +11,7 @@
     <description>Builds, tests, and runs the project JGFTest.</description>
     <import file="nbproject/build-impl.xml"/>
          
-        <taskdef classpath="/Users/yoshiki/libs/aspectj-1.8.1/lib/aspectjtools.jar" 
+        <taskdef classpath="/Users/yoshiki/NetBeansProjects/JGF/libs/aspectj-1.8.1/lib/aspectjtools.jar" 
         resource="org/aspectj/tools/ant/taskdefs/aspectjTaskdefs.properties"/>
 
     <!-- Add an AspectJ build target -->

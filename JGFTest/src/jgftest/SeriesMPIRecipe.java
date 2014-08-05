@@ -21,12 +21,13 @@ import org.slf4j.LoggerFactory;
 @Aspect
 public class SeriesMPIRecipe extends HUTraceRecipe<HUTuple1<Integer>> {
     public static final Logger logger = LoggerFactory.getLogger(SeriesTest.class);
+    private int nprocess = 4;
 
     
-    @Before("call (void jgf.mpi.series.SeriesTest.HUKernel(int, double, int)) && args(i, d, r)")
-    public void beforeHUKernel(int i, double d, int r) {
-        logger.info("{}@{}:{}",i,r,i*r);
-        add(new HUTuple1<Integer>(i*r));
+    @Before("call (void jgf.mpi.series.SeriesTest.HUKernel2(int, double, int, int)) && args(i, d, r, size)")
+    public void beforeHUKernel(int i, double d, int r, int size) {
+        logger.info("mpi {}@{}:{}",i,r,i+(r*size));
+        add(new HUTuple1<Integer>(i+(r*size)));
     }
 
     @Override
