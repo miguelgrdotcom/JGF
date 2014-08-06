@@ -43,6 +43,7 @@ public class SparseMatmult
 			{
                                     y[ row[i] ] += x[ col[i] ] * val[i];
                                     HUKernel(i);
+
 			}
 		}
 
@@ -54,6 +55,7 @@ public class SparseMatmult
           }
 
 	}
+
 
     public static void HUKernel(int i) {
         return;

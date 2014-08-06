@@ -7,10 +7,11 @@ import hu.tracer.HUTracer;
 import hu.tracer.HUTraceRecipe;
 import hu.tracer.HUTracerView;
 import jgf.sequential.series.SeriesTest;
+import org.aspectj.lang.Aspects;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
-import org.slf4j.Logger;
+import ch.qos.logback.classic.Logger;
 import org.slf4j.LoggerFactory;
 
 /*
@@ -24,7 +25,7 @@ import org.slf4j.LoggerFactory;
  */
 @Aspect
 public class MatmultSequentialRecipe extends HUTraceRecipe<HUTuple1<Integer>> {
-    public static final Logger logger = LoggerFactory.getLogger(MatmultSequentialRecipe.class);
+    public static final Logger logger = (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("JGFTest");    
 
     
     @Before("call (static void jgf.sequential.sparsematmult.SparseMatmult.HUKernel(int)) && args(i)")

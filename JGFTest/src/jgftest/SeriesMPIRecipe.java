@@ -3,7 +3,6 @@ package jgftest;
 
 import hu.list.tuple.HUTuple1;
 import hu.tracer.HUTraceRecipe;
-import jgf.mpi.series.SeriesTest;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.slf4j.Logger;
@@ -20,9 +19,7 @@ import org.slf4j.LoggerFactory;
  */
 @Aspect
 public class SeriesMPIRecipe extends HUTraceRecipe<HUTuple1<Integer>> {
-    public static final Logger logger = LoggerFactory.getLogger(SeriesTest.class);
-    private int nprocess = 4;
-
+    public static final Logger logger = (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("JGFTest");    
     
     @Before("call (void jgf.mpi.series.SeriesTest.HUKernel2(int, double, int, int)) && args(i, d, r, size)")
     public void beforeHUKernel(int i, double d, int r, int size) {

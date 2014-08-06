@@ -6,7 +6,7 @@ import hu.tracer.HUTraceRecipe;
 import jgf.parallel.series.SeriesTest;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
-import org.slf4j.Logger;
+import ch.qos.logback.classic.Logger;
 import org.slf4j.LoggerFactory;
 
 /*
@@ -20,9 +20,9 @@ import org.slf4j.LoggerFactory;
  */
 @Aspect
 public class MatmultParallelRecipe extends HUTraceRecipe<HUTuple1<Integer>> {
-  public static final Logger logger = LoggerFactory.getLogger(MatmultParallelRecipe.class);
+    public static final Logger logger = (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("JGFTest");    
 
-    @Before("call (void jgf.parallel.sparsematmult.SparseRunner.HUKernel(int)) && args(i)")
+    @Before("call (void jgf.parallel.sparsematmult.SparseRunner.HUKernel(int)) && within(jgf.parallel.sparsematmult.SparseRunner) && args(i)")
     public void beforeHUKernel(int i) {
         logger.info("parallel {}", i);
         add(new HUTuple1<Integer>(i));

@@ -35,8 +35,8 @@ public class JGFSparseMatmultBench extends SparseMatmult implements JGFSection2{
 
   private static final int datasizes_M[] = {50000,100000,500000};
   private static final int datasizes_N[] = {50000,100000,500000};
-  private static final int datasizes_nz[] = {250000,500000,2500000};
-  private static final int SPARSE_NUM_ITER = 200;
+  private static final int datasizes_nz[] = {25000/*250000*/,250000,500000,2500000};
+  private static final int SPARSE_NUM_ITER = 2/*200*/;
 //  private static final int SPARSE_NUM_ITER = 200;
 
   Random R = new Random(RANDOM_SEED);

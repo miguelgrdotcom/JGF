@@ -95,7 +95,7 @@ void Do()
 	th[i] = new Thread(thobjects[i]);
 	th[i].start();
     } 
-
+   
         thobjects[0] = new SeriesRunner(0);
         thobjects[0].run();
     
