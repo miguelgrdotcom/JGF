@@ -31,11 +31,21 @@
 	</iajc>
   </target>
   
-  <!-- Add the AspectJ target to your general project build -->
+  <!-- Add the Test target to generate the dedicated JAR file for test packages -->
+  <target name="jar-tests" depends="compile-test">
+	<jar jarfile="dist/JGFTest-tests.jar">
+	  <fileset dir="${build.test.classes.dir}"/>
+	</jar>
+  </target>
+
+  <!-- Add the custom targets to the general project build -->
   <target name="-post-compile" depends="aspectj"></target>
   <target name="-post-compile-single" depends="aspectj"></target>
   <target name="-post-compile-test" depends="aspectj"></target>
-  <target name="-post-compile-test-single" depends="aspectj"></target>  
+  <target name="-post-compile-test-single" depends="aspectj"></target>
+  <target name="-post-jar" depends="jar-tests"></target>
+
+  
   <!--
 	  
 	  There exist several targets which are by default empty and which can be 

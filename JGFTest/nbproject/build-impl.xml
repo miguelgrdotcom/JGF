@@ -959,7 +959,7 @@ is divided into following sections:
         <!-- Empty placeholder for easier customization. -->
         <!-- You can override this target in the ../build.xml file. -->
     </target>
-    <target depends="init,deps-jar,-verify-automatic-build,-pre-pre-compile,-pre-compile,-do-compile,-post-compile" description="Compile project." name="compile"/>
+    <target depends="init,deps-jar,-verify-automatic-build,-pre-pre-compile,-pre-compile,-do-compile,-post-compile,compile-test" description="Compile project." name="compile"/>
     <target name="-pre-compile-single">
         <!-- Empty placeholder for easier customization. -->
         <!-- You can override this target in the ../build.xml file. -->
@@ -1260,7 +1260,8 @@ is divided into following sections:
                 TEST COMPILATION SECTION
                 =========================
             -->
-    <target depends="init,compile" if="have.tests" name="-pre-pre-compile-test">
+    <!--target depends="init,compile" if="have.tests" name="-pre-pre-compile-test"-->
+    <target depends="init" if="have.tests" name="-pre-pre-compile-test">	
         <mkdir dir="${build.test.classes.dir}"/>
     </target>
     <target name="-pre-compile-test">
@@ -1270,7 +1271,7 @@ is divided into following sections:
     <target if="do.depend.true" name="-compile-test-depend">
         <j2seproject3:depend classpath="${javac.test.classpath}" destdir="${build.test.classes.dir}" srcdir="${test.test.dir}"/>
     </target>
-    <target depends="init,deps-jar,compile,-pre-pre-compile-test,-pre-compile-test,-compile-test-depend" if="have.tests" name="-do-compile-test">
+    <target depends="init,deps-jar,-pre-pre-compile-test,-pre-compile-test,-compile-test-depend" if="have.tests" name="-do-compile-test">
         <j2seproject3:javac apgeneratedsrcdir="${build.test.classes.dir}" classpath="${javac.test.classpath}" debug="true" destdir="${build.test.classes.dir}" processorpath="${javac.test.processorpath}" srcdir="${test.test.dir}"/>
         <copy todir="${build.test.classes.dir}">
             <fileset dir="${test.test.dir}" excludes="${build.classes.excludes},${excludes}" includes="${includes}"/>
@@ -1280,7 +1281,8 @@ is divided into following sections:
         <!-- Empty placeholder for easier customization. -->
         <!-- You can override this target in the ../build.xml file. -->
     </target>
-    <target depends="init,compile,-pre-pre-compile-test,-pre-compile-test,-do-compile-test,-post-compile-test" name="compile-test"/>
+    <!--target depends="init,compile,-pre-pre-compile-test,-pre-compile-test,-do-compile-test,-post-compile-test" name="compile-test"/-->
+    <target depends="init,-pre-pre-compile-test,-pre-compile-test,-do-compile-test,-post-compile-test" name="compile-test"/>
     <target name="-pre-compile-test-single">
         <!-- Empty placeholder for easier customization. -->
         <!-- You can override this target in the ../build.xml file. -->
