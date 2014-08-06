@@ -10,7 +10,7 @@ import jgf.sequential.series.SeriesTest;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
-import org.slf4j.Logger;
+import ch.qos.logback.classic.Logger;
 import org.slf4j.LoggerFactory;
 
 /*
@@ -24,7 +24,7 @@ import org.slf4j.LoggerFactory;
  */
 @Aspect
 public class SeriesSequentialRecipe extends HUTraceRecipe<HUTuple1<Integer>> {
-    public static final Logger logger = LoggerFactory.getLogger(SeriesTest.class);
+    public static final Logger logger = (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("JGFTest");    
 
     
     @Before("call (void jgf.sequential.series.SeriesTest.HUKernel(int, double)) && args(i, d)")

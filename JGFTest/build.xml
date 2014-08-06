@@ -8,37 +8,40 @@
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
 <project name="JGFTest" default="default" basedir=".">
-    <description>Builds, tests, and runs the project JGFTest.</description>
-    <import file="nbproject/build-impl.xml"/>
-         
-        <taskdef classpath="/Users/yoshiki/NetBeansProjects/JGF/libs/aspectj-1.8.1/lib/aspectjtools.jar" 
-        resource="org/aspectj/tools/ant/taskdefs/aspectjTaskdefs.properties"/>
-
-    <!-- Add an AspectJ build target -->
-    <target name="aspectj">
-        <!-- echo level="info"> aspectj (start) </echo -->
-        <iajc
-            destdir="${build.classes.dir}"
-            source="${javac.source}"
-            target="${javac.target}"
-            classpath="${javac.classpath}:${j2ee.platform.classpath}"
-            deprecation="${javac.deprecation}"
-            encoding="${source.encoding}"
-            debug="${javac.debug}">
-            <inpath>
+  <description>Builds, tests, and runs the project JGFTest.</description>
+  <import file="nbproject/build-impl.xml"/>
+  
+  <taskdef classpath="/Users/yoshiki/NetBeansProjects/JGF/libs/aspectj-1.8.1/lib/aspectjtools.jar" 
+		   resource="org/aspectj/tools/ant/taskdefs/aspectjTaskdefs.properties"/>
+  
+  <!-- Add an AspectJ build target -->
+  <target name="aspectj">
+	<!-- echo level="info"> aspectj (start) </echo -->
+	<iajc
+		destdir="${build.classes.dir}"
+		source="${javac.source}"
+		target="${javac.target}"
+		classpath="${javac.classpath}:${j2ee.platform.classpath}"
+		deprecation="${javac.deprecation}"
+		encoding="${source.encoding}"
+		debug="${javac.debug}">
+	  <inpath>
                 <pathelement location="${build.classes.dir}" />
-            </inpath>
-        </iajc>
-    </target>
-
-    <!-- Add the AspectJ target to your general project build -->
-    <target name="-post-compile" depends="aspectj"></target>
-    <!--
-
-    There exist several targets which are by default empty and which can be 
-    used for execution of your tasks. These targets are usually executed 
-    before and after some main targets. They are: 
-
+	  </inpath>
+	</iajc>
+  </target>
+  
+  <!-- Add the AspectJ target to your general project build -->
+  <target name="-post-compile" depends="aspectj"></target>
+  <target name="-post-compile-single" depends="aspectj"></target>
+  <target name="-post-compile-test" depends="aspectj"></target>
+  <target name="-post-compile-test-single" depends="aspectj"></target>  
+  <!--
+	  
+	  There exist several targets which are by default empty and which can be 
+	  used for execution of your tasks. These targets are usually executed 
+	  before and after some main targets. They are: 
+	  
       -pre-init:                 called before initialization of project properties
       -post-init:                called after initialization of project properties
       -pre-compile:              called before javac compilation
