@@ -31,8 +31,8 @@ public class JGFSORBench extends SOR implements JGFSection2{
   public static int nprocess;
   public static int rank;
   private int size; 
-  private int datasizes[]={1000,1500,2000};
-  private static final int JACOBI_NUM_ITER = 100;
+  private int datasizes[]={10/*1000*/,1500,2000};
+  private static final int JACOBI_NUM_ITER = 2/*100*/;
   private static final long RANDOM_SEED = 10101010;
 
   public static int p_row;
@@ -83,8 +83,8 @@ public class JGFSORBench extends SOR implements JGFSection2{
        p_row = rem_p_row;
     }
   }
-//  System.out.println("size="+datasizes[size]+",rank="+rank);
-//  System.out.println((p_row+2) +",nproc="+ nprocess);
+  System.out.println("size="+datasizes[size]+",rank="+rank);
+  System.out.println((p_row+2) +",nproc="+ nprocess);
   p_G = new double [p_row+2][datasizes[size]]; 
 
 /* copy or send the values of G to the sub arrays p_G */

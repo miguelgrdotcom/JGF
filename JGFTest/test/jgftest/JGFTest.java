@@ -104,8 +104,7 @@ public class JGFTest {
 
         assertThat(s, is(p));
     }
-    
-    
+
     @Test
     public void testSORParallel() {
         initSOR(16, 0, 0);
@@ -120,7 +119,7 @@ public class JGFTest {
         logger.info("sequential size = {}, parallel size = {}", s.size(), p.size());
 
         assertThat(s, is(p));
-    }    
+    }
 
     public void $mpi_testSeriesMPI(String[] args) {
         MPI.Init(args);
@@ -184,6 +183,37 @@ public class JGFTest {
         MPI.Finalize();
     }
 
+    public void $mpi_testSORMPI(String[] args) {
+        MPI.Init(args);
+
+        int rank = MPI.COMM_WORLD.Rank();
+        int nprocess = MPI.COMM_WORLD.Size();
+        initSOR(16, rank, nprocess);
+
+        if (rank == 0) {
+            runSequential(args);
+        }
+        runMPI(args);
+
+        HUTracerView traceView = HUTracer.getTracerView();
+        HUSet<HUTuple2<Integer, Integer>> s = (HUSet<HUTuple2<Integer, Integer>>) traceView.get(Aspects.aspectOf(SORSequentialRecipe.class));
+        HUGatheredTracerView gatherdTraceView = HUTracer.getGatheredTracerView();
+        HUSet<HUTuple2<Integer, Integer>> d = (HUSet<HUTuple2<Integer, Integer>>) gatherdTraceView.get(Aspects.aspectOf(SORMPIRecipe.class));
+        HUSet<HUTuple2<Integer, Integer>> dd = gatherdTraceView.gather(d);
+
+        if (rank == 0) {
+            logger.info("{}", s.size());
+        }
+        logger.info("{}@{}", d.size(), rank);
+
+        if (rank == 0) {
+            logger.info("diff = {}", s.difference(dd).size());
+            logger.info("diff: {}", s.difference(dd));
+            assertThat(s.difference(dd).size(), is(0));
+        }
+        MPI.Finalize();
+    }
+
     /**
      * *******
      * 初期化 *******
@@ -211,7 +241,7 @@ public class JGFTest {
             distributed = new jgf.mpi.sparsematmult.JGFSparseMatmultBench(_nprocess, _rank);
         }
     }
-    
+
     public void initSOR(int _num_threads, int _rank, int _nprocess) {
         rank = _rank;
         nprocess = _nprocess;
@@ -222,7 +252,7 @@ public class JGFTest {
         if (!(_rank == 0 && _nprocess == 0)) {
             distributed = new jgf.mpi.sor.JGFSORBench(_nprocess, _rank);
         }
-    }    
+    }
 
     /**
      * *******
@@ -247,7 +277,8 @@ public class JGFTest {
     public static void main(String[] args) {
         JGFTest tester = new JGFTest();
         //tester.$mpi_testSeriesMPI(args);
-        tester.$mpi_testMatmulMPI(args);
+        //tester.$mpi_testMatmulMPI(args);
+        tester.$mpi_testSORMPI(args);        
 
     }
 }

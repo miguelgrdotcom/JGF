@@ -60,7 +60,7 @@ public class SOR
                    if(i!=0){
 		     double [] Gi = p_G[i];
 		     double [] Gim1 = p_G[i-1];
-
+                     
                      if((i==1)&&JGFSORBench.rank==0) {
 
                      } else if((i==ihigh-1)&&JGFSORBench.rank==(JGFSORBench.nprocess-1)) {
@@ -71,6 +71,7 @@ public class SOR
                        for (int j=1; j<Nm1; j=j+2){
                          Gi[j] = omega_over_four * (Gim1[j] + Gip1[j] + Gi[j-1]
                                  + Gi[j+1]) + one_minus_omega * Gi[j];
+                         HUKernel(i-1, j, JGFSORBench.rank, Mm1+1);
                        }
                      } else if (((i==ihigh-2)&&JGFSORBench.rank==(JGFSORBench.nprocess-1))||
                                ((i==ihigh-1)&&(JGFSORBench.rank!=(JGFSORBench.nprocess-1)))){
@@ -80,6 +81,8 @@ public class SOR
                          if((j+1) != Nm1) {
                            Gim1[j+1]=omega_over_four * (Gim2[j+1] + Gi[j+1] + Gim1[j]
                                      + Gim1[j+2]) + one_minus_omega * Gim1[j+1];
+                           HUKernel(i-2, j+1, JGFSORBench.rank, Mm1+1);
+
                          }
                        }
 
@@ -90,10 +93,14 @@ public class SOR
                        for (int j=1; j<Nm1; j=j+2){
                          Gi[j] = omega_over_four * (Gim1[j] + Gip1[j] + Gi[j-1]
                                  + Gi[j+1]) + one_minus_omega * Gi[j];
+                         HUKernel(i-1, j, JGFSORBench.rank, Mm1+1);
+
 
                          if((j+1) != Nm1) {
                            Gim1[j+1]=omega_over_four * (Gim2[j+1] + Gi[j+1] + Gim1[j]
                                      + Gim1[j+2]) + one_minus_omega * Gim1[j+1];
+                           HUKernel(i-2, j+1, JGFSORBench.rank, Mm1+1);
+
                          }
                        }
                      }
@@ -168,5 +175,9 @@ public class SOR
 
  
 	}
+        
+        public static void HUKernel(int i, int j, int rank, int nprocess) {
+            return;
+        }
 }
 			

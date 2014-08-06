@@ -138,7 +138,7 @@ class SORRunner implements Runnable {
                         if ((j + 1) != Nm1) {
                             Gim1[j + 1] = omega_over_four * (Gim2[j + 1] + Gi[j + 1] + Gim1[j]
                                     + Gim1[j + 2]) + one_minus_omega * Gim1[j + 1];
-                            HUKernel(i - 2, j + 1);
+                            HUKernel(i - 1, j + 1);
                         }
                     }
 
@@ -155,7 +155,7 @@ class SORRunner implements Runnable {
                         if ((j + 1) != Nm1) {
                             Gim1[j + 1] = omega_over_four * (Gim2[j + 1] + Gi[j + 1] + Gim1[j]
                                     + Gim1[j + 2]) + one_minus_omega * Gim1[j + 1];
-                            HUKernel(i-1, j + 1);
+                            HUKernel(i - 1, j + 1);
 
                         }
                     }
