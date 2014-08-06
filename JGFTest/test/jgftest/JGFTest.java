@@ -140,7 +140,7 @@ public class JGFTest {
 
         int rank = MPI.COMM_WORLD.Rank();
         int nprocess = MPI.COMM_WORLD.Size();
-        initSeries(16, rank, nprocess);
+        initMatmult(16, rank, nprocess);
 
         if (rank == 0) {
             runSequential(args);
@@ -148,9 +148,9 @@ public class JGFTest {
         runMPI(args);
 
         HUTracerView traceView = HUTracer.getTracerView();
-        HUSet<HUTuple1<Integer>> s = (HUSet<HUTuple1<Integer>>) traceView.get(Aspects.aspectOf(SeriesSequentialRecipe.class));
+        HUSet<HUTuple1<Integer>> s = (HUSet<HUTuple1<Integer>>) traceView.get(Aspects.aspectOf(MatmultSequentialRecipe.class));
         HUGatheredTracerView gatherdTraceView = HUTracer.getGatheredTracerView();
-        HUSet<HUTuple1<Integer>> d = (HUSet<HUTuple1<Integer>>) gatherdTraceView.get(Aspects.aspectOf(SeriesMPIRecipe.class));
+        HUSet<HUTuple1<Integer>> d = (HUSet<HUTuple1<Integer>>) gatherdTraceView.get(Aspects.aspectOf(MatmultMPIRecipe.class));
         HUSet<HUTuple1<Integer>> dd = gatherdTraceView.gather(d);
 
         if (rank == 0) {
@@ -216,7 +216,7 @@ public class JGFTest {
      */
     public static void main(String[] args) {
         JGFTest tester = new JGFTest();
-        tester.$mpi_testSeriesMPI(args);
+        //tester.$mpi_testSeriesMPI(args);
         tester.$mpi_testMatmulMPI(args);
 
     }
