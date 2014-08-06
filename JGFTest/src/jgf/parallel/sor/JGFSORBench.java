@@ -28,8 +28,8 @@ import java.util.Random;
 public class JGFSORBench extends SOR implements JGFSection2{ 
 
   private int size; 
-  private int datasizes[]={1000,1500,2000};
-  private static final int JACOBI_NUM_ITER = 100;
+  private int datasizes[]={10/*1000*/,1500,2000};
+  private static final int JACOBI_NUM_ITER = 2/*100*/;
   private static final long RANDOM_SEED = 10101010;
   public static int nthreads;
 

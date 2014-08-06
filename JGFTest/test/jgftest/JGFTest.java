@@ -23,6 +23,7 @@ import static org.junit.Assert.*;
 //import org.slf4j.Logger;
 //import org.slf4j.LoggerFactory;
 import ch.qos.logback.classic.Logger;
+import hu.list.tuple.HUTuple2;
 import hu.tracer.HUGatheredTracerView;
 import static jgftest.JGFTestBak.logger;
 import mpi.MPI;
@@ -73,7 +74,7 @@ public class JGFTest {
      * *******
      * テスト実行 *******
      */
-    @Test
+    //@Test
     public void testSeriesParallel() {
         initSeries(16, 0, 0);
         runSequential(null);
@@ -88,7 +89,7 @@ public class JGFTest {
         assertThat(s, is(p));
     }
 
-    @Test
+    //@Test
     public void testMatmulParallel() {
         initMatmult(16, 0, 0);
         runSequential(null);
@@ -103,6 +104,23 @@ public class JGFTest {
 
         assertThat(s, is(p));
     }
+    
+    
+    @Test
+    public void testSORParallel() {
+        initSOR(16, 0, 0);
+        runSequential(null);
+        runParallel(null);
+
+        HUTracerView traceView = HUTracer.getTracerView();
+        HUSet<HUTuple2<Integer, Integer>> s = (HUSet<HUTuple2<Integer, Integer>>) traceView.get(Aspects.aspectOf(SORSequentialRecipe.class));
+        HUSet<HUTuple2<Integer, Integer>> p = (HUSet<HUTuple2<Integer, Integer>>) traceView.get(Aspects.aspectOf(SORParallelRecipe.class));
+
+        HUSet<HUTuple2<Integer, Integer>> diff = s.difference(p);
+        logger.info("sequential size = {}, parallel size = {}", s.size(), p.size());
+
+        assertThat(s, is(p));
+    }    
 
     public void $mpi_testSeriesMPI(String[] args) {
         MPI.Init(args);
@@ -170,7 +188,7 @@ public class JGFTest {
      * *******
      * 初期化 *******
      */
-    private void initSeries(int _num_threads, int _rank, int _nprocess) {
+    public void initSeries(int _num_threads, int _rank, int _nprocess) {
         rank = _rank;
         nprocess = _nprocess;
         num_threads = _num_threads;
@@ -182,7 +200,7 @@ public class JGFTest {
         }
     }
 
-    private void initMatmult(int _num_threads, int _rank, int _nprocess) {
+    public void initMatmult(int _num_threads, int _rank, int _nprocess) {
         rank = _rank;
         nprocess = _nprocess;
         num_threads = _num_threads;
@@ -193,6 +211,18 @@ public class JGFTest {
             distributed = new jgf.mpi.sparsematmult.JGFSparseMatmultBench(_nprocess, _rank);
         }
     }
+    
+    public void initSOR(int _num_threads, int _rank, int _nprocess) {
+        rank = _rank;
+        nprocess = _nprocess;
+        num_threads = _num_threads;
+
+        sequential = new jgf.sequential.sor.JGFSORBench();
+        parallel = new jgf.parallel.sor.JGFSORBench(_num_threads);
+        if (!(_rank == 0 && _nprocess == 0)) {
+            distributed = new jgf.mpi.sor.JGFSORBench(_nprocess, _rank);
+        }
+    }    
 
     /**
      * *******
