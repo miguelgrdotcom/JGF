@@ -196,6 +196,7 @@ matrix in column order. --dmd 3/3/97
 	    }
 	    daxpy(n-(kp1),t,col_k,kp1,1,
 		  col_j,kp1,1);
+            HUKernel(k,j);
 	  }
 	}
 	else {
@@ -325,6 +326,9 @@ matrix in column order. --dmd 3/3/97
     }
   }
 
+  public void HUKernel(int k, int j) {
+      return;
+  }
 
 
   /*

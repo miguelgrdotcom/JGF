@@ -10,10 +10,7 @@ import hu.list.HUSet;
 import hu.list.tuple.HUTuple1;
 import hu.tracer.HUTracer;
 import hu.tracer.HUTracerView;
-import jgftest.MatmultParallelRecipe;
-import jgftest.MatmultSequentialRecipe;
 import org.aspectj.lang.Aspects;
-import static org.hamcrest.CoreMatchers.is;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -25,9 +22,6 @@ import static org.junit.Assert.*;
 import ch.qos.logback.classic.Logger;
 import hu.list.tuple.HUTuple2;
 import hu.tracer.HUGatheredTracerView;
-import java.util.Arrays;
-import java.util.List;
-import static jgftest.JGFTestBak.logger;
 import mpi.MPI;
 import static org.hamcrest.CoreMatchers.is;
 import org.slf4j.LoggerFactory;
@@ -57,7 +51,7 @@ public class JGFTest {
 
     @BeforeClass
     public static void setUpClass() {
-        logger.setLevel(Level.OFF);
+        logger.setLevel(Level.INFO);
     }
 
     @AfterClass
@@ -123,7 +117,7 @@ public class JGFTest {
         assertThat(s, is(p));
     }
     
-    @Test
+    //@Test
     public void testCryptParallel() {
         initCrypt(16, 0, 0);
         runSequential(null);
@@ -139,6 +133,23 @@ public class JGFTest {
         assertThat(s, is(p));
     }
 
+    @Test
+    public void testLinpackParallel() {
+        initLinpack(16, 0, 0);
+        runSequential(null);
+        runParallel(null);
+
+        HUTracerView traceView = HUTracer.getTracerView();
+        HUSet<HUTuple2<Integer,Integer>> s = (HUSet<HUTuple2<Integer,Integer>>) traceView.get(Aspects.aspectOf(LinpackSequentialRecipe.class));
+        HUSet<HUTuple2<Integer,Integer>> p = (HUSet<HUTuple2<Integer,Integer>>) traceView.get(Aspects.aspectOf(LinpackParallelRecipe.class));
+
+        HUSet<HUTuple2<Integer,Integer>> diff = s.difference(p);
+        logger.info("sequential size = {}, parallel size = {}", s.size(), p.size());
+
+        assertThat(s, is(p));
+    }
+    
+    
     public void $mpi_testSeriesMPI(String[] args) {
         MPI.Init(args);
 
@@ -315,6 +326,19 @@ public class JGFTest {
             distributed = new jgf.mpi.crypt.JGFCryptBench(_nprocess, _rank);
         }
     }    
+    
+    public void initLinpack(int _num_threads, int _rank, int _nprocess) {
+        rank = _rank;
+        nprocess = _nprocess;
+        num_threads = _num_threads;
+
+        sequential = new jgf.sequential.lufact.JGFLUFactBench();
+        parallel = new jgf.parallel.lufact.JGFLUFactBench(_num_threads);
+        if (!(_rank == 0 && _nprocess == 0)) {
+            distributed = new jgf.mpi.lufact.JGFLUFactBench(_nprocess, _rank);
+        }
+    }       
+    
 
     /**
      * *******

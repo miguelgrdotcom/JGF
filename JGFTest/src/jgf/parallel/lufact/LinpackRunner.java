@@ -165,6 +165,7 @@ class LinpackRunner implements Runnable {
 
             daxpy(n-(kp1),t,col_k,kp1,1,
                   col_j,kp1,1);
+            HUKernel(k,j);
           }
 
 // synchronise threads
@@ -187,6 +188,9 @@ class LinpackRunner implements Runnable {
 
   }
 
+  public void HUKernel(int k, int j) {
+      return;
+  }
  
  /*
     finds the index of element having max. absolute value.

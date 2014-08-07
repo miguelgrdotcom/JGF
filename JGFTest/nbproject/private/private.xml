@@ -4,13 +4,12 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgftest/CryptSequentialRecipe.java</file>
-            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgftest/CryptParallelRecipe.java</file>
+            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/sequential/lufact/Linpack.java</file>
+            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgftest/LinpackParallelRecipe.java</file>
             <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/test/jgftest/JGFTest.java</file>
-            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgftest/CryptMPIRecipe.java</file>
-            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/parallel/lufact/Linpack.java</file>
-            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/mpi/crypt/IDEATest.java</file>
+            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/sequential/lufact/JGFLUFactBench.java</file>
             <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/parallel/lufact/LinpackRunner.java</file>
-            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/mpi/crypt/JGFCryptBench.java</file>
+            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgftest/LinpackSequentialRecipe.java</file>
         </group>
     </open-files>
 </project-private>
