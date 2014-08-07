@@ -27,8 +27,10 @@ import jgf.sequential.util.JGFInstrumentor;
 public class JGFCryptBench extends IDEATest implements JGFSection2{ 
 
   private int size; 
-  private int datasizes[]={3000000,20000000,50000000};
+  private int datasizes[]={30000/*3000000*/,20000000,50000000};
+public static byte[] result = null;
 
+  
   public void JGFsetsize(int size){
     this.size = size;
   }

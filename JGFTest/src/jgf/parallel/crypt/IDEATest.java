@@ -550,12 +550,18 @@ int r;                      // Eight rounds of processing.
     text2[i2++] = (byte) (x2 >>> 8);
     text2[i2++] = (byte) x4;
     text2[i2++] = (byte) (x4 >>> 8);
-
+    
+    HUKernel(i);
 }   // End for loop.
 
     }   // End routine.
 
+    public void HUKernel(int i) {
+        return;
+    }
 }  // End of class
+
+
 
 
 

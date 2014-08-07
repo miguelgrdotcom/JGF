@@ -57,7 +57,6 @@ int [] Z;             // Encryption subkey (userkey derived).
 int [] DK;            // Decryption subkey (userkey derived).
 
 
-
 void Do()
 {
   // Start the stopwatch.       
@@ -384,10 +383,15 @@ for (int i = 0; i < text1.length; i += 8)
     text2[i2++] = (byte) x4;
     text2[i2++] = (byte) (x4 >>> 8);
 
+    HUKernel(i);
 }   // End for loop.
 
+JGFCryptBench.result = text2;
 }   // End routine.
 
+public void HUKernel(int i) {
+    return;
+}
 /*
 * mul
 *

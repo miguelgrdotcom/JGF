@@ -45,7 +45,6 @@
   <target name="-post-compile-test-single" depends="aspectj"></target>
   <target name="-post-jar" depends="jar-tests"></target>
 
-  
   <!--
 	  
 	  There exist several targets which are by default empty and which can be 
