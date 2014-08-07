@@ -7,10 +7,8 @@
             <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgftest/CryptParallelRecipe.java</file>
             <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/test/jgftest/JGFTest.java</file>
             <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgftest/CryptMPIRecipe.java</file>
-            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/sequential/crypt/JGFCryptBench.java</file>
-            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/sequential/crypt/IDEATest.java</file>
-            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/mpi/crypt/IDEATest.java</file>
             <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/parallel/lufact/Linpack.java</file>
+            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/mpi/crypt/IDEATest.java</file>
             <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/parallel/lufact/LinpackRunner.java</file>
             <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/mpi/crypt/JGFCryptBench.java</file>
         </group>

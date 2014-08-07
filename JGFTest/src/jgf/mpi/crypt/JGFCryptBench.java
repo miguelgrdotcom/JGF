@@ -31,7 +31,7 @@ public class JGFCryptBench extends IDEATest implements JGFSection2{
   public static int rank;
   private int size; 
   private int datasizes[]={30000/*3000000*/,20000000,50000000};
-  public static byte[] result = null;
+  public static byte[] result = null;  
 
 
   public JGFCryptBench(int nprocess, int rank) {
@@ -52,15 +52,18 @@ public class JGFCryptBench extends IDEATest implements JGFSection2{
    rem_p_array_rows is the size on process (nprocess-1).
 */
 
+
     p_array_rows = (((array_rows / 8) + nprocess -1) / nprocess)*8;
+    offset = p_array_rows;
     ref_p_array_rows = p_array_rows;
     rem_p_array_rows = p_array_rows - ((p_array_rows*nprocess) - array_rows);
     if(rank==(nprocess-1)){
       if((p_array_rows*(rank+1)) > array_rows) {
-        p_array_rows = rem_p_array_rows;
+          offset = p_array_rows;
+          p_array_rows = rem_p_array_rows;
       }
     }
-
+    
     buildTestData();
   }
  

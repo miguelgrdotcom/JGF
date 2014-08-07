@@ -57,7 +57,7 @@ public class JGFTest {
 
     @BeforeClass
     public static void setUpClass() {
-        logger.setLevel(Level.INFO);
+        logger.setLevel(Level.OFF);
     }
 
     @AfterClass

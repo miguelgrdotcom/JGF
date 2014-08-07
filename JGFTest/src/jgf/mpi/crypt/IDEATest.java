@@ -52,6 +52,7 @@ int array_rows;
 int p_array_rows;
 int ref_p_array_rows;
 int rem_p_array_rows;
+int offset;
 
 byte [] plain1 = null;       // Buffer for plaintext data.
 byte [] crypt1 = null;       // Buffer for encrypted data.
@@ -99,8 +100,8 @@ void Do() throws MPIException
 //  cipher_idea(p_plain1, p_crypt1, Z);     // Encrypt plain1.  
 //  cipher_idea(p_crypt1, p_plain2, DK, p_array_rows);    // Decrypt.
  
-  cipher_idea(p_plain1, p_crypt1, Z, p_array_rows);     // the last arg is added for test.
-  cipher_idea(p_crypt1, p_plain2, DK, p_array_rows);    // 
+  cipher_idea(p_plain1, p_crypt1, Z, offset);     // the last arg is added for test.
+  cipher_idea(p_crypt1, p_plain2, DK, offset);    // 
 
   MPI.COMM_WORLD.Barrier();
 
@@ -457,8 +458,6 @@ public void cipher_idea(byte [] text1, byte [] text2, int [] key, int length)
 
 {
     
-    System.out.println("length="+length+"text.length="+text1.length+" @rank"+JGFCryptBench.rank);
-
 int i1 = 0;                 // Index into first text array.
 int i2 = 0;                 // Index into second text array.
 int ik;                     // Index into key array.
