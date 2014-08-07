@@ -274,6 +274,39 @@ public class JGFTest {
         }
         MPI.Finalize();
     }
+    
+    
+    public void $mpi_testLinpackMPI(String[] args) {
+        MPI.Init(args);
+
+        int rank = MPI.COMM_WORLD.Rank();
+        int nprocess = MPI.COMM_WORLD.Size();
+        initLinpack(16, rank, nprocess);
+
+        if (rank == 0) {
+            runSequential(args);
+        }
+        runMPI(args);
+
+        HUTracerView traceView = HUTracer.getTracerView();
+        HUSet<HUTuple2<Integer, Integer>> s = (HUSet<HUTuple2<Integer, Integer>>) traceView.get(Aspects.aspectOf(LinpackSequentialRecipe.class));
+        HUGatheredTracerView gatherdTraceView = HUTracer.getGatheredTracerView();
+        HUSet<HUTuple2<Integer, Integer>> d = (HUSet<HUTuple2<Integer, Integer>>) gatherdTraceView.get(Aspects.aspectOf(LinpackMPIRecipe.class));
+        HUSet<HUTuple2<Integer, Integer>> dd = gatherdTraceView.gather(d);
+
+        if (rank == 0) {
+            logger.info("{}", s.size());
+        }
+        logger.info("{}@{}", d.size(), rank);
+
+        if (rank == 0) {
+            logger.info("diff = {}", s.difference(dd).size());
+            logger.info("diff: {}", s.difference(dd));
+            assertThat(s.difference(dd).size(), is(0));
+        }
+        MPI.Finalize();
+    }    
+    
         
     /**
      * *******
@@ -365,7 +398,8 @@ public class JGFTest {
         //tester.$mpi_testSeriesMPI(args);
         //tester.$mpi_testMatmulMPI(args);
         //tester.$mpi_testSORMPI(args);        
-        tester.$mpi_testCryptMPI(args);
+        //tester.$mpi_testCryptMPI(args);
+        tester.$mpi_testLinpackMPI(args);
 
     }
 }

@@ -241,6 +241,8 @@ matrix in column order. --dmd 3/3/97
 	     }
 	     daxpy(n-(kp1),t,buf_col_k,kp1,1,
 	 	   col_j,kp1,1);
+            HUKernel(k, j, JGFLUFactBench.rank, JGFLUFactBench.real_p_ldaa);
+             
            }
 	  }
 	}
@@ -280,7 +282,9 @@ matrix in column order. --dmd 3/3/97
     return info;
   }
 
-  
+  public void HUKernel(int k, int j, int r, int size) {
+      return;
+  }  
   
   /*
     dgesl solves the double precision system
