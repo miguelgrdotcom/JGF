@@ -1,11 +1,16 @@
-package jgftest;
+package jgftest.series;
 
 
+import hu.list.HUSet;
 import hu.list.tuple.HUTuple1;
+import hu.tracer.HUTracer;
 import hu.tracer.HUTraceRecipe;
+import hu.tracer.HUTracerView;
+import jgf.sequential.series.SeriesTest;
+import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
-import org.slf4j.Logger;
+import ch.qos.logback.classic.Logger;
 import org.slf4j.LoggerFactory;
 
 /*
@@ -18,13 +23,14 @@ import org.slf4j.LoggerFactory;
  * @author yoshiki
  */
 @Aspect
-public class SeriesMPIRecipe extends HUTraceRecipe<HUTuple1<Integer>> {
+public class SeriesSequentialRecipe extends HUTraceRecipe<HUTuple1<Integer>> {
     public static final Logger logger = (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("JGFTest");    
+
     
-    @Before("call (void jgf.mpi.series.SeriesTest.HUKernel2(int, double, int, int)) && args(i, d, r, size)")
-    public void beforeHUKernel(int i, double d, int r, int size) {
-        logger.info("mpi {}@{}:{}",i,r,i+(r*size));
-        add(new HUTuple1<Integer>(i+(r*size)));
+    @Before("call (void jgf.sequential.series.SeriesTest.HUKernel(int, double)) && args(i, d)")
+    public void beforeHUKernel(int i, double d) {
+        logger.info("sequential {}",i);
+        add(new HUTuple1<Integer>(i));
     }
 
     @Override

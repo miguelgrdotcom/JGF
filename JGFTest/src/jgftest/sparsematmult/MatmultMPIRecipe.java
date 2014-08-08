@@ -1,8 +1,7 @@
-package jgftest;
+package jgftest.sparsematmult;
 
 
 import hu.list.tuple.HUTuple1;
-import hu.list.tuple.HUTuple2;
 import hu.tracer.HUTraceRecipe;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
@@ -19,19 +18,17 @@ import org.slf4j.LoggerFactory;
  * @author yoshiki
  */
 @Aspect
-public class SORMPIRecipe extends HUTraceRecipe<HUTuple2<Integer, Integer>> {
+public class MatmultMPIRecipe extends HUTraceRecipe<HUTuple1<Integer>> {
     public static final Logger logger = (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("JGFTest");    
     
-    @Before("call (void jgf.mpi.sor.SOR.HUKernel(int, int, int, int)) && args(i, j, r, size)")
-    public void beforeHUKernel(int i, int j, int r, int size) {
-        //logger.info("mpi ({},{})@{}=>({},{})",i,j,r,i+(r*size),j);
-        logger.info("mpi ({},{})@{}",i+(r*size),j,r);
-
-        add(new HUTuple2<Integer, Integer>(i+(r*size), j));
+    @Before("call (void jgf.mpi.sparsematmult.SparseMatmult.HUKernel(int, int, int)) && args(i, r, size)")
+    public void beforeHUKernel(int i, int r, int size) {
+        logger.info("mpi {}@{}:{}",i,r,i+(r*size));
+        add(new HUTuple1<Integer>(i+(r*size)));
     }
 
     @Override
-    protected HUTraceRecipe<HUTuple2<Integer, Integer>>[] friends() {
+    protected HUTraceRecipe<HUTuple1<Integer>>[] friends() {
         return new HUTraceRecipe[]{};
     }
     

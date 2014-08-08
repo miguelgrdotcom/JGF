@@ -1,4 +1,4 @@
-package jgftest;
+package jgftest.crypt;
 
 
 import hu.list.tuple.HUTuple1;

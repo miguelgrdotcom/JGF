@@ -5,6 +5,11 @@
  */
 package jgftest;
 
+import jgftest.series.SeriesSequentialRecipe;
+import jgftest.series.SeriesParallelRecipe;
+import jgftest.series.SeriesMPIRecipe;
+import jgftest.sparsematmult.MatmultParallelRecipe;
+import jgftest.sparsematmult.MatmultSequentialRecipe;
 import hu.list.HUSet;
 import hu.list.tuple.HUTuple1;
 import hu.tracer.HUGatheredTracerView;

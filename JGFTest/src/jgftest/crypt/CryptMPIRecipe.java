@@ -1,12 +1,11 @@
-package jgftest;
+package jgftest.crypt;
 
 
 import hu.list.tuple.HUTuple1;
 import hu.tracer.HUTraceRecipe;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
-import ch.qos.logback.classic.Logger;
-import hu.list.tuple.HUTuple2;
+import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /*
@@ -19,17 +18,18 @@ import org.slf4j.LoggerFactory;
  * @author yoshiki
  */
 @Aspect
-public class LinpackParallelRecipe extends HUTraceRecipe<HUTuple2<Integer,Integer>> {
+public class CryptMPIRecipe extends HUTraceRecipe<HUTuple1<Integer>> {
     public static final Logger logger = (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("JGFTest");    
-
-    @Before("call (void jgf.parallel.lufact.LinpackRunner.HUKernel(int,int)) && args(k,j)")
-    public void beforeHUKernel(int k, int j) {
-        logger.info("parallel {} {}", k,j);
-        add(new HUTuple2<Integer, Integer>(k,j));
+    
+    @Before("call (void jgf.mpi.crypt.IDEATest.HUKernel(int, int, int)) && args(i, r, length)")
+    public void beforeHUKernel(int i, int r, int length) {
+        logger.info("mpi {}@{}:{}",i,r,i+(r*length));
+        add(new HUTuple1<Integer>(i+(r*length)));
     }
 
     @Override
-    protected HUTraceRecipe<HUTuple2<Integer,Integer>>[] friends() {
+    protected HUTraceRecipe<HUTuple1<Integer>>[] friends() {
         return new HUTraceRecipe[]{};
     }
+
 }

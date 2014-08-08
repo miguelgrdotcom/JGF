@@ -1,4 +1,4 @@
-package jgftest;
+package jgftest.lufact;
 
 
 import hu.list.tuple.HUTuple1;

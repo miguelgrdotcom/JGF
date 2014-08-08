@@ -1,11 +1,17 @@
-package jgftest;
+package jgftest.sparsematmult;
 
 
+import hu.list.HUSet;
 import hu.list.tuple.HUTuple1;
+import hu.tracer.HUTracer;
 import hu.tracer.HUTraceRecipe;
+import hu.tracer.HUTracerView;
+import jgf.sequential.series.SeriesTest;
+import org.aspectj.lang.Aspects;
+import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
-import org.slf4j.Logger;
+import ch.qos.logback.classic.Logger;
 import org.slf4j.LoggerFactory;
 
 /*
@@ -18,13 +24,14 @@ import org.slf4j.LoggerFactory;
  * @author yoshiki
  */
 @Aspect
-public class MatmultMPIRecipe extends HUTraceRecipe<HUTuple1<Integer>> {
+public class MatmultSequentialRecipe extends HUTraceRecipe<HUTuple1<Integer>> {
     public static final Logger logger = (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("JGFTest");    
+
     
-    @Before("call (void jgf.mpi.sparsematmult.SparseMatmult.HUKernel(int, int, int)) && args(i, r, size)")
-    public void beforeHUKernel(int i, int r, int size) {
-        logger.info("mpi {}@{}:{}",i,r,i+(r*size));
-        add(new HUTuple1<Integer>(i+(r*size)));
+    @Before("call (static void jgf.sequential.sparsematmult.SparseMatmult.HUKernel(int)) && args(i)")
+    public void beforeHUKernel(int i) {
+        logger.info("sequential {}",i);
+        add(new HUTuple1<Integer>(i));
     }
 
     @Override

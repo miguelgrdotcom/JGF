@@ -1,4 +1,4 @@
-package jgftest;
+package jgftest.sor;
 
 
 import hu.list.HUSet;
