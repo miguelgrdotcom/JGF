@@ -36,7 +36,7 @@ public class JGFMolDynBenchSizeA{
   } else {
     System.out.println("The no of threads has not been specified, defaulting to 1");
     System.out.println("  ");
-    nthreads = 1;
+    nthreads = 16;
   }
 
     JGFInstrumentor.printHeader(3,0,nthreads);

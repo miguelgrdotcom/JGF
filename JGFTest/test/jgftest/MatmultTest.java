@@ -40,10 +40,10 @@ public class MatmultTest extends JGFTest {
     public void init(int _num_threads, int _rank, int _nprocess) {
         super.init(_num_threads, _rank, _nprocess);
 
-        sequential = new jgf.sequential.sparsematmult.JGFSparseMatmultBench();
-        parallel = new jgf.parallel.sparsematmult.JGFSparseMatmultBench(_num_threads);
+        sequential2 = new jgf.sequential.sparsematmult.JGFSparseMatmultBench();
+        parallel2 = new jgf.parallel.sparsematmult.JGFSparseMatmultBench(_num_threads);
         if (!(_rank == 0 && _nprocess == 0)) {
-            distributed = new jgf.mpi.sparsematmult.JGFSparseMatmultBench(_nprocess, _rank);
+            distributed2 = new jgf.mpi.sparsematmult.JGFSparseMatmultBench(_nprocess, _rank);
         }
     }
     

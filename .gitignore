@@ -47,3 +47,5 @@ hs_err_pid*
 /JGFMPIUtil/dist/
 /JGFMPIUtil/build/
 /HPCUnit/nbproject/private/
+/GraphGenerator/nbproject/private/
+/JGFParallelSection3/build/

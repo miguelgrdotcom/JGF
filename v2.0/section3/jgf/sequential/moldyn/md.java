@@ -210,6 +210,10 @@ public class md {
 /* MD simulation */
 
   }
+  
+  public void HUKernel(String tag, int i) {
+      return;
+  } 
 
   public void runiters(){
 
@@ -231,6 +235,7 @@ public class md {
 
     for (i=0;i<mdsize;i++) {
      sum = sum + one[i].mkekin(hsq2);    /*scale forces, update velocities */
+
     }
 
     ekin = sum/hsq;
@@ -240,6 +245,7 @@ public class md {
 
     for (i=0;i<mdsize;i++) {
      vel = vel + one[i].velavg(vaverh,h); /* average velocity */
+
     }
 
     vel = vel / h;
@@ -271,9 +277,7 @@ public class md {
 
 
   }
-
-
-
+  
 
 }
 
@@ -299,9 +303,7 @@ class particle {
    this.zforce = zforce;
 
   }
-
   public void domove(double side) {
-
     xcoord = xcoord + xvelocity + xforce;
     ycoord = ycoord + yvelocity + yforce;
     zcoord = zcoord + zvelocity + zforce;

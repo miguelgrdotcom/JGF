@@ -454,7 +454,6 @@ class particle {
   }
 
   public void domove(double side,int part_id) {
-
     xcoord = xcoord + xvelocity + sh_force[0][part_id];
     ycoord = ycoord + yvelocity + sh_force[1][part_id];
     zcoord = zcoord + zvelocity + sh_force[2][part_id];

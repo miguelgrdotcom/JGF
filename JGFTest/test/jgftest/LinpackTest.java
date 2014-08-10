@@ -42,10 +42,10 @@ public class LinpackTest extends JGFTest {
     public void init(int _num_threads, int _rank, int _nprocess) {
         super.init(_num_threads, _rank, _nprocess);
 
-        sequential = new jgf.sequential.lufact.JGFLUFactBench();
-        parallel = new jgf.parallel.lufact.JGFLUFactBench(_num_threads);
+        sequential2 = new jgf.sequential.lufact.JGFLUFactBench();
+        parallel2 = new jgf.parallel.lufact.JGFLUFactBench(_num_threads);
         if (!(_rank == 0 && _nprocess == 0)) {
-            distributed = new jgf.mpi.lufact.JGFLUFactBench(_nprocess, _rank);
+            distributed2 = new jgf.mpi.lufact.JGFLUFactBench(_nprocess, _rank);
         }
     }
     

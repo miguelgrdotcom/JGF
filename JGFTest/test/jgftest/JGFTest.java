@@ -5,40 +5,15 @@
  */
 package jgftest;
 
-import jgftest.series.SeriesSequentialRecipe;
-import jgftest.series.SeriesMPIRecipe;
-import jgftest.series.SeriesParallelRecipe;
-import jgftest.sor.SORSequentialRecipe;
-import jgftest.sor.SORMPIRecipe;
-import jgftest.sor.SORParallelRecipe;
-import jgftest.sparsematmult.MatmultParallelRecipe;
-import jgftest.sparsematmult.MatmultMPIRecipe;
-import jgftest.sparsematmult.MatmultSequentialRecipe;
-import jgftest.lufact.LinpackMPIRecipe;
-import jgftest.lufact.LinpackSequentialRecipe;
-import jgftest.lufact.LinpackParallelRecipe;
-import jgftest.crypt.CryptSequentialRecipe;
-import jgftest.crypt.CryptMPIRecipe;
-import jgftest.crypt.CryptParallelRecipe;
 import ch.qos.logback.classic.Level;
-import hu.list.HUSet;
-import hu.list.tuple.HUTuple1;
-import hu.tracer.HUTracer;
-import hu.tracer.HUTracerView;
-import org.aspectj.lang.Aspects;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import static org.junit.Assert.*;
 //import org.slf4j.Logger;
 //import org.slf4j.LoggerFactory;
 import ch.qos.logback.classic.Logger;
-import hu.list.tuple.HUTuple2;
-import hu.tracer.HUGatheredTracerView;
-import mpi.MPI;
-import static org.hamcrest.CoreMatchers.is;
 import org.slf4j.LoggerFactory;
 
 /**
@@ -47,9 +22,13 @@ import org.slf4j.LoggerFactory;
  */
 public class JGFTest {
 
-    protected jgf.sequential.util.JGFSection2 sequential = null;
-    protected jgf.parallel.util.JGFSection2 parallel = null;
-    protected jgf.mpi.util.JGFSection2 distributed = null;
+    protected jgf.sequential.util.JGFSection2 sequential2 = null;
+    protected jgf.parallel.util.JGFSection2 parallel2 = null;
+    protected jgf.mpi.util.JGFSection2 distributed2 = null;
+    
+    protected jgf.sequential.util.JGFSection3 sequential3 = null;
+    protected jgf.parallel.util.JGFSection3 parallel3 = null;
+    protected jgf.mpi.util.JGFSection3 distributed3 = null;    
 
     protected int size = 0;
     protected int rank = 0;
@@ -97,41 +76,58 @@ public class JGFTest {
      * *******
      * テスト実行 *******
      */
-    @Test
+    //@Test
     public void testSeriesParallel() {
     }
     
-    @Test
+    //@Test
     public void testMatmultParallel() {
     }
 
-    @Test
+    //@Test
     public void testSORParallel() {
     }
     
-    @Test
+    //@Test
     public void testCryptParallel() {
     }
 
-    @Test
+    //@Test
     public void testLinpackParallel() {
     }   
 
+    //@Test
+    public void testMoldynParallel() {
+    }  
+    
+    //@Test
+    public void testMontecarloParallel() {
+    } 
+    
+    @Test
+    public void testRaytracerParallel() {
+    } 
 
     /**
      * *******
      * 対象実行 *******
      */
     public void runSequential(String[] argv) {
-        sequential.JGFrun(size);
+        if (sequential2 != null) sequential2.JGFrun(size);
+        if (sequential3 != null) sequential3.JGFrun(size);
+
     }
 
     public void runParallel(String[] argv) {
-        parallel.JGFrun(size);
+        if (parallel2 != null) parallel2.JGFrun(size);
+        if (parallel3 != null) parallel3.JGFrun(size);
+        
     }
 
     public void runMPI(String[] argv) {
-        distributed.JGFrun(size);
+        if (distributed2 != null) distributed2.JGFrun(size);
+        if (distributed3 != null) distributed3.JGFrun(size);
+        
     }
 
     public void $mpi_testMPI(String[] args) { }
@@ -141,7 +137,9 @@ public class JGFTest {
      * MPIはJUnitから実行できないためmainに記述 *******
      */
     public static void main(String[] args) {
-        JGFTest tester = new LinpackTest();
+        //JGFTest tester = new MoldynTest();
+        //JGFTest tester = new MontecarloTest();
+        JGFTest tester = new RaytracerTest();        
         tester.$mpi_testMPI(args);
     }
 }
