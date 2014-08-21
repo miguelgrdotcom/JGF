@@ -96,7 +96,7 @@ public class JGFTest {
     public void testLinpackParallel() {
     }   
 
-    //@Test
+    @Test
     public void testMoldynParallel() {
     }  
     
@@ -104,7 +104,7 @@ public class JGFTest {
     public void testMontecarloParallel() {
     } 
     
-    @Test
+    //@Test
     public void testRaytracerParallel() {
     } 
 
@@ -137,9 +137,9 @@ public class JGFTest {
      * MPIはJUnitから実行できないためmainに記述 *******
      */
     public static void main(String[] args) {
-        //JGFTest tester = new MoldynTest();
+        JGFTest tester = new MoldynTest();
         //JGFTest tester = new MontecarloTest();
-        JGFTest tester = new RaytracerTest();        
+        //JGFTest tester = new RaytracerTest();        
         tester.$mpi_testMPI(args);
     }
 }

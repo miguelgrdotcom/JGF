@@ -34,7 +34,7 @@ public class md {
     public static double[] ek;
 
     int size, mm;
-    int datasizes[] = {2, 8, 13};
+    int datasizes[] = {8, 13};
 
     public static int interactions = 0;
     public static int[] interacts;
@@ -107,7 +107,7 @@ class mdRunner implements Runnable {
     int irep = 10;
     int istop = 19;
     int iprint = 10;
-    int movemx = 5/*50*/;
+    int movemx = 50;
 
     Barrier br;
     random randnum;
@@ -355,7 +355,8 @@ class mdRunner implements Runnable {
             count = 0.0;
 
             /* average velocity */
-            for (i = 0; i < mdsize; i++) {
+            for (i = 0; i < mdsize; i+=JGFMolDynBench.nthreads) {
+            /*for (i = 0; i < mdsize; i++) {*/
                 velt = one[i].velavg(vaverh, h);
                 HUKernel(Tag.velavg, i);
 
@@ -431,7 +432,7 @@ class particle {
 
     static int count = 0;    
     public void domove(double side, int part_id) {
-        System.out.println("p:"+count++);
+
         xcoord = xcoord + xvelocity + sh_force[0][part_id];
         ycoord = ycoord + yvelocity + sh_force[1][part_id];
         zcoord = zcoord + zvelocity + sh_force[2][part_id];

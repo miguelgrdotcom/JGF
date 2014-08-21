@@ -31,7 +31,7 @@ public class md {
     public static double vir = 0.0;
     public static double count = 0.0;
     int size;
-    int datasizes[] = {2, 8, 13};
+    int datasizes[] = {8, 13};
 
     public static double interactions = 0.0;
 
@@ -58,7 +58,7 @@ public class md {
     int irep = 10;
     int istop = 19;
     int iprint = 10;
-    int movemx = 5/*50*/;
+    int movemx = 50;
 
     random randnum;
 

@@ -21,10 +21,12 @@
 
 package jgf.parallel.moldyn; 
 
+import ch.qos.logback.classic.Logger;
 import jgf.parallel.util.JGFInstrumentor;
 import jgf.parallel.util.JGFSection3;
 import java.io.*;
 import jgf.parallel.util.*;
+import org.slf4j.LoggerFactory;
 
 public class JGFMolDynBench extends md implements JGFSection3 {
 
@@ -53,10 +55,14 @@ public class JGFMolDynBench extends md implements JGFSection3 {
 
   } 
 
+  public static final Logger logger = (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("JGFMolDynBench");    
+
 
   public void JGFvalidate(){
     double refval[] = {1731.4306625334357,7397.392307839352};
     double dev = Math.abs(ek[0] - refval[size]);
+    logger.warn("ek = {}", ek[0]);
+
     if (dev > 1.0e-10 ){
       System.out.println("Validation failed");
       System.out.println("Kinetic Energy = " + ek[0] + "  " + dev + "  " + size);
