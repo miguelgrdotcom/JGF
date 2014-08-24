@@ -25,7 +25,7 @@ public class MontecarloParallelRecipe extends HUTraceRecipe<HUTuple1<Integer>> {
 
     @Before("call (void jgf.parallel.montecarlo.AppDemoThread.HUKernel(int)) && args(i)")
     public void beforeHUKernel(int i) {
-        logger.info("parallel {}", i);
+        //logger.info("parallel {}", i);
         add(new HUTuple1<Integer>(i));
     }
 

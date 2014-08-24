@@ -24,7 +24,7 @@ public class MoldynMPIRecipe extends HUTraceRecipe<HUTuple2<Tag, Integer>> {
     
     @Before("call (void jgf.mpi.moldyn.md.HUKernel(jgftest.moldyn.Tag, int, int, int)) && args(tag, i, r, size)")
     public void beforeHUKernel(Tag tag, int i, int r, int size) {
-        logger.info("mpi {} {}", tag, i+(r*size));
+        //logger.info("mpi {} {}", tag, i+(r*size));
         switch (tag) {
             case domove: add(new HUTuple2<Tag, Integer>(tag, i+(r*size)));
                 break;

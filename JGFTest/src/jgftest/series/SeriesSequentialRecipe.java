@@ -29,7 +29,7 @@ public class SeriesSequentialRecipe extends HUTraceRecipe<HUTuple1<Integer>> {
     
     @Before("call (void jgf.sequential.series.SeriesTest.HUKernel(int, double)) && args(i, d)")
     public void beforeHUKernel(int i, double d) {
-        logger.info("sequential {}",i);
+        //logger.info("sequential {}",i);
         add(new HUTuple1<Integer>(i));
     }
 

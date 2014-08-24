@@ -24,7 +24,7 @@ public class SeriesParallelRecipe extends HUTraceRecipe<HUTuple1<Integer>> {
 
     @Before("call (void jgf.parallel.series.SeriesRunner.HUKernel(int, double)) && args(i, d)")
     public void beforeHUKernel(int i, double d) {
-        logger.info("parallel {}", i);
+        //logger.info("parallel {}", i);
         add(new HUTuple1<Integer>(i));
     }
 

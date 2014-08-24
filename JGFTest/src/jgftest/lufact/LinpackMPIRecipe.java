@@ -23,8 +23,7 @@ public class LinpackMPIRecipe extends HUTraceRecipe<HUTuple2<Integer, Integer>> 
     
     @Before("call (void jgf.mpi.lufact.Linpack.HUKernel(int, int, int, int)) && args(k, j, r, size)")
     public void beforeHUKernel(int k, int j, int r, int size) {
-        //logger.info("mpi ({},{})@{}",k+(r*size),j,r);
-        logger.info("mpi ({},{})@{}",k,j,r);        
+        //logger.info("mpi ({},{})@{}",k,j,r);        
         add(new HUTuple2<Integer, Integer>(k, j));
     }
 

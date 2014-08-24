@@ -24,7 +24,7 @@ public class RaytracerSequentialRecipe extends HUTraceRecipe<HUTuple2<Integer, I
     
     @Before("call (void jgf.sequential.raytracer.RayTracer.HUKernel(int, int)) && args(x, y)")
     public void beforeHUKernel(int x, int y) {
-        logger.info("sequential ({},{})",x, y);
+        //logger.info("sequential ({},{})",x, y);
         add(new HUTuple2<Integer, Integer>(x, y));
     }
 

@@ -24,7 +24,7 @@ public class LinpackParallelRecipe extends HUTraceRecipe<HUTuple2<Integer,Intege
 
     @Before("call (void jgf.parallel.lufact.LinpackRunner.HUKernel(int,int)) && args(k,j)")
     public void beforeHUKernel(int k, int j) {
-        logger.info("parallel {} {}", k,j);
+        //logger.info("parallel {} {}", k,j);
         add(new HUTuple2<Integer, Integer>(k,j));
     }
 

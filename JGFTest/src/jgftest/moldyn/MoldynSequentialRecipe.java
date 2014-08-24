@@ -26,15 +26,15 @@ public class MoldynSequentialRecipe extends HUTraceRecipe<HUTuple2<Tag, Integer>
     
     @Before("call (void jgf.sequential.moldyn.md.HUKernel(jgftest.moldyn.Tag, int)) && args(tag, i)")
     public void beforeHUKernel(Tag tag, int i) {
-        logger.info("sequential {} {}",tag, i);
+        //logger.info("sequential {} {}",tag, i);
         switch (tag) {
-            case domove: //add(new HUTuple2<Tag, Integer>(tag, i));
+            case domove: add(new HUTuple2<Tag, Integer>(tag, i));
                 break;
-            case force: //add(new HUTuple2<Tag, Integer>(tag, i));
+            case force: add(new HUTuple2<Tag, Integer>(tag, i));
                 break;
-            case mkekin: //add(new HUTuple2<Tag, Integer>(tag, i));
+            case mkekin: add(new HUTuple2<Tag, Integer>(tag, i));
                 break;
-            case velavg: //add(new HUTuple2<Tag, Integer>(tag, i));
+            case velavg: add(new HUTuple2<Tag, Integer>(tag, i));
                 break;
         }
     }    

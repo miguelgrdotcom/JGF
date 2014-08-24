@@ -23,7 +23,7 @@ public class RaytracerParallelRecipe extends HUTraceRecipe<HUTuple2<Integer, Int
 
     @Before("call (void jgf.parallel.raytracer.RayTracer.HUKernel(int, int)) && args(x, y)")
     public void beforeHUKernel(int x, int y) {
-        logger.info("parallel ({},{})", x, y);
+        //logger.info("parallel ({},{})", x, y);
         add(new HUTuple2<Integer, Integer>(x,y));
     }
 

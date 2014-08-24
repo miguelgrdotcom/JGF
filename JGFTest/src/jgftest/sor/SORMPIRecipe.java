@@ -24,8 +24,7 @@ public class SORMPIRecipe extends HUTraceRecipe<HUTuple2<Integer, Integer>> {
     
     @Before("call (void jgf.mpi.sor.SOR.HUKernel(int, int, int, int)) && args(i, j, r, size)")
     public void beforeHUKernel(int i, int j, int r, int size) {
-        //logger.info("mpi ({},{})@{}=>({},{})",i,j,r,i+(r*size),j);
-        logger.info("mpi ({},{})@{}",i+(r*size),j,r);
+        //logger.info("mpi ({},{})@{}",i+(r*size),j,r);
 
         add(new HUTuple2<Integer, Integer>(i+(r*size), j));
     }

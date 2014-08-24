@@ -30,7 +30,7 @@ public class MatmultSequentialRecipe extends HUTraceRecipe<HUTuple1<Integer>> {
     
     @Before("call (static void jgf.sequential.sparsematmult.SparseMatmult.HUKernel(int)) && args(i)")
     public void beforeHUKernel(int i) {
-        logger.info("sequential {}",i);
+        //logger.info("sequential {}",i);
         add(new HUTuple1<Integer>(i));
     }
 

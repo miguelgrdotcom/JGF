@@ -25,7 +25,7 @@ public class LinpackSequentialRecipe extends HUTraceRecipe<HUTuple2<Integer,Inte
     
     @Before("call (void jgf.sequential.lufact.Linpack.HUKernel(int,int)) && args(k,j)")
     public void beforeHUKernel(int k,int j) {
-        logger.info("sequential {} {}",k, j);
+        //logger.info("sequential {} {}",k, j);
         add(new HUTuple2<Integer, Integer>(k,j));
     }
 

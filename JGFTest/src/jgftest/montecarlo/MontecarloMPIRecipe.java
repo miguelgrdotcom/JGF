@@ -23,7 +23,7 @@ public class MontecarloMPIRecipe extends HUTraceRecipe<HUTuple1<Integer>> {
     
     @Before("call (void jgf.mpi.montecarlo.AppDemo.HUKernel(int, int)) && args(i, r)")
     public void beforeHUKernel(int i, int r) {
-        logger.info("mpi {}@{}",i,r);
+        //logger.info("mpi {}@{}",i,r);
         add(new HUTuple1<Integer>(i));
     }
 

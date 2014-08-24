@@ -25,7 +25,7 @@ public class SORParallelRecipe extends HUTraceRecipe<HUTuple2<Integer, Integer>>
 
     @Before("call (void jgf.parallel.sor.SORRunner.HUKernel(int, int)) && args(i, j)")
     public void beforeHUKernel(int i, int j) {
-        logger.info("parallel {} {}", i, j);
+        //logger.info("parallel {} {}", i, j);
         add(new HUTuple2<Integer, Integer>(i, j));
     }
 

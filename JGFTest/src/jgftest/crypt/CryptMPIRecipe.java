@@ -23,7 +23,7 @@ public class CryptMPIRecipe extends HUTraceRecipe<HUTuple1<Integer>> {
     
     @Before("call (void jgf.mpi.crypt.IDEATest.HUKernel(int, int, int)) && args(i, r, length)")
     public void beforeHUKernel(int i, int r, int length) {
-        logger.info("mpi {}@{}:{}",i,r,i+(r*length));
+        //logger.info("mpi {}@{}:{}",i,r,i+(r*length));
         add(new HUTuple1<Integer>(i+(r*length)));
     }
 

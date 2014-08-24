@@ -23,7 +23,7 @@ public class MatmultMPIRecipe extends HUTraceRecipe<HUTuple1<Integer>> {
     
     @Before("call (void jgf.mpi.sparsematmult.SparseMatmult.HUKernel(int, int, int)) && args(i, r, size)")
     public void beforeHUKernel(int i, int r, int size) {
-        logger.info("mpi {}@{}:{}",i,r,i+(r*size));
+        //logger.info("mpi {}@{}:{}",i,r,i+(r*size));
         add(new HUTuple1<Integer>(i+(r*size)));
     }
 

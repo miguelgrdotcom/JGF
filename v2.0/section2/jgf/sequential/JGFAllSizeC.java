@@ -42,7 +42,7 @@ public class JGFAllSizeC{
     cb.JGFrun(size);    
 
     JGFSeriesBench se = new JGFSeriesBench(); 
-    se.JGFrun(size-1);
+    se.JGFrun(size);
 
     JGFLUFactBench lub = new JGFLUFactBench();
     lub.JGFrun(size);    

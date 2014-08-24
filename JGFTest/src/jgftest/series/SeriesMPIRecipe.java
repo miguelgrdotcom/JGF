@@ -23,7 +23,7 @@ public class SeriesMPIRecipe extends HUTraceRecipe<HUTuple1<Integer>> {
     
     @Before("call (void jgf.mpi.series.SeriesTest.HUKernel2(int, double, int, int)) && args(i, d, r, size)")
     public void beforeHUKernel(int i, double d, int r, int size) {
-        logger.info("mpi {}@{}:{}",i,r,i+(r*size));
+        //logger.info("mpi {}@{}:{}",i,r,i+(r*size));
         add(new HUTuple1<Integer>(i+(r*size)));
     }
 
