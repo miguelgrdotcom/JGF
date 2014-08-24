@@ -42,16 +42,16 @@ public class JGFAllSizeC{
     cb.JGFrun(size);    
 
     JGFSeriesBench se = new JGFSeriesBench(); 
-    se.JGFrun(size);
+    se.JGFrun(size-1);
 
     JGFLUFactBench lub = new JGFLUFactBench();
     lub.JGFrun(size);    
 
-    JGFHeapSortBench hb = new JGFHeapSortBench();
-    hb.JGFrun(size);    
-
-    JGFFFTBench fft = new JGFFFTBench(); 
-    fft.JGFrun(size);
+//    JGFHeapSortBench hb = new JGFHeapSortBench();
+//    hb.JGFrun(size);    
+//
+//    JGFFFTBench fft = new JGFFFTBench(); 
+//    fft.JGFrun(size);
    
     JGFSORBench jb = new JGFSORBench(); 
     jb.JGFrun(size);
