@@ -38,3 +38,5 @@ hs_err_pid*
 /HPCUnit/nbproject/private/
 /GraphGenerator/nbproject/private/
 /JGFParallelSection3/build/
+/JGFParallelSection2/dist/
+/JGFParallelSection3/dist/
