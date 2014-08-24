@@ -1,8 +1,8 @@
-package jgf.mpi;
+package jgf.parallel;
 
 /**************************************************************************
 *                                                                         *
-*             Java Grande Forum Benchmark Suite - MPJ Version 1.0         *
+*         Java Grande Forum Benchmark Suite - Thread Version 1.0          *
 *                                                                         *
 *                            produced by                                  *
 *                                                                         *
@@ -21,53 +21,29 @@ package jgf.mpi;
 **************************************************************************/
 
 
-import jgf.mpi.util.JGFInstrumentor;
-import jgf.mpi.sparsematmult.JGFSparseMatmultBench;
-import jgf.mpi.series.JGFSeriesBench;
-import jgf.mpi.lufact.JGFLUFactBench;
-import jgf.mpi.crypt.JGFCryptBench;
-import jgf.mpi.util.*; 
+import jgf.parallel.util.JGFInstrumentor;
+import jgf.parallel.moldyn.JGFMolDynBench;
+import jgf.parallel.util.*;
 
-import mpi.*;
+public class JGFMolDynBenchSizeA{ 
 
-public class JGFAllSizeC{ 
+  public static int nthreads;
 
-  public static int nprocess;
-  public static int rank;
+  public static void main(String argv[]){
 
-  public static void main(String argv[]) throws MPIException{
+  if(argv.length != 0 ) {
+    nthreads = Integer.parseInt(argv[0]);
+  } else {
+    System.out.println("The no of threads has not been specified, defaulting to 1");
+    System.out.println("  ");
+    nthreads = 16;
+  }
 
-/* Initialise MPI */
-     MPI.Init(argv);
-     rank = MPI.COMM_WORLD.Rank();
-     nprocess = MPI.COMM_WORLD.Size();
+    JGFInstrumentor.printHeader(3,0,nthreads);
 
-    int size = 2;
-
-    if(rank==0) {
-      JGFInstrumentor.printHeader(2,2,nprocess);
-    }
-
-    JGFSeriesBench se = new JGFSeriesBench(nprocess,rank);
-    se.JGFrun(size);
-
-    JGFLUFactBench lub = new JGFLUFactBench(nprocess,rank);
-    lub.JGFrun(size);
-
-    JGFCryptBench cb = new JGFCryptBench(nprocess,rank); 
-    cb.JGFrun(size);
-
-/*    JGFSORBench jb = new JGFSORBench(nprocess,rank);
-    jb.JGFrun(size);
-*/
-
-    JGFSparseMatmultBench smm = new JGFSparseMatmultBench(nprocess,rank);
-    smm.JGFrun(size);
-
-/* Finalise MPI */
-     MPI.Finalize();
+    JGFMolDynBench mold = new JGFMolDynBench(nthreads); 
+    mold.JGFrun(0);
  
   }
 }
-
 

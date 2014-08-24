@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package jgftest;
 
 import hu.list.HUSet;
@@ -29,7 +23,6 @@ public class SeriesTest extends JGFTest {
     
     public SeriesTest() {
     }
-
         
     /**
      * *******
@@ -52,7 +45,6 @@ public class SeriesTest extends JGFTest {
 
         HUTracerView traceView = HUTracer.getTracerView();
         HUSet<HUTuple1<Integer>> s = (HUSet<HUTuple1<Integer>>) traceView.get(Aspects.aspectOf(SeriesSequentialRecipe.class));
-
         HUSet<HUTuple1<Integer>> p = (HUSet<HUTuple1<Integer>>) traceView.get(Aspects.aspectOf(SeriesParallelRecipe.class));
 
         HUSet<HUTuple1<Integer>> diff = s.difference(p);
@@ -67,9 +59,7 @@ public class SeriesTest extends JGFTest {
         int nprocess = MPI.COMM_WORLD.Size();
         init(num_threads, rank, nprocess);
 
-        if (rank == 0) {
-            runSequential(args);
-        }
+        if (rank == 0) runSequential(args);
         runMPI(args);
 
         HUTracerView traceView = HUTracer.getTracerView();

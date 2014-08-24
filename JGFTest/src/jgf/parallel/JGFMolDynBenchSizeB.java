@@ -22,20 +22,14 @@ package jgf.parallel;
 
 
 import jgf.parallel.util.JGFInstrumentor;
-import jgf.parallel.sparsematmult.JGFSparseMatmultBench;
-import jgf.parallel.sor.JGFSORBench;
-import jgf.parallel.series.JGFSeriesBench;
-import jgf.parallel.lufact.JGFLUFactBench;
-import jgf.parallel.crypt.JGFCryptBench;
+import jgf.parallel.moldyn.JGFMolDynBench;
 import jgf.parallel.util.*;
 
-public class JGFAllSizeB{
+public class JGFMolDynBenchSizeB{ 
 
   public static int nthreads;
 
   public static void main(String argv[]){
-   
-    int size = 1; 
 
   if(argv.length != 0 ) {
     nthreads = Integer.parseInt(argv[0]);
@@ -45,22 +39,10 @@ public class JGFAllSizeB{
     nthreads = 1;
   }
 
-    JGFInstrumentor.printHeader(2,size,nthreads);
+    JGFInstrumentor.printHeader(3,1,nthreads);
 
-    JGFSeriesBench se = new JGFSeriesBench(nthreads); 
-    se.JGFrun(size);
-
-    JGFLUFactBench lub = new JGFLUFactBench(nthreads);
-    lub.JGFrun(size);    
-
-    JGFCryptBench cb = new JGFCryptBench(nthreads);
-    cb.JGFrun(size);    
-
-    JGFSORBench jb = new JGFSORBench(nthreads); 
-    jb.JGFrun(size);
-   
-    JGFSparseMatmultBench smm = new JGFSparseMatmultBench(nthreads); 
-    smm.JGFrun(size);
+    JGFMolDynBench mold = new JGFMolDynBench(nthreads); 
+    mold.JGFrun(1);
  
   }
 }

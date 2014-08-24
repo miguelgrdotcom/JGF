@@ -47,7 +47,7 @@ public class md {
   int size;
   int datasizes[] = {8,13};
 
-  public static int interactions = 0;
+  public static double interactions = 0;
 
   int i,j,k,lg,mdsize,move,mm;
 
@@ -66,7 +66,7 @@ public class md {
 
   double [] tmp_epot;
   double [] tmp_vir;
-  int [] tmp_interactions;
+  double [] tmp_interactions;
 
   int ijk,npartm,PARTSIZE,iseed,tint;
   int irep = 10;
@@ -107,7 +107,7 @@ public class md {
 
     tmp_epot = new double[1];
     tmp_vir = new double[1];
-    tmp_interactions = new int[1];
+    tmp_interactions = new double[1];
 
 
 /* Particle Generation */
