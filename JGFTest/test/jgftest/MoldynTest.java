@@ -29,7 +29,7 @@ import static org.junit.Assert.*;
 public class MoldynTest extends JGFTest {
     
     public MoldynTest() {
-        logger.setLevel(Level.WARN);
+        logger.setLevel(Level.INFO);
     }
 
         
@@ -55,7 +55,7 @@ public class MoldynTest extends JGFTest {
         HUTracerView traceView = HUTracer.getTracerView();
         HUSet<HUTuple2<Tag, Integer>> s = (HUSet<HUTuple2<Tag, Integer>>) traceView.get(Aspects.aspectOf(MoldynSequentialRecipe.class));
         HUSet<HUTuple2<Tag, Integer>> p = (HUSet<HUTuple2<Tag, Integer>>) traceView.get(Aspects.aspectOf(MoldynParallelRecipe.class));
-        logger.warn("sequential size = {}, parallel size = {}", s.size(), p.size());
+        logger.info("sequential size = {}, parallel size = {}", s.size(), p.size());
         logger.info(getMemoryInfo());
         //HUSet<HUTuple2<Tag, Integer>> diff = s.difference(p);
 

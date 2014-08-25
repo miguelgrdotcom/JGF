@@ -81,31 +81,31 @@ public class JGFTest {
     public void testSeriesParallel() {
     }
     
-    @Test
+    //@Test
     public void testMatmultParallel() {
     }
 
-    @Test
+    //@Test
     public void testSORParallel() {
     }
     
-    //@Test
+    @Test
     public void testCryptParallel() {
     }
 
-    //@Test
+    @Test
     public void testLinpackParallel() {
     }   
 
-    //@Test
+    @Test
     public void testMoldynParallel() {
     }  
     
-    //@Test
+    @Test
     public void testMontecarloParallel() {
     } 
     
-    //@Test
+    @Test
     public void testRaytracerParallel() {
     } 
 
