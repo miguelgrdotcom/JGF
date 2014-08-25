@@ -56,11 +56,11 @@ public class JGFAllSizeC2{
     JGFCryptBench cb = new JGFCryptBench(nthreads);
     cb.JGFrun(size);    
 
-    JGFSORBench jb = new JGFSORBench(nthreads); 
-    jb.JGFrun(size);
-   
-    JGFSparseMatmultBench smm = new JGFSparseMatmultBench(nthreads); 
-    smm.JGFrun(size);
+//    JGFSORBench jb = new JGFSORBench(nthreads); 
+//    jb.JGFrun(size);
+//   
+//    JGFSparseMatmultBench smm = new JGFSparseMatmultBench(nthreads); 
+//    smm.JGFrun(size);
  
   }
 }

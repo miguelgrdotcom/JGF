@@ -47,17 +47,17 @@ public class JGFAllSizeC2{
     JGFLUFactBench lub = new JGFLUFactBench();
     lub.JGFrun(size);    
 
-    JGFHeapSortBench hb = new JGFHeapSortBench();
-    hb.JGFrun(size);    
-
-    JGFFFTBench fft = new JGFFFTBench(); 
-    fft.JGFrun(size);
-   
-    JGFSORBench jb = new JGFSORBench(); 
-    jb.JGFrun(size);
-   
-    JGFSparseMatmultBench smm = new JGFSparseMatmultBench(); 
-    smm.JGFrun(size);
+//    JGFHeapSortBench hb = new JGFHeapSortBench();
+//    hb.JGFrun(size);    
+//
+//    JGFFFTBench fft = new JGFFFTBench(); 
+//    fft.JGFrun(size);
+//   
+//    JGFSORBench jb = new JGFSORBench(); 
+//    jb.JGFrun(size);
+//   
+//    JGFSparseMatmultBench smm = new JGFSparseMatmultBench(); 
+//    smm.JGFrun(size);
     
     
   }
