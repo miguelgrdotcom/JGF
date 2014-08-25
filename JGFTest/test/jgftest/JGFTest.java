@@ -81,11 +81,11 @@ public class JGFTest {
     public void testSeriesParallel() {
     }
     
-    //@Test
+    @Test
     public void testMatmultParallel() {
     }
 
-    //@Test
+    @Test
     public void testSORParallel() {
     }
     
