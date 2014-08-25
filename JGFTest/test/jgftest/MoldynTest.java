@@ -53,13 +53,21 @@ public class MoldynTest extends JGFTest {
 
         runSequential(null);
         runParallel(null);
+        
+        long begin = System.currentTimeMillis();
 
         HUTracerView traceView = HUTracer.getTracerView();
         HUSet<HUTuple2<Tag, Integer>> s = (HUSet<HUTuple2<Tag, Integer>>) traceView.get(Aspects.aspectOf(MoldynSequentialRecipe.class));
         HUSet<HUTuple2<Tag, Integer>> p = (HUSet<HUTuple2<Tag, Integer>>) traceView.get(Aspects.aspectOf(MoldynParallelRecipe.class));
+        HUSet<HUTuple2<Tag, Integer>> diff = s.difference(p);
+        
+        assertThat(diff.isEmpty(), is(true));
+        long end = System.currentTimeMillis();        
+        logger.info("time = " + (end-begin));        
+        
         logger.info("sequential size = {}, parallel size = {}", s.size(), p.size());
         logger.info(getMemoryInfo());
-        //HUSet<HUTuple2<Tag, Integer>> diff = s.difference(p);
+        
 
         //assertThat(s, is(p));
     }    

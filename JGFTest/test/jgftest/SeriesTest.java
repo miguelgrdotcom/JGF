@@ -43,12 +43,19 @@ public class SeriesTest extends JGFTest {
         runSequential(null);
         runParallel(null);
 
+        long begin = System.currentTimeMillis();
+        
         HUTracerView traceView = HUTracer.getTracerView();
         HUSet<HUTuple1<Integer>> s = (HUSet<HUTuple1<Integer>>) traceView.get(Aspects.aspectOf(SeriesSequentialRecipe.class));
         HUSet<HUTuple1<Integer>> p = (HUSet<HUTuple1<Integer>>) traceView.get(Aspects.aspectOf(SeriesParallelRecipe.class));
+        HUSet<HUTuple1<Integer>> diff = s.difference(p);
+        
+        assertThat(diff.isEmpty(), is(true));
+        long end = System.currentTimeMillis();        
+        logger.info("time = " + (end-begin));
         logger.info("sequential size = {}, parallel size = {}", s.size(), p.size());
         logger.info(getMemoryInfo());
-        //HUSet<HUTuple1<Integer>> diff = s.difference(p);
+
         //assertThat(s, is(p));
     }    
     
