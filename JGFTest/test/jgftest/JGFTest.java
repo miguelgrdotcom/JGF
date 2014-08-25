@@ -115,19 +115,19 @@ public class JGFTest {
      */
     public void runSequential(String[] argv) {
         if (sequential2 != null) sequential2.JGFrun(size);
-        if (sequential3 != null) sequential3.JGFrun(size-1);
+        if (sequential3 != null) sequential3.JGFrun(size);
 
     }
 
     public void runParallel(String[] argv) {
         if (parallel2 != null) parallel2.JGFrun(size);
-        if (parallel3 != null) parallel3.JGFrun(size-1);
+        if (parallel3 != null) parallel3.JGFrun(size);
         
     }
 
     public void runMPI(String[] argv) {
         if (distributed2 != null) distributed2.JGFrun(size);
-        if (distributed3 != null) distributed3.JGFrun(size-1);
+        if (distributed3 != null) distributed3.JGFrun(size);
         
     }
 

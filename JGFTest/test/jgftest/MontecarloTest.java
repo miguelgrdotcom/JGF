@@ -40,6 +40,7 @@ public class MontecarloTest extends JGFTest {
      ********/
     public void init(int _num_threads, int _rank, int _nprocess) {
         super.init(_num_threads, _rank, _nprocess);
+        size-=1;
 
         sequential3 = new jgf.sequential.montecarlo.JGFMonteCarloBench();
         parallel3 = new jgf.parallel.montecarlo.JGFMonteCarloBench(_num_threads);

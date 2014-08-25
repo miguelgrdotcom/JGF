@@ -40,7 +40,7 @@ public class RaytracerTest extends JGFTest {
      ********/
     public void init(int _num_threads, int _rank, int _nprocess) {
         super.init(_num_threads, _rank, _nprocess);
-
+        size-=1;
         sequential3 = new jgf.sequential.raytracer.JGFRayTracerBench();
         parallel3 = new jgf.parallel.raytracer.JGFRayTracerBench(_num_threads);
         if (!(_rank == 0 && _nprocess == 0)) {

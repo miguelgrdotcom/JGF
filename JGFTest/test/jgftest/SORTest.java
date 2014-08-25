@@ -41,7 +41,7 @@ public class SORTest extends JGFTest {
      */
     public void init(int _num_threads, int _rank, int _nprocess) {
         super.init(_num_threads, _rank, _nprocess);
-
+        size-=1;
         sequential2 = new jgf.sequential.sor.JGFSORBench();
         parallel2 = new jgf.parallel.sor.JGFSORBench(_num_threads);
         if (!(_rank == 0 && _nprocess == 0)) {
@@ -51,6 +51,7 @@ public class SORTest extends JGFTest {
     
     public void testSORParallel() {
         init(num_threads, rank, nprocess);
+
         runSequential(null);
         runParallel(null);
 
