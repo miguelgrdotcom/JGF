@@ -58,8 +58,8 @@ public class JGFAllSizeC2{
     JGFCryptBench cb = new JGFCryptBench(nprocess,rank); 
     cb.JGFrun(size);
 
-//    JGFSORBench jb = new JGFSORBench(nprocess,rank);
-//    jb.JGFrun(size);
+    JGFSORBench jb = new JGFSORBench(nprocess,rank);
+    jb.JGFrun(size);
 //
 //
 //    JGFSparseMatmultBench smm = new JGFSparseMatmultBench(nprocess,rank);
