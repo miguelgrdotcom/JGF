@@ -14,6 +14,7 @@ import org.junit.Test;
 //import org.slf4j.Logger;
 //import org.slf4j.LoggerFactory;
 import ch.qos.logback.classic.Logger;
+import java.text.DecimalFormat;
 import org.slf4j.LoggerFactory;
 
 /**
@@ -88,23 +89,23 @@ public class JGFTest {
     public void testSORParallel() {
     }
     
-    @Test
+    //@Test
     public void testCryptParallel() {
     }
 
-    @Test
+    //@Test
     public void testLinpackParallel() {
     }   
 
-    @Test
+    //@Test
     public void testMoldynParallel() {
     }  
     
-    @Test
+    //@Test
     public void testMontecarloParallel() {
     } 
     
-    @Test
+    //@Test
     public void testRaytracerParallel() {
     } 
 
@@ -131,6 +132,21 @@ public class JGFTest {
     }
 
     public void $mpi_testMPI(String[] args) { }
+
+    public static String getMemoryInfo() {
+        DecimalFormat f1 = new DecimalFormat("#,###KB");
+        DecimalFormat f2 = new DecimalFormat("##.#");
+        long free = Runtime.getRuntime().freeMemory() / 1024;
+        long total = Runtime.getRuntime().totalMemory() / 1024;
+        long max = Runtime.getRuntime().maxMemory() / 1024;
+        long used = total - free;
+        double ratio = (used * 100 / (double)total);
+        String info = 
+                "Total=" + f1.format(total) + "、" +
+                "Used=" + f1.format(used) + " (" + f2.format(ratio) + "%)、" +
+                "Max="+f1.format(max);
+        return info;
+    }    
     
     /**
      * *******

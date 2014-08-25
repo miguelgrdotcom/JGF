@@ -18,7 +18,7 @@ import jgftest.moldyn.Tag;
 
 public class md {
 
-    public static final int ITERS = 5;
+    public static final int ITERS = 100;
     public static final double LENGTH = 50e-10;
     public static final double m = 4.0026;
     public static final double mu = 1.66056e-27;

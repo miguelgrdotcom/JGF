@@ -56,7 +56,7 @@ public class MoldynTest extends JGFTest {
         HUSet<HUTuple2<Tag, Integer>> s = (HUSet<HUTuple2<Tag, Integer>>) traceView.get(Aspects.aspectOf(MoldynSequentialRecipe.class));
         HUSet<HUTuple2<Tag, Integer>> p = (HUSet<HUTuple2<Tag, Integer>>) traceView.get(Aspects.aspectOf(MoldynParallelRecipe.class));
         logger.warn("sequential size = {}, parallel size = {}", s.size(), p.size());
-
+        logger.info(getMemoryInfo());
         //HUSet<HUTuple2<Tag, Integer>> diff = s.difference(p);
 
         //assertThat(s, is(p));

@@ -31,7 +31,7 @@ import static org.junit.Assert.*;
 public class MontecarloTest extends JGFTest {
     
     public MontecarloTest() {
-        logger.setLevel(Level.OFF);
+        logger.setLevel(Level.INFO);
     }
 
         
@@ -59,7 +59,7 @@ public class MontecarloTest extends JGFTest {
 
         //HUSet<HUTuple1<Integer>> diff = s.difference(p);
         logger.info("sequential size = {}, parallel size = {}", s.size(), p.size());
-
+        logger.info(getMemoryInfo());
         //assertThat(s, is(p));
     }    
     

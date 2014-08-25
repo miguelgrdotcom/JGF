@@ -59,7 +59,7 @@ public class CryptTest extends JGFTest {
 
         //HUSet<HUTuple1<Integer>> diff = s.difference(p);
         logger.info("sequential size = {}, parallel size = {}", s.size(), p.size());
-
+        logger.info(getMemoryInfo());
         //assertThat(s, is(p));
     }    
     
