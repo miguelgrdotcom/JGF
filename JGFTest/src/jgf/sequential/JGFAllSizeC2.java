@@ -53,8 +53,8 @@ public class JGFAllSizeC2{
 //    JGFFFTBench fft = new JGFFFTBench(); 
 //    fft.JGFrun(size);
 //   
-//    JGFSORBench jb = new JGFSORBench(); 
-//    jb.JGFrun(size);
+    JGFSORBench jb = new JGFSORBench(); 
+    jb.JGFrun(size);
 //   
 //    JGFSparseMatmultBench smm = new JGFSparseMatmultBench(); 
 //    smm.JGFrun(size);
