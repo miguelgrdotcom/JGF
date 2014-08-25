@@ -28,7 +28,7 @@ import jgf.parallel.util.*;
 public class JGFCryptBench extends IDEATest implements JGFSection2{ 
 
   private int size; 
-  private int datasizes[]={30000/*3000000*/,20000000,50000000};
+  private int datasizes[]={3000000,20000000,50000000};
     public static int nthreads;
 
 public JGFCryptBench(int nthreads)

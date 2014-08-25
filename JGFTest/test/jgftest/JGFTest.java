@@ -30,7 +30,7 @@ public class JGFTest {
     protected jgf.parallel.util.JGFSection3 parallel3 = null;
     protected jgf.mpi.util.JGFSection3 distributed3 = null;    
 
-    protected int size = 0;
+    protected int size = 2;
     protected int rank = 0;
     protected int nprocess = 0;
     protected int num_threads = 16;
@@ -45,7 +45,7 @@ public class JGFTest {
 
     @BeforeClass
     public static void setUpClass() {
-        logger.setLevel(Level.WARN);
+        logger.setLevel(Level.INFO);
     }
 
     @AfterClass
@@ -76,23 +76,23 @@ public class JGFTest {
      * *******
      * テスト実行 *******
      */
-    //@Test
+    @Test
     public void testSeriesParallel() {
     }
     
-    //@Test
+    @Test
     public void testMatmultParallel() {
     }
 
-    //@Test
+    @Test
     public void testSORParallel() {
     }
     
-    //@Test
+    @Test
     public void testCryptParallel() {
     }
 
-    //@Test
+    @Test
     public void testLinpackParallel() {
     }   
 
@@ -100,11 +100,11 @@ public class JGFTest {
     public void testMoldynParallel() {
     }  
     
-    //@Test
+    @Test
     public void testMontecarloParallel() {
     } 
     
-    //@Test
+    @Test
     public void testRaytracerParallel() {
     } 
 
@@ -114,19 +114,19 @@ public class JGFTest {
      */
     public void runSequential(String[] argv) {
         if (sequential2 != null) sequential2.JGFrun(size);
-        if (sequential3 != null) sequential3.JGFrun(size);
+        if (sequential3 != null) sequential3.JGFrun(size-1);
 
     }
 
     public void runParallel(String[] argv) {
         if (parallel2 != null) parallel2.JGFrun(size);
-        if (parallel3 != null) parallel3.JGFrun(size);
+        if (parallel3 != null) parallel3.JGFrun(size-1);
         
     }
 
     public void runMPI(String[] argv) {
         if (distributed2 != null) distributed2.JGFrun(size);
-        if (distributed3 != null) distributed3.JGFrun(size);
+        if (distributed3 != null) distributed3.JGFrun(size-1);
         
     }
 

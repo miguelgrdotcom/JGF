@@ -26,6 +26,7 @@ import jgf.mpi.sparsematmult.JGFSparseMatmultBench;
 import jgf.mpi.series.JGFSeriesBench;
 import jgf.mpi.lufact.JGFLUFactBench;
 import jgf.mpi.crypt.JGFCryptBench;
+import jgf.mpi.sor.JGFSORBench;
 import jgf.mpi.util.*; 
 
 import mpi.*;
@@ -57,9 +58,9 @@ public class JGFAllSizeC2{
     JGFCryptBench cb = new JGFCryptBench(nprocess,rank); 
     cb.JGFrun(size);
 
-/*    JGFSORBench jb = new JGFSORBench(nprocess,rank);
+    JGFSORBench jb = new JGFSORBench(nprocess,rank);
     jb.JGFrun(size);
-*/
+
 
     JGFSparseMatmultBench smm = new JGFSparseMatmultBench(nprocess,rank);
     smm.JGFrun(size);
