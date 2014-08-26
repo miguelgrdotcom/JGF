@@ -9,6 +9,7 @@ package jgftest;
 import ch.qos.logback.classic.Level;
 import hu.list.HUSet;
 import hu.list.tuple.HUTuple1;
+import hu.list.tuple.HUTuple2;
 import hu.tracer.HUGatheredTracerView;
 import hu.tracer.HUTracer;
 import hu.tracer.HUTracerView;
@@ -16,6 +17,7 @@ import static jgftest.JGFTest.logger;
 import jgftest.crypt.CryptMPIRecipe;
 import jgftest.crypt.CryptParallelRecipe;
 import jgftest.crypt.CryptSequentialRecipe;
+import jgftest.moldyn.Tag;
 import jgftest.montecarlo.MontecarloMPIRecipe;
 import jgftest.montecarlo.MontecarloParallelRecipe;
 import jgftest.montecarlo.MontecarloSequentialRecipe;
@@ -81,7 +83,8 @@ public class MontecarloTest extends JGFTest {
             runSequential(args);
         }
         runMPI(args);
-
+        
+        long begin = System.currentTimeMillis();
       
         HUTracerView traceView = HUTracer.getTracerView();
         HUSet<HUTuple1<Integer>> s = (HUSet<HUTuple1<Integer>>) traceView.get(Aspects.aspectOf(MontecarloSequentialRecipe.class));
@@ -95,9 +98,13 @@ public class MontecarloTest extends JGFTest {
         logger.info("{}@{}", d.size(), rank);
 
         if (rank == 0) {
-            logger.info("diff = {}", s.difference(dd).size());
-            logger.info("diff: {}", s.difference(dd));
-            assertThat(s.difference(dd).size(), is(0));
+            HUSet<HUTuple1<Integer>> diff = s.difference(dd);
+            logger.info("diff = {}", diff.size());
+
+            assertThat(diff.isEmpty(), is(true));
+            long end = System.currentTimeMillis();        
+            logger.info("time = " + (end-begin));               
+            //assertThat(s.difference(dd).size(), is(0));
         }
         MPI.Finalize();
     }

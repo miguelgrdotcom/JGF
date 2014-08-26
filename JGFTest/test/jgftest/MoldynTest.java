@@ -8,12 +8,13 @@ package jgftest;
 
 import ch.qos.logback.classic.Level;
 import hu.list.HUSet;
+import hu.list.tuple.HUTuple1;
 import hu.list.tuple.HUTuple2;
 import hu.tracer.HUGatheredTracerView;
 import hu.tracer.HUTracer;
 import hu.tracer.HUTracerView;
-import jgftest.moldyn.Tag;
 import static jgftest.JGFTest.logger;
+import jgftest.moldyn.Tag;
 import jgftest.moldyn.MoldynMPIRecipe;
 import jgftest.moldyn.MoldynParallelRecipe;
 import jgftest.moldyn.MoldynSequentialRecipe;
@@ -85,6 +86,8 @@ public class MoldynTest extends JGFTest {
             runSequential(args);
         }
         runMPI(args);
+        
+        long begin = System.currentTimeMillis();
 
         HUTracerView traceView = HUTracer.getTracerView();
         HUSet<HUTuple2<Tag, Integer>> s = (HUSet<HUTuple2<Tag, Integer>>) traceView.get(Aspects.aspectOf(MoldynSequentialRecipe.class));
@@ -98,9 +101,14 @@ public class MoldynTest extends JGFTest {
         logger.info("{}@{}", d.size(), rank);
 
         if (rank == 0) {
-            logger.info("diff = {}", s.difference(dd).size());
-            logger.info("diff: {}", s.difference(dd));
-            assertThat(s.difference(dd).size(), is(0));
+            HUSet<HUTuple2<Tag, Integer>> diff = s.difference(dd);
+            logger.info("diff = {}", diff.size());
+
+            assertThat(diff.isEmpty(), is(true));
+            long end = System.currentTimeMillis();        
+            logger.info("time = " + (end-begin));            
+
+            //assertThat(s.difference(dd).size(), is(0));
         }
         MPI.Finalize();
     }

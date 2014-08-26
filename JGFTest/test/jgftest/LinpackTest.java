@@ -83,6 +83,8 @@ public class LinpackTest extends JGFTest {
         }
         runMPI(args);
 
+        long begin = System.currentTimeMillis();
+        
         HUTracerView traceView = HUTracer.getTracerView();
         HUSet<HUTuple2<Integer, Integer>> s = (HUSet<HUTuple2<Integer, Integer>>) traceView.get(Aspects.aspectOf(LinpackSequentialRecipe.class));
         HUGatheredTracerView gatherdTraceView = HUTracer.getGatheredTracerView();
@@ -95,9 +97,13 @@ public class LinpackTest extends JGFTest {
         logger.info("{}@{}", d.size(), rank);
 
         if (rank == 0) {
-            logger.info("diff = {}", s.difference(dd).size());
-            logger.info("diff: {}", s.difference(dd));
-            assertThat(s.difference(dd).size(), is(0));
+            HUSet<HUTuple2<Integer, Integer>> diff = s.difference(dd);
+            logger.info("diff = {}", diff.size());
+
+            assertThat(diff.isEmpty(), is(true));
+            long end = System.currentTimeMillis();        
+            logger.info("time = " + (end-begin));
+            //assertThat(s.difference(dd).size(), is(0));
         }
         MPI.Finalize();
     }    
