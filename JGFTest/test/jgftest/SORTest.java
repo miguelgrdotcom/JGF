@@ -108,4 +108,9 @@ public class SORTest extends JGFTest {
         }
         MPI.Finalize();
     }
+    
+    public static void main(String[] args) {
+        JGFTest tester = new SORTest();        
+        tester.$mpi_testMPI(args);    
+    }    
 }

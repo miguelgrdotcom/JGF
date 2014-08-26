@@ -108,5 +108,10 @@ public class MontecarloTest extends JGFTest {
         }
         MPI.Finalize();
     }
+    
+    public static void main(String[] args) {
+        JGFTest tester = new MontecarloTest();        
+        tester.$mpi_testMPI(args);    
+    }    
      
 }

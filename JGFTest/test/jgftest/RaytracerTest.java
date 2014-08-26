@@ -106,5 +106,10 @@ public class RaytracerTest extends JGFTest {
         }
         MPI.Finalize();
     }
+    
+    public static void main(String[] args) {
+        JGFTest tester = new RaytracerTest();        
+        tester.$mpi_testMPI(args);    
+    }    
      
 }

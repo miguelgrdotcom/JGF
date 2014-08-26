@@ -104,5 +104,10 @@ public class CryptTest extends JGFTest {
         }
         MPI.Finalize();
     }
+    
+    public static void main(String[] args) {
+        JGFTest tester = new CryptTest();        
+        tester.$mpi_testMPI(args);    
+    }    
      
 }

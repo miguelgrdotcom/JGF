@@ -96,4 +96,9 @@ public class SeriesTest extends JGFTest {
         }
         MPI.Finalize();
     }    
+    
+    public static void main(String[] args) {
+        JGFTest tester = new SeriesTest();        
+        tester.$mpi_testMPI(args);    
+    }
 }

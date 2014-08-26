@@ -107,4 +107,9 @@ public class LinpackTest extends JGFTest {
         }
         MPI.Finalize();
     }    
+    
+    public static void main(String[] args) {
+        JGFTest tester = new LinpackTest();        
+        tester.$mpi_testMPI(args);    
+    }    
 }

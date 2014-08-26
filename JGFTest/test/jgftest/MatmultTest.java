@@ -105,4 +105,9 @@ public class MatmultTest extends JGFTest {
         }
         MPI.Finalize();
     }    
+    
+    public static void main(String[] args) {
+        JGFTest tester = new MatmultTest();        
+        tester.$mpi_testMPI(args);    
+    }    
 }

@@ -112,4 +112,9 @@ public class MoldynTest extends JGFTest {
         }
         MPI.Finalize();
     }
+    
+    public static void main(String[] args) {
+        JGFTest tester = new MoldynTest();        
+        tester.$mpi_testMPI(args);    
+    }    
 }
