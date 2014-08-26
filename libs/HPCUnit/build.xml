@@ -21,7 +21,7 @@
     </path>
     <path id="HPCSET.classpath">
         <pathelement location="bin"/>
-		<pathelement location="commons-collections4-4.0.jar"/>
+		<pathelement location="jars/commons-collections4-4.0.jar"/>
 		<pathelement location="jars/hamcrest-all-1.3.jar"/>
 		<pathelement location="jars/junit.jar"/>
 		<pathelement location="jars/mpi.jar"/>

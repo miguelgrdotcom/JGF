@@ -59,9 +59,9 @@ public class MoldynTest extends JGFTest {
         long begin = System.currentTimeMillis();
 
         HUTracerView traceView = HUTracer.getTracerView();
-        HUSet<HUTuple2<Tag, Integer>> s = (HUSet<HUTuple2<Tag, Integer>>) traceView.get(Aspects.aspectOf(MoldynSequentialRecipe.class));
-        HUSet<HUTuple2<Tag, Integer>> p = (HUSet<HUTuple2<Tag, Integer>>) traceView.get(Aspects.aspectOf(MoldynParallelRecipe.class));
-        HUSet<HUTuple2<Tag, Integer>> diff = s.difference(p);
+        HUSet<HUTuple2<Integer, Integer>> s = (HUSet<HUTuple2<Integer, Integer>>) traceView.get(Aspects.aspectOf(MoldynSequentialRecipe.class));
+        HUSet<HUTuple2<Integer, Integer>> p = (HUSet<HUTuple2<Integer, Integer>>) traceView.get(Aspects.aspectOf(MoldynParallelRecipe.class));
+        HUSet<HUTuple2<Integer, Integer>> diff = s.difference(p);
         
         assertThat(diff.isEmpty(), is(true));
         long end = System.currentTimeMillis();        
@@ -91,10 +91,10 @@ public class MoldynTest extends JGFTest {
         long begin = System.currentTimeMillis();
 
         HUTracerView traceView = HUTracer.getTracerView();
-        HUSet<HUTuple2<Tag, Integer>> s = (HUSet<HUTuple2<Tag, Integer>>) traceView.get(Aspects.aspectOf(MoldynSequentialRecipe.class));
+        HUSet<HUTuple2<Integer, Integer>> s = (HUSet<HUTuple2<Integer, Integer>>) traceView.get(Aspects.aspectOf(MoldynSequentialRecipe.class));
         HUGatheredTracerView gatherdTraceView = HUTracer.getGatheredTracerView();
-        HUSet<HUTuple2<Tag, Integer>> d = (HUSet<HUTuple2<Tag, Integer>>) gatherdTraceView.get(Aspects.aspectOf(MoldynMPIRecipe.class));
-        HUSet<HUTuple2<Tag, Integer>> dd = gatherdTraceView.gather(d);
+        HUSet<HUTuple2<Integer, Integer>> d = (HUSet<HUTuple2<Integer, Integer>>) gatherdTraceView.get(Aspects.aspectOf(MoldynMPIRecipe.class));
+        HUSet<HUTuple2<Integer, Integer>> dd = gatherdTraceView.gather(d);
 
         if (rank == 0) {
             logger.info("{}", s.size());
@@ -102,7 +102,7 @@ public class MoldynTest extends JGFTest {
         logger.info("{}@{}", d.size(), rank);
 
         if (rank == 0) {
-            HUSet<HUTuple2<Tag, Integer>> diff = s.difference(dd);
+            HUSet<HUTuple2<Integer, Integer>> diff = s.difference(dd);
             logger.info("diff = {}", diff.size());
 
             assertThat(diff.isEmpty(), is(true));

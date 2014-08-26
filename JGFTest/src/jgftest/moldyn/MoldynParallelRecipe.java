@@ -20,20 +20,20 @@ import org.slf4j.LoggerFactory;
  * @author yoshiki
  */
 @Aspect
-public class MoldynParallelRecipe extends HUTraceRecipe<HUTuple2<Tag, Integer>> {
+public class MoldynParallelRecipe extends HUTraceRecipe<HUTuple2<Integer, Integer>> {
     public static final Logger logger = (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("JGFTest");    
 
     @Before("call (void jgf.parallel.moldyn.mdRunner.HUKernel(jgftest.moldyn.Tag, int)) && args(tag, i)")
     public void beforeHUKernel(Tag tag, int i) {
         //logger.info("parallel {} {}", tag, i);
         switch (tag) {
-            case domove: add(new HUTuple2<Tag, Integer>(tag, i));
+            case domove: add(new HUTuple2<Integer, Integer>(new Integer(1), i));
                 break;
-            case force: add(new HUTuple2<Tag, Integer>(tag, i));
+            case force: add(new HUTuple2<Integer, Integer>(new Integer(2), i));
                 break;
-            case mkekin: add(new HUTuple2<Tag, Integer>(tag, i));
+            case mkekin: add(new HUTuple2<Integer, Integer>(new Integer(3), i));
                 break;
-            case velavg: add(new HUTuple2<Tag, Integer>(tag, i));
+            case velavg: add(new HUTuple2<Integer, Integer>(new Integer(4), i));
                 break;
         }
     }
