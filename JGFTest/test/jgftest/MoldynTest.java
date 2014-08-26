@@ -41,6 +41,7 @@ public class MoldynTest extends JGFTest {
     public void init(int _num_threads, int _rank, int _nprocess) {
         super.init(_num_threads, _rank, _nprocess);
         size-=1;
+        size=0;
         
         sequential3 = new jgf.sequential.moldyn.JGFMolDynBench();
         parallel3 = new jgf.parallel.moldyn.JGFMolDynBench(_num_threads);

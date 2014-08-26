@@ -16,7 +16,7 @@ public class HUTuple2<T0 extends Comparable<T0>, T1 extends Comparable<T1>>
 
     private T1  el1;
 
-    private int hashCode = 0;
+    private int hashCode = 0;    
 
     public HUTuple2(T0 el0, T1 el1)
     {

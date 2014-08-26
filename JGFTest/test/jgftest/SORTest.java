@@ -100,6 +100,7 @@ public class SORTest extends JGFTest {
         if (rank == 0) {
             HUSet<HUTuple2<Integer, Integer>> diff = s.difference(dd);
             logger.info("diff = {}", diff.size());
+            logger.info("{}", diff);
 
             assertThat(diff.isEmpty(), is(true));
             long end = System.currentTimeMillis();        

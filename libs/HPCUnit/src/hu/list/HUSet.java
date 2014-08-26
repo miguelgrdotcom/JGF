@@ -10,6 +10,10 @@ import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.Set;
+import org.apache.commons.collections4.Bag;
+import org.apache.commons.collections4.BagUtils;
+import org.apache.commons.collections4.bag.HashBag;
+import org.apache.commons.collections4.bag.SynchronizedBag;
 
 /**
  * 以下の基本的な集合演算を提供する重複を許すリストの実装です。<br>
@@ -29,7 +33,8 @@ public class HUSet<T extends Comparable<T>> implements Serializable, Iterable<T>
     
    //TreeMultiset<T> set;
    //List<T> set;
-   Set<T> set;
+   //Set<T> set;
+    Bag<T> set;
 
     /**
      * 空の重複を許すリストを作成します。
@@ -39,14 +44,17 @@ public class HUSet<T extends Comparable<T>> implements Serializable, Iterable<T>
         //set = TreeMultiset.create();
         //set = new ArrayList<T>();
 	//set = Collections.synchronizedList(new LinkedList<T>());
-        set = Collections.synchronizedSet(new LinkedHashSet<T>());
+        //set = Collections.synchronizedSet(new LinkedHashSet<T>());
+        set = BagUtils.synchronizedBag(new HashBag<T>());
     }
     
     private HUSet(Iterable<? extends T> elements) {
         //set = TreeMultiset.create(elements);
         //set = new ArrayList<T>(); 
 	//set = Collections.synchronizedList(new LinkedList<T>());
-        set = Collections.synchronizedSet(new LinkedHashSet<T>());        
+        //set = Collections.synchronizedSet(new LinkedHashSet<T>());        
+        set = BagUtils.synchronizedBag(new HashBag<T>());
+
         for (T t : elements)
             set.add(t); 
     }
