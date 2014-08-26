@@ -39,7 +39,6 @@ public class MatmultTest extends JGFTest {
      */
     public void init(int _num_threads, int _rank, int _nprocess) {
         super.init(_num_threads, _rank, _nprocess);
-        size-=1;
 
         sequential2 = new jgf.sequential.sparsematmult.JGFSparseMatmultBench();
         parallel2 = new jgf.parallel.sparsematmult.JGFSparseMatmultBench(_num_threads);
