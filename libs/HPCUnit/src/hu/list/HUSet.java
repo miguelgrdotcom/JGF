@@ -7,6 +7,9 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Iterator;
+import java.util.LinkedHashSet;
+import java.util.LinkedList;
+import java.util.Set;
 
 /**
  * 以下の基本的な集合演算を提供する重複を許すリストの実装です。<br>
@@ -25,7 +28,8 @@ public class HUSet<T extends Comparable<T>> implements Serializable, Iterable<T>
     private static final long serialVersionUID = 396895978870247744L;
     
    //TreeMultiset<T> set;
-   List<T> set;
+   //List<T> set;
+   Set<T> set;
 
     /**
      * 空の重複を許すリストを作成します。
@@ -34,13 +38,15 @@ public class HUSet<T extends Comparable<T>> implements Serializable, Iterable<T>
     {
         //set = TreeMultiset.create();
         //set = new ArrayList<T>();
-		set = Collections.synchronizedList(new ArrayList<T>());
+	//set = Collections.synchronizedList(new LinkedList<T>());
+        set = Collections.synchronizedSet(new LinkedHashSet<T>());
     }
     
     private HUSet(Iterable<? extends T> elements) {
         //set = TreeMultiset.create(elements);
         //set = new ArrayList<T>(); 
-		set = Collections.synchronizedList(new ArrayList<T>());
+	//set = Collections.synchronizedList(new LinkedList<T>());
+        set = Collections.synchronizedSet(new LinkedHashSet<T>());        
         for (T t : elements)
             set.add(t); 
     }
@@ -52,7 +58,7 @@ public class HUSet<T extends Comparable<T>> implements Serializable, Iterable<T>
     
     @Override
     public Iterator<T> iterator() {
-       Collections.sort(set); // MultiTreeSet の場合には不要。
+       //Collections.sort(set); // MultiTreeSet の場合には不要。
        return set.iterator(); 
     }
     
