@@ -39,11 +39,11 @@
   </target>
 
   <!-- Add the custom targets to the general project build -->
-  <target name="-post-compile" depends="aspectj"></target>
+  <!--target name="-post-compile" depends="aspectj"></target>
   <target name="-post-compile-single" depends="aspectj"></target>
   <target name="-post-compile-test" depends="aspectj"></target>
   <target name="-post-compile-test-single" depends="aspectj"></target>
-  <target name="-post-jar" depends="jar-tests"></target>
+  <target name="-post-jar" depends="jar-tests"></target-->
 
   <!--
 	  
