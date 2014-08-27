@@ -53,10 +53,11 @@ public class SOR
                 if(JGFSORBench.rank==0){ 
                   JGFInstrumentor.startTimer("Section2:SOR:Kernel"); 
                 }
-
+                    
 		for (int p=0; p<2*num_iterations; p++) {
                  for (int i=ilow+(p%2); i<ihigh; i=i+2) {
-
+                     int s=JGFSORBench.ref_p_row;
+                     
                    if(i!=0){
 		     double [] Gi = p_G[i];
 		     double [] Gim1 = p_G[i-1];
@@ -71,7 +72,7 @@ public class SOR
                        for (int j=1; j<Nm1; j=j+2){
                          Gi[j] = omega_over_four * (Gim1[j] + Gip1[j] + Gi[j-1]
                                  + Gi[j+1]) + one_minus_omega * Gi[j];
-                         HUKernel(i-1, j, JGFSORBench.rank, Mm1+1);
+                         HUKernel(i-1, j, JGFSORBench.rank, s);
                        }
                      } else if (((i==ihigh-2)&&JGFSORBench.rank==(JGFSORBench.nprocess-1))||
                                ((i==ihigh-1)&&(JGFSORBench.rank!=(JGFSORBench.nprocess-1)))){
@@ -81,7 +82,7 @@ public class SOR
                          if((j+1) != Nm1) {
                            Gim1[j+1]=omega_over_four * (Gim2[j+1] + Gi[j+1] + Gim1[j]
                                      + Gim1[j+2]) + one_minus_omega * Gim1[j+1];
-                           HUKernel(i-2, j+1, JGFSORBench.rank, Mm1+1);
+                           HUKernel(i-2, j+1, JGFSORBench.rank, s);
 
                          }
                        }
@@ -93,13 +94,13 @@ public class SOR
                        for (int j=1; j<Nm1; j=j+2){
                          Gi[j] = omega_over_four * (Gim1[j] + Gip1[j] + Gi[j-1]
                                  + Gi[j+1]) + one_minus_omega * Gi[j];
-                         HUKernel(i-1, j, JGFSORBench.rank, Mm1+1);
+                         HUKernel(i-1, j, JGFSORBench.rank, s);
 
 
                          if((j+1) != Nm1) {
                            Gim1[j+1]=omega_over_four * (Gim2[j+1] + Gi[j+1] + Gim1[j]
                                      + Gim1[j+2]) + one_minus_omega * Gim1[j+1];
-                           HUKernel(i-2, j+1, JGFSORBench.rank, Mm1+1);
+                           HUKernel(i-2, j+1, JGFSORBench.rank, s);
 
                          }
                        }

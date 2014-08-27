@@ -83,8 +83,8 @@ public class JGFSORBench extends SOR implements JGFSection2{
        p_row = rem_p_row;
     }
   }
-  //System.out.println("size="+datasizes[size]+",rank="+rank);
-  //System.out.println((p_row+2) +",nproc="+ nprocess);
+  System.out.println("size="+datasizes[size]+",rank="+rank);
+  System.out.println((p_row+2) +",nproc="+ nprocess+"@"+rank);
   p_G = new double [p_row+2][datasizes[size]]; 
 
 /* copy or send the values of G to the sub arrays p_G */

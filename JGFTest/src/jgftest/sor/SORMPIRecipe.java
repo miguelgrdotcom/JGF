@@ -24,7 +24,8 @@ public class SORMPIRecipe extends HUTraceRecipe<HUTuple2<Integer, Integer>> {
     
     @Before("call (void jgf.mpi.sor.SOR.HUKernel(int, int, int, int)) && args(i, j, r, size)")
     public void beforeHUKernel(int i, int j, int r, int size) {
-        //logger.info("mpi ({},{})@{}",i+(r*size),j,r);
+        //logger.info("mpi {}+({}*{}) => ({},{})@{}",i,r,size,i+(r*size),j,r);
+        //logger.info("mpi {} {}@{}",i+(r*size),j,r);
 
         add(new HUTuple2<Integer, Integer>(i+(r*size), j));
     }
@@ -33,10 +34,4 @@ public class SORMPIRecipe extends HUTraceRecipe<HUTuple2<Integer, Integer>> {
     protected HUTraceRecipe<HUTuple2<Integer, Integer>>[] friends() {
         return new HUTraceRecipe[]{};
     }
-    
-//    @After("call (void jgf.sequential.series.JGFSeriesBench.JGFrun(int))")
-//    public void postProcess() {
-//        HUTracerView traceView = HUTracer.getTracerView();
-//        HUSet<HUTuple1<Integer>> set = (HUSet<HUTuple1<Integer>>) traceView.get(this);
-//    }
 }

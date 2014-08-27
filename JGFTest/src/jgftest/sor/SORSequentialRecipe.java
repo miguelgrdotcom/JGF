@@ -38,10 +38,4 @@ public class SORSequentialRecipe extends HUTraceRecipe<HUTuple2<Integer, Integer
     protected HUTraceRecipe<HUTuple2<Integer, Integer>>[] friends() {
         return new HUTraceRecipe[]{};
     }
-    
-//    @After("call (void jgf.sequential.series.JGFSeriesBench.JGFrun(int))")
-//    public void postProcess() {
-//        HUTracerView traceView = HUTracer.getTracerView();
-//        HUSet<HUTuple1<Integer>> set = (HUSet<HUTuple1<Integer>>) traceView.get(this);
-//    }
 }
