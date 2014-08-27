@@ -199,8 +199,8 @@ public class md {
         move = 0;
         for (move = 0; move < movemx; move++) {
 
-            //for (i = 0; i < mdsize; i++) {
-            for (i = 0 + JGFMolDynBench.rank; i < mdsize; i += JGFMolDynBench.nprocess) {
+            for (i = 0; i < mdsize; i++) {
+            //for (i = 0 + JGFMolDynBench.rank; i < mdsize; i += JGFMolDynBench.nprocess) {
             one[i].domove(side);        /* move the particles and update velocities */
                 HUKernel(Tag.domove, i, JGFMolDynBench.rank, mdsize);
 
@@ -251,8 +251,8 @@ public class md {
 
             sum = 0.0;
 
-            for (i = 0 + JGFMolDynBench.rank; i < mdsize; i += JGFMolDynBench.nprocess) {
-            //for (i = 0; i < mdsize; i++) {
+            //for (i = 0 + JGFMolDynBench.rank; i < mdsize; i += JGFMolDynBench.nprocess) {
+            for (i = 0; i < mdsize; i++) {
                 sum = sum + one[i].mkekin(hsq2);    /*scale forces, update velocities */
                 HUKernel(Tag.mkekin, i, JGFMolDynBench.rank, mdsize);
 
