@@ -15,6 +15,7 @@ import org.junit.Test;
 //import org.slf4j.LoggerFactory;
 import ch.qos.logback.classic.Logger;
 import java.text.DecimalFormat;
+import net.sourceforge.sizeof.SizeOf;
 import org.slf4j.LoggerFactory;
 
 /**
@@ -134,6 +135,7 @@ public class JGFTest {
     public void $mpi_testMPI(String[] args) { }
 
     public static String getMemoryInfo() {
+        System.gc();
         DecimalFormat f1 = new DecimalFormat("#,###KB");
         DecimalFormat f2 = new DecimalFormat("##.#");
         long free = Runtime.getRuntime().freeMemory() / 1024;
@@ -148,6 +150,9 @@ public class JGFTest {
         return info;
     }    
     
+    public static String getObjectSize(Object o) {
+        return SizeOf.humanReadable(SizeOf.sizeOf(o));
+    }
     /**
      * *******
      * MPIはJUnitから実行できないためmainに記述 *******

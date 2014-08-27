@@ -66,7 +66,7 @@ public class LinpackTest extends JGFTest {
         
         logger.info("sequential size = {}, parallel size = {}", s.size(), p.size());
         logger.info(getMemoryInfo());
-        
+
         //assertThat(s, is(p));
     }    
     

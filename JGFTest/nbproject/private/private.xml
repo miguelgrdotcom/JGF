@@ -3,12 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/test/jgftest/SORTest.java</file>
+            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/test/jgftest/CryptTest.java</file>
+            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/sequential/sor/JGFSORBench.java</file>
+            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgftest/sor/SORMPIRecipe.java</file>
+            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgftest/sor/SORSequentialRecipe.java</file>
+            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/test/jgftest/LinpackTest.java</file>
+            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgftest/moldyn/MoldynSequentialRecipe.java</file>
             <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgftest/moldyn/MoldynParallelRecipe.java</file>
             <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgftest/moldyn/MoldynMPIRecipe.java</file>
             <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/test/jgftest/MoldynTest.java</file>
             <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/test/jgftest/JGFTest.java</file>
-            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgftest/moldyn/MoldynSequentialRecipe.java</file>
-            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/mpi/moldyn/md.java</file>
+            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/mpi/sor/SOR.java</file>
+            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/mpi/sor/JGFSORBench.java</file>
         </group>
     </open-files>
 </project-private>

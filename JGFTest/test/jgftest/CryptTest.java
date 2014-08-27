@@ -65,6 +65,7 @@ public class CryptTest extends JGFTest {
         logger.info("time = " + (end-begin));
         logger.info("sequential size = {}, parallel size = {}", s.size(), p.size());
         logger.info(getMemoryInfo());
+
         //assertThat(s, is(p));
     }    
     
