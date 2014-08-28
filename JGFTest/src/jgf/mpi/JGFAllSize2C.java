@@ -23,14 +23,15 @@ package jgf.mpi;
 
 import jgf.mpi.util.JGFInstrumentor;
 import jgf.mpi.sparsematmult.JGFSparseMatmultBench;
-import jgf.mpi.sor.JGFSORBench;
 import jgf.mpi.series.JGFSeriesBench;
 import jgf.mpi.lufact.JGFLUFactBench;
 import jgf.mpi.crypt.JGFCryptBench;
+import jgf.mpi.sor.JGFSORBench;
 import jgf.mpi.util.*; 
+
 import mpi.*;
 
-public class JGFAllSizeA2{ 
+public class JGFAllSize2C{ 
 
   public static int nprocess;
   public static int rank;
@@ -42,10 +43,10 @@ public class JGFAllSizeA2{
      rank = MPI.COMM_WORLD.Rank();
      nprocess = MPI.COMM_WORLD.Size();
 
-    int size = 0;
+    int size = 2;
 
     if(rank==0) {
-      JGFInstrumentor.printHeader(2,0,nprocess);
+      JGFInstrumentor.printHeader(2,2,nprocess);
     }
 
     JGFSeriesBench se = new JGFSeriesBench(nprocess,rank);
@@ -59,9 +60,10 @@ public class JGFAllSizeA2{
 
     JGFSORBench jb = new JGFSORBench(nprocess,rank);
     jb.JGFrun(size);
-
-    JGFSparseMatmultBench smm = new JGFSparseMatmultBench(nprocess,rank);
-    smm.JGFrun(size);
+//
+//
+//    JGFSparseMatmultBench smm = new JGFSparseMatmultBench(nprocess,rank);
+//    smm.JGFrun(size);
 
 /* Finalise MPI */
      MPI.Finalize();

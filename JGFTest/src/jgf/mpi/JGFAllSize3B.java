@@ -1,8 +1,8 @@
-package jgf.parallel;
+package jgf.mpi;
 
 /**************************************************************************
 *                                                                         *
-*         Java Grande Forum Benchmark Suite - Thread Version 1.0          *
+*             Java Grande Forum Benchmark Suite - MPJ Version 1.0         *
 *                                                                         *
 *                            produced by                                  *
 *                                                                         *
@@ -21,41 +21,46 @@ package jgf.parallel;
 **************************************************************************/
 
 
-import jgf.parallel.util.JGFInstrumentor;
-import jgf.parallel.raytracer.JGFRayTracerBench;
-import jgf.parallel.montecarlo.JGFMonteCarloBench;
-import jgf.parallel.moldyn.JGFMolDynBench;
+import jgf.mpi.raytracer.JGFRayTracerBench;
+import jgf.mpi.montecarlo.JGFMonteCarloBench;
+import jgf.mpi.moldyn.JGFMolDynBench;
+import jgf.mpi.util.*;
+import mpi.*;
 
-import jgf.parallel.util.*;
+public class JGFAllSize3B{ 
 
-public class JGFAllSizeA3{
+  public static int nprocess;
+  public static int rank;
 
-  public static int nthreads;
+  public static void main(String argv[]) throws MPIException{
 
-  public static void main(String argv[]){
-   
-    int size = 0; 
+/* Initialise MPI */
+    MPI.Init(argv);
+    rank = MPI.COMM_WORLD.Rank();
+    nprocess = MPI.COMM_WORLD.Size();
 
-  if(argv.length != 0 ) {
-    nthreads = Integer.parseInt(argv[0]);
-  } else {
-    System.out.println("The no of threads has not been specified, defaulting to 1");
-    System.out.println("  ");
-    nthreads = 1;
-  }
+    int size = 1;
 
-    JGFInstrumentor.printHeader(3,size,nthreads);
+    if(rank==0) {
+      JGFInstrumentor.printHeader(3,1,nprocess);
+    }
 
+    JGFMolDynBench mold = new JGFMolDynBench(nprocess,rank); 
+    mold.JGFrun(size);
 
-    JGFMolDynBench mdb = new JGFMolDynBench(nthreads);
-    mdb.JGFrun(size);
+    JGFMonteCarloBench mc = new JGFMonteCarloBench(nprocess,rank);
+    mc.JGFrun(size);
 
-    JGFMonteCarloBench mcb = new JGFMonteCarloBench(nthreads);
-    mcb.JGFrun(size);
-
-    JGFRayTracerBench rtb = new JGFRayTracerBench(nthreads);
+    JGFRayTracerBench rtb = new JGFRayTracerBench(nprocess,rank);
     rtb.JGFrun(size);
 
+
+
+
+/* Finalise MPI */
+    MPI.Finalize();
+
+ 
   }
 }
 

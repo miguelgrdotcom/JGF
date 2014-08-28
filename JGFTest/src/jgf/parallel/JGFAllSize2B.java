@@ -29,13 +29,13 @@ import jgf.parallel.lufact.JGFLUFactBench;
 import jgf.parallel.crypt.JGFCryptBench;
 import jgf.parallel.util.*;
 
-public class JGFAllSizeA2{
+public class JGFAllSize2B{
 
   public static int nthreads;
 
   public static void main(String argv[]){
    
-    int size = 0; 
+    int size = 1; 
 
   if(argv.length != 0 ) {
     nthreads = Integer.parseInt(argv[0]);

@@ -30,7 +30,7 @@ import static org.junit.Assert.*;
 public class MoldynTest extends JGFTest {
     
     public MoldynTest() {
-        logger.setLevel(Level.INFO);
+        //logger.setLevel(Level.INFO);
     }
 
         

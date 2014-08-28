@@ -1,8 +1,8 @@
-package jgf.sequential;
+package jgf.mpi;
 
 /**************************************************************************
 *                                                                         *
-*             Java Grande Forum Benchmark Suite - Version 2.0             *
+*             Java Grande Forum Benchmark Suite - MPJ Version 1.0         *
 *                                                                         *
 *                            produced by                                  *
 *                                                                         *
@@ -15,49 +15,58 @@ package jgf.sequential;
 *                email: epcc-javagrande@epcc.ed.ac.uk                     *
 *                                                                         *
 *                                                                         *
-*      This version copyright (c) The University of Edinburgh, 1999.      *
+*      This version copyright (c) The University of Edinburgh, 2001.      *
 *                         All rights reserved.                            *
 *                                                                         *
 **************************************************************************/
 
 
-import jgf.sequential.util.JGFInstrumentor;
-import jgf.sequential.sparsematmult.JGFSparseMatmultBench;
-import jgf.sequential.sor.JGFSORBench;
-import jgf.sequential.series.JGFSeriesBench;
-import jgf.sequential.lufact.JGFLUFactBench;
-import jgf.sequential.heapsort.JGFHeapSortBench;
-import jgf.sequential.fft.JGFFFTBench;
-import jgf.sequential.crypt.JGFCryptBench;
+import jgf.mpi.util.JGFInstrumentor;
+import jgf.mpi.sparsematmult.JGFSparseMatmultBench;
+import jgf.mpi.sor.JGFSORBench;
+import jgf.mpi.series.JGFSeriesBench;
+import jgf.mpi.lufact.JGFLUFactBench;
+import jgf.mpi.crypt.JGFCryptBench;
+import jgf.mpi.util.*; 
+import mpi.*;
 
-public class JGFAllSizeB2{
+public class JGFAllSize2A{ 
 
-  public static void main(String argv[]){
-   
-    int size = 1; 
+  public static int nprocess;
+  public static int rank;
 
-    JGFInstrumentor.printHeader(2,size);
+  public static void main(String argv[]) throws MPIException{
 
-    JGFSeriesBench se = new JGFSeriesBench(); 
+/* Initialise MPI */
+     MPI.Init(argv);
+     rank = MPI.COMM_WORLD.Rank();
+     nprocess = MPI.COMM_WORLD.Size();
+
+    int size = 0;
+
+    if(rank==0) {
+      JGFInstrumentor.printHeader(2,0,nprocess);
+    }
+
+    JGFSeriesBench se = new JGFSeriesBench(nprocess,rank);
     se.JGFrun(size);
 
-    JGFLUFactBench lub = new JGFLUFactBench();
-    lub.JGFrun(size);    
+    JGFLUFactBench lub = new JGFLUFactBench(nprocess,rank);
+    lub.JGFrun(size);
 
-    JGFHeapSortBench hb = new JGFHeapSortBench();
-    hb.JGFrun(size);    
-    
-    JGFCryptBench cb = new JGFCryptBench();
-    cb.JGFrun(size);    
+    JGFCryptBench cb = new JGFCryptBench(nprocess,rank); 
+    cb.JGFrun(size);
 
-    JGFFFTBench fft = new JGFFFTBench(); 
-    fft.JGFrun(size);
-   
-    JGFSORBench jb = new JGFSORBench(); 
+    JGFSORBench jb = new JGFSORBench(nprocess,rank);
     jb.JGFrun(size);
-   
-    JGFSparseMatmultBench smm = new JGFSparseMatmultBench(); 
+
+    JGFSparseMatmultBench smm = new JGFSparseMatmultBench(nprocess,rank);
     smm.JGFrun(size);
-    
+
+/* Finalise MPI */
+     MPI.Finalize();
+ 
   }
 }
+
+

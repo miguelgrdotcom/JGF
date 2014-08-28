@@ -29,17 +29,17 @@ import jgf.sequential.lufact.JGFLUFactBench;
 import jgf.sequential.heapsort.JGFHeapSortBench;
 import jgf.sequential.fft.JGFFFTBench;
 import jgf.sequential.crypt.JGFCryptBench;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-public class JGFAllSizeC2{
-
+public class JGFAllSize2A{
+    
   public static void main(String argv[]){
    
-    int size = 2; 
+    int size = 0; 
 
+    
     JGFInstrumentor.printHeader(2,size);
-
-    JGFCryptBench cb = new JGFCryptBench();
-    cb.JGFrun(size);    
 
     JGFSeriesBench se = new JGFSeriesBench(); 
     se.JGFrun(size);
@@ -47,18 +47,20 @@ public class JGFAllSizeC2{
     JGFLUFactBench lub = new JGFLUFactBench();
     lub.JGFrun(size);    
 
-//    JGFHeapSortBench hb = new JGFHeapSortBench();
-//    hb.JGFrun(size);    
-//
-//    JGFFFTBench fft = new JGFFFTBench(); 
-//    fft.JGFrun(size);
-//   
+    JGFHeapSortBench hb = new JGFHeapSortBench();
+    hb.JGFrun(size);    
+    
+    JGFCryptBench cb = new JGFCryptBench();
+    cb.JGFrun(size);    
+
+    JGFFFTBench fft = new JGFFFTBench(); 
+    fft.JGFrun(size);
+
     JGFSORBench jb = new JGFSORBench(); 
     jb.JGFrun(size);
-//   
-//    JGFSparseMatmultBench smm = new JGFSparseMatmultBench(); 
-//    smm.JGFrun(size);
-    
-    
+   
+    JGFSparseMatmultBench smm = new JGFSparseMatmultBench(); 
+    smm.JGFrun(size);
+ 
   }
 }

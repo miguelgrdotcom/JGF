@@ -1,8 +1,8 @@
-package jgf.parallel;
+package jgf.mpi;
 
 /**************************************************************************
 *                                                                         *
-*         Java Grande Forum Benchmark Suite - Thread Version 1.0          *
+*             Java Grande Forum Benchmark Suite - MPJ Version 1.0         *
 *                                                                         *
 *                            produced by                                  *
 *                                                                         *
@@ -21,46 +21,50 @@ package jgf.parallel;
 **************************************************************************/
 
 
-import jgf.parallel.util.JGFInstrumentor;
-import jgf.parallel.sparsematmult.JGFSparseMatmultBench;
-import jgf.parallel.sor.JGFSORBench;
-import jgf.parallel.series.JGFSeriesBench;
-import jgf.parallel.lufact.JGFLUFactBench;
-import jgf.parallel.crypt.JGFCryptBench;
-import jgf.parallel.util.*;
+import jgf.mpi.util.JGFInstrumentor;
+import jgf.mpi.sparsematmult.JGFSparseMatmultBench;
+import jgf.mpi.sor.JGFSORBench;
+import jgf.mpi.series.JGFSeriesBench;
+import jgf.mpi.lufact.JGFLUFactBench;
+import jgf.mpi.crypt.JGFCryptBench;
+import jgf.mpi.util.*; 
+import mpi.*;
 
-public class JGFAllSizeC2{
+public class JGFAllSize2B{ 
 
-  public static int nthreads;
+  public static int nprocess;
+  public static int rank;
 
-  public static void main(String argv[]){
-   
-    int size = 2; 
+  public static void main(String argv[]) throws MPIException{
 
-  if(argv.length != 0 ) {
-    nthreads = Integer.parseInt(argv[0]);
-  } else {
-    System.out.println("The no of threads has not been specified, defaulting to 1");
-    System.out.println("  ");
-    nthreads = 1;
-  }
+/* Initialise MPI */
+     MPI.Init(argv);
+     rank = MPI.COMM_WORLD.Rank();
+     nprocess = MPI.COMM_WORLD.Size();
 
-    JGFInstrumentor.printHeader(2,size,nthreads);
+    int size = 1;
 
-    JGFSeriesBench se = new JGFSeriesBench(nthreads); 
+    if(rank==0) {
+      JGFInstrumentor.printHeader(2,1,nprocess);
+    }
+
+    JGFSeriesBench se = new JGFSeriesBench(nprocess,rank);
     se.JGFrun(size);
 
-    JGFLUFactBench lub = new JGFLUFactBench(nthreads);
-    lub.JGFrun(size);    
+    JGFLUFactBench lub = new JGFLUFactBench(nprocess,rank);
+    lub.JGFrun(size);
 
-    JGFCryptBench cb = new JGFCryptBench(nthreads);
-    cb.JGFrun(size);    
+    JGFCryptBench cb = new JGFCryptBench(nprocess,rank); 
+    cb.JGFrun(size);
 
-    JGFSORBench jb = new JGFSORBench(nthreads); 
+    JGFSORBench jb = new JGFSORBench(nprocess,rank);
     jb.JGFrun(size);
-   
-    JGFSparseMatmultBench smm = new JGFSparseMatmultBench(nthreads); 
+
+    JGFSparseMatmultBench smm = new JGFSparseMatmultBench(nprocess,rank);
     smm.JGFrun(size);
+
+/* Finalise MPI */
+     MPI.Finalize();
  
   }
 }

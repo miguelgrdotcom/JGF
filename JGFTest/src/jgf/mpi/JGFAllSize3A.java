@@ -21,17 +21,13 @@ package jgf.mpi;
 **************************************************************************/
 
 
-import jgf.mpi.util.JGFInstrumentor;
-import jgf.mpi.sparsematmult.JGFSparseMatmultBench;
-import jgf.mpi.series.JGFSeriesBench;
-import jgf.mpi.lufact.JGFLUFactBench;
-import jgf.mpi.crypt.JGFCryptBench;
-import jgf.mpi.sor.JGFSORBench;
-import jgf.mpi.util.*; 
-
+import jgf.mpi.raytracer.JGFRayTracerBench;
+import jgf.mpi.montecarlo.JGFMonteCarloBench;
+import jgf.mpi.moldyn.JGFMolDynBench;
+import jgf.mpi.util.*;
 import mpi.*;
 
-public class JGFAllSizeC2{ 
+public class JGFAllSize3A{ 
 
   public static int nprocess;
   public static int rank;
@@ -39,34 +35,31 @@ public class JGFAllSizeC2{
   public static void main(String argv[]) throws MPIException{
 
 /* Initialise MPI */
-     MPI.Init(argv);
-     rank = MPI.COMM_WORLD.Rank();
-     nprocess = MPI.COMM_WORLD.Size();
+    MPI.Init(argv);
+    rank = MPI.COMM_WORLD.Rank();
+    nprocess = MPI.COMM_WORLD.Size();
 
-    int size = 2;
+    int size = 0;
 
     if(rank==0) {
-      JGFInstrumentor.printHeader(2,2,nprocess);
+      JGFInstrumentor.printHeader(3,0,nprocess);
     }
 
-    JGFSeriesBench se = new JGFSeriesBench(nprocess,rank);
-    se.JGFrun(size);
+    JGFMolDynBench mold = new JGFMolDynBench(nprocess,rank); 
+    mold.JGFrun(size);
 
-    JGFLUFactBench lub = new JGFLUFactBench(nprocess,rank);
-    lub.JGFrun(size);
+    JGFMonteCarloBench mc = new JGFMonteCarloBench(nprocess,rank);
+    mc.JGFrun(size);
 
-    JGFCryptBench cb = new JGFCryptBench(nprocess,rank); 
-    cb.JGFrun(size);
+    JGFRayTracerBench rtb = new JGFRayTracerBench(nprocess,rank);
+    rtb.JGFrun(size);
 
-    JGFSORBench jb = new JGFSORBench(nprocess,rank);
-    jb.JGFrun(size);
-//
-//
-//    JGFSparseMatmultBench smm = new JGFSparseMatmultBench(nprocess,rank);
-//    smm.JGFrun(size);
+
+
 
 /* Finalise MPI */
-     MPI.Finalize();
+    MPI.Finalize();
+
  
   }
 }

@@ -32,7 +32,7 @@ import static org.junit.Assert.*;
 public class RaytracerTest extends JGFTest {
     
     public RaytracerTest() {
-        logger.setLevel(Level.INFO);
+        //logger.setLevel(Level.INFO);
     }
 
         

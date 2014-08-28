@@ -1,8 +1,8 @@
-package jgf.parallel;
+package jgf.sequential;
 
 /**************************************************************************
 *                                                                         *
-*         Java Grande Forum Benchmark Suite - Thread Version 1.0          *
+*             Java Grande Forum Benchmark Suite - Version 2.0             *
 *                                                                         *
 *                            produced by                                  *
 *                                                                         *
@@ -15,48 +15,50 @@ package jgf.parallel;
 *                email: epcc-javagrande@epcc.ed.ac.uk                     *
 *                                                                         *
 *                                                                         *
-*      This version copyright (c) The University of Edinburgh, 2001.      *
+*      This version copyright (c) The University of Edinburgh, 1999.      *
 *                         All rights reserved.                            *
 *                                                                         *
 **************************************************************************/
 
 
-import jgf.parallel.util.JGFInstrumentor;
-import jgf.parallel.raytracer.JGFRayTracerBench;
-import jgf.parallel.montecarlo.JGFMonteCarloBench;
-import jgf.parallel.moldyn.JGFMolDynBench;
+import jgf.sequential.util.JGFInstrumentor;
+import jgf.sequential.sparsematmult.JGFSparseMatmultBench;
+import jgf.sequential.sor.JGFSORBench;
+import jgf.sequential.series.JGFSeriesBench;
+import jgf.sequential.lufact.JGFLUFactBench;
+import jgf.sequential.heapsort.JGFHeapSortBench;
+import jgf.sequential.fft.JGFFFTBench;
+import jgf.sequential.crypt.JGFCryptBench;
 
-import jgf.parallel.util.*;
-
-public class JGFAllSizeB3{
-
-  public static int nthreads;
+public class JGFAllSize2C{
 
   public static void main(String argv[]){
    
-    int size = 1; 
+    int size = 2; 
 
-  if(argv.length != 0 ) {
-    nthreads = Integer.parseInt(argv[0]);
-  } else {
-    System.out.println("The no of threads has not been specified, defaulting to 1");
-    System.out.println("  ");
-    nthreads = 1;
-  }
+    JGFInstrumentor.printHeader(2,size);
 
-    JGFInstrumentor.printHeader(3,size,nthreads);
+    JGFCryptBench cb = new JGFCryptBench();
+    cb.JGFrun(size);    
 
+    JGFSeriesBench se = new JGFSeriesBench(); 
+    se.JGFrun(size);
 
-    JGFMolDynBench mdb = new JGFMolDynBench(nthreads);
-    mdb.JGFrun(size);
+    JGFLUFactBench lub = new JGFLUFactBench();
+    lub.JGFrun(size);    
 
-    JGFMonteCarloBench mcb = new JGFMonteCarloBench(nthreads);
-    mcb.JGFrun(size);
-
-    JGFRayTracerBench rtb = new JGFRayTracerBench(nthreads);
-    rtb.JGFrun(size);
-
+//    JGFHeapSortBench hb = new JGFHeapSortBench();
+//    hb.JGFrun(size);    
+//
+//    JGFFFTBench fft = new JGFFFTBench(); 
+//    fft.JGFrun(size);
+//   
+    JGFSORBench jb = new JGFSORBench(); 
+    jb.JGFrun(size);
+   
+    JGFSparseMatmultBench smm = new JGFSparseMatmultBench(); 
+    smm.JGFrun(size);
+    
+    
   }
 }
-
-

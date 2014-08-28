@@ -33,7 +33,7 @@ import static org.junit.Assert.*;
 public class MontecarloTest extends JGFTest {
     
     public MontecarloTest() {
-        logger.setLevel(Level.INFO);
+        //logger.setLevel(Level.INFO);
     }
 
         

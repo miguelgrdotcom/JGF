@@ -1,8 +1,8 @@
-package jgf.mpi;
+package jgf.sequential;
 
 /**************************************************************************
 *                                                                         *
-*             Java Grande Forum Benchmark Suite - MPJ Version 1.0         *
+*             Java Grande Forum Benchmark Suite - Version 2.0             *
 *                                                                         *
 *                            produced by                                  *
 *                                                                         *
@@ -15,53 +15,36 @@ package jgf.mpi;
 *                email: epcc-javagrande@epcc.ed.ac.uk                     *
 *                                                                         *
 *                                                                         *
-*      This version copyright (c) The University of Edinburgh, 2001.      *
+*      This version copyright (c) The University of Edinburgh, 1999.      *
 *                         All rights reserved.                            *
 *                                                                         *
 **************************************************************************/
 
 
-import jgf.mpi.raytracer.JGFRayTracerBench;
-import jgf.mpi.montecarlo.JGFMonteCarloBench;
-import jgf.mpi.moldyn.JGFMolDynBench;
-import jgf.mpi.util.*;
-import mpi.*;
+import jgf.sequential.raytracer.JGFRayTracerBench;
+import jgf.sequential.montecarlo.JGFMonteCarloBench;
+import jgf.sequential.moldyn.JGFMolDynBench;
+import jgf.sequential.util.JGFInstrumentor;
 
-public class JGFAllSizeB3{ 
+import jgf.sequential.util.*; 
 
-  public static int nprocess;
-  public static int rank;
+public class JGFAllSize3B{
 
-  public static void main(String argv[]) throws MPIException{
+  public static void main(String argv[]){
+   
+    int size = 1; 
 
-/* Initialise MPI */
-    MPI.Init(argv);
-    rank = MPI.COMM_WORLD.Rank();
-    nprocess = MPI.COMM_WORLD.Size();
+    JGFInstrumentor.printHeader(3,size);
 
-    int size = 1;
+    JGFMolDynBench mdb = new JGFMolDynBench();
+    mdb.JGFrun(size);
 
-    if(rank==0) {
-      JGFInstrumentor.printHeader(3,1,nprocess);
-    }
+    JGFMonteCarloBench mcb = new JGFMonteCarloBench();
+    mcb.JGFrun(size);
 
-    JGFMolDynBench mold = new JGFMolDynBench(nprocess,rank); 
-    mold.JGFrun(size);
-
-    JGFMonteCarloBench mc = new JGFMonteCarloBench(nprocess,rank);
-    mc.JGFrun(size);
-
-    JGFRayTracerBench rtb = new JGFRayTracerBench(nprocess,rank);
+    JGFRayTracerBench rtb = new JGFRayTracerBench();
     rtb.JGFrun(size);
 
 
-
-
-/* Finalise MPI */
-    MPI.Finalize();
-
- 
   }
 }
-
-
