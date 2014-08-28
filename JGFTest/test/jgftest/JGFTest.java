@@ -47,7 +47,7 @@ public class JGFTest {
 
     @BeforeClass
     public static void setUpClass() {
-        logger.setLevel(Level.WARN);
+        //logger.setLevel(Level.WARN);
     }
 
     @AfterClass
