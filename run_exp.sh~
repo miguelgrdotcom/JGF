@@ -1,0 +1,30 @@
+#!/bin/sh
+
+
+export JAVA_ARG="-Xmx50g -Xms50g -Xmn40g -XX:SurvivorRatio=10 -Dlogback.configurationFile=logback.xml" 
+export ORIG_JAR=JGFTest/dist/JGFTest-noaspect.jar
+export HU_JAR=JGFTest/dist/JGFTest.jar
+export MPJ_HOME=libs/mpj-v0_43
+export NUM_THREADS=16
+export SECTION2="Crypt LUFact Matmult Series SOR"
+export SECTION3="MolDyn Montecarlo RayTracer"
+
+[sequential]
+for i in ${SECTION2}; do for j in `seq 1 10`; do java ${JAVA_ARG}  -cp ${ORIG_JAR} jgf.sequential.JGF${i}BenchSizeC | tee test/seq/orig-${i}; done; done
+for i in ${SECTION3}; do for j in `seq 1 10`; do java ${JAVA_ARG}  -cp ${ORIG_JAR} jgf.sequential.JGF${i}BenchSizeB | tee test/seq/orig-${i}; done; done
+for i in ${SECTION2}; do for j in `seq 1 10`; do java ${JAVA_ARG} -cp ${HU_JAR} jgf.sequential.JGF${i}BenchSizeC | tee test/seq/hu-${i}; done; done
+for i in ${SECTION3}; do for j in `seq 1 10`; do java  ${JAVA_ARG} -cp ${HU_JAR} jgf.sequential.JGF${i}BenchSizeB | tee test/seq/hu-${i}; done; done
+
+[parallel]
+
+for i in ${SECTION2}; do for j in `seq 1 10`; do java ${JAVA_ARG}  -cp ${ORIG_JAR} jgf.parallel.JGF${i}BenchSizeC ${NUM_THREADS} | tee test/par/orig-${i}; done; done
+for i in ${SECTION3}; do for j in `seq 1 10`; do java ${JAVA_ARG}  -cp ${ORIG_JAR} jgf.parallel.JGF${i}BenchSizeB ${NUM_THREADS} | tee test/par/orig-${i}; done; done
+for i in ${SECTION2}; do for j in `seq 1 10`; do java ${JAVA_ARG} -cp ${HU_JAR} jgf.parallel.JGF${i}BenchSizeC ${NUM_THREADS} | tee test/par/hu-${i}; done; done
+for i in ${SECTION3}; do for j in `seq 1 10`; do java  ${JAVA_ARG} -cp ${HU_JAR} jgf.parallel.JGF${i}BenchSizeB ${NUM_THREADS} | tee test/par/hu-${i}; done; done 
+
+[distributed]
+
+for i in ${SECTION2}; do for j in `seq 1 10`; do ${MPJ_HOME}/bin/mpjrun.sh -np ${NUM_THREADS} ${JAVA_ARG}  -cp ${ORIG_JAR} jgf.mpi.JGF${i}BenchSizeC | tee test/mpi/orig-${i}; done; done
+for i in ${SECTION3}; do for j in `seq 1 10`; do ${MPJ_HOME}/bin/mpjrun.sh -np ${NUM_THREADS} ${JAVA_ARG}  -cp ${ORIG_JAR} jgf.mpi.JGF${i}BenchSizeB | tee test/mpi/orig-${i}; done; done
+for i in ${SECTION2}; do for j in `seq 1 10`; do ${MPJ_HOME}/bin/mpjrun.sh -np ${NUM_THREADS} ${JAVA_ARG} -cp ${HU_JAR} jgf.mpi.JGF${i}BenchSizeC | tee test/mpi/hu-${i}; done; done
+for i in ${SECTION3}; do for j in `seq 1 10`; do ${MPJ_HOME}/bin/mpjrun.sh -np ${NUM_THREADS}  ${JAVA_ARG} -cp ${HU_JAR} jgf.mpi.JGF${i}BenchSizeB | tee test/mpi/hu-${i}; done; done 
