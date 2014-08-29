@@ -1,0 +1,166 @@
+JUnit version 4.10
+Could not find class: jgftest.Linpack
+
+Time: 0
+
+OK (0 tests)
+
+JUnit version 4.10
+Could not find class: jgftest.Linpack
+
+Time: 0
+
+OK (0 tests)
+
+JUnit version 4.10
+Could not find class: jgftest.Linpack
+
+Time: 0.001
+
+OK (0 tests)
+
+JUnit version 4.10
+Could not find class: jgftest.Linpack
+
+Time: 0.001
+
+OK (0 tests)
+
+JUnit version 4.10
+Could not find class: jgftest.Linpack
+
+Time: 0.001
+
+OK (0 tests)
+
+JUnit version 4.10
+Could not find class: jgftest.Linpack
+
+Time: 0.001
+
+OK (0 tests)
+
+JUnit version 4.10
+Could not find class: jgftest.Linpack
+
+Time: 0.001
+
+OK (0 tests)
+
+JUnit version 4.10
+Could not find class: jgftest.Linpack
+
+Time: 0.001
+
+OK (0 tests)
+
+JUnit version 4.10
+.Section2:LUFact:Kernel:SizeC	4.0 (s) 	 1335.3334	 (Mflops/s)
+Section2:LUFact:Kernel:SizeC	4.499 (s) 	 1187.2268	 (Mflops/s)
+12:19:59.828 [main] INFO  JGFTest - time = 782
+12:19:59.831 [main] INFO  JGFTest - sequential size = 1652472, parallel size = 1652472
+12:20:00.897 [main] INFO  JGFTest - Total=48,933,568KB、Used=1,303,320KB (2.7%)、Max=48,933,568KB
+.......
+Time: 11.343
+
+OK (8 tests)
+
+JUnit version 4.10
+.Section2:LUFact:Kernel:SizeC	4.791 (s) 	 1114.8682	 (Mflops/s)
+Section2:LUFact:Kernel:SizeC	4.416 (s) 	 1209.541	 (Mflops/s)
+12:20:12.287 [main] INFO  JGFTest - time = 796
+12:20:12.290 [main] INFO  JGFTest - sequential size = 1652472, parallel size = 1652472
+12:20:13.226 [main] INFO  JGFTest - Total=48,933,568KB、Used=1,303,321KB (2.7%)、Max=48,933,568KB
+.......
+Time: 11.98
+
+OK (8 tests)
+
+JUnit version 4.10
+.Section2:LUFact:Kernel:SizeC	3.958 (s) 	 1349.5032	 (Mflops/s)
+Section2:LUFact:Kernel:SizeC	4.813 (s) 	 1109.7721	 (Mflops/s)
+12:20:24.154 [main] INFO  JGFTest - time = 761
+12:20:24.157 [main] INFO  JGFTest - sequential size = 1652472, parallel size = 1652472
+12:20:25.226 [main] INFO  JGFTest - Total=48,933,568KB、Used=1,303,321KB (2.7%)、Max=48,933,568KB
+.......
+Time: 11.651
+
+OK (8 tests)
+
+JUnit version 4.10
+.Section2:LUFact:Kernel:SizeC	3.971 (s) 	 1345.0852	 (Mflops/s)
+Section2:LUFact:Kernel:SizeC	4.459 (s) 	 1197.877	 (Mflops/s)
+12:20:35.791 [main] INFO  JGFTest - time = 764
+12:20:35.793 [main] INFO  JGFTest - sequential size = 1652472, parallel size = 1652472
+12:20:36.625 [main] INFO  JGFTest - Total=48,933,568KB、Used=1,303,321KB (2.7%)、Max=48,933,568KB
+.......
+Time: 11.026
+
+OK (8 tests)
+
+JUnit version 4.10
+.Section2:LUFact:Kernel:SizeC	3.973 (s) 	 1344.4081	 (Mflops/s)
+Section2:LUFact:Kernel:SizeC	4.344 (s) 	 1229.5887	 (Mflops/s)
+12:20:47.121 [main] INFO  JGFTest - time = 786
+12:20:47.123 [main] INFO  JGFTest - sequential size = 1652472, parallel size = 1652472
+12:20:48.130 [main] INFO  JGFTest - Total=48,933,568KB、Used=1,303,321KB (2.7%)、Max=48,933,568KB
+.......
+Time: 11.152
+
+OK (8 tests)
+
+JUnit version 4.10
+.Section2:LUFact:Kernel:SizeC	3.976 (s) 	 1343.3937	 (Mflops/s)
+Section2:LUFact:Kernel:SizeC	4.631 (s) 	 1153.3866	 (Mflops/s)
+12:20:59.023 [main] INFO  JGFTest - time = 773
+12:20:59.026 [main] INFO  JGFTest - sequential size = 1652472, parallel size = 1652472
+12:21:00.069 [main] INFO  JGFTest - Total=48,933,568KB、Used=1,303,320KB (2.7%)、Max=48,933,568KB
+.......
+Time: 11.599
+
+OK (8 tests)
+
+JUnit version 4.10
+.Section2:LUFact:Kernel:SizeC	3.945 (s) 	 1353.9502	 (Mflops/s)
+Section2:LUFact:Kernel:SizeC	4.651 (s) 	 1148.4269	 (Mflops/s)
+12:21:11.042 [main] INFO  JGFTest - time = 771
+12:21:11.045 [main] INFO  JGFTest - sequential size = 1652472, parallel size = 1652472
+12:21:11.871 [main] INFO  JGFTest - Total=48,933,568KB、Used=1,303,321KB (2.7%)、Max=48,933,568KB
+.......
+Time: 11.457
+
+OK (8 tests)
+
+JUnit version 4.10
+.Section2:LUFact:Kernel:SizeC	3.957 (s) 	 1349.8441	 (Mflops/s)
+Section2:LUFact:Kernel:SizeC	4.256 (s) 	 1255.0126	 (Mflops/s)
+12:21:22.272 [main] INFO  JGFTest - time = 784
+12:21:22.274 [main] INFO  JGFTest - sequential size = 1652472, parallel size = 1652472
+12:21:23.340 [main] INFO  JGFTest - Total=48,933,568KB、Used=1,303,320KB (2.7%)、Max=48,933,568KB
+.......
+Time: 11.121
+
+OK (8 tests)
+
+JUnit version 4.10
+.Section2:LUFact:Kernel:SizeC	3.961 (s) 	 1348.4811	 (Mflops/s)
+Section2:LUFact:Kernel:SizeC	4.229 (s) 	 1263.0251	 (Mflops/s)
+12:21:33.705 [main] INFO  JGFTest - time = 782
+12:21:33.708 [main] INFO  JGFTest - sequential size = 1652472, parallel size = 1652472
+12:21:34.555 [main] INFO  JGFTest - Total=48,933,568KB、Used=1,303,327KB (2.7%)、Max=48,933,568KB
+.......
+Time: 10.867
+
+OK (8 tests)
+
+JUnit version 4.10
+.Section2:LUFact:Kernel:SizeC	3.971 (s) 	 1345.0852	 (Mflops/s)
+Section2:LUFact:Kernel:SizeC	4.656 (s) 	 1147.1936	 (Mflops/s)
+12:21:45.402 [main] INFO  JGFTest - time = 797
+12:21:45.404 [main] INFO  JGFTest - sequential size = 1652472, parallel size = 1652472
+12:21:46.270 [main] INFO  JGFTest - Total=48,933,568KB、Used=1,303,321KB (2.7%)、Max=48,933,568KB
+.......
+Time: 11.354
+
+OK (8 tests)
+

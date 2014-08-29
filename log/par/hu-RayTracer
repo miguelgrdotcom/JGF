@@ -1,0 +1,60 @@
+Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 16 threads
+
+Section3:RayTracer:Init:SizeB	0.003 (s) 	 21333.334	 (Objects/s)
+Section3:RayTracer:Run:SizeB	1.621 (s) 	 154225.78	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	1.72 (s) 	 0.5813953	 (Solutions/s)
+Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 16 threads
+
+Section3:RayTracer:Init:SizeB	0.008 (s) 	 8000.0	 (Objects/s)
+Section3:RayTracer:Run:SizeB	1.467 (s) 	 170415.81	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	1.549 (s) 	 0.6455778	 (Solutions/s)
+Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 16 threads
+
+Section3:RayTracer:Init:SizeB	0.001 (s) 	 64000.0	 (Objects/s)
+Section3:RayTracer:Run:SizeB	1.299 (s) 	 192455.73	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	1.399 (s) 	 0.7147963	 (Solutions/s)
+Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 16 threads
+
+Section3:RayTracer:Init:SizeB	0.002 (s) 	 32000.0	 (Objects/s)
+Section3:RayTracer:Run:SizeB	1.711 (s) 	 146113.39	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	1.811 (s) 	 0.5521811	 (Solutions/s)
+Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 16 threads
+
+Section3:RayTracer:Init:SizeB	0.004 (s) 	 16000.0	 (Objects/s)
+Section3:RayTracer:Run:SizeB	1.241 (s) 	 201450.44	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	1.341 (s) 	 0.74571216	 (Solutions/s)
+Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 16 threads
+
+Section3:RayTracer:Init:SizeB	0.006 (s) 	 10666.667	 (Objects/s)
+Section3:RayTracer:Run:SizeB	1.255 (s) 	 199203.19	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	1.349 (s) 	 0.74128985	 (Solutions/s)
+Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 16 threads
+
+Section3:RayTracer:Init:SizeB	0.004 (s) 	 16000.0	 (Objects/s)
+Section3:RayTracer:Run:SizeB	1.259 (s) 	 198570.3	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	1.36 (s) 	 0.7352941	 (Solutions/s)
+Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 16 threads
+
+Section3:RayTracer:Init:SizeB	0.003 (s) 	 21333.334	 (Objects/s)
+Section3:RayTracer:Run:SizeB	1.517 (s) 	 164798.94	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	1.612 (s) 	 0.6203474	 (Solutions/s)
+Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 16 threads
+
+Section3:RayTracer:Init:SizeB	0.004 (s) 	 16000.0	 (Objects/s)
+Section3:RayTracer:Run:SizeB	1.234 (s) 	 202593.19	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	1.347 (s) 	 0.7423905	 (Solutions/s)
+Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 16 threads
+
+Section3:RayTracer:Init:SizeB	0.006 (s) 	 10666.667	 (Objects/s)
+Section3:RayTracer:Run:SizeB	1.299 (s) 	 192455.73	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	1.411 (s) 	 0.7087172	 (Solutions/s)

@@ -1,0 +1,60 @@
+MPJ Express (0.43) is started in the multicore configuration
+Java Grande Forum MPJ Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 16 processes
+Section3:RayTracer:Init:SizeB	0.002 (s) 	 32000.0	 (Objects/s)
+Section3:RayTracer:Run:SizeB	2.89 (s) 	 86505.19	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	2.948 (s) 	 0.339213	 (Solutions/s)
+MPJ Express (0.43) is started in the multicore configuration
+Java Grande Forum MPJ Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 16 processes
+Section3:RayTracer:Init:SizeB	0.002 (s) 	 32000.0	 (Objects/s)
+Section3:RayTracer:Run:SizeB	2.701 (s) 	 92558.31	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	2.761 (s) 	 0.36218762	 (Solutions/s)
+MPJ Express (0.43) is started in the multicore configuration
+Java Grande Forum MPJ Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 16 processes
+Section3:RayTracer:Init:SizeB	0.002 (s) 	 32000.0	 (Objects/s)
+Section3:RayTracer:Run:SizeB	2.822 (s) 	 88589.66	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	2.937 (s) 	 0.3404835	 (Solutions/s)
+MPJ Express (0.43) is started in the multicore configuration
+Java Grande Forum MPJ Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 16 processes
+Section3:RayTracer:Init:SizeB	0.002 (s) 	 32000.0	 (Objects/s)
+Section3:RayTracer:Run:SizeB	2.43 (s) 	 102880.66	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	2.596 (s) 	 0.385208	 (Solutions/s)
+MPJ Express (0.43) is started in the multicore configuration
+Java Grande Forum MPJ Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 16 processes
+Section3:RayTracer:Init:SizeB	0.002 (s) 	 32000.0	 (Objects/s)
+Section3:RayTracer:Run:SizeB	2.582 (s) 	 96824.164	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	2.646 (s) 	 0.37792894	 (Solutions/s)
+MPJ Express (0.43) is started in the multicore configuration
+Java Grande Forum MPJ Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 16 processes
+Section3:RayTracer:Init:SizeB	0.003 (s) 	 21333.334	 (Objects/s)
+Section3:RayTracer:Run:SizeB	2.438 (s) 	 102543.07	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	2.504 (s) 	 0.399361	 (Solutions/s)
+MPJ Express (0.43) is started in the multicore configuration
+Java Grande Forum MPJ Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 16 processes
+Section3:RayTracer:Init:SizeB	0.001 (s) 	 64000.0	 (Objects/s)
+Section3:RayTracer:Run:SizeB	2.303 (s) 	 108554.06	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	2.371 (s) 	 0.42176297	 (Solutions/s)
+MPJ Express (0.43) is started in the multicore configuration
+Java Grande Forum MPJ Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 16 processes
+Section3:RayTracer:Init:SizeB	0.002 (s) 	 32000.0	 (Objects/s)
+Section3:RayTracer:Run:SizeB	2.648 (s) 	 94410.875	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	2.71 (s) 	 0.36900368	 (Solutions/s)
+MPJ Express (0.43) is started in the multicore configuration
+Java Grande Forum MPJ Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 16 processes
+Section3:RayTracer:Init:SizeB	0.002 (s) 	 32000.0	 (Objects/s)
+Section3:RayTracer:Run:SizeB	2.429 (s) 	 102923.016	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	2.476 (s) 	 0.40387723	 (Solutions/s)
+MPJ Express (0.43) is started in the multicore configuration
+Java Grande Forum MPJ Benchmark Suite - Version 1.0 - Section 3 - Size B
+Executing on 16 processes
+Section3:RayTracer:Init:SizeB	0.002 (s) 	 32000.0	 (Objects/s)
+Section3:RayTracer:Run:SizeB	2.575 (s) 	 97087.375	 (Pixels/s)
+Section3:RayTracer:Total:SizeB	2.74 (s) 	 0.3649635	 (Solutions/s)

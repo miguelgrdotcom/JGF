@@ -1,0 +1,50 @@
+Java Grande Forum Benchmark Suite - Version 2.0 - Section 3 - Size B
+
+05:10:30.657 [main] WARN  JGFMolDynBench - ek = 7397.392307839353
+Section3:MolDyn:Run:SizeB	13.431 (s) 	 2006697.6	 (Interactions/s)
+Section3:MolDyn:Total:SizeB	13.502 (s) 	 0.0740631	 (Solutions/s)
+Java Grande Forum Benchmark Suite - Version 2.0 - Section 3 - Size B
+
+05:10:44.417 [main] WARN  JGFMolDynBench - ek = 7397.392307839353
+Section3:MolDyn:Run:SizeB	13.387 (s) 	 2013293.1	 (Interactions/s)
+Section3:MolDyn:Total:SizeB	13.464 (s) 	 0.07427213	 (Solutions/s)
+Java Grande Forum Benchmark Suite - Version 2.0 - Section 3 - Size B
+
+05:10:57.891 [main] WARN  JGFMolDynBench - ek = 7397.392307839353
+Section3:MolDyn:Run:SizeB	13.081 (s) 	 2060389.5	 (Interactions/s)
+Section3:MolDyn:Total:SizeB	13.145 (s) 	 0.076074556	 (Solutions/s)
+Java Grande Forum Benchmark Suite - Version 2.0 - Section 3 - Size B
+
+05:11:11.393 [main] WARN  JGFMolDynBench - ek = 7397.392307839353
+Section3:MolDyn:Run:SizeB	13.129 (s) 	 2052856.6	 (Interactions/s)
+Section3:MolDyn:Total:SizeB	13.201 (s) 	 0.07575183	 (Solutions/s)
+Java Grande Forum Benchmark Suite - Version 2.0 - Section 3 - Size B
+
+05:11:24.915 [main] WARN  JGFMolDynBench - ek = 7397.392307839353
+Section3:MolDyn:Run:SizeB	13.148 (s) 	 2049890.1	 (Interactions/s)
+Section3:MolDyn:Total:SizeB	13.213 (s) 	 0.07568304	 (Solutions/s)
+Java Grande Forum Benchmark Suite - Version 2.0 - Section 3 - Size B
+
+05:11:38.498 [main] WARN  JGFMolDynBench - ek = 7397.392307839353
+Section3:MolDyn:Run:SizeB	13.209 (s) 	 2040423.6	 (Interactions/s)
+Section3:MolDyn:Total:SizeB	13.271 (s) 	 0.075352274	 (Solutions/s)
+Java Grande Forum Benchmark Suite - Version 2.0 - Section 3 - Size B
+
+05:11:52.273 [main] WARN  JGFMolDynBench - ek = 7397.392307839353
+Section3:MolDyn:Run:SizeB	13.413 (s) 	 2009390.5	 (Interactions/s)
+Section3:MolDyn:Total:SizeB	13.483 (s) 	 0.07416747	 (Solutions/s)
+Java Grande Forum Benchmark Suite - Version 2.0 - Section 3 - Size B
+
+05:12:05.775 [main] WARN  JGFMolDynBench - ek = 7397.392307839353
+Section3:MolDyn:Run:SizeB	13.147 (s) 	 2050046.0	 (Interactions/s)
+Section3:MolDyn:Total:SizeB	13.218 (s) 	 0.07565441	 (Solutions/s)
+Java Grande Forum Benchmark Suite - Version 2.0 - Section 3 - Size B
+
+05:12:19.287 [main] WARN  JGFMolDynBench - ek = 7397.392307839353
+Section3:MolDyn:Run:SizeB	13.144 (s) 	 2050513.9	 (Interactions/s)
+Section3:MolDyn:Total:SizeB	13.211 (s) 	 0.075694494	 (Solutions/s)
+Java Grande Forum Benchmark Suite - Version 2.0 - Section 3 - Size B
+
+05:12:33.066 [main] WARN  JGFMolDynBench - ek = 7397.392307839353
+Section3:MolDyn:Run:SizeB	13.414 (s) 	 2009240.8	 (Interactions/s)
+Section3:MolDyn:Total:SizeB	13.484 (s) 	 0.07416197	 (Solutions/s)

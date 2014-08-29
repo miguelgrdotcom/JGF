@@ -1,0 +1,240 @@
+MPJ Express (0.43) is started in the multicore configuration
+Section3:MonteCarlo:Run:SizeB	8.334 (s) 	 7199.424	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	8.799 (s) 	 0.11364928	 (Solutions/s)
+Section3:MonteCarlo:Run:SizeB	3.633 (s) 	 16515.277	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	8.702 (s) 	 0.11491611	 (Solutions/s)
+17:58:59.287 [5] INFO  JGFTest - 3750@11
+17:58:59.287 [2] INFO  JGFTest - 3750@14
+17:58:59.287 [12] INFO  JGFTest - 3750@4
+17:58:59.287 [11] INFO  JGFTest - 3750@5
+17:58:59.287 [0] INFO  JGFTest - 60000
+17:58:59.291 [0] INFO  JGFTest - 3750@0
+17:58:59.288 [6] INFO  JGFTest - 3750@10
+17:58:59.289 [3] INFO  JGFTest - 3750@13
+17:58:59.289 [8] INFO  JGFTest - 3750@8
+17:58:59.289 [14] INFO  JGFTest - 3750@2
+17:58:59.289 [9] INFO  JGFTest - 3750@7
+17:58:59.291 [7] INFO  JGFTest - 3750@9
+17:58:59.291 [1] INFO  JGFTest - 3750@15
+17:58:59.291 [10] INFO  JGFTest - 3750@6
+17:58:59.291 [15] INFO  JGFTest - 3750@1
+17:58:59.291 [13] INFO  JGFTest - 3750@3
+17:58:59.291 [4] INFO  JGFTest - 3750@12
+17:58:59.362 [0] INFO  JGFTest - diff = 0
+17:58:59.365 [0] INFO  JGFTest - time = 402
+MPJ Express (0.43) is started in the multicore configuration
+Section3:MonteCarlo:Run:SizeB	8.349 (s) 	 7186.4893	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	8.788 (s) 	 0.11379153	 (Solutions/s)
+Section3:MonteCarlo:Run:SizeB	1.852 (s) 	 32397.408	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	8.386 (s) 	 0.11924636	 (Solutions/s)
+17:59:19.007 [4] INFO  JGFTest - 3750@12
+17:59:19.007 [8] INFO  JGFTest - 3750@8
+17:59:19.007 [10] INFO  JGFTest - 3750@6
+17:59:19.008 [12] INFO  JGFTest - 3750@4
+17:59:19.008 [0] INFO  JGFTest - 60000
+17:59:19.012 [0] INFO  JGFTest - 3750@0
+17:59:19.008 [1] INFO  JGFTest - 3750@15
+17:59:19.008 [11] INFO  JGFTest - 3750@5
+17:59:19.009 [5] INFO  JGFTest - 3750@11
+17:59:19.009 [9] INFO  JGFTest - 3750@7
+17:59:19.009 [2] INFO  JGFTest - 3750@14
+17:59:19.009 [6] INFO  JGFTest - 3750@10
+17:59:19.009 [14] INFO  JGFTest - 3750@2
+17:59:19.011 [3] INFO  JGFTest - 3750@13
+17:59:19.011 [13] INFO  JGFTest - 3750@3
+17:59:19.011 [15] INFO  JGFTest - 3750@1
+17:59:19.013 [7] INFO  JGFTest - 3750@9
+17:59:19.088 [0] INFO  JGFTest - diff = 0
+17:59:19.093 [0] INFO  JGFTest - time = 427
+MPJ Express (0.43) is started in the multicore configuration
+Section3:MonteCarlo:Run:SizeB	8.341 (s) 	 7193.3823	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	8.802 (s) 	 0.11361054	 (Solutions/s)
+Section3:MonteCarlo:Run:SizeB	1.836 (s) 	 32679.738	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	9.022 (s) 	 0.11084017	 (Solutions/s)
+17:59:39.428 [4] INFO  JGFTest - 3750@12
+17:59:39.428 [11] INFO  JGFTest - 3750@5
+17:59:39.428 [15] INFO  JGFTest - 3750@1
+17:59:39.429 [9] INFO  JGFTest - 3750@7
+17:59:39.429 [5] INFO  JGFTest - 3750@11
+17:59:39.429 [12] INFO  JGFTest - 3750@4
+17:59:39.430 [2] INFO  JGFTest - 3750@14
+17:59:39.430 [7] INFO  JGFTest - 3750@9
+17:59:39.430 [3] INFO  JGFTest - 3750@13
+17:59:39.430 [6] INFO  JGFTest - 3750@10
+17:59:39.431 [8] INFO  JGFTest - 3750@8
+17:59:39.431 [10] INFO  JGFTest - 3750@6
+17:59:39.429 [13] INFO  JGFTest - 3750@3
+17:59:39.430 [0] INFO  JGFTest - 60000
+17:59:39.430 [14] INFO  JGFTest - 3750@2
+17:59:39.435 [0] INFO  JGFTest - 3750@0
+17:59:39.432 [1] INFO  JGFTest - 3750@15
+17:59:39.503 [0] INFO  JGFTest - diff = 0
+17:59:39.510 [0] INFO  JGFTest - time = 434
+MPJ Express (0.43) is started in the multicore configuration
+Section3:MonteCarlo:Run:SizeB	8.345 (s) 	 7189.934	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	8.763 (s) 	 0.11411617	 (Solutions/s)
+Section3:MonteCarlo:Run:SizeB	3.642 (s) 	 16474.465	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	7.679 (s) 	 0.13022529	 (Solutions/s)
+17:59:58.407 [2] INFO  JGFTest - 3750@14
+17:59:58.407 [0] INFO  JGFTest - 60000
+17:59:58.411 [0] INFO  JGFTest - 3750@0
+17:59:58.407 [8] INFO  JGFTest - 3750@8
+17:59:58.407 [14] INFO  JGFTest - 3750@3
+17:59:58.407 [1] INFO  JGFTest - 3750@15
+17:59:58.408 [5] INFO  JGFTest - 3750@10
+17:59:58.409 [11] INFO  JGFTest - 3750@4
+17:59:58.409 [10] INFO  JGFTest - 3750@7
+17:59:58.410 [9] INFO  JGFTest - 3750@6
+17:59:58.410 [6] INFO  JGFTest - 3750@11
+17:59:58.410 [4] INFO  JGFTest - 3750@12
+17:59:58.411 [7] INFO  JGFTest - 3750@9
+17:59:58.411 [12] INFO  JGFTest - 3750@5
+17:59:58.412 [15] INFO  JGFTest - 3750@1
+17:59:58.412 [3] INFO  JGFTest - 3750@13
+17:59:58.412 [13] INFO  JGFTest - 3750@2
+17:59:58.479 [0] INFO  JGFTest - diff = 0
+17:59:58.482 [0] INFO  JGFTest - time = 395
+MPJ Express (0.43) is started in the multicore configuration
+Section3:MonteCarlo:Run:SizeB	8.324 (s) 	 7208.073	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	8.725 (s) 	 0.11461318	 (Solutions/s)
+Section3:MonteCarlo:Run:SizeB	2.435 (s) 	 24640.656	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	8.511 (s) 	 0.11749501	 (Solutions/s)
+18:00:18.247 [9] INFO  JGFTest - 3750@7
+18:00:18.247 [12] INFO  JGFTest - 3750@4
+18:00:18.247 [7] INFO  JGFTest - 3750@9
+18:00:18.249 [0] INFO  JGFTest - 60000
+18:00:18.252 [0] INFO  JGFTest - 3750@0
+18:00:18.250 [13] INFO  JGFTest - 3750@3
+18:00:18.250 [5] INFO  JGFTest - 3750@11
+18:00:18.249 [3] INFO  JGFTest - 3750@13
+18:00:18.249 [10] INFO  JGFTest - 3750@6
+18:00:18.250 [4] INFO  JGFTest - 3750@12
+18:00:18.250 [6] INFO  JGFTest - 3750@10
+18:00:18.250 [15] INFO  JGFTest - 3750@2
+18:00:18.250 [11] INFO  JGFTest - 3750@5
+18:00:18.250 [2] INFO  JGFTest - 3750@14
+18:00:18.250 [14] INFO  JGFTest - 3750@1
+18:00:18.251 [1] INFO  JGFTest - 3750@15
+18:00:18.253 [8] INFO  JGFTest - 3750@8
+18:00:18.312 [0] INFO  JGFTest - diff = 0
+18:00:18.315 [0] INFO  JGFTest - time = 437
+MPJ Express (0.43) is started in the multicore configuration
+Section3:MonteCarlo:Run:SizeB	8.346 (s) 	 7189.0728	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	8.78 (s) 	 0.113895215	 (Solutions/s)
+Section3:MonteCarlo:Run:SizeB	3.26 (s) 	 18404.908	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	9.018 (s) 	 0.11088933	 (Solutions/s)
+18:00:38.606 [5] INFO  JGFTest - 3750@11
+18:00:38.606 [9] INFO  JGFTest - 3750@7
+18:00:38.607 [10] INFO  JGFTest - 3750@6
+18:00:38.608 [2] INFO  JGFTest - 3750@14
+18:00:38.608 [6] INFO  JGFTest - 3750@10
+18:00:38.608 [11] INFO  JGFTest - 3750@5
+18:00:38.608 [7] INFO  JGFTest - 3750@9
+18:00:38.608 [15] INFO  JGFTest - 3750@1
+18:00:38.608 [13] INFO  JGFTest - 3750@3
+18:00:38.609 [0] INFO  JGFTest - 60000
+18:00:38.608 [4] INFO  JGFTest - 3750@12
+18:00:38.613 [0] INFO  JGFTest - 3750@0
+18:00:38.608 [3] INFO  JGFTest - 3750@13
+18:00:38.608 [1] INFO  JGFTest - 3750@15
+18:00:38.611 [12] INFO  JGFTest - 3750@4
+18:00:38.611 [8] INFO  JGFTest - 3750@8
+18:00:38.611 [14] INFO  JGFTest - 3750@2
+18:00:38.678 [0] INFO  JGFTest - diff = 0
+18:00:38.681 [0] INFO  JGFTest - time = 402
+MPJ Express (0.43) is started in the multicore configuration
+Section3:MonteCarlo:Run:SizeB	8.34 (s) 	 7194.2446	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	8.8 (s) 	 0.11363637	 (Solutions/s)
+Section3:MonteCarlo:Run:SizeB	3.125 (s) 	 19200.0	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	8.704 (s) 	 0.1148897	 (Solutions/s)
+18:00:58.648 [15] INFO  JGFTest - 3750@1
+18:00:58.648 [7] INFO  JGFTest - 3750@9
+18:00:58.648 [3] INFO  JGFTest - 3750@13
+18:00:58.648 [14] INFO  JGFTest - 3750@2
+18:00:58.650 [5] INFO  JGFTest - 3750@12
+18:00:58.650 [11] INFO  JGFTest - 3750@5
+18:00:58.650 [13] INFO  JGFTest - 3750@3
+18:00:58.650 [4] INFO  JGFTest - 3750@11
+18:00:58.650 [2] INFO  JGFTest - 3750@14
+18:00:58.650 [1] INFO  JGFTest - 3750@15
+18:00:58.651 [8] INFO  JGFTest - 3750@8
+18:00:58.650 [10] INFO  JGFTest - 3750@6
+18:00:58.650 [9] INFO  JGFTest - 3750@7
+18:00:58.651 [6] INFO  JGFTest - 3750@10
+18:00:58.650 [0] INFO  JGFTest - 60000
+18:00:58.651 [12] INFO  JGFTest - 3750@4
+18:00:58.655 [0] INFO  JGFTest - 3750@0
+18:00:58.713 [0] INFO  JGFTest - diff = 0
+18:00:58.716 [0] INFO  JGFTest - time = 389
+MPJ Express (0.43) is started in the multicore configuration
+Section3:MonteCarlo:Run:SizeB	8.345 (s) 	 7189.934	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	8.797 (s) 	 0.11367512	 (Solutions/s)
+Section3:MonteCarlo:Run:SizeB	3.584 (s) 	 16741.072	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	7.844 (s) 	 0.12748598	 (Solutions/s)
+18:01:17.847 [4] INFO  JGFTest - 3750@12
+18:01:17.848 [13] INFO  JGFTest - 3750@3
+18:01:17.849 [12] INFO  JGFTest - 3750@4
+18:01:17.849 [11] INFO  JGFTest - 3750@5
+18:01:17.849 [1] INFO  JGFTest - 3750@15
+18:01:17.849 [10] INFO  JGFTest - 3750@6
+18:01:17.849 [8] INFO  JGFTest - 3750@8
+18:01:17.849 [5] INFO  JGFTest - 3750@11
+18:01:17.849 [15] INFO  JGFTest - 3750@1
+18:01:17.849 [9] INFO  JGFTest - 3750@7
+18:01:17.849 [3] INFO  JGFTest - 3750@13
+18:01:17.850 [0] INFO  JGFTest - 60000
+18:01:17.854 [0] INFO  JGFTest - 3750@0
+18:01:17.849 [6] INFO  JGFTest - 3750@10
+18:01:17.850 [14] INFO  JGFTest - 3750@2
+18:01:17.853 [2] INFO  JGFTest - 3750@14
+18:01:17.853 [7] INFO  JGFTest - 3750@9
+18:01:17.941 [0] INFO  JGFTest - diff = 0
+18:01:17.944 [0] INFO  JGFTest - time = 401
+MPJ Express (0.43) is started in the multicore configuration
+Section3:MonteCarlo:Run:SizeB	8.339 (s) 	 7195.1074	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	8.763 (s) 	 0.11411617	 (Solutions/s)
+Section3:MonteCarlo:Run:SizeB	2.818 (s) 	 21291.695	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	8.214 (s) 	 0.121743366	 (Solutions/s)
+18:01:37.378 [8] INFO  JGFTest - 3750@8
+18:01:37.378 [12] INFO  JGFTest - 3750@5
+18:01:37.380 [7] INFO  JGFTest - 3750@9
+18:01:37.380 [15] INFO  JGFTest - 3750@1
+18:01:37.380 [5] INFO  JGFTest - 3750@11
+18:01:37.380 [3] INFO  JGFTest - 3750@12
+18:01:37.380 [6] INFO  JGFTest - 3750@10
+18:01:37.380 [9] INFO  JGFTest - 3750@6
+18:01:37.381 [11] INFO  JGFTest - 3750@4
+18:01:37.380 [0] INFO  JGFTest - 60000
+18:01:37.381 [4] INFO  JGFTest - 3750@13
+18:01:37.381 [13] INFO  JGFTest - 3750@2
+18:01:37.381 [10] INFO  JGFTest - 3750@7
+18:01:37.385 [0] INFO  JGFTest - 3750@0
+18:01:37.382 [2] INFO  JGFTest - 3750@15
+18:01:37.382 [1] INFO  JGFTest - 3750@14
+18:01:37.382 [14] INFO  JGFTest - 3750@3
+18:01:37.462 [0] INFO  JGFTest - diff = 0
+18:01:37.465 [0] INFO  JGFTest - time = 407
+MPJ Express (0.43) is started in the multicore configuration
+Section3:MonteCarlo:Run:SizeB	8.339 (s) 	 7195.1074	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	8.757 (s) 	 0.114194356	 (Solutions/s)
+Section3:MonteCarlo:Run:SizeB	3.807 (s) 	 15760.441	 (Samples/s)
+Section3:MonteCarlo:Total:SizeB	8.552 (s) 	 0.116931714	 (Solutions/s)
+18:01:57.238 [0] INFO  JGFTest - 60000
+18:01:57.238 [9] INFO  JGFTest - 3750@7
+18:01:57.242 [0] INFO  JGFTest - 3750@0
+18:01:57.241 [4] INFO  JGFTest - 3750@12
+18:01:57.242 [12] INFO  JGFTest - 3750@4
+18:01:57.242 [11] INFO  JGFTest - 3750@5
+18:01:57.242 [5] INFO  JGFTest - 3750@11
+18:01:57.243 [15] INFO  JGFTest - 3750@1
+18:01:57.243 [14] INFO  JGFTest - 3750@2
+18:01:57.243 [1] INFO  JGFTest - 3750@15
+18:01:57.242 [8] INFO  JGFTest - 3750@8
+18:01:57.243 [2] INFO  JGFTest - 3750@14
+18:01:57.243 [6] INFO  JGFTest - 3750@10
+18:01:57.243 [13] INFO  JGFTest - 3750@3
+18:01:57.243 [10] INFO  JGFTest - 3750@6
+18:01:57.243 [7] INFO  JGFTest - 3750@9
+18:01:57.243 [3] INFO  JGFTest - 3750@13
+18:01:57.298 [0] INFO  JGFTest - diff = 0
+18:01:57.301 [0] INFO  JGFTest - time = 383

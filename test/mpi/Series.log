@@ -1,0 +1,220 @@
+MPJ Express (0.43) is started in the multicore configuration
+Section2:Series:Kernel:SizeC	705.189 (s) 	 2836.1177	 (coefficients/s)
+Section2:Series:Kernel:SizeC	29.14 (s) 	 68634.15	 (coefficients/s)
+19:16:54.076 [6] INFO  JGFTest - 62500@11
+19:16:54.076 [2] INFO  JGFTest - 62500@14
+19:16:54.076 [8] INFO  JGFTest - 62500@9
+19:16:54.076 [13] INFO  JGFTest - 62500@2
+19:16:54.080 [7] INFO  JGFTest - 62500@8
+19:16:54.081 [15] INFO  JGFTest - 62500@1
+19:16:54.081 [12] INFO  JGFTest - 62500@4
+19:16:54.081 [1] INFO  JGFTest - 62500@15
+19:16:54.081 [9] INFO  JGFTest - 62500@6
+19:16:54.081 [11] INFO  JGFTest - 62500@5
+19:16:54.081 [4] INFO  JGFTest - 62500@13
+19:16:54.081 [5] INFO  JGFTest - 62500@10
+19:16:54.081 [14] INFO  JGFTest - 62500@3
+19:16:54.082 [3] INFO  JGFTest - 62500@12
+19:16:54.082 [10] INFO  JGFTest - 62500@7
+19:16:54.141 [0] INFO  JGFTest - 999999
+19:16:54.143 [0] INFO  JGFTest - 62499@0
+19:16:54.310 [0] INFO  JGFTest - diff = 0
+19:16:54.318 [0] INFO  JGFTest - time = 5085
+MPJ Express (0.43) is started in the multicore configuration
+Section2:Series:Kernel:SizeC	709.076 (s) 	 2820.5708	 (coefficients/s)
+Section2:Series:Kernel:SizeC	30.43 (s) 	 65724.58	 (coefficients/s)
+19:29:22.578 [5] INFO  JGFTest - 62500@10
+19:29:22.577 [13] INFO  JGFTest - 62500@3
+19:29:22.578 [11] INFO  JGFTest - 62500@5
+19:29:22.577 [12] INFO  JGFTest - 62500@4
+19:29:22.577 [6] INFO  JGFTest - 62500@11
+19:29:22.579 [8] INFO  JGFTest - 62500@8
+19:29:22.580 [4] INFO  JGFTest - 62500@12
+19:29:22.580 [14] INFO  JGFTest - 62500@2
+19:29:22.577 [3] INFO  JGFTest - 62500@13
+19:29:22.579 [7] INFO  JGFTest - 62500@9
+19:29:22.580 [1] INFO  JGFTest - 62500@15
+19:29:22.580 [9] INFO  JGFTest - 62500@6
+19:29:22.581 [2] INFO  JGFTest - 62500@14
+19:29:22.581 [10] INFO  JGFTest - 62500@7
+19:29:22.582 [15] INFO  JGFTest - 62500@1
+19:29:22.648 [0] INFO  JGFTest - 999999
+19:29:22.651 [0] INFO  JGFTest - 62499@0
+19:29:22.821 [0] INFO  JGFTest - diff = 0
+19:29:22.830 [0] INFO  JGFTest - time = 5113
+MPJ Express (0.43) is started in the multicore configuration
+Section2:Series:Kernel:SizeC	704.783 (s) 	 2837.7515	 (coefficients/s)
+Section2:Series:Kernel:SizeC	31.516 (s) 	 63459.797	 (coefficients/s)
+19:41:47.118 [2] INFO  JGFTest - 62500@15
+19:41:47.117 [6] INFO  JGFTest - 62500@9
+19:41:47.119 [9] INFO  JGFTest - 62500@6
+19:41:47.117 [7] INFO  JGFTest - 62500@10
+19:41:47.118 [11] INFO  JGFTest - 62500@4
+19:41:47.119 [5] INFO  JGFTest - 62500@11
+19:41:47.119 [10] INFO  JGFTest - 62500@7
+19:41:47.119 [14] INFO  JGFTest - 62500@2
+19:41:47.119 [1] INFO  JGFTest - 62500@14
+19:41:47.119 [13] INFO  JGFTest - 62500@3
+19:41:47.119 [15] INFO  JGFTest - 62500@1
+19:41:47.120 [8] INFO  JGFTest - 62500@8
+19:41:47.120 [3] INFO  JGFTest - 62500@13
+19:41:47.120 [12] INFO  JGFTest - 62500@5
+19:41:47.121 [4] INFO  JGFTest - 62500@12
+19:41:47.186 [0] INFO  JGFTest - 999999
+19:41:47.189 [0] INFO  JGFTest - 62499@0
+19:41:47.361 [0] INFO  JGFTest - diff = 0
+19:41:47.370 [0] INFO  JGFTest - time = 4828
+MPJ Express (0.43) is started in the multicore configuration
+Section2:Series:Kernel:SizeC	704.964 (s) 	 2837.023	 (coefficients/s)
+Section2:Series:Kernel:SizeC	30.514 (s) 	 65543.65	 (coefficients/s)
+19:54:12.786 [7] INFO  JGFTest - 62500@10
+19:54:12.786 [2] INFO  JGFTest - 62500@13
+19:54:12.787 [11] INFO  JGFTest - 62500@6
+19:54:12.787 [15] INFO  JGFTest - 62500@1
+19:54:12.787 [8] INFO  JGFTest - 62500@7
+19:54:12.787 [13] INFO  JGFTest - 62500@4
+19:54:12.789 [6] INFO  JGFTest - 62500@9
+19:54:12.790 [5] INFO  JGFTest - 62500@11
+19:54:12.790 [3] INFO  JGFTest - 62500@14
+19:54:12.789 [10] INFO  JGFTest - 62500@5
+19:54:12.791 [12] INFO  JGFTest - 62500@3
+19:54:12.790 [4] INFO  JGFTest - 62500@12
+19:54:12.791 [14] INFO  JGFTest - 62500@2
+19:54:12.790 [1] INFO  JGFTest - 62500@15
+19:54:12.791 [9] INFO  JGFTest - 62500@8
+19:54:12.851 [0] INFO  JGFTest - 999999
+19:54:12.854 [0] INFO  JGFTest - 62499@0
+19:54:13.009 [0] INFO  JGFTest - diff = 0
+19:54:13.017 [0] INFO  JGFTest - time = 5224
+MPJ Express (0.43) is started in the multicore configuration
+Section2:Series:Kernel:SizeC	707.125 (s) 	 2828.3528	 (coefficients/s)
+Section2:Series:Kernel:SizeC	27.953 (s) 	 71548.63	 (coefficients/s)
+20:06:39.745 [11] INFO  JGFTest - 62500@6
+20:06:39.745 [7] INFO  JGFTest - 62500@9
+20:06:39.745 [3] INFO  JGFTest - 62500@13
+20:06:39.745 [15] INFO  JGFTest - 62500@1
+20:06:39.745 [10] INFO  JGFTest - 62500@5
+20:06:39.745 [5] INFO  JGFTest - 62500@11
+20:06:39.745 [4] INFO  JGFTest - 62500@12
+20:06:39.745 [2] INFO  JGFTest - 62500@14
+20:06:39.746 [8] INFO  JGFTest - 62500@7
+20:06:39.746 [9] INFO  JGFTest - 62500@8
+20:06:39.746 [1] INFO  JGFTest - 62500@15
+20:06:39.746 [6] INFO  JGFTest - 62500@10
+20:06:39.747 [14] INFO  JGFTest - 62500@2
+20:06:39.747 [12] INFO  JGFTest - 62500@4
+20:06:39.747 [13] INFO  JGFTest - 62500@3
+20:06:39.813 [0] INFO  JGFTest - 999999
+20:06:39.815 [0] INFO  JGFTest - 62499@0
+20:06:39.974 [0] INFO  JGFTest - diff = 0
+20:06:39.983 [0] INFO  JGFTest - time = 5272
+MPJ Express (0.43) is started in the multicore configuration
+Section2:Series:Kernel:SizeC	704.916 (s) 	 2837.216	 (coefficients/s)
+Section2:Series:Kernel:SizeC	30.211 (s) 	 66201.016	 (coefficients/s)
+20:19:05.502 [1] INFO  JGFTest - 62500@15
+20:19:05.503 [9] INFO  JGFTest - 62500@7
+20:19:05.502 [3] INFO  JGFTest - 62500@13
+20:19:05.503 [13] INFO  JGFTest - 62500@4
+20:19:05.502 [7] INFO  JGFTest - 62500@10
+20:19:05.504 [4] INFO  JGFTest - 62500@12
+20:19:05.503 [5] INFO  JGFTest - 62500@11
+20:19:05.504 [11] INFO  JGFTest - 62500@6
+20:19:05.504 [10] INFO  JGFTest - 62500@5
+20:19:05.504 [6] INFO  JGFTest - 62500@9
+20:19:05.505 [8] INFO  JGFTest - 62500@8
+20:19:05.505 [15] INFO  JGFTest - 62500@1
+20:19:05.505 [12] INFO  JGFTest - 62500@3
+20:19:05.505 [2] INFO  JGFTest - 62500@14
+20:19:05.505 [14] INFO  JGFTest - 62500@2
+20:19:05.571 [0] INFO  JGFTest - 999999
+20:19:05.573 [0] INFO  JGFTest - 62499@0
+20:19:05.743 [0] INFO  JGFTest - diff = 0
+20:19:05.752 [0] INFO  JGFTest - time = 4243
+MPJ Express (0.43) is started in the multicore configuration
+Section2:Series:Kernel:SizeC	705.761 (s) 	 2833.819	 (coefficients/s)
+Section2:Series:Kernel:SizeC	29.505 (s) 	 67785.086	 (coefficients/s)
+20:31:32.082 [1] INFO  JGFTest - 62500@15
+20:31:32.082 [4] INFO  JGFTest - 62500@12
+20:31:32.081 [3] INFO  JGFTest - 62500@13
+20:31:32.082 [9] INFO  JGFTest - 62500@7
+20:31:32.082 [7] INFO  JGFTest - 62500@9
+20:31:32.085 [10] INFO  JGFTest - 62500@6
+20:31:32.085 [13] INFO  JGFTest - 62500@3
+20:31:32.085 [14] INFO  JGFTest - 62500@2
+20:31:32.084 [12] INFO  JGFTest - 62500@4
+20:31:32.086 [2] INFO  JGFTest - 62500@14
+20:31:32.082 [11] INFO  JGFTest - 62500@5
+20:31:32.086 [5] INFO  JGFTest - 62500@11
+20:31:32.087 [6] INFO  JGFTest - 62500@10
+20:31:32.088 [15] INFO  JGFTest - 62500@1
+20:31:32.089 [8] INFO  JGFTest - 62500@8
+20:31:32.154 [0] INFO  JGFTest - 999999
+20:31:32.156 [0] INFO  JGFTest - 62499@0
+20:31:32.335 [0] INFO  JGFTest - diff = 0
+20:31:32.341 [0] INFO  JGFTest - time = 7495
+MPJ Express (0.43) is started in the multicore configuration
+Section2:Series:Kernel:SizeC	704.995 (s) 	 2836.8982	 (coefficients/s)
+Section2:Series:Kernel:SizeC	30.151 (s) 	 66332.76	 (coefficients/s)
+20:43:56.764 [5] INFO  JGFTest - 62500@12
+20:43:56.764 [2] INFO  JGFTest - 62500@13
+20:43:56.763 [11] INFO  JGFTest - 62500@6
+20:43:56.763 [6] INFO  JGFTest - 62500@10
+20:43:56.763 [7] INFO  JGFTest - 62500@9
+20:43:56.765 [12] INFO  JGFTest - 62500@4
+20:43:56.765 [1] INFO  JGFTest - 62500@15
+20:43:56.765 [4] INFO  JGFTest - 62500@11
+20:43:56.765 [13] INFO  JGFTest - 62500@3
+20:43:56.763 [10] INFO  JGFTest - 62500@5
+20:43:56.766 [14] INFO  JGFTest - 62500@2
+20:43:56.766 [8] INFO  JGFTest - 62500@7
+20:43:56.767 [9] INFO  JGFTest - 62500@8
+20:43:56.766 [3] INFO  JGFTest - 62500@14
+20:43:56.765 [15] INFO  JGFTest - 62500@1
+20:43:56.832 [0] INFO  JGFTest - 999999
+20:43:56.835 [0] INFO  JGFTest - 62499@0
+20:43:56.997 [0] INFO  JGFTest - diff = 0
+20:43:57.006 [0] INFO  JGFTest - time = 4085
+MPJ Express (0.43) is started in the multicore configuration
+Section2:Series:Kernel:SizeC	705.643 (s) 	 2834.293	 (coefficients/s)
+Section2:Series:Kernel:SizeC	28.373 (s) 	 70489.516	 (coefficients/s)
+20:56:21.684 [7] INFO  JGFTest - 62500@9
+20:56:21.683 [9] INFO  JGFTest - 62500@7
+20:56:21.684 [6] INFO  JGFTest - 62500@10
+20:56:21.685 [10] INFO  JGFTest - 62500@6
+20:56:21.684 [3] INFO  JGFTest - 62500@13
+20:56:21.684 [1] INFO  JGFTest - 62500@15
+20:56:21.684 [11] INFO  JGFTest - 62500@5
+20:56:21.685 [2] INFO  JGFTest - 62500@14
+20:56:21.685 [15] INFO  JGFTest - 62500@2
+20:56:21.685 [12] INFO  JGFTest - 62500@4
+20:56:21.687 [8] INFO  JGFTest - 62500@8
+20:56:21.687 [5] INFO  JGFTest - 62500@11
+20:56:21.688 [14] INFO  JGFTest - 62500@1
+20:56:21.688 [13] INFO  JGFTest - 62500@3
+20:56:21.688 [4] INFO  JGFTest - 62500@12
+20:56:21.748 [0] INFO  JGFTest - 999999
+20:56:21.750 [0] INFO  JGFTest - 62499@0
+20:56:21.914 [0] INFO  JGFTest - diff = 0
+20:56:21.923 [0] INFO  JGFTest - time = 6330
+MPJ Express (0.43) is started in the multicore configuration
+Section2:Series:Kernel:SizeC	705.214 (s) 	 2836.017	 (coefficients/s)
+Section2:Series:Kernel:SizeC	29.945 (s) 	 66789.08	 (coefficients/s)
+21:08:45.825 [7] INFO  JGFTest - 62500@9
+21:08:45.824 [14] INFO  JGFTest - 62500@3
+21:08:45.825 [1] INFO  JGFTest - 62500@14
+21:08:45.825 [9] INFO  JGFTest - 62500@6
+21:08:45.824 [6] INFO  JGFTest - 62500@10
+21:08:45.825 [11] INFO  JGFTest - 62500@5
+21:08:45.825 [5] INFO  JGFTest - 62500@11
+21:08:45.824 [3] INFO  JGFTest - 62500@13
+21:08:45.826 [12] INFO  JGFTest - 62500@4
+21:08:45.826 [4] INFO  JGFTest - 62500@12
+21:08:45.827 [8] INFO  JGFTest - 62500@8
+21:08:45.826 [2] INFO  JGFTest - 62500@15
+21:08:45.827 [13] INFO  JGFTest - 62500@1
+21:08:45.827 [10] INFO  JGFTest - 62500@7
+21:08:45.827 [15] INFO  JGFTest - 62500@2
+21:08:45.892 [0] INFO  JGFTest - 999999
+21:08:45.894 [0] INFO  JGFTest - 62499@0
+21:08:46.068 [0] INFO  JGFTest - diff = 0
+21:08:46.077 [0] INFO  JGFTest - time = 5172

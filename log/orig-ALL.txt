@@ -1,0 +1,48 @@
+mpi/orig-Crypt
+Section2:Crypt:Kernel:SizeC : 2.49187
+mpi/orig-LUFact
+Section2:LUFact:Kernel:SizeC : 3.011
+mpi/orig-MolDyn
+Section3:MolDyn:Total:SizeB : 3.88962
+mpi/orig-MonteCarlo
+Section3:MonteCarlo:Total:SizeB : 8.022
+mpi/orig-RayTracer
+Section3:RayTracer:Total:SizeB : 2.75263
+mpi/orig-SOR
+Section2:SOR:Kernel:SizeC : 34.0896
+mpi/orig-Series
+Section2:Series:Kernel:SizeC : 59.9594
+mpi/orig-SparseMatmult
+Section2:SparseMatmult:Kernel:SizeC : 21.1515
+par/orig-Crypt
+Section2:Crypt:Kernel:SizeC : 9.92512
+par/orig-LUFact
+Section2:LUFact:Kernel:SizeC : 4.69938
+par/orig-MolDyn
+Section3:MolDyn:Total:SizeB : 13.8574
+par/orig-MonteCarlo
+Section3:MonteCarlo:Total:SizeB : 1.3355
+par/orig-RayTracer
+Section3:RayTracer:Total:SizeB : 1.44325
+par/orig-SOR
+Section2:SOR:Kernel:SizeC : 768.602
+par/orig-Series
+Section2:Series:Kernel:SizeC : 58.6064
+par/orig-SparseMatmult
+Section2:SparseMatmult:Kernel:SizeC : 218.214
+seq/orig-Crypt
+Section2:Crypt:Kernel:SizeC : 3.27956
+seq/orig-LUFact
+Section2:LUFact:Kernel:SizeC : 4.05633
+seq/orig-MolDyn
+Section3:MolDyn:Total:SizeB : 13.3917
+seq/orig-MonteCarlo
+Section3:MonteCarlo:Total:SizeB : 8.77862
+seq/orig-RayTracer
+Section3:RayTracer:Total:SizeB : 12.9567
+seq/orig-SOR
+Section2:SOR:Kernel:SizeC : 159.225
+seq/orig-Series
+Section2:Series:Kernel:SizeC : 704.741
+seq/orig-SparseMatmult
+Section2:SparseMatmult:Kernel:SizeC : 49.9329

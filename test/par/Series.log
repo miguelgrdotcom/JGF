@@ -1,0 +1,110 @@
+JUnit version 4.10
+.Section2:Series:Kernel:SizeC	704.847 (s) 	 2837.494	 (coefficients/s)
+Section2:Series:Kernel:SizeC	57.591 (s) 	 34727.633	 (coefficients/s)
+15:23:19.809 [main] INFO  JGFTest - time = 187
+15:23:19.812 [main] INFO  JGFTest - sequential size = 999999, parallel size = 999999
+15:23:20.509 [main] INFO  JGFTest - Total=48,933,568KB、Used=975,181KB (2%)、Max=48,933,568KB
+.......
+Time: 764.318
+
+OK (8 tests)
+
+JUnit version 4.10
+.Section2:Series:Kernel:SizeC	704.739 (s) 	 2837.9287	 (coefficients/s)
+Section2:Series:Kernel:SizeC	60.894 (s) 	 32843.94	 (coefficients/s)
+15:36:07.768 [main] INFO  JGFTest - time = 190
+15:36:07.770 [main] INFO  JGFTest - sequential size = 999999, parallel size = 999999
+15:36:08.430 [main] INFO  JGFTest - Total=48,933,568KB、Used=975,181KB (2%)、Max=48,933,568KB
+.......
+Time: 767.582
+
+OK (8 tests)
+
+JUnit version 4.10
+.Section2:Series:Kernel:SizeC	704.838 (s) 	 2837.53	 (coefficients/s)
+Section2:Series:Kernel:SizeC	57.594 (s) 	 34725.82	 (coefficients/s)
+15:48:52.503 [main] INFO  JGFTest - time = 177
+15:48:52.506 [main] INFO  JGFTest - sequential size = 999999, parallel size = 999999
+15:48:53.185 [main] INFO  JGFTest - Total=48,933,568KB、Used=975,182KB (2%)、Max=48,933,568KB
+.......
+Time: 764.405
+
+OK (8 tests)
+
+JUnit version 4.10
+.Section2:Series:Kernel:SizeC	704.732 (s) 	 2837.9568	 (coefficients/s)
+Section2:Series:Kernel:SizeC	58.116 (s) 	 34413.914	 (coefficients/s)
+16:01:37.634 [main] INFO  JGFTest - time = 183
+16:01:37.637 [main] INFO  JGFTest - sequential size = 999999, parallel size = 999999
+16:01:38.324 [main] INFO  JGFTest - Total=48,933,568KB、Used=975,181KB (2%)、Max=48,933,568KB
+.......
+Time: 764.797
+
+OK (8 tests)
+
+JUnit version 4.10
+.Section2:Series:Kernel:SizeC	705.409 (s) 	 2835.2332	 (coefficients/s)
+Section2:Series:Kernel:SizeC	57.712 (s) 	 34654.82	 (coefficients/s)
+16:14:23.063 [main] INFO  JGFTest - time = 183
+16:14:23.066 [main] INFO  JGFTest - sequential size = 999999, parallel size = 999999
+16:14:23.673 [main] INFO  JGFTest - Total=48,933,568KB、Used=975,181KB (2%)、Max=48,933,568KB
+.......
+Time: 764.974
+
+OK (8 tests)
+
+JUnit version 4.10
+.Section2:Series:Kernel:SizeC	704.616 (s) 	 2838.424	 (coefficients/s)
+Section2:Series:Kernel:SizeC	58.884 (s) 	 33965.066	 (coefficients/s)
+16:27:08.693 [main] INFO  JGFTest - time = 181
+16:27:08.696 [main] INFO  JGFTest - sequential size = 999999, parallel size = 999999
+16:27:09.490 [main] INFO  JGFTest - Total=48,933,568KB、Used=975,182KB (2%)、Max=48,933,568KB
+.......
+Time: 765.47
+
+OK (8 tests)
+
+JUnit version 4.10
+.Section2:Series:Kernel:SizeC	704.948 (s) 	 2837.0872	 (coefficients/s)
+Section2:Series:Kernel:SizeC	61.31 (s) 	 32621.09	 (coefficients/s)
+16:39:57.360 [main] INFO  JGFTest - time = 185
+16:39:57.363 [main] INFO  JGFTest - sequential size = 999999, parallel size = 999999
+16:39:58.044 [main] INFO  JGFTest - Total=48,933,568KB、Used=975,181KB (2%)、Max=48,933,568KB
+.......
+Time: 768.206
+
+OK (8 tests)
+
+JUnit version 4.10
+.Section2:Series:Kernel:SizeC	704.989 (s) 	 2836.9224	 (coefficients/s)
+Section2:Series:Kernel:SizeC	60.348 (s) 	 33141.098	 (coefficients/s)
+16:52:44.982 [main] INFO  JGFTest - time = 207
+16:52:44.985 [main] INFO  JGFTest - sequential size = 999999, parallel size = 999999
+16:52:45.618 [main] INFO  JGFTest - Total=48,933,568KB、Used=975,182KB (2%)、Max=48,933,568KB
+.......
+Time: 767.225
+
+OK (8 tests)
+
+JUnit version 4.10
+.Section2:Series:Kernel:SizeC	705.258 (s) 	 2835.8403	 (coefficients/s)
+Section2:Series:Kernel:SizeC	57.578 (s) 	 34735.473	 (coefficients/s)
+17:05:30.193 [main] INFO  JGFTest - time = 175
+17:05:30.196 [main] INFO  JGFTest - sequential size = 999999, parallel size = 999999
+17:05:30.924 [main] INFO  JGFTest - Total=48,933,568KB、Used=975,182KB (2%)、Max=48,933,568KB
+.......
+Time: 764.93
+
+OK (8 tests)
+
+JUnit version 4.10
+.Section2:Series:Kernel:SizeC	705.297 (s) 	 2835.6833	 (coefficients/s)
+Section2:Series:Kernel:SizeC	57.57 (s) 	 34740.297	 (coefficients/s)
+17:18:15.392 [main] INFO  JGFTest - time = 171
+17:18:15.395 [main] INFO  JGFTest - sequential size = 999999, parallel size = 999999
+17:18:16.065 [main] INFO  JGFTest - Total=48,933,568KB、Used=975,181KB (2%)、Max=48,933,568KB
+.......
+Time: 764.788
+
+OK (8 tests)
+
