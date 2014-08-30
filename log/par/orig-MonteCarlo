@@ -1,56 +1,6 @@
 Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B
 Executing on 16 threads
 
-Section3:MonteCarlo:Run:SizeB	0.888 (s) 	 67567.57	 (Samples/s)
-Section3:MonteCarlo:Total:SizeB	1.302 (s) 	 0.7680492	 (Solutions/s)
-Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B
-Executing on 16 threads
-
-Section3:MonteCarlo:Run:SizeB	0.919 (s) 	 65288.355	 (Samples/s)
-Section3:MonteCarlo:Total:SizeB	1.331 (s) 	 0.7513148	 (Solutions/s)
-Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B
-Executing on 16 threads
-
-Section3:MonteCarlo:Run:SizeB	0.904 (s) 	 66371.68	 (Samples/s)
-Section3:MonteCarlo:Total:SizeB	1.301 (s) 	 0.7686395	 (Solutions/s)
-Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B
-Executing on 16 threads
-
-Section3:MonteCarlo:Run:SizeB	0.98 (s) 	 61224.49	 (Samples/s)
-Section3:MonteCarlo:Total:SizeB	1.415 (s) 	 0.7067138	 (Solutions/s)
-Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B
-Executing on 16 threads
-
-Section3:MonteCarlo:Run:SizeB	0.926 (s) 	 64794.816	 (Samples/s)
-Section3:MonteCarlo:Total:SizeB	1.319 (s) 	 0.7581501	 (Solutions/s)
-Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B
-Executing on 16 threads
-
-Section3:MonteCarlo:Run:SizeB	0.899 (s) 	 66740.82	 (Samples/s)
-Section3:MonteCarlo:Total:SizeB	1.346 (s) 	 0.74294204	 (Solutions/s)
-Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B
-Executing on 16 threads
-
-Section3:MonteCarlo:Run:SizeB	0.921 (s) 	 65146.58	 (Samples/s)
-Section3:MonteCarlo:Total:SizeB	1.321 (s) 	 0.7570023	 (Solutions/s)
-Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B
-Executing on 16 threads
-
-Section3:MonteCarlo:Run:SizeB	0.889 (s) 	 67491.56	 (Samples/s)
-Section3:MonteCarlo:Total:SizeB	1.32 (s) 	 0.75757575	 (Solutions/s)
-Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B
-Executing on 16 threads
-
-Section3:MonteCarlo:Run:SizeB	0.92 (s) 	 65217.39	 (Samples/s)
-Section3:MonteCarlo:Total:SizeB	1.35 (s) 	 0.7407407	 (Solutions/s)
-Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B
-Executing on 16 threads
-
-Section3:MonteCarlo:Run:SizeB	0.963 (s) 	 62305.297	 (Samples/s)
-Section3:MonteCarlo:Total:SizeB	1.395 (s) 	 0.71684587	 (Solutions/s)
-Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B
-Executing on 16 threads
-
 Section3:MonteCarlo:Run:SizeB	0.705 (s) 	 85106.38	 (Samples/s)
 Section3:MonteCarlo:Total:SizeB	1.104 (s) 	 0.9057971	 (Solutions/s)
 Java Grande Forum Thread Benchmark Suite - Version 1.0 - Section 3 - Size B

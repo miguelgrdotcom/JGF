@@ -1,48 +1,48 @@
 mpi/orig-Crypt
-Section2:Crypt:Kernel:SizeC : 2.49187
+Section2:Crypt:Kernel:SizeC : 0.383125
 mpi/orig-LUFact
-Section2:LUFact:Kernel:SizeC : 3.011
+Section2:LUFact:Kernel:SizeC : 1.72737
 mpi/orig-MolDyn
-Section3:MolDyn:Total:SizeB : 3.88962
+Section3:MolDyn:Total:SizeB : 2.223
 mpi/orig-MonteCarlo
-Section3:MonteCarlo:Total:SizeB : 8.022
+Section3:MonteCarlo:Total:SizeB : 7.43025
 mpi/orig-RayTracer
-Section3:RayTracer:Total:SizeB : 2.75263
+Section3:RayTracer:Total:SizeB : 1.81713
 mpi/orig-SOR
-Section2:SOR:Kernel:SizeC : 34.0896
+Section2:SOR:Kernel:SizeC : 1.462
 mpi/orig-Series
-Section2:Series:Kernel:SizeC : 59.9594
+Section2:Series:Kernel:SizeC : 59.3851
 mpi/orig-SparseMatmult
-Section2:SparseMatmult:Kernel:SizeC : 21.1515
+Section2:SparseMatmult:Kernel:SizeC : 13.9044
 par/orig-Crypt
-Section2:Crypt:Kernel:SizeC : 9.92512
+Section2:Crypt:Kernel:SizeC : 0.178625
 par/orig-LUFact
-Section2:LUFact:Kernel:SizeC : 4.69938
+Section2:LUFact:Kernel:SizeC : 0.26525
 par/orig-MolDyn
-Section3:MolDyn:Total:SizeB : 13.8574
+Section3:MolDyn:Total:SizeB : 3.65638
 par/orig-MonteCarlo
-Section3:MonteCarlo:Total:SizeB : 1.3355
+Section3:MonteCarlo:Total:SizeB : 1.07275
 par/orig-RayTracer
-Section3:RayTracer:Total:SizeB : 1.44325
+Section3:RayTracer:Total:SizeB : 0.995875
 par/orig-SOR
-Section2:SOR:Kernel:SizeC : 768.602
+Section2:SOR:Kernel:SizeC : 0.146875
 par/orig-Series
-Section2:Series:Kernel:SizeC : 58.6064
+Section2:Series:Kernel:SizeC : 58.2002
 par/orig-SparseMatmult
-Section2:SparseMatmult:Kernel:SizeC : 218.214
+Section2:SparseMatmult:Kernel:SizeC : 0.29675
 seq/orig-Crypt
-Section2:Crypt:Kernel:SizeC : 3.27956
+Section2:Crypt:Kernel:SizeC : 1.89162
 seq/orig-LUFact
-Section2:LUFact:Kernel:SizeC : 4.05633
+Section2:LUFact:Kernel:SizeC : 2.6125
 seq/orig-MolDyn
-Section3:MolDyn:Total:SizeB : 13.3917
+Section3:MolDyn:Total:SizeB : 13.1963
 seq/orig-MonteCarlo
-Section3:MonteCarlo:Total:SizeB : 8.77862
+Section3:MonteCarlo:Total:SizeB : 8.7675
 seq/orig-RayTracer
-Section3:RayTracer:Total:SizeB : 12.9567
+Section3:RayTracer:Total:SizeB : 12.2246
 seq/orig-SOR
-Section2:SOR:Kernel:SizeC : 159.225
+Section2:SOR:Kernel:SizeC : 1.86963
 seq/orig-Series
-Section2:Series:Kernel:SizeC : 704.741
+Section2:Series:Kernel:SizeC : 704.348
 seq/orig-SparseMatmult
-Section2:SparseMatmult:Kernel:SizeC : 49.9329
+Section2:SparseMatmult:Kernel:SizeC : 3.37275
