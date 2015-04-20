@@ -1,0 +1,42 @@
+Artifacts data of the paper titled "Calculation Coverage Testing in
+Scientific Applications".  The artifacts contains HPCUnit source and
+executable code, and experimental data of JGF benchmarks for measuring
+overheads incurred by HPCUnit.
+
+[HPCUnit related files]
+HPCUnit:         HPCUnit project files.  
+                 Note that the source code and jar files are in the libs/HPCUnit directory.
+libs:            Libraries used in HPCUnit.
+logback.xml:     A log configuration file.
+
+[JGF original files]
+v2.0:            The sequential version of JGF benchmarks
+threadv1.0:      The parallel version of JGF benchmarks
+MPJv1.0:         The distributed version of JGF benchmarks
+Data:            Input data for JGF benchmarks
+
+
+[JGF NetBeans project files for HPCUnit]
+run_exp.sh:           A shell script file to be used for the performance experiments.
+log:                  The results of the performance experiements.  
+                      orig-All.txt and hu-All.txt lists the test execution time, the former 
+                      generated from original benchmarks, and the latter from modified versions by HPCUnit.  
+                      The directories named seq, par and mpi contains the results of each benchmark application.
+JGFTest:              The NetBeans project files to test JGF benchmarks using HPCUnit.  
+                      Actual test cases for all benchmarks are located in JGFTest/src/jgftest.  
+                      For example, there are 3 files named CryptMPIRecipe.java, CryptParallelRecipe.java and 
+                      CryptSequentialRecipe.java in JGFTest/src/jgftest/crypt.  
+JGFSequentialSection1:    The NetBeans project files to build the sequential JGF section1.
+JGFSequentialSection2:    The NetBeans project files to build the sequential JGF section2.
+JGFSequentialSection3:    The NetBeans project files to build the sequential JGF section3.
+JGFSequentialUtil:        The NetBeans project files to build the sequential JGF utility files.
+JGFParallelSection1:      The NetBeans project files to build the parallel JGF section1.
+JGFParallelSection2:      The NetBeans project files to build the parallel JGF section2.
+JGFParallelSection3:      The NetBeans project files to build the parallel JGF section3.
+JGFParallelUtil:          The NetBeans project files to build the parallel JGF utility files.
+JGFMPISection1:           The NetBeans project files to build the distributed JGF section1.
+JGFMPISection2:           The NetBeans project files to build the distributed JGF section2.
+JGFMPISection3:           The NetBeans project files to build the distributed JGF section3.
+JGFMPIUtil:               The NetBeans project files to build the distributed JGF utility files.
+
+
