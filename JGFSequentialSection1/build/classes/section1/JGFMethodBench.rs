@@ -1,4 +1,0 @@
-MethodTester
-AbstractMethodTester
-JGFMethodBench
-MethodTester2

@@ -1,2 +1,0 @@
-AssignTester
-JGFAssignBench

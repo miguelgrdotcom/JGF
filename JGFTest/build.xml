@@ -16,7 +16,7 @@
   
   <!-- Add an AspectJ build target -->
   <target name="aspectj">
-	<!-- echo level="info"> aspectj (start) </echo -->
+	<!--echo level="info"> aspectj (start) </echo-->
 	<iajc
 		destdir="${build.classes.dir}"
 		source="${javac.source}"
@@ -39,10 +39,9 @@
   </target>
 
   <!-- Add the custom targets to the general project build -->
-  <!--target name="-post-compile" depends="aspectj"></target>
+  <target name="-post-compile" depends="aspectj"></target>
   <target name="-post-compile-single" depends="aspectj"></target>
-  <target name="-post-compile-test" depends="aspectj"></target>
-  <target name="-post-compile-test-single" depends="aspectj"></target-->
+  <target name="-post-compile-test-single" depends="aspectj"></target>
   <target name="-post-jar" depends="jar-tests"></target>
 
   <!--

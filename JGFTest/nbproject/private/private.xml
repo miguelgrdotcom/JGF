@@ -17,12 +17,9 @@
             <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/test/jgftest/MoldynTest.java</file>
             <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/test/jgftest/JGFTest.java</file>
             <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/sequential/crypt/JGFCryptBench.java</file>
-            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/test/jgftest/MatmultTest.java</file>
             <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/test/jgftest/RaytracerTest.java</file>
+            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/test/jgftest/MatmultTest.java</file>
             <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/build.xml</file>
-            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/mpi/moldyn/md.java</file>
-            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/mpi/sor/SOR.java</file>
-            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/mpi/sor/JGFSORBench.java</file>
         </group>
     </open-files>
 </project-private>
