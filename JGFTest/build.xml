@@ -13,6 +13,8 @@
   
   <taskdef classpath="/Users/yoshiki/NetBeansProjects/JGF/libs/aspectj-1.8.1/lib/aspectjtools.jar" 
 		   resource="org/aspectj/tools/ant/taskdefs/aspectjTaskdefs.properties"/>
+  <!--taskdef classpath="/Users/yoshiki/NetBeansProjects/JGF/libs/HPCUnit/jars/aspectjtools.jar" 
+		   resource="org/aspectj/tools/ant/taskdefs/aspectjTaskdefs.properties"/-->
   
   <!-- Add an AspectJ build target -->
   <target name="aspectj">

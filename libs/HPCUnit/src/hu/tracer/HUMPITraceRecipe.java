@@ -2,8 +2,10 @@ package hu.tracer;
 
 import mpi.MPI;
 import mpi.MPIException;
+import org.aspectj.lang.annotation.Aspect;
 
-public abstract aspect HUMPITraceRecipe <T extends Comparable<T>> extends HUTraceRecipe<T>{
+//public abstract aspect HUMPITraceRecipe <T extends Comparable<T>> extends HUTraceRecipe<T>{
+public abstract class HUMPITraceRecipe <T extends Comparable<T>> extends HUTraceRecipe<T> {
 	private int rank;
 	private int size;
     

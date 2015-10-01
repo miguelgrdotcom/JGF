@@ -20,10 +20,12 @@ import jgftest.sor.SORMPIRecipe;
 import jgftest.sor.SORParallelRecipe;
 import jgftest.sor.SORSequentialRecipe;
 import mpi.MPI;
+import mpi.MPIException;
 import org.aspectj.lang.Aspects;
 import static org.hamcrest.CoreMatchers.is;
-import org.junit.Test;
+import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
+import org.junit.Test;
 
 /**
  *
@@ -72,7 +74,7 @@ public class SORTest extends JGFTest {
     
     
     
-    public void $mpi_testMPI(String[] args) {
+    public void $mpi_testMPI(String[] args) throws MPIException {
         MPI.Init(args);
 
         int rank = MPI.COMM_WORLD.Rank();
@@ -110,7 +112,7 @@ public class SORTest extends JGFTest {
         MPI.Finalize();
     }
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         JGFTest tester = new SORTest();        
         tester.$mpi_testMPI(args);    
     }    

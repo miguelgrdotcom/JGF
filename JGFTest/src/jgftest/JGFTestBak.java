@@ -5,11 +5,6 @@
  */
 package jgftest;
 
-import jgftest.series.SeriesSequentialRecipe;
-import jgftest.series.SeriesParallelRecipe;
-import jgftest.series.SeriesMPIRecipe;
-import jgftest.sparsematmult.MatmultParallelRecipe;
-import jgftest.sparsematmult.MatmultSequentialRecipe;
 import hu.list.HUSet;
 import hu.list.tuple.HUTuple1;
 import hu.tracer.HUGatheredTracerView;
@@ -17,14 +12,21 @@ import hu.tracer.HUTracer;
 import hu.tracer.HUTracerView;
 import jgf.sequential.sparsematmult.JGFSparseMatmultBench;
 import jgf.sequential.util.JGFSection2;
+import jgftest.series.SeriesMPIRecipe;
+import jgftest.series.SeriesParallelRecipe;
+import jgftest.series.SeriesSequentialRecipe;
+import jgftest.sparsematmult.MatmultParallelRecipe;
+import jgftest.sparsematmult.MatmultSequentialRecipe;
 import junit.framework.TestCase;
 import mpi.MPI;
+import mpi.MPIException;
 import org.aspectj.lang.Aspects;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.not;
 import static org.junit.Assert.assertThat;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  *
@@ -86,7 +88,7 @@ public class JGFTestBak extends TestCase {
         parallel.JGFrun(size);
     }
 
-    public void runSeries(String[] argv) {
+    public void runSeries(String[] argv) throws MPIException {
         distributed.JGFrun(size);
     }
 
@@ -146,7 +148,7 @@ public class JGFTestBak extends TestCase {
         assertThat(s, is(p));
     }
 
-    public void _testSeriesAll() {
+    public void _testSeriesAll() throws MPIException {
         MPI.Init(args);
         int rank = MPI.COMM_WORLD.Rank();
         int nprocess = MPI.COMM_WORLD.Size();

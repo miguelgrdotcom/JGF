@@ -6,16 +6,15 @@
 package jgftest;
 
 import ch.qos.logback.classic.Level;
+import ch.qos.logback.classic.Logger;
+import java.text.DecimalFormat;
+import mpi.MPIException;
+import net.sourceforge.sizeof.SizeOf;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
-//import org.slf4j.Logger;
-//import org.slf4j.LoggerFactory;
-import ch.qos.logback.classic.Logger;
-import java.text.DecimalFormat;
-import net.sourceforge.sizeof.SizeOf;
 import org.slf4j.LoggerFactory;
 
 /**
@@ -126,13 +125,13 @@ public class JGFTest {
         
     }
 
-    public void runMPI(String[] argv) {
+    public void runMPI(String[] argv) throws MPIException {
         if (distributed2 != null) distributed2.JGFrun(size);
         if (distributed3 != null) distributed3.JGFrun(size);
         
     }
 
-    public void $mpi_testMPI(String[] args) { }
+    public void $mpi_testMPI(String[] args) throws MPIException { }
 
     public static String getMemoryInfo() {
         System.gc();

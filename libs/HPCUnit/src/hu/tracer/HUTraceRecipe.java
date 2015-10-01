@@ -1,8 +1,11 @@
 package hu.tracer;
 
 import hu.list.HUSet;
+import org.aspectj.lang.annotation.Aspect;
 
-public abstract aspect HUTraceRecipe<T extends Comparable<T>> implements
+
+//public abstract aspect HUTraceRecipe<T extends Comparable<T>> implements
+public abstract class HUTraceRecipe<T extends Comparable<T>> implements
 		Comparable<HUTraceRecipe<?>> {
 	private HUSet<T> simulationArea;
 	private int id;

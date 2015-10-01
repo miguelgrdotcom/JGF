@@ -20,6 +20,7 @@ import jgftest.series.SeriesMPIRecipe;
 import jgftest.series.SeriesParallelRecipe;
 import jgftest.series.SeriesSequentialRecipe;
 import mpi.MPI;
+import mpi.MPIException;
 import org.aspectj.lang.Aspects;
 import static org.hamcrest.CoreMatchers.is;
 import org.junit.Test;
@@ -71,7 +72,7 @@ public class LinpackTest extends JGFTest {
     }    
     
     
-    public void $mpi_testMPI(String[] args) {
+    public void $mpi_testMPI(String[] args) throws MPIException {
         MPI.Init(args);
 
         int rank = MPI.COMM_WORLD.Rank();
@@ -108,7 +109,7 @@ public class LinpackTest extends JGFTest {
         MPI.Finalize();
     }    
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         JGFTest tester = new LinpackTest();        
         tester.$mpi_testMPI(args);    
     }    

@@ -19,10 +19,12 @@ import jgftest.sparsematmult.MatmultMPIRecipe;
 import jgftest.sparsematmult.MatmultParallelRecipe;
 import jgftest.sparsematmult.MatmultSequentialRecipe;
 import mpi.MPI;
+import mpi.MPIException;
 import org.aspectj.lang.Aspects;
 import static org.hamcrest.CoreMatchers.is;
-import org.junit.Test;
+import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.*;
+import org.junit.Test;
 
 /**
  *
@@ -69,7 +71,7 @@ public class MatmultTest extends JGFTest {
         //assertThat(s, is(p));
     }    
 
-    public void $mpi_testMPI(String[] args) {
+    public void $mpi_testMPI(String[] args) throws MPIException {
         MPI.Init(args);
 
         int rank = MPI.COMM_WORLD.Rank();
@@ -106,7 +108,7 @@ public class MatmultTest extends JGFTest {
         MPI.Finalize();
     }    
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         JGFTest tester = new MatmultTest();        
         tester.$mpi_testMPI(args);    
     }    
