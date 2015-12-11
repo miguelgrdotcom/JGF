@@ -5,7 +5,8 @@
         <group>
             <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/test/jgftest/CryptTest.java</file>
             <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgftest/crypt/CryptSequentialRecipe.java</file>
-            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgf/sequential/crypt/JGFCryptBench.java</file>
+            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/test/jgftest/JGFTest.java</file>
+            <file>file:/Users/yoshiki/NetBeansProjects/JGF/JGFTest/src/jgftest/crypt/CryptParallelRecipe.java</file>
         </group>
     </open-files>
 </project-private>

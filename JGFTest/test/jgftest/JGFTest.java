@@ -92,6 +92,10 @@ public class JGFTest {
     @Test
     public void testCryptParallel() {
     }
+    
+    @Test
+    public void testCryptParallelIncr() {
+    }    
 
     @Test
     public void testLinpackParallel() {

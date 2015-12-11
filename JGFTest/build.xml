@@ -19,6 +19,7 @@
   <!-- Add an AspectJ build target -->
   <target name="aspectj">
 	<!--echo level="info"> aspectj (start) </echo-->
+        <!--echo message="${javac.source}"/-->
 	<iajc
 		destdir="${build.classes.dir}"
 		source="${javac.source}"

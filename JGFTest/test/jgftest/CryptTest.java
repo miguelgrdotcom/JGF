@@ -50,26 +50,53 @@ public class CryptTest extends JGFTest {
         }
     }
     
-    public void testCryptParallel() {
+//    public void testCryptParallel() {
+//        init(num_threads, rank, nprocess);
+//        runSequential(null);
+//        runParallel(null);
+//
+//        long begin = System.currentTimeMillis();
+//        
+//        HUTracerView traceView = HUTracer.getTracerView();
+//        HUSet<HUTuple1<Integer>> s = (HUSet<HUTuple1<Integer>>) traceView.get(Aspects.aspectOf(jgftest.crypt.CryptSequentialRecipe.class));
+//        HUSet<HUTuple1<Integer>> p = (HUSet<HUTuple1<Integer>>) traceView.get(Aspects.aspectOf(jgftest.crypt.CryptParallelRecipe.class));
+//        HUSet<HUTuple1<Integer>> diff = s.difference(p);
+//        
+//        assertThat(diff.isEmpty(), is(true));
+//        long end = System.currentTimeMillis();        
+//        logger.info("time = " + (end-begin));
+//        logger.info("sequential size = {}, parallel size = {}", s.size(), p.size());
+//        logger.info(getMemoryInfo());
+//
+//        //assertThat(s, is(p));
+//    }
+    
+    public void testCryptParallelIncr() {
         init(num_threads, rank, nprocess);
-        runSequential(null);
-        runParallel(null);
+        CryptSequentialRecipe seqrec = Aspects.aspectOf(CryptSequentialRecipe.class);
+        CryptParallelRecipe parrec = Aspects.aspectOf(CryptParallelRecipe.class);
 
-        long begin = System.currentTimeMillis();
-        
         HUTracerView traceView = HUTracer.getTracerView();
-        HUSet<HUTuple1<Integer>> s = (HUSet<HUTuple1<Integer>>) traceView.get(Aspects.aspectOf(CryptSequentialRecipe.class));
-        HUSet<HUTuple1<Integer>> p = (HUSet<HUTuple1<Integer>>) traceView.get(Aspects.aspectOf(CryptParallelRecipe.class));
-        HUSet<HUTuple1<Integer>> diff = s.difference(p);
+                
+        HUSet<HUTuple1<Integer>> s = (HUSet<HUTuple1<Integer>>) traceView.get(seqrec);
+        runSequential(null);
         
-        assertThat(diff.isEmpty(), is(true));
+        long begin = System.currentTimeMillis();        
+        parrec.setTarget(s);
+        
+        HUSet<HUTuple1<Integer>> p = (HUSet<HUTuple1<Integer>>) traceView.get(parrec);
+        runParallel(null);
+        
+        HUSet<HUTuple1<Integer>> diff = s;                
+        assertThat(diff.isEmpty(), is(true));        
         long end = System.currentTimeMillis();        
+        
         logger.info("time = " + (end-begin));
         logger.info("sequential size = {}, parallel size = {}", s.size(), p.size());
         logger.info(getMemoryInfo());
 
         //assertThat(s, is(p));
-    }    
+    }        
     
     public void $mpi_testMPI(String[] args) throws MPIException {
         MPI.Init(args);

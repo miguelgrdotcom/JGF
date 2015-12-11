@@ -19,12 +19,15 @@ import org.slf4j.LoggerFactory;
  */
 @Aspect
 public class CryptParallelRecipe extends HUTraceRecipe<HUTuple1<Integer>> {
-    public static final Logger logger = (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("JGFTest");    
+    public static final Logger logger = (ch.qos.logback.classic.Logger) LoggerFactory.getLogger("JGFTest"); 
 
     @Before("call (void jgf.parallel.crypt.IDEARunner.HUKernel(int)) && args(i)")
     public void beforeHUKernel(int i) {
         //logger.info("parallel {}", i);
-        add(new HUTuple1<Integer>(i));
+        /* lazy */
+        //add(new HUTuple1<Integer>(i));
+        /* incremental */
+        getTarget().remove(new HUTuple1<Integer>(i));
     }
 
     @Override
